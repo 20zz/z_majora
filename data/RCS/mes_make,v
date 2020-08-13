@@ -1,0 +1,655 @@
+head	1.23;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.23
+date	2002.05.08.03.32.28;	author zelda;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2000.09.27.08.27.22;	author soejima;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2000.09.05.10.13.46;	author soejima;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2000.08.29.05.24.55;	author hayakawa;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2000.08.25.07.09.19;	author soejima;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2000.08.04.08.46.15;	author soejima;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2000.07.14.09.14.58;	author soejima;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2000.07.14.02.19.10;	author soejima;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2000.07.13.05.36.39;	author soejima;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2000.06.26.09.36.03;	author soejima;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2000.06.21.05.37.37;	author soejima;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2000.06.13.01.41.18;	author hayakawa;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2000.05.24.10.58.33;	author soejima;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.05.23.01.12.15;	author soejima;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.05.15.07.13.41;	author soejima;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.03.23.09.18.51;	author hayakawa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.03.20.09.32.37;	author soejima;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.03.15.09.49.54;	author hayakawa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.02.21.01.18.53;	author hayakawa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.02.19.00.43.34;	author hayakawa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.01.12.09.34.13;	author soejima;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.01.11.10.57.48;	author soejima;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	99.12.02.06.40.54;	author soejima;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@/home/soejima/c/Event$B$r(Bshape/Event$B$KJQ99(B
+@
+text
+@#!/usr/local/bin/bash
+#set -x
+#
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo -e "\007\033[37;41m¥Õ¥¡¥¤¥ë¤¬¤¢¤ê¤Þ¤»¤ó $1\033[m"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	½é´ü¥Á¥§¥Ã¥¯ÍÑ¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/locerrmsg.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_nes.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/locerrmsg_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_pal.o .
+
+#####	¥¤¥Ù¥ó¥ÈÀ©¸æ¥³¡¼¥É
+     cp shape/Event/change/save_list_txt.inc .
+     cp shape/Event/tool/week_event_reg.inc .
+
+#####	¤ªÌÌÂÐ±þ¥á¥Ã¥»¡¼¥¸¥Æ¡¼¥Ö¥ë
+     cp shape/Event/mask/vs_mask_message.inc .
+     cp shape/Event/mask/vs_mask_label.inc .
+
+#####	¥á¥Ã¥»¡¼¥¸
+## ÆüËÜ¸ì
+#if [ -r shape/MESSAGE/japan/japan.o ]; then
+#     cp shape/MESSAGE/japan/table.h .
+#     cp shape/MESSAGE/japan/extern.h .
+#     cp shape/MESSAGE/japan/japan.o .
+if [ -r shape/MESSAGE/japan2/japan2.o ]; then
+     cp shape/MESSAGE/japan2/table.h .
+     cp shape/MESSAGE/japan2/extern.h .
+     cp shape/MESSAGE/japan2/japan2.o japan.o
+else
+    echo -e "\007\033[37;41mÂþº£¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## ±Ñ¸ì
+if [ -r shape/MESSAGE/NES/NES.o ]; then
+     cp shape/MESSAGE/NES/message_define.h .
+     cp shape/MESSAGE/NES/nes_table.h .
+     cp shape/MESSAGE/NES/nes_extern.h .
+     cp shape/MESSAGE/NES/NES.o .
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Õ£Ó£ÁÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§±Ñ¸ì
+if [ -r shape/MESSAGE/USA/USA.o ]; then
+     cp shape/MESSAGE/USA/message_define.h .
+     cp shape/MESSAGE/USA/usa_extern.h .
+     cp shape/MESSAGE/USA/usa_table.o .
+     cp shape/MESSAGE/USA/usa_message_data.o USA.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ð£Á£ÌÈÇ¡§±Ñ¸ì¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§¥É¥¤¥Ä¸ì
+if [ -r shape/MESSAGE/GER/GER.o ]; then
+     cp shape/MESSAGE/GER/ger_extern.h .
+     cp shape/MESSAGE/GER/ger_table.o .
+     cp shape/MESSAGE/GER/ger_message_data.o GER.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú¥É¥¤¥Ä¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§¥Õ¥é¥ó¥¹¸ì
+if [ -r shape/MESSAGE/FRA/FRA.o ]; then
+     cp shape/MESSAGE/FRA/fra_extern.h .
+     cp shape/MESSAGE/FRA/fra_table.o .
+     cp shape/MESSAGE/FRA/fra_message_data.o FRA.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú¥Õ¥é¥ó¥¹¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§¥¹¥Ú¥¤¥ó¸ì
+if [ -r shape/MESSAGE/SPA/SPA.o ]; then
+     cp shape/MESSAGE/SPA/spa_extern.h .
+     cp shape/MESSAGE/SPA/spa_table.o .
+     cp shape/MESSAGE/SPA/spa_message_data.o SPA.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú¥¹¥Ú¥¤¥ó¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+
+
+## £Î£Å£ÓÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù
+if [ -r shape/MESSAGE/NesG/NesG.o ]; then
+     cp shape/MESSAGE/NesG/nesG_table.h .
+     cp shape/MESSAGE/NesG/nesG_extern.h .
+     cp shape/MESSAGE/NesG/NesG.o .
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ç£Á£Ô£Å£×£Á£ÙÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+
+
+## £Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù
+## £Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§±Ñ¸ì
+if [ -r shape/MESSAGE/UsaG/UsaG.o ]; then
+     cp shape/MESSAGE/UsaG/usaG_extern.h .
+     cp shape/MESSAGE/UsaG/usaG_table.o .
+     cp shape/MESSAGE/UsaG/usaG_message_data.o UsaG.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§±Ñ¸ì¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥É¥¤¥Ä¸ì
+if [ -r shape/MESSAGE/GerG/GerG.o ]; then
+     cp shape/MESSAGE/GerG/gerG_extern.h .
+     cp shape/MESSAGE/GerG/gerG_table.o .
+     cp shape/MESSAGE/GerG/gerG_message_data.o GerG.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥É¥¤¥Ä¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥Õ¥é¥ó¥¹¸ì
+if [ -r shape/MESSAGE/FraG/FraG.o ]; then
+     cp shape/MESSAGE/FraG/fraG_extern.h .
+     cp shape/MESSAGE/FraG/fraG_table.o .
+     cp shape/MESSAGE/FraG/fraG_message_data.o FraG.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥Õ¥é¥ó¥¹¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+## £Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥¹¥Ú¥¤¥ó¸ì
+if [ -r shape/MESSAGE/SpaG/SpaG.o ]; then
+     cp shape/MESSAGE/SpaG/spaG_extern.h .
+     cp shape/MESSAGE/SpaG/spaG_table.o .
+     cp shape/MESSAGE/SpaG/spaG_message_data.o SpaG.o
+else
+    echo -e "\007\033[37;41mÂþº£¡Ú£Ð£Á£ÌÈÇ¡§£Ç£Á£Ô£Å£×£Á£Ù¡§¥¹¥Ú¥¤¥ó¸ìÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+fi
+
+
+## ¤½¤ÎÂ¾
+     cp shape/TEXTURE/MESSAGE/texture/texture.o .
+     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+###
+#2000/05/24     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+     cp shape/MESSAGE/font/font_e.o .
+     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+     cp  shape/MESSAGE/staff/staff_c.o .
+##### ¥á¥Ã¥»¡¼¥¸¥½¡¼¥¹¤È¤¤¤¦¤«
+     cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
+     cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
+#
+# £Ó£Ô£Á£Æ£Æ
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
+#2000/03/20     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
+     cp shape/MESSAGE/staff/staff_a staff_a
+     cp shape/MESSAGE/staff/staff_b staff_b
+     cp shape/MESSAGE/staff/staff_c.o staff_c.o
+
+     cp shape/MESSAGE/usa_staff/staff_a usa_staff_a
+     cp shape/MESSAGE/usa_staff/staff_b usa_staff_b
+     cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c.o
+
+     cp shape/MESSAGE/pal_staff/staff_a pal_staff_a
+     cp shape/MESSAGE/pal_staff/staff_b pal_staff_b
+     cp shape/MESSAGE/pal_staff/staff_c.o pal_staff_c.o
+@
+
+
+1.22
+log
+@PAL_GATEWAY_VERSION
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d36 2
+a37 2
+     cp /home/soejima/c/Event/change/save_list_txt.inc .
+     cp /home/soejima/c/Event/tool/week_event_reg.inc .
+d40 2
+a41 2
+     cp /home/soejima/c/Event/mask/vs_mask_message.inc .
+     cp /home/soejima/c/Event/mask/vs_mask_label.inc .
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d74 1
+a74 1
+## ¥É¥¤¥Ä¸ì
+d82 1
+a82 1
+## ¥Õ¥é¥ó¥¹¸ì
+d90 1
+a90 1
+## ¥¹¥Ú¥¤¥ó¸ì
+d100 1
+a100 1
+## £Ç£Á£Ô£Å£×£Á£ÙÈÇ
+d110 36
+@
+
+
+1.20
+log
+@PALÂÐ±þ
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d57 9
+a67 1
+     cp shape/MESSAGE/USA/usa_table.h .
+d69 2
+a70 1
+     cp shape/MESSAGE/USA/USA.o .
+d72 1
+a72 1
+    echo -e "\007\033[37;41mÂþº£¡Ú£Õ£Ó£ÁÈÇ¡Û¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¡¢¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹\033[m"
+a75 1
+     cp shape/MESSAGE/GER/ger_table.h .
+d77 2
+a78 1
+     cp shape/MESSAGE/GER/GER.o .
+a83 1
+     cp shape/MESSAGE/FRA/fra_table.h .
+d85 2
+a86 1
+     cp shape/MESSAGE/FRA/FRA.o .
+a91 1
+     cp shape/MESSAGE/SPA/spa_table.h .
+d93 2
+a94 1
+     cp shape/MESSAGE/SPA/SPA.o .
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d32 2
+a33 2
+#     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_fra.o .
+#     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_ger.o .
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d112 2
+d118 1
+d123 4
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d88 10
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d109 1
+a109 1
+     cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a98 1
+     cp  shape/MESSAGE/usa_staff/usa_staff_c.o .
+d106 4
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d99 1
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d44 1
+d56 1
+d64 24
+@
+
+
+1.12
+log
+@memerrmsg_nes.o
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d56 1
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d29 1
+d31 3
+a33 1
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/locerrmsg.o .
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d64 2
+a65 1
+     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d52 9
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d41 8
+a48 4
+if [ -r shape/MESSAGE/japan/japan.o ]; then
+     cp shape/MESSAGE/japan/table.h .
+     cp shape/MESSAGE/japan/extern.h .
+     cp shape/MESSAGE/japan/japan.o .
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d28 1
+a28 1
+#####	¥á¥â¥ê¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸
+d30 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 1
+d52 2
+a53 1
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+d57 4
+a60 2
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
+@
+
+
+1.5
+log
+@¥á¥Ã¥»¡¼¥¸¤¬¹¹¿·Ãæ¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤ë¤È¤­¤Ë¥³¥Ô¡¼¤·¤Ê¤¤¤è¤¦¤Ë¤·¤¿
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d9 1
+a9 1
+	echo "¥Õ¥¡¥¤¥ë¤¬¤¢¤ê¤Þ¤»¤ó $1"
+d44 1
+a44 1
+    echo "Âþº£¥á¥Ã¥»¡¼¥¸¤Ï¹¹¿·Ãæ¤Þ¤¿¤Ï²õ¤ì¤Æ¤¤¤Þ¤¹"
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 1
+d43 3
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d32 2
+a33 2
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
+d36 1
+a36 1
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/mask/vs_mask_message.inc .
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d36 1
+a36 1
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/mask/mask_event_reg.inc .
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d34 3
+@

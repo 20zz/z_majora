@@ -1,0 +1,21 @@
+
+if [ -r japan.o ]; then
+    echo "念のためデータをバックアップします"
+    mv japan.o japan.o.old
+    mv extern.h extern.h.old
+    mv table.h table.h.old
+    mv message_data.c message_data.c.old
+    cp zexl_000.xls.old zexl_000.xls.old.old
+    cp zexl_000.xls zexl_000.xls.old
+####    cp e3_exl_000.xls.old e3_exl_000.xls.old.old
+####    cp e3_exl_000.xls e3_exl_000.xls.old
+fi
+
+excel_make > tmp2
+sjistoeuc extern.h > tmp1
+mv tmp1 extern.h
+sjistoeuc table.h > tmp1
+mv tmp1 table.h
+sjistoeuc message_data.c > tmp1
+mv tmp1 message_data.c
+u64cc

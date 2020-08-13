@@ -1,0 +1,308 @@
+mv ./zelda_gi_skj_mask/gi_skj_mask.c ./zelda_gi_skj_mask/gi_skj_mask.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_skj_mask/gi_skj_mask.c~ > ./zelda_gi_skj_mask/gi_skj_mask.c
+mv ./zelda_gi_gloves/gi_gloves.c ./zelda_gi_gloves/gi_gloves.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_gloves/gi_gloves.c~ > ./zelda_gi_gloves/gi_gloves.c
+mv ./zelda_gi_purse/gi_purse.c ./zelda_gi_purse/gi_purse.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_purse/gi_purse.c~ > ./zelda_gi_purse/gi_purse.c
+mv ./zelda_gi_hoverboots/gi_hoverboots.c ./zelda_gi_hoverboots/gi_hoverboots.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_hoverboots/gi_hoverboots.c~ > ./zelda_gi_hoverboots/gi_hoverboots.c
+mv ./zelda_gi_chicken/gi_chicken.c ./zelda_gi_chicken/gi_chicken.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_chicken/gi_chicken.c~ > ./zelda_gi_chicken/gi_chicken.c
+mv ./zelda_gi_arrow/gi_arrow_1.c ./zelda_gi_arrow/gi_arrow_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_arrow/gi_arrow_1.c~ > ./zelda_gi_arrow/gi_arrow_1.c
+mv ./zelda_gi_arrow/gi_arrow_2.c ./zelda_gi_arrow/gi_arrow_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_arrow/gi_arrow_2.c~ > ./zelda_gi_arrow/gi_arrow_2.c
+mv ./zelda_gi_arrow/gi_arrow_3.c ./zelda_gi_arrow/gi_arrow_3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_arrow/gi_arrow_3.c~ > ./zelda_gi_arrow/gi_arrow_3.c
+mv ./zelda_gi_brokensword/gi_brokensword.c ./zelda_gi_brokensword/gi_brokensword.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_brokensword/gi_brokensword.c~ > ./zelda_gi_brokensword/gi_brokensword.c
+mv ./zelda_gi_insect/gi_insect.c ./zelda_gi_insect/gi_insect.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_insect/gi_insect.c~ > ./zelda_gi_insect/gi_insect.c
+mv ./zelda_god_lgt/New/goddess.c ./zelda_god_lgt/New/goddess.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_god_lgt/New/goddess.c~ > ./zelda_god_lgt/New/goddess.c
+mv ./zelda_medal/shape/M_dark.c ./zelda_medal/shape/M_dark.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_dark.c~ > ./zelda_medal/shape/M_dark.c
+mv ./zelda_medal/shape/M_flame.c ./zelda_medal/shape/M_flame.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_flame.c~ > ./zelda_medal/shape/M_flame.c
+mv ./zelda_medal/shape/M_flash.c ./zelda_medal/shape/M_flash.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_flash.c~ > ./zelda_medal/shape/M_flash.c
+mv ./zelda_medal/shape/M_ice.c ./zelda_medal/shape/M_ice.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_ice.c~ > ./zelda_medal/shape/M_ice.c
+mv ./zelda_medal/shape/M_wind.c ./zelda_medal/shape/M_wind.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_wind.c~ > ./zelda_medal/shape/M_wind.c
+mv ./zelda_medal/shape/M_soul.c ./zelda_medal/shape/M_soul.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_medal/shape/M_soul.c~ > ./zelda_medal/shape/M_soul.c
+mv ./zelda_gi_bomb_2/gi_bomb_2.c ./zelda_gi_bomb_2/gi_bomb_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bomb_2/gi_bomb_2.c~ > ./zelda_gi_bomb_2/gi_bomb_2.c
+mv ./zelda_gi_bomb_1/gi_bomb_1.c ./zelda_gi_bomb_1/gi_bomb_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bomb_1/gi_bomb_1.c~ > ./zelda_gi_bomb_1/gi_bomb_1.c
+mv ./zelda_tool_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h ./zelda_tool_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tool_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h~ > ./zelda_tool_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h
+mv ./zelda_tool_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h ./zelda_tool_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tool_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h~ > ./zelda_tool_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h
+mv ./zelda_tool_scene/Test01_BAK/ROOM0/test01water.h ./zelda_tool_scene/Test01_BAK/ROOM0/test01water.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tool_scene/Test01_BAK/ROOM0/test01water.h~ > ./zelda_tool_scene/Test01_BAK/ROOM0/test01water.h
+mv ./zelda_tool_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h ./zelda_tool_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tool_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h~ > ./zelda_tool_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h
+mv ./zelda_gi_scale/gi_scale.c ./zelda_gi_scale/gi_scale.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_scale/gi_scale.c~ > ./zelda_gi_scale/gi_scale.c
+mv ./zelda_gi_bottle/gi_bottle.c ./zelda_gi_bottle/gi_bottle.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bottle/gi_bottle.c~ > ./zelda_gi_bottle/gi_bottle.c
+mv ./zelda_gi_powder/gi_powder.c ./zelda_gi_powder/gi_powder.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_powder/gi_powder.c~ > ./zelda_gi_powder/gi_powder.c
+mv ./zelda_gi_ocarina_0/gi_ocarina_0.c ./zelda_gi_ocarina_0/gi_ocarina_0.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_ocarina_0/gi_ocarina_0.c~ > ./zelda_gi_ocarina_0/gi_ocarina_0.c
+mv ./zelda_gi_hookshot/gi_hookshot_2.c ./zelda_gi_hookshot/gi_hookshot_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_hookshot/gi_hookshot_2.c~ > ./zelda_gi_hookshot/gi_hookshot_2.c
+mv ./zelda_gi_hookshot/gi_hookshot_1.c ./zelda_gi_hookshot/gi_hookshot_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_hookshot/gi_hookshot_1.c~ > ./zelda_gi_hookshot/gi_hookshot_1.c
+mv ./zelda_gi_eye_lotion/gi_eye_lotion.c ./zelda_gi_eye_lotion/gi_eye_lotion.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_eye_lotion/gi_eye_lotion.c~ > ./zelda_gi_eye_lotion/gi_eye_lotion.c
+mv ./zelda_ny/ny.c ./zelda_ny/ny.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ny/ny.c~ > ./zelda_ny/ny.c
+mv ./zelda_mo/Nin/co_all.c ./zelda_mo/Nin/co_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_mo/Nin/co_all.c~ > ./zelda_mo/Nin/co_all.c
+mv ./zelda_mo/morpha.c ./zelda_mo/morpha.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_mo/morpha.c~ > ./zelda_mo/morpha.c
+mv ./zelda_mo/mo_surf.c ./zelda_mo/mo_surf.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_mo/mo_surf.c~ > ./zelda_mo/mo_surf.c
+mv ./zelda_ik/Nin/ik.c ./zelda_ik/Nin/ik.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ik/Nin/ik.c~ > ./zelda_ik/Nin/ik.c
+mv ./zelda_ik/Nin/ik_ALLpartsZ.c ./zelda_ik/Nin/ik_ALLpartsZ.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ik/Nin/ik_ALLpartsZ.c~ > ./zelda_ik/Nin/ik_ALLpartsZ.c
+mv ./zelda_ik/Nin/ik_ALLparts.c ./zelda_ik/Nin/ik_ALLparts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ik/Nin/ik_ALLparts.c~ > ./zelda_ik/Nin/ik_ALLparts.c
+mv ./zelda_fw/Nin/f_dancer.c ./zelda_fw/Nin/f_dancer.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fw/Nin/f_dancer.c~ > ./zelda_fw/Nin/f_dancer.c
+mv ./zelda_fz/fz_crash2.c ./zelda_fz/fz_crash2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fz/fz_crash2.c~ > ./zelda_fz/fz_crash2.c
+mv ./zelda_fz/fz_crash1.c ./zelda_fz/fz_crash1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fz/fz_crash1.c~ > ./zelda_fz/fz_crash1.c
+mv ./zelda_fz/fz_all1.c ./zelda_fz/fz_all1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fz/fz_all1.c~ > ./zelda_fz/fz_all1.c
+mv ./zelda_fz/fz_all3.c ./zelda_fz/fz_all3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fz/fz_all3.c~ > ./zelda_fz/fz_all3.c
+mv ./zelda_fz/fz_all2.c ./zelda_fz/fz_all2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_fz/fz_all2.c~ > ./zelda_fz/fz_all2.c
+mv ./zelda_bl/bl_nomral_gfx_mesh.h ./zelda_bl/bl_nomral_gfx_mesh.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_bl/bl_nomral_gfx_mesh.h~ > ./zelda_bl/bl_nomral_gfx_mesh.h
+mv ./zelda_zf/Nin/zf_R_te3.c ./zelda_zf/Nin/zf_R_te3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_zf/Nin/zf_R_te3.c~ > ./zelda_zf/Nin/zf_R_te3.c
+mv ./zelda_xc/Nin/xc_all.c ./zelda_xc/Nin/xc_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_xc/Nin/xc_all.c~ > ./zelda_xc/Nin/xc_all.c
+mv ./zelda_tw/Nin/bt_icefloor.c ./zelda_tw/Nin/bt_icefloor.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tw/Nin/bt_icefloor.c~ > ./zelda_tw/Nin/bt_icefloor.c
+mv ./zelda_tw/Nin/bt_ALLparts.c ./zelda_tw/Nin/bt_ALLparts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tw/Nin/bt_ALLparts.c~ > ./zelda_tw/Nin/bt_ALLparts.c
+mv ./zelda_tw/Nin/btW_ALLparts.c ./zelda_tw/Nin/btW_ALLparts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tw/Nin/btW_ALLparts.c~ > ./zelda_tw/Nin/btW_ALLparts.c
+mv ./zelda_tr/Shape/trU_all.c ./zelda_tr/Shape/trU_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tr/Shape/trU_all.c~ > ./zelda_tr/Shape/trU_all.c
+mv ./zelda_tr/Shape/trT_all.c ./zelda_tr/Shape/trT_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_tr/Shape/trT_all.c~ > ./zelda_tr/Shape/trT_all.c
+mv ./zelda_sb/Nin/sb_all.c ./zelda_sb/Nin/sb_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_sb/Nin/sb_all.c~ > ./zelda_sb/Nin/sb_all.c
+mv ./zelda_st/Nin/gst_all.c ./zelda_st/Nin/gst_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_st/Nin/gst_all.c~ > ./zelda_st/Nin/gst_all.c
+mv ./zelda_ps/Nin/ps_set.c ./zelda_ps/Nin/ps_set.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ps/Nin/ps_set.c~ > ./zelda_ps/Nin/ps_set.c
+mv ./zelda_gi_compass/gi_compass.c ./zelda_gi_compass/gi_compass.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_compass/gi_compass.c~ > ./zelda_gi_compass/gi_compass.c
+mv ./zelda_gi_milk_2/gi_milk_2.c ./zelda_gi_milk_2/gi_milk_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_milk_2/gi_milk_2.c~ > ./zelda_gi_milk_2/gi_milk_2.c
+mv ./zelda_gi_liquid/gi_liquid.c ./zelda_gi_liquid/gi_liquid.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_liquid/gi_liquid.c~ > ./zelda_gi_liquid/gi_liquid.c
+mv ./zelda_efc_ice/ice_piece.c ./zelda_efc_ice/ice_piece.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_efc_ice/ice_piece.c~ > ./zelda_efc_ice/ice_piece.c
+mv ./zelda_efc_ice/link_ice.c ./zelda_efc_ice/link_ice.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_efc_ice/link_ice.c~ > ./zelda_efc_ice/link_ice.c
+mv ./zelda_key/gi_key.c ./zelda_key/gi_key.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_key/gi_key.c~ > ./zelda_key/gi_key.c
+mv ./zelda_gla/Nin/gla_all.c ./zelda_gla/Nin/gla_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gla/Nin/gla_all.c~ > ./zelda_gla/Nin/gla_all.c
+mv ./zelda_sk2/Nin/sk_ALLparts.c ./zelda_sk2/Nin/sk_ALLparts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_sk2/Nin/sk_ALLparts.c~ > ./zelda_sk2/Nin/sk_ALLparts.c
+mv ./zelda_sst/sst_eff/ice_piece.c ./zelda_sst/sst_eff/ice_piece.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_sst/sst_eff/ice_piece.c~ > ./zelda_sst/sst_eff/ice_piece.c
+mv ./zelda_gi_magicpot/gi_magicpot_1.c ./zelda_gi_magicpot/gi_magicpot_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_magicpot/gi_magicpot_1.c~ > ./zelda_gi_magicpot/gi_magicpot_1.c
+mv ./zelda_gi_magicpot/gi_magicpot_2.c ./zelda_gi_magicpot/gi_magicpot_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_magicpot/gi_magicpot_2.c~ > ./zelda_gi_magicpot/gi_magicpot_2.c
+mv ./zelda_gi_ki_tan_mask/gi_ki_tan_mask.c ./zelda_gi_ki_tan_mask/gi_ki_tan_mask.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_ki_tan_mask/gi_ki_tan_mask.c~ > ./zelda_gi_ki_tan_mask/gi_ki_tan_mask.c
+mv ./zelda_ice_objects/taihi/ice_ice3.c ./zelda_ice_objects/taihi/ice_ice3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ice_objects/taihi/ice_ice3.c~ > ./zelda_ice_objects/taihi/ice_ice3.c
+mv ./zelda_ice_objects/taihi/ice_ice.c ./zelda_ice_objects/taihi/ice_ice.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ice_objects/taihi/ice_ice.c~ > ./zelda_ice_objects/taihi/ice_ice.c
+mv ./zelda_ice_objects/ice_ice3.c ./zelda_ice_objects/ice_ice3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ice_objects/ice_ice3.c~ > ./zelda_ice_objects/ice_ice3.c
+mv ./zelda_ice_objects/ice_ice.c ./zelda_ice_objects/ice_ice.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ice_objects/ice_ice.c~ > ./zelda_ice_objects/ice_ice.c
+mv ./zelda_gi_boots_2/gi_boots_2.c ./zelda_gi_boots_2/gi_boots_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_boots_2/gi_boots_2.c~ > ./zelda_gi_boots_2/gi_boots_2.c
+mv ./zelda_gi_ghost/gi_ghost.c ./zelda_gi_ghost/gi_ghost.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_ghost/gi_ghost.c~ > ./zelda_gi_ghost/gi_ghost.c
+mv ./zelda_gi_pachinko/gi_pachinko.c ./zelda_gi_pachinko/gi_pachinko.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_pachinko/gi_pachinko.c~ > ./zelda_gi_pachinko/gi_pachinko.c
+mv ./zelda_toki_objects/master_swordB.c ./zelda_toki_objects/master_swordB.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_toki_objects/master_swordB.c~ > ./zelda_toki_objects/master_swordB.c
+mv ./zelda_gi_grass/gi_grass.c ./zelda_gi_grass/gi_grass.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_grass/gi_grass.c~ > ./zelda_gi_grass/gi_grass.c
+mv ./zelda_gi_mushroom/gi_mushroom.c ./zelda_gi_mushroom/gi_mushroom.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_mushroom/gi_mushroom.c~ > ./zelda_gi_mushroom/gi_mushroom.c
+mv ./zelda_ganon2/Nin/gn2_ALLparts.c ./zelda_ganon2/Nin/gn2_ALLparts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_ganon2/Nin/gn2_ALLparts.c~ > ./zelda_ganon2/Nin/gn2_ALLparts.c
+mv ./TEXTURE/TITLE/n_cube/n_cube.c ./TEXTURE/TITLE/n_cube/n_cube.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./TEXTURE/TITLE/n_cube/n_cube.c~ > ./TEXTURE/TITLE/n_cube/n_cube.c
+mv ./TEXTURE/DMA_MAKE/nintendo_rogo/n_cube.c ./TEXTURE/DMA_MAKE/nintendo_rogo/n_cube.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./TEXTURE/DMA_MAKE/nintendo_rogo/n_cube.c~ > ./TEXTURE/DMA_MAKE/nintendo_rogo/n_cube.c
+mv ./zelda_gi_boomerang/gi_boomerang.c ./zelda_gi_boomerang/gi_boomerang.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_boomerang/gi_boomerang.c~ > ./zelda_gi_boomerang/gi_boomerang.c
+mv ./zelda_gi_butterfly/gi_butterfly.c ./zelda_gi_butterfly/gi_butterfly.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_butterfly/gi_butterfly.c~ > ./zelda_gi_butterfly/gi_butterfly.c
+mv ./zelda_warp1/Type2/Nin/crystal_shape.c ./zelda_warp1/Type2/Nin/crystal_shape.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_warp1/Type2/Nin/crystal_shape.c~ > ./zelda_warp1/Type2/Nin/crystal_shape.c
+mv ./zelda_warp2/Nin/crystal_shape.c ./zelda_warp2/Nin/crystal_shape.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_warp2/Nin/crystal_shape.c~ > ./zelda_warp2/Nin/crystal_shape.c
+mv ./zelda_gi_glasses/gi_glasses.c ./zelda_gi_glasses/gi_glasses.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_glasses/gi_glasses.c~ > ./zelda_gi_glasses/gi_glasses.c
+mv ./zelda_gi_ocarina/gi_ocarina.c ./zelda_gi_ocarina/gi_ocarina.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_ocarina/gi_ocarina.c~ > ./zelda_gi_ocarina/gi_ocarina.c
+mv ./zelda_gi_m_arrow/gi_m_arrow.c ./zelda_gi_m_arrow/gi_m_arrow.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_m_arrow/gi_m_arrow.c~ > ./zelda_gi_m_arrow/gi_m_arrow.c
+mv ./zelda_gi_melody/gi_melody.c ./zelda_gi_melody/gi_melody.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_melody/gi_melody.c~ > ./zelda_gi_melody/gi_melody.c
+mv ./zelda_gi_hearts/gi_hearts.c ./zelda_gi_hearts/gi_hearts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_hearts/gi_hearts.c~ > ./zelda_gi_hearts/gi_hearts.c
+mv ./zelda_gi_gerudo/gi_gerudo.c ./zelda_gi_gerudo/gi_gerudo.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_gerudo/gi_gerudo.c~ > ./zelda_gi_gerudo/gi_gerudo.c
+mv ./zelda_gi_sutaru/gi_sutaru.c ./zelda_gi_sutaru/gi_sutaru.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_sutaru/gi_sutaru.c~ > ./zelda_gi_sutaru/gi_sutaru.c
+mv ./zelda_gi_rupy/gi_rupy.c ./zelda_gi_rupy/gi_rupy.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_rupy/gi_rupy.c~ > ./zelda_gi_rupy/gi_rupy.c
+mv ./zelda_gi_soul/gi_soul.c ./zelda_gi_soul/gi_soul.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_soul/gi_soul.c~ > ./zelda_gi_soul/gi_soul.c
+mv ./zelda_gi_seed/gi_seed.c ./zelda_gi_seed/gi_seed.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_seed/gi_seed.c~ > ./zelda_gi_seed/gi_seed.c
+mv ./zelda_keep/bom/bom_handle.c ./zelda_keep/bom/bom_handle.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/bom/bom_handle.c~ > ./zelda_keep/bom/bom_handle.c
+mv ./zelda_keep/ice/ice_piece.c ./zelda_keep/ice/ice_piece.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/ice/ice_piece.c~ > ./zelda_keep/ice/ice_piece.c
+mv ./zelda_keep/ice/link_ice.c ./zelda_keep/ice/link_ice.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/ice/link_ice.c~ > ./zelda_keep/ice/link_ice.c
+mv ./zelda_keep/arrow/Nin/arrow_T.c ./zelda_keep/arrow/Nin/arrow_T.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/arrow/Nin/arrow_T.c~ > ./zelda_keep/arrow/Nin/arrow_T.c
+mv ./zelda_keep/arrow/Nin/arrow.c ./zelda_keep/arrow/Nin/arrow.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/arrow/Nin/arrow.c~ > ./zelda_keep/arrow/Nin/arrow.c
+mv ./zelda_keep/boomerang/boomerang.c ./zelda_keep/boomerang/boomerang.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/boomerang/boomerang.c~ > ./zelda_keep/boomerang/boomerang.c
+mv ./zelda_keep/objects/rupee.c ./zelda_keep/objects/rupee.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/objects/rupee.c~ > ./zelda_keep/objects/rupee.c
+mv ./zelda_keep/objects/n_item.c ./zelda_keep/objects/n_item.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/objects/n_item.c~ > ./zelda_keep/objects/n_item.c
+mv ./zelda_keep/objects/gi_hp.c ./zelda_keep/objects/gi_hp.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/objects/gi_hp.c~ > ./zelda_keep/objects/gi_hp.c
+mv ./zelda_keep/bom_chu/bom_chu.c ./zelda_keep/bom_chu/bom_chu.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_keep/bom_chu/bom_chu.c~ > ./zelda_keep/bom_chu/bom_chu.c
+mv ./zelda_gelb/Nin/gelb_all.c ./zelda_gelb/Nin/gelb_all.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gelb/Nin/gelb_all.c~ > ./zelda_gelb/Nin/gelb_all.c
+mv ./zelda_gi_bean/gi_bean.c ./zelda_gi_bean/gi_bean.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bean/gi_bean.c~ > ./zelda_gi_bean/gi_bean.c
+mv ./zelda_gi_coin/gi_coin.c ./zelda_gi_coin/gi_coin.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_coin/gi_coin.c~ > ./zelda_gi_coin/gi_coin.c
+mv ./zelda_gi_fire/gi_fire.c ./zelda_gi_fire/gi_fire.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_fire/gi_fire.c~ > ./zelda_gi_fire/gi_fire.c
+mv ./zelda_gi_fish/gi_fish.c ./zelda_gi_fish/gi_fish.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_fish/gi_fish.c~ > ./zelda_gi_fish/gi_fish.c
+mv ./zelda_gi_frog/gi_frog.c ./zelda_gi_frog/gi_frog.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_frog/gi_frog.c~ > ./zelda_gi_frog/gi_frog.c
+mv ./zelda_gi_milk/gi_milk_1.c ./zelda_gi_milk/gi_milk_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_milk/gi_milk_1.c~ > ./zelda_gi_milk/gi_milk_1.c
+mv ./zelda_gi_nuts/gi_nuts.c ./zelda_gi_nuts/gi_nuts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_nuts/gi_nuts.c~ > ./zelda_gi_nuts/gi_nuts.c
+mv ./zelda_gi_shield_1/gi_shield_1.c ./zelda_gi_shield_1/gi_shield_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_shield_1/gi_shield_1.c~ > ./zelda_gi_shield_1/gi_shield_1.c
+mv ./zelda_gi_shield_3/gi_shield_3.c ./zelda_gi_shield_3/gi_shield_3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_shield_3/gi_shield_3.c~ > ./zelda_gi_shield_3/gi_shield_3.c
+mv ./zelda_gi_shield_2/gi_shield_2.c ./zelda_gi_shield_2/gi_shield_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_shield_2/gi_shield_2.c~ > ./zelda_gi_shield_2/gi_shield_2.c
+mv ./zelda_gi_jewel/gi_jewel_1.c ./zelda_gi_jewel/gi_jewel_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_jewel/gi_jewel_1.c~ > ./zelda_gi_jewel/gi_jewel_1.c
+mv ./zelda_gi_jewel/gi_jewel_2.c ./zelda_gi_jewel/gi_jewel_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_jewel/gi_jewel_2.c~ > ./zelda_gi_jewel/gi_jewel_2.c
+mv ./zelda_gi_jewel/gi_jewel_3.c ./zelda_gi_jewel/gi_jewel_3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_jewel/gi_jewel_3.c~ > ./zelda_gi_jewel/gi_jewel_3.c
+mv ./zelda_dangeon_keep/objects/switch_7.c ./zelda_dangeon_keep/objects/switch_7.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_dangeon_keep/objects/switch_7.c~ > ./zelda_dangeon_keep/objects/switch_7.c
+mv ./zelda_dangeon_keep/objects/switch_6.c ./zelda_dangeon_keep/objects/switch_6.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_dangeon_keep/objects/switch_6.c~ > ./zelda_dangeon_keep/objects/switch_6.c
+mv ./zelda_gi_arrowcase/gi_arrowcase.c ./zelda_gi_arrowcase/gi_arrowcase.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_arrowcase/gi_arrowcase.c~ > ./zelda_gi_arrowcase/gi_arrowcase.c
+mv ./zelda_gi_bosskey/gi_boss_key.c ./zelda_gi_bosskey/gi_boss_key.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bosskey/gi_boss_key.c~ > ./zelda_gi_bosskey/gi_boss_key.c
+mv ./zelda_link_new/Skeleton/Boy/Nin/link_all_parts.c ./zelda_link_new/Skeleton/Boy/Nin/link_all_parts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_link_new/Skeleton/Boy/Nin/link_all_parts.c~ > ./zelda_link_new/Skeleton/Boy/Nin/link_all_parts.c
+mv ./zelda_link_new/Skeleton/Boy/Nin/l_mir_shield.c ./zelda_link_new/Skeleton/Boy/Nin/l_mir_shield.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_link_new/Skeleton/Boy/Nin/l_mir_shield.c~ > ./zelda_link_new/Skeleton/Boy/Nin/l_mir_shield.c
+mv ./zelda_link_new/Skeleton/Boy/Nin/long_sword_blade.c ./zelda_link_new/Skeleton/Boy/Nin/long_sword_blade.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_link_new/Skeleton/Boy/Nin/long_sword_blade.c~ > ./zelda_link_new/Skeleton/Boy/Nin/long_sword_blade.c
+mv ./zelda_link_new/Skeleton/Boy/Nin/hook.c ./zelda_link_new/Skeleton/Boy/Nin/hook.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_link_new/Skeleton/Boy/Nin/hook.c~ > ./zelda_link_new/Skeleton/Boy/Nin/hook.c
+mv ./zelda_link_new/Skeleton/Child/Nin/clink_all_parts.c ./zelda_link_new/Skeleton/Child/Nin/clink_all_parts.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_link_new/Skeleton/Child/Nin/clink_all_parts.c~ > ./zelda_link_new/Skeleton/Child/Nin/clink_all_parts.c
+mv ./zelda_gi_goddess/gi_goddess.c ./zelda_gi_goddess/gi_goddess.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_goddess/gi_goddess.c~ > ./zelda_gi_goddess/gi_goddess.c
+mv ./zelda_gi_truth_mask/gi_truth_mask.c ./zelda_gi_truth_mask/gi_truth_mask.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_truth_mask/gi_truth_mask.c~ > ./zelda_gi_truth_mask/gi_truth_mask.c
+mv ./zelda_gi_bracelet/gi_bracelet.c ./zelda_gi_bracelet/gi_bracelet.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bracelet/gi_bracelet.c~ > ./zelda_gi_bracelet/gi_bracelet.c
+mv ./zelda_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h ./zelda_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h~ > ./zelda_scene/Takaraya/ROOM0/takaraya_grp_kin_ENWMWM00011000010000.h
+mv ./zelda_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h ./zelda_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h~ > ./zelda_scene/Kakusiana/ROOM7/kakusiana_grp_r08_wall_ENWNWN00000400014000.h
+mv ./zelda_scene/Test01_BAK/ROOM0/test01water.h ./zelda_scene/Test01_BAK/ROOM0/test01water.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_scene/Test01_BAK/ROOM0/test01water.h~ > ./zelda_scene/Test01_BAK/ROOM0/test01water.h
+mv ./zelda_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h ./zelda_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h~ > ./zelda_scene/Ice_doukutu/ROOM7/ice_doukutu_grp_r08_13_ENWNWN01011000010000.h
+mv ./zelda_gi_rabit_mask/gi_rabit_mask.c ./zelda_gi_rabit_mask/gi_rabit_mask.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_rabit_mask/gi_rabit_mask.c~ > ./zelda_gi_rabit_mask/gi_rabit_mask.c
+mv ./zelda_gi_hammer/gi_hammer.c ./zelda_gi_hammer/gi_hammer.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_hammer/gi_hammer.c~ > ./zelda_gi_hammer/gi_hammer.c
+mv ./zelda_gi_medal/gi_medal_5.c ./zelda_gi_medal/gi_medal_5.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_5.c~ > ./zelda_gi_medal/gi_medal_5.c
+mv ./zelda_gi_medal/gi_medal_4.c ./zelda_gi_medal/gi_medal_4.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_4.c~ > ./zelda_gi_medal/gi_medal_4.c
+mv ./zelda_gi_medal/gi_medal_6.c ./zelda_gi_medal/gi_medal_6.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_6.c~ > ./zelda_gi_medal/gi_medal_6.c
+mv ./zelda_gi_medal/gi_medal_1.c ./zelda_gi_medal/gi_medal_1.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_1.c~ > ./zelda_gi_medal/gi_medal_1.c
+mv ./zelda_gi_medal/gi_medal_3.c ./zelda_gi_medal/gi_medal_3.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_3.c~ > ./zelda_gi_medal/gi_medal_3.c
+mv ./zelda_gi_medal/gi_medal_2.c ./zelda_gi_medal/gi_medal_2.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_medal/gi_medal_2.c~ > ./zelda_gi_medal/gi_medal_2.c
+mv ./zelda_gi_dekupouch/gi_dekupouch.c ./zelda_gi_dekupouch/gi_dekupouch.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_dekupouch/gi_dekupouch.c~ > ./zelda_gi_dekupouch/gi_dekupouch.c
+mv ./zelda_triforce_spot/triforce_spot.c ./zelda_triforce_spot/triforce_spot.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_triforce_spot/triforce_spot.c~ > ./zelda_triforce_spot/triforce_spot.c
+mv ./zelda_gi_bombpouch/gi_bombpouch.c ./zelda_gi_bombpouch/gi_bombpouch.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bombpouch/gi_bombpouch.c~ > ./zelda_gi_bombpouch/gi_bombpouch.c
+mv ./zelda_gi_longsword/gi_longsword.c ./zelda_gi_longsword/gi_longsword.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_longsword/gi_longsword.c~ > ./zelda_gi_longsword/gi_longsword.c
+mv ./zelda_black_link/Nin/blk.c ./zelda_black_link/Nin/blk.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_black_link/Nin/blk.c~ > ./zelda_black_link/Nin/blk.c
+mv ./dk_spia/spia5m.c ./dk_spia/spia5m.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./dk_spia/spia5m.c~ > ./dk_spia/spia5m.c
+mv ./dk_trap/trap2_toge.c ./dk_trap/trap2_toge.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./dk_trap/trap2_toge.c~ > ./dk_trap/trap2_toge.c
+mv ./dk_trap/trap.c ./dk_trap/trap.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./dk_trap/trap.c~ > ./dk_trap/trap.c
+mv ./zelda_gi_saw/gi_saw.c ./zelda_gi_saw/gi_saw.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_saw/gi_saw.c~ > ./zelda_gi_saw/gi_saw.c
+mv ./zelda_gi_bow/gi_bow.c ./zelda_gi_bow/gi_bow.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bow/gi_bow.c~ > ./zelda_gi_bow/gi_bow.c
+mv ./zelda_gi_egg/gi_egg.c ./zelda_gi_egg/gi_egg.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_egg/gi_egg.c~ > ./zelda_gi_egg/gi_egg.c
+mv ./zelda_dy_obj/Shape/yousei_zou.c ./zelda_dy_obj/Shape/yousei_zou.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_dy_obj/Shape/yousei_zou.c~ > ./zelda_dy_obj/Shape/yousei_zou.c
+mv ./zelda_gi_bottle_letter/gi_bottle_letter.c ./zelda_gi_bottle_letter/gi_bottle_letter.c~
+sed 's/	gsSPDisplayList(\&Gfx_Hilite),/\/\/	gsSPDisplayList(\&Gfx_Hilite),/g' ./zelda_gi_bottle_letter/gi_bottle_letter.c~ > ./zelda_gi_bottle_letter/gi_bottle_letter.c

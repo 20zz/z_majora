@@ -1,0 +1,242 @@
+#!/usr/local/bin/bash
+#set -x
+#
+# $Id: dma_make_back,v 1.1.1.1 2003/12/06 23:44:27 wheeler Exp $
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo "ファイルがありません $1"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	ＳＨＯＷ
+     cp shape/TEXTURE2/E3/e3_select/e3_select.o space_world.o
+
+#####	任天堂ロゴ
+     cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+#####	ファイル選択面
+#     cp shape/TEXTURE/TITLE/title.o .
+     cp shape/TEXTURE2/JAPAN/FILE_NAME/file_name.o title.o
+#####	ＧＡＴＥＷＡＹ
+     cp shape/TEXTURE2/NINTENDO/NINTENDO.o .
+     cp shape/TEXTURE/TITLE/gate.o .
+     cp shape/TEXTURE/TITLE/pal_gate.o .
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter_show.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/youbi.o week.o
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/daytelop.o .
+     cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/story.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/JAPAN/DO_ACTION2/do_action_idx.o .
+#####	ＭＡＰ
+     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+#     cp shape/TEXTURE/MAP2/map_grand2.o .
+     cp shape/TEXTURE/MAP2/map_grand2_test.raw .
+#     cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
+     cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2_test.raw .
+     cp shape/TEXTURE/MAP/map_i.o .
+     cp shape/TEXTURE/MAP/map_48x85.o .
+#####	ＶＲーＢＯＸ
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_cloud_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_pal.o .
+###########################
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+######	ＶＲーＢＯＸ（２５６）
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
+#####	ＶＲーＢＯＸ（５１２）
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_4_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_pal.o .
+#####	カレイド・スコープ
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_test.raw .
+
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_field.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_dungeon.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_jpn.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_gameover.o .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name_test.raw .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_vtx.o .
+
+#####	スケジュール
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma.o .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma_test.raw .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule.o .
+#
+######
+######
+######
+######
+#######
+################### ＮＥＳ／ＰＡＬ
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
+###2000/09/05     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/usa_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/ger_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/fra_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/spa_parameter2.o .
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
+     cp shape/TEXTURE2/PAL/YOUBI/pal_youbi.o pal_week.o
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
+     cp shape/TEXTURE2/PAL/GER/PARAMETER2/ger_daytelop.o .
+     cp shape/TEXTURE2/PAL/FRA/PARAMETER2/fra_daytelop.o .
+     cp shape/TEXTURE2/PAL/SPA/PARAMETER2/spa_daytelop.o .
+#####	ファイル選択面
+     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
+#
+     cp shape/TEXTURE2/PAL/FILE_NAME/pal_file_name.o .
+######  アイテム名
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_item_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_map_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
+     cp shape/TEXTURE2/PAL/GER/ICON_ITEM2/ger_icon_item.o .
+     cp shape/TEXTURE2/PAL/FRA/ICON_ITEM2/fra_icon_item.o .
+     cp shape/TEXTURE2/PAL/SPA/ICON_ITEM2/spa_icon_item.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/GER/DO_ACTION2/ger_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/FRA/DO_ACTION2/fra_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/SPA/DO_ACTION2/spa_do_action_idx.o .
+#####	スケジュール
+     cp shape/TEXTURE2/NES/SCHEDULE2/nes_schedule.o .
+#
+######
+######
+######
+######
+#######
+################### ＰＡＬ
+######
+#####	ファイル選択面
+#####	ＰＡＲＡＭＥＴＥＲ
+######
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
+
+#####	スケジュール
+     cp shape/TEXTURE2/NES/SCHEDULE2/nes_schedule.o .

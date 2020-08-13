@@ -1,0 +1,29 @@
+*XmForm.width:			1300
+*XmForm.height:			7000
+
+*menubar.topAttachment:		ATTACH_FORM
+*menubar.leftAttachment:	ATTACH_FORM
+*menubar.rightAttachment:	ATTACH_FORM
+
+*filemenu.labelString:		File
+*filemenu.mnemonic:		F
+
+*save.labelString:		Save
+*save.mnemonic:			S
+
+*color.labelString:		Color
+*color.mnemonic:		C
+
+*exit.labelString:		Exit
+*exit.mnemonic:			E
+
+*submenu.labelString:		Open...
+*submenu.mnemonic:		O
+
+
+*fontList:		-*-*-*-*-*--14-130-*-*-c-*-ShiftJis;\
+			--mincho-medium-r-normal--14-130-75-75-c-70-jisx0201.1976-0;\
+			--mincho-medium-r-normal--14-130-75-75-c-140-jisx0208.1983-0:
+
+*background:		lightblue
+

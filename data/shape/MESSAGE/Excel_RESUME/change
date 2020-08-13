@@ -1,0 +1,9 @@
+
+jpn_excel_make > tmp2
+sjistoeuc jpn_extern.h > tmp1
+mv tmp1 jpn_extern.h
+sjistoeuc jpn_table.h > tmp1
+mv tmp1 jpn_table.h
+sjistoeuc jpn_message_data.c > tmp1
+mv tmp1 jpn_message_data.c
+u64cc

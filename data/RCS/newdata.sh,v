@@ -1,0 +1,61 @@
+head	2.1;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.1;
+locks; strict;
+comment	@# @;
+
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.03.19.08.23.29;	author hayakawa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@#!/bin/sh
+set -x
+#
+# $Id: newdata.sh,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+#
+if [ -f $1 ]
+ then
+ echo "ファイルが既に存在します"
+ exit
+fi
+
+echo "#!/bin/sh
+set -x
+#
+# \$Id\$
+#
+ld -r -o $1.o -objectlist $1.objs -m > $1.map
+" > $1
+chmod +x $1
+echo "$2" > $1.objs
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+# $Id: newdata.sh,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+@

@@ -1,0 +1,4 @@
+#! /usr/bin/tcsh -fvx
+
+setenv XENVIRONMENT /home/soejima/c/Event/mask/Ppm
+/home/soejima/c/Event/mask/gradiv3

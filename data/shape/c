@@ -1,0 +1,6 @@
+./zelda_ny/ny.c:331:	gsDPLoadMultiBlock_4b(hi_light_txt, 496, 1, G_IM_FMT_I, 16, 16, 0,
+./zelda_ny/ny.c:367:	gsDPLoadMultiBlock_4b(hi_light_txt, 496, 1, G_IM_FMT_I, 16, 16, 0,
+./zelda_zf/Nin/zf_R_te3.c:82:	gsDPLoadMultiBlock_4b(hi_light_txt, 496, G_TX_RENDERTILE+1, G_IM_FMT_I, 16, 16, 0,
+./zelda_sb/Nin/sb_all.c:341:	gsDPLoadMultiBlock_4b(hi_light_txt, 496, 1, G_IM_FMT_I, 16, 16, 0,
+./zelda_sb/Nin/sb_all.c:422:	gsDPLoadMultiBlock_4b(hi_light_txt, 496, 1, G_IM_FMT_I, 16, 16, 0,
+./zelda_keep/env_texture/hi_light.c:19: *   gsDPLoadTextureBlock_4b (hi_light_txt, G_IM_FMT_I, 16, 16, 0,

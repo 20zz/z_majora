@@ -1,0 +1,40 @@
+#!/usr/local/bin/bash
+#set -x
+#
+# $Id: cube_resume_dma_make,v 1.1.1.1 2003/12/06 23:44:27 wheeler Exp $
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo "ファイルがありません $1"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	RESUME
+     cp shape/CUBE/JAPAN/ICON_ITEM2/icon_item_vtx.o cube_icon_item_vtx.o
+     cp shape/CUBE/JAPAN/ICON_ITEM2/icon_item.o cube_icon_item.o
+     cp shape/CUBE/JAPAN/ICON_ITEM2/icon_item_test.raw cube_icon_item_test.raw
+     cp shape/CUBE/JAPAN/FILE_NAME/resume_file_name.o .
+     cp shape/MESSAGE/Majora_GC/jpn_table.h cube_table.h
+     cp shape/MESSAGE/Majora_GC/jpn_extern.h cube_extern.h
+     cp shape/MESSAGE/Majora_GC/Majora_GC.o cube_japan2.o
+
+#####	USA
+     cp shape/MESSAGE/GC_Nes/usa_table.h cube_nes_table.h
+     cp shape/MESSAGE/GC_Nes/usa_extern.h cube_nes_extern.h
+     cp shape/MESSAGE/GC_Nes/GC_Nes.o .

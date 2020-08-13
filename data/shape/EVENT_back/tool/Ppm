@@ -1,0 +1,31 @@
+*XmForm.width:			1200
+*XmForm.height:			29000
+
+*menubar.topAttachment:		ATTACH_FORM
+*menubar.leftAttachment:	ATTACH_FORM
+*menubar.rightAttachment:	ATTACH_FORM
+
+*filemenu.labelString:		File
+*filemenu.mnemonic:		F
+
+*save.labelString:		Save
+*save.mnemonic:			S
+
+*exit.labelString:		Exit
+*exit.mnemonic:			E
+
+*submenu.labelString:		Open...
+*submenu.mnemonic:		O
+
+*opt_child1.labelString:	 0：必ずリセット
+*opt_child2.labelString:	 1：終末リセット
+*opt_child3.labelString:	 2：未定        
+*opt_child4.labelString:	 3：完全保存    
+
+
+*fontList:		-*-*-*-*-*--14-130-*-*-c-*-ShiftJis;\
+			--mincho-medium-r-normal--14-130-75-75-c-70-jisx0201.1976-0;\
+			--mincho-medium-r-normal--14-130-75-75-c-140-jisx0208.1983-0:
+
+*background:		lightblue
+

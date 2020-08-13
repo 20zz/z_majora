@@ -1,0 +1,5 @@
+cp /home/soejima/c/Excel_NES/message_define.h .
+cp /home/soejima/c/Excel_NES/nes_extern.h .
+cp /home/soejima/c/Excel_NES/nes_table.h .
+cp /home/soejima/c/Excel_NES/nes_message_data.c .
+u64cc

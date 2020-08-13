@@ -1,0 +1,4026 @@
+#
+# $Id: Makefile.CFILES,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+#
+# 新規登録するソースファイルはチェックインしましたか？
+# 先にやっておきましょう。帰ってしまう前に。
+#
+#
+# Makefile からインクルードされるファイルです
+# CFILES マクロを定義します
+#  
+# $Log: Makefile.CFILES,v $
+# Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+# Majora's Mask tree from Nintendo
+#
+# Revision 2.456  2003-05-26 21:23:15+09  zelda
+# GC64EMU VERSION
+#
+# Revision 2.455  2000-09-26 10:45:38+09  hayakawa
+# PAL-GATEWAY対応
+#
+# Revision 2.454  2000-08-08 10:46:43+09  soejima
+# z_fishing削除
+#
+# Revision 2.453  2000-08-07 14:02:37+09  soejima
+# *** empty log message ***
+#
+# Revision 2.452  2000-08-04 13:33:41+09  soejima
+# *** empty log message ***
+#
+# Revision 2.451  2000-07-05 13:23:27+09  soejima
+# *** empty log message ***
+#
+# Revision 2.450  2000-07-04 10:15:21+09  soejima
+# ＰＡＬ
+#
+# Revision 2.449  2000-06-28 18:53:40+09  soejima
+# *** empty log message ***
+#
+# Revision 2.448  2000-06-22 18:50:33+09  soejima
+# 英語SHOW_VERSION
+#
+# Revision 2.447  2000-06-20 17:09:03+09  soejima
+# *** empty log message ***
+#
+# Revision 2.446  2000-06-19 19:43:33+09  soejima
+# z_message_staff.c
+#
+# Revision 2.445  2000-06-14 19:57:38+09  soejima
+# z_sram_NES.c
+#
+# Revision 2.444  2000-05-22 18:55:49+09  soejima
+# ＮＥＳ変更
+#
+# Revision 2.443  2000-04-24 13:02:25+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.442  2000-04-03 14:57:56+09  hayakawa
+# initreg消した
+#
+# Revision 2.441  2000-03-27 21:21:39+09  hayakawa
+# 勘違い
+#
+# Revision 2.440  2000-03-27 20:00:36+09  hayakawa
+# 酷い〜
+#
+# Revision 2.439  2000-03-27 19:26:39+09  hayakawa
+# USE_SRAMでオブジェクト外し
+#
+# Revision 2.438  2000-03-14 17:12:08+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.437  2000-03-12 02:26:57+09  yoshida
+# *** empty log message ***
+#
+# Revision 2.436  2000-03-11 17:03:10+09  sakaguti
+# みえないルピー
+#
+# Revision 2.435  2000-03-11 15:15:35+09  hayakawa
+# z_en_jsjutan.c削除
+#
+# Revision 2.434  2000-03-10 23:34:45+09  sakakibara
+# swprize
+#
+# Revision 2.433  2000-03-09 15:14:56+09  kuzuhara
+# エンディング系
+#
+# Revision 2.432  2000-03-09 10:10:19+09  nisiwaki
+# 雲雀
+#
+# Revision 2.431  2000-03-08 11:16:16+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.430  2000-03-07 11:36:22+09  umemiya
+# 死神用分裂追加
+#
+# Revision 2.429  2000-03-06 15:42:01+09  takesita
+# デモチンクル、紙吹雪、ヒントスタルベビー追加。
+#
+# Revision 2.428  2000-03-06 14:41:13+09  kuzuhara
+# エンディング人々
+#
+# Revision 2.427  2000-03-06 13:32:52+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.426  2000-03-06 10:09:35+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.425  2000-03-04 18:50:35+09  umemiya
+# 死神追加
+#
+# Revision 2.424  2000-03-04 14:55:22+09  matutani
+# ダンペイリフト（レール）
+# インベーダーポ─デモ
+#
+# Revision 2.423  2000-03-03 23:05:01+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.422  2000-03-03 17:02:06+09  yoshida
+# ロックビルのフックショット
+# ラストダンジョンの爆弾壁
+# 追加
+#
+# Revision 2.421  2000-03-03 14:49:18+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.420  2000-03-01 14:56:57+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.419  2000-03-01 14:33:24+09  yoshida
+# 宿屋オブジェクト追加
+#
+# Revision 2.418  2000-03-01 00:00:14+09  takesita
+# ミニゲーム専用漁師、ミニゲーム専用燭台追加
+#
+# Revision 2.417  2000-02-29 17:43:25+09  umemiya
+# 泥棒鳥追加
+#
+# Revision 2.416  2000-02-26 15:16:30+09  umemiya
+# 町長家受付嬢追加
+#
+# Revision 2.415  2000-02-25 14:50:01+09  kuzuhara
+# びっぐすたる
+#
+# Revision 2.414  2000-02-24 19:29:26+09  sakakibara
+# bg_iknin_susceil, bg_astr_bombwall,
+#
+# Revision 2.413  2000-02-23 11:36:46+09  nisiwaki
+# キータン追加
+#
+# Revision 2.412  2000-02-21 13:36:58+09  matutani
+# ミルク瓶追加
+#
+# Revision 2.411  2000-02-21 13:01:59+09  takesita
+# 海賊の砦の柵追加
+#
+# Revision 2.410  2000-02-19 20:37:04+09  takesita
+# ナッツ成れの果て追加
+#
+# Revision 2.409  2000-02-19 14:51:59+09  matutani
+# *** empty log message ***
+#
+# Revision 2.408  2000-02-18 16:51:56+09  nisiwaki
+# ゾーラバンド用エフェクト
+#
+# Revision 2.407  2000-02-17 21:04:49+09  umemiya
+# 未使用効果削除、バブルフォール追加
+#
+# Revision 2.406  2000-02-17 20:03:45+09  hayakawa
+# RAM300KB減ってた分増加させた
+#
+# Revision 2.405  2000-02-15 19:57:18+09  sakaguti
+# sellnuts2,shopnuts,btlpoh,takara_man 削除
+#
+# Revision 2.404  2000-02-15 15:53:19+09  nisiwaki
+# イカーナ上オブジェ追加
+#
+# Revision 2.403  2000-02-15 15:17:59+09  takesita
+# 月の石、オルゴールハウスの絵追加。
+#
+# Revision 2.402  2000-02-15 10:42:29+09  kuzuhara
+# 真ボンバーズ
+#
+# Revision 2.401  2000-02-14 18:23:17+09  sakaguti
+# ダミーコイン
+#
+# Revision 2.400  2000-02-14 12:22:12+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.399  2000-02-12 20:09:53+09  umemiya
+# z_en_ny, z_en_trap 削除
+#
+# Revision 2.398  2000-02-11 22:26:33+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.397  2000-02-10 17:15:59+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.396  2000-02-10 14:56:43+09  nisiwaki
+# スタル魔法ＦＸ
+#
+# Revision 2.395  2000-02-08 21:22:03+09  sakaguti
+# アキンドナッツ
+#
+# Revision 2.394  2000-02-08 19:55:36+09  sakakibara
+# bg_ikana_dharma 追加
+#
+# Revision 2.393  2000-02-08 19:02:52+09  hayakawa
+# sys_initreg.s追加
+#
+# Revision 2.392  2000-02-08 10:37:41+09  nisiwaki
+# 終末エフェクト追加
+#
+# Revision 2.391  2000-02-07 12:30:57+09  takesita
+# *** empty log message ***
+#
+# Revision 2.390  2000-02-07 10:40:47+09  nisiwaki
+# チャイム追加
+#
+# Revision 2.389  2000-02-05 20:37:07+09  umemiya
+# 円柱炎効果削除
+#
+# Revision 2.388  2000-02-04 14:34:21+09  umemiya
+# フライングアモス追加
+#
+# Revision 2.387  2000-02-04 13:46:37+09  kuzuhara
+# タンロン４〜ドトールまで
+#
+# Revision 2.386  2000-02-03 19:59:09+09  sakaguti
+# ルピーグエー
+#
+# Revision 2.385  2000-02-03 17:40:37+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.384  2000-02-02 11:08:25+09  sakaguti
+# 荷物追加
+#
+# Revision 2.383  2000-02-01 22:44:43+09  hayakawa
+#  z_debug_mode.c	sys_cmpdma.c追加
+#
+# Revision 2.382  2000-02-01 21:04:34+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.381  2000-02-01 16:43:23+09  nisiwaki
+# 会話タグ追加
+#
+# Revision 2.380  2000-02-01 13:57:03+09  nisiwaki
+# 水中ゾーラ追加
+#
+# Revision 2.379  2000-01-31 21:22:53+09  ogawa
+# z_snap.c追加
+#
+# Revision 2.378  2000-01-31 16:00:04+09  kuzuhara
+# シール隠れナッツ登録＆鶏娘削除
+#
+# Revision 2.377  2000-01-31 14:05:17+09  yoshida
+# *** empty log message ***
+#
+# Revision 2.376  2000-01-29 16:58:52+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.375  2000-01-29 16:00:18+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.374  2000-01-29 14:59:45+09  takesita
+# パメラ追加。
+#
+# Revision 2.373  2000-01-29 14:09:17+09  kuzuhara
+# sd cs siofuki 削除
+#
+# Revision 2.372  2000-01-28 14:53:27+09  nisiwaki
+# イカーナ村オブジェクト追加
+#
+# Revision 2.371  2000-01-27 20:45:38+09  umemiya
+# 天地逆転追加
+#
+# Revision 2.370  2000-01-27 17:31:04+09  matutani
+# *** empty log message ***
+#
+# Revision 2.369  2000-01-27 15:57:34+09  umemiya
+# デドハンド削除
+#
+# Revision 2.368  2000-01-27 10:47:45+09  sakaguti
+# 望遠鏡カラスルピー追加
+#
+# Revision 2.367  2000-01-25 16:17:30+09  sakakibara
+# ikana_bombwall, ikana_ray, ikana_shutter, haka_bombwall, haka_tomb, 追加
+#
+# Revision 2.366  2000-01-25 14:45:17+09  takesita
+# En_Ma削除。Obj_Hgdoor追加。
+#
+# Revision 2.365  2000-01-25 10:26:44+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.364  2000-01-24 22:39:13+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.363  2000-01-24 18:34:37+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.362  2000-01-24 17:20:12+09  takesita
+# 半生ギブドとそのおやじついか。
+#
+# Revision 2.361  2000-01-24 14:40:49+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.360  2000-01-24 10:39:23+09  nisiwaki
+# 亀島エフェクト、いやしの歌エフェクト 追加
+#
+# Revision 2.359  2000-01-24 10:20:59+09  sakaguti
+# 望遠鏡売りナッツ、望遠鏡グエー
+#
+# Revision 2.358  2000-01-21 19:05:54+09  umemiya
+# ダイナフォス追加
+#
+# Revision 2.357  2000-01-21 10:49:36+09  nisiwaki
+# 大空の翼エフェクト追加
+#
+# Revision 2.356  2000-01-20 15:15:49+09  kuzuhara
+# 石兵士
+#
+# Revision 2.355  2000-01-19 15:34:48+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.354  2000-01-18 16:54:31+09  kuzuhara
+# 楽士グル・グル
+#
+# Revision 2.353  2000-01-17 10:56:41+09  takesita
+# シャープ＆フラット追加。
+#
+# Revision 2.352  2000-01-15 20:31:26+09  sakakibara
+# f40_switch f40_block
+#
+# Revision 2.351  2000-01-15 15:33:58+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.350  2000-01-15 13:37:22+09  sakaguti
+# ニュータイプのゴロン
+#
+# Revision 2.349  2000-01-14 11:30:19+09  nisiwaki
+# ゾーラシンセサイザー
+#
+# Revision 2.348  2000-01-13 17:55:00+09  yoshida
+# ゴロンシャンデリア追加
+#
+# Revision 2.347  2000-01-13 12:11:23+09  nisiwaki
+# 金スタ屋復活
+#
+# Revision 2.346  2000-01-13 10:59:04+09  kuzuhara
+# いらないファイル削除
+#
+# Revision 2.345  2000-01-12 21:18:27+09  hayakawa
+# フラッシュロム対応
+#
+# Revision 2.344  2000-01-12 17:33:46+09  kuzuhara
+# タンロンさん専用
+#
+# Revision 2.343  2000-01-11 18:04:43+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.342  2000-01-11 14:55:31+09  sakaguti
+# ゲーロゴロン追加。
+#
+# Revision 2.341  2000-01-11 11:20:34+09  takesita
+# 宝くじ屋追加。
+#
+# Revision 2.340  2000-01-11 10:52:05+09  nisiwaki
+# ゾーラドラム追加
+#
+# Revision 2.339  2000-01-07 15:37:20+09  sakaguti
+# すらればあさん、すったりさん追加
+#
+# Revision 2.338  2000-01-07 14:54:51+09  takesita
+# レールを回るギブド追加。
+#
+# Revision 2.337  2000-01-07 14:17:49+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.336  2000-01-06 21:37:47+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.335  2000-01-06 19:37:13+09  hayakawa
+# sys_slowly.c
+# 追加
+#
+# Revision 2.334  2000-01-05 17:19:45+09  umemiya
+# ミニカエル追加
+#
+# Revision 2.333  2000-01-05 17:00:15+09  nisiwaki
+# 時計前タグ追加
+#
+# Revision 2.332  2000-01-05 15:43:09+09  nisiwaki
+# ゾーラベース追加
+#
+# Revision 2.331  2000-01-05 10:13:50+09  nisiwaki
+# 反射光３登録
+#
+# Revision 2.330  1999-12-28 17:58:46+09  zelda
+# *** empty log message ***
+#
+# Revision 2.329  1999-12-28 10:53:55+09  umemiya
+# 毒カエルスライム、紺碧回転部屋削除
+# カエルカメ追加
+#
+# Revision 2.328  1999-12-27 12:12:26+09  sakaguti
+# z_en_jc_matoを追加
+#
+# Revision 2.327  1999-12-22 18:07:34+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.326  1999-12-22 15:04:56+09  takesita
+# 広場の木追加
+#
+# Revision 2.325  1999-12-22 13:48:51+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.324  1999-12-22 13:33:52+09  yoshida
+# *** empty log message ***
+#
+# Revision 2.323  1999-12-21 18:21:27+09  sakaguti
+# 長老ゴロンの太鼓
+#
+# Revision 2.322  1999-12-21 15:42:21+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.321  1999-12-20 15:35:48+09  nisiwaki
+# ゾーラギター
+#
+# Revision 2.320  1999-12-20 13:58:46+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.319  1999-12-16 18:22:48+09  sakakibara
+# Obj_Tokei_Turret Bg_Dblue_Elevator
+#
+# Revision 2.318  1999-12-16 14:45:36+09  umemiya
+# バブルウォーク削除
+#
+# Revision 2.317  1999-12-16 13:10:00+09  matutani
+# 野盗マロン
+#
+# Revision 2.316  1999-12-15 13:39:35+09  nisiwaki
+# ゲルドA復活
+#
+# Revision 2.315  1999-12-15 13:05:56+09  kuzuhara
+# 海賊ゲルド作成
+#
+# Revision 2.314  1999-12-13 20:08:25+09  sakakibara
+# bg_mbar_chair bg_ikana_? bg_dblue_? 追加
+#
+# Revision 2.313  1999-12-13 13:02:03+09  kuzuhara
+# 再生リーバ作成
+#
+# Revision 2.312  1999-12-11 17:24:18+09  matutani
+# 馬車追加
+#
+# Revision 2.311  1999-12-11 16:08:10+09  sakaguti
+# ジャングルクルーズ後半のコウメ＋的
+#
+# Revision 2.310  1999-12-09 15:28:26+09  sakaguti
+# ゴロン長老追加
+#
+# Revision 2.309  1999-12-09 10:42:44+09  takesita
+# レールを回るスタルベビー新規追加。
+#
+# Revision 2.308  1999-12-08 17:32:02+09  sakakibara
+# bg_haka_curtain, bg_kin2_? 追加   obj_timeblock, obj_fence, obj_hampost 削除
+#
+# Revision 2.307  1999-12-08 10:45:14+09  kuzuhara
+# 深海透明壁
+#
+# Revision 2.306  1999-12-07 17:44:02+09  nisiwaki
+# スタルハウスの子供 追加
+#
+# Revision 2.305  1999-12-07 16:08:27+09  takesita
+# 剣道場看板、張り子の牛追加
+#
+# Revision 2.304  1999-12-07 11:08:50+09  umemiya
+# ビッグポウ追加
+#
+# Revision 2.303  1999-12-06 21:30:45+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.302  1999-12-06 11:41:42+09  takesita
+# 銅鑼追加。ボワァ〜〜〜ン！！
+#
+# Revision 2.301  1999-12-06 10:51:01+09  kuzuhara
+# うつぼ
+#
+# Revision 2.300  1999-12-04 14:37:53+09  yoshida
+# *** empty log message ***
+#
+# Revision 2.299  1999-12-03 11:40:20+09  kuzuhara
+# 蜂
+#
+# Revision 2.298  1999-12-01 20:04:00+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.297  1999-12-01 13:02:46+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.296  1999-11-26 14:35:35+09  sakaguti
+# 売りナッツ復活
+#
+# Revision 2.295  1999-11-25 21:55:42+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.294  1999-11-25 15:03:14+09  sakaguti
+# Shopnuts削除
+#
+# Revision 2.293  1999-11-25 11:24:54+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.292  1999-11-24 16:26:42+09  sakaguti
+# ゴロンキッド
+#
+# Revision 2.291  1999-11-24 14:15:18+09  sakakibara
+# invadepoh
+#
+# Revision 2.290  1999-11-24 13:53:11+09  hayakawa
+# sys_spdma.c 追加
+#
+# Revision 2.289  1999-11-20 19:30:23+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.288  1999-11-18 16:04:41+09  nisiwaki
+# 鍛冶屋（ガボラ）追加
+#
+# Revision 2.287  1999-11-18 11:37:42+09  umemiya
+# アイアンナック、デッドハンド、ドドンゴ復帰
+# ビリ、バリ削除
+#
+# Revision 2.286  1999-11-17 15:36:52+09  sakaguti
+# ゴロン温泉のお湯
+#
+# Revision 2.285  1999-11-17 10:43:27+09  ogawa
+# *** empty log message ***
+#
+# Revision 2.284  1999-11-16 22:04:46+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.283  1999-11-16 14:49:32+09  sakaguti
+# ゴロンの墓＆ゴロン温泉
+#
+# Revision 2.282  1999-11-16 10:51:24+09  sakaguti
+# 外の幽霊ゴロン
+#
+# Revision 2.281  1999-11-16 09:20:23+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.280  1999-11-15 16:58:01+09  sakakibara
+# snowball2
+#
+# Revision 2.279  1999-11-15 15:08:35+09  takesita
+# 剣道場専用丸太追加。
+#
+# Revision 2.278  1999-11-15 14:35:56+09  sakaguti
+# ゴロン勇者の霊追加
+#
+# Revision 2.277  1999-11-15 12:07:19+09  nisiwaki
+# 鍛冶屋（ズボラ） 追加
+#
+# Revision 2.276  1999-11-15 10:54:17+09  nisiwaki
+# ゾーラの卵追加
+#
+# Revision 2.275  1999-11-12 14:02:31+09  sakakibara
+# spidertent
+#
+# Revision 2.274  1999-11-12 13:34:12+09  yoshida
+# ポゥ追加
+#
+# Revision 2.273  1999-11-11 21:06:34+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.272  1999-11-11 18:38:34+09  sakaguti
+# 魚食い魚（仮）登録
+#
+# Revision 2.271  1999-11-11 16:01:26+09  kuzuhara
+# 墓柱作成
+#
+# Revision 2.270  1999-11-11 14:35:55+09  takesita
+# *** empty log message ***
+#
+# Revision 2.269  1999-11-11 13:02:30+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.268  1999-11-10 19:10:51+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.267  1999-11-10 09:40:08+09  hayakawa
+# z_fbdemo_wipe5.c追加
+#
+# Revision 2.266  1999-11-09 13:35:27+09  nisiwaki
+# 花火追加
+#
+# Revision 2.265  1999-11-08 20:27:00+09  hayakawa
+# メモリマップ変更
+#
+# Revision 2.264  1999-11-08 14:08:19+09  umemiya
+# *** empty log message ***
+#
+# Revision 2.263  1999-11-08 13:34:36+09  kuzuhara
+# ヒップループ追加
+#
+# Revision 2.262  1999-11-05 18:39:08+09  sakaguti
+# ポウ四姉妹追加
+#
+# Revision 2.261  1999-11-05 13:28:56+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.260  1999-11-05 11:00:07+09  umemiya
+# 雪魔神追加
+#
+# Revision 2.259  1999-11-04 20:33:20+09  sakaguti
+# 闘技場用ポウ追加
+#
+# Revision 2.258  1999-11-04 16:53:02+09  sakakibara
+# hakugin_switch
+#
+# Revision 2.257  1999-11-04 16:25:10+09  nisiwaki
+# デモ用ゲットできるアイテム
+#
+# Revision 2.256  1999-11-02 18:12:54+09  takesita
+# *** empty log message ***
+#
+# Revision 2.255  1999-11-02 17:11:55+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.254  1999-11-01 20:00:47+09  sakakibara
+# dhouse
+#
+# Revision 2.253  1999-11-01 16:32:19+09  yoshida
+# オブジェクトタグ登録
+#
+# Revision 2.252  1999-11-01 13:02:39+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.251  1999-10-29 21:28:55+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.250  1999-10-29 11:15:15+09  nisiwaki
+# 音符マン 追加
+#
+# Revision 2.249  1999-10-27 11:50:49+09  sakaguti
+# 闘技場主人追加
+#
+# Revision 2.248  1999-10-26 22:39:10+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.247  1999-10-25 11:46:53+09  umemiya
+# 白銀の砦・ボス追加
+#
+# Revision 2.246  1999-10-25 11:14:10+09  sakakibara
+# snowball
+#
+# Revision 2.245  1999-10-22 14:17:26+09  nisiwaki
+# 巨人追加
+#
+# Revision 2.244  1999-10-22 11:39:44+09  sakaguti
+# z_en_tana.c を消した。
+#
+# Revision 2.243  1999-10-21 14:53:37+09  takesita
+# 会話ギブド追加。
+#
+# Revision 2.242  1999-10-21 14:02:13+09  kuzuhara
+# 挌闘場復活！！
+#
+# Revision 2.241  1999-10-21 11:51:46+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.240  1999-10-21 11:40:48+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.239  1999-10-21 11:00:34+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.238  1999-10-20 10:24:05+09  nisiwaki
+# 雪山の木追加
+#
+# Revision 2.237  1999-10-19 22:12:45+09  yoshida
+# ダンペイリフト追加
+#
+# Revision 2.236  1999-10-18 19:11:26+09  takesita
+# z_en_fu_rat削除！！
+#
+# Revision 2.235  1999-10-15 16:37:18+09  takesita
+# ボムチュウボーリング障害物ボムチュウリアル追加
+#
+# Revision 2.234  1999-10-15 15:39:26+09  takesita
+# リフトゲーム専用ルピー追加。
+#
+# Revision 2.233  1999-10-15 12:29:29+09  umemiya
+# 水中デドハンド追加
+#
+# Revision 2.232  1999-10-15 10:38:54+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.231  1999-10-14 15:36:38+09  sakakibara
+# lightblock
+#
+# Revision 2.230  1999-10-13 15:32:28+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.229  1999-10-13 11:36:23+09  takesita
+# デクナッツルピーゲーム専用リフトを追加。
+#
+# Revision 2.228  1999-10-08 13:02:01+09  sakakibara
+# market_step
+#
+# Revision 2.227  1999-10-08 11:33:14+09  kuzuhara
+# とおせんぼボンバーズ作成
+#
+# Revision 2.226  1999-10-07 19:14:49+09  takesita
+# z_en_tk.c追加（吉田さん）
+#
+# Revision 2.225  1999-10-07 17:12:13+09  takesita
+# リフトゲーム制御ナッツ追加
+#
+# Revision 2.224  1999-10-05 10:52:10+09  umemiya
+# 大ツララ追加
+#
+# Revision 2.223  1999-10-05 10:31:42+09  kuzuhara
+# ボンバーズバルーンと、止め兵士
+#
+# Revision 2.222  1999-10-04 20:52:28+09  sakaguti
+# （元）宝屋店員、長髪の店員、（元）釣堀屋店員、（元）店員
+# 追加
+#
+# Revision 2.221  1999-10-04 14:37:12+09  umemiya
+# 宝箱屋主人追加
+#
+# Revision 2.220  1999-10-04 14:09:26+09  soejima
+# characters_select削除
+#
+# Revision 2.219  1999-10-01 15:45:56+09  sakakibara
+# visiblock
+#
+# Revision 2.218  1999-10-01 11:09:26+09  kuzuhara
+# ボンバーズデモ用ファイル作成
+#
+# Revision 2.217  1999-09-30 13:49:58+09  sakakibara
+# dkjail_ivy
+#
+# Revision 2.216  1999-09-29 21:08:06+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.215  1999-09-28 21:18:28+09  takesita
+# 風車小屋おじさんミニゲーム水面追加。
+#
+# Revision 2.214  1999-09-28 13:34:54+09  umemiya
+# 宝箱屋壁追加
+#
+# Revision 2.213  1999-09-27 19:35:42+09  kuzuhara
+# パメット作成
+#
+# Revision 2.212  1999-09-27 10:47:38+09  umemiya
+# 蓮追加
+#
+# Revision 2.211  1999-09-24 15:12:34+09  sakakibara
+# tokei_step
+#
+# Revision 2.210  1999-09-22 19:47:09+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.209  1999-09-22 18:32:56+09  sakakibara
+# ctower_gear
+#
+# Revision 2.208  1999-09-21 19:40:11+09  sakaguti
+# お面屋、新規登録
+#
+# Revision 2.207  1999-09-21 15:27:37+09  takesita
+# *** empty log message ***
+#
+# Revision 2.206  1999-09-21 12:13:05+09  takesita
+# 風車小屋おじさんミニゲーム的追加。
+#
+# Revision 2.205  1999-09-21 11:26:26+09  kuzuhara
+# ton 作成
+#
+# Revision 2.204  1999-09-21 10:58:54+09  nisiwaki
+# 敵追加
+#
+# Revision 2.203  1999-09-16 14:54:44+09  sakakibara
+# aqua
+#
+# Revision 2.202  1999-09-14 15:03:51+09  takesita
+# ミニゲーム回転台追加
+#
+# Revision 2.201  1999-09-13 09:52:52+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.200  1999-09-10 15:13:21+09  sakakibara
+# オープニングダンジョン・オブジェクト
+#
+# Revision 2.199  1999-09-09 15:20:09+09  nisiwaki
+# 時間チェックタグ追加
+#
+# Revision 2.198  1999-09-08 19:52:30+09  sakakibara
+# オカリーナ リフト 追加
+#
+# Revision 2.197  1999-09-07 18:22:53+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.196  1999-09-07 18:14:41+09  hayakawa
+# z_fbdemo関連オーバーレイ化
+#
+# Revision 2.195  1999-09-07 14:16:46+09  nisiwaki
+# z_eff_ss_sbn 追加
+#
+# Revision 2.194  1999-09-07 13:21:31+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.193  1999-09-03 15:08:33+09  sasaki
+# oA2 zl2 CUT
+#
+# Revision 2.192  1999-09-02 20:02:14+09  soejima
+# *** empty log message ***
+#
+# Revision 2.191  1999-09-01 11:30:18+09  umemiya
+# 浮氷塊追加
+#
+# Revision 2.190  1999-08-31 18:45:09+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.189  1999-08-30 14:42:31+09  umemiya
+# 止めダイオクタ追加
+#
+# Revision 2.188  1999-08-30 13:19:39+09  soejima
+# *** empty log message ***
+#
+# Revision 2.187  1999-08-30 09:59:19+09  hayakawa
+# ゴーマめっさつ
+#
+# Revision 2.186  1999-08-30 09:07:00+09  sakaguti
+# z_en_gl2.cを削除
+#
+# Revision 2.185  1999-08-30 09:05:16+09  sakaguti
+# z_en_gl1.cを削除
+#
+# Revision 2.184  1999-08-26 16:45:43+09  hayakawa
+# z_boss_dodongo.c削除
+#
+# Revision 2.183  1999-08-26 14:26:17+09  matutani
+# 馬ゼルダ、がノン削除
+#
+# Revision 2.182  1999-08-25 14:59:05+09  matutani
+# *** empty log message ***
+#
+# Revision 2.181  1999-08-11 09:43:10+09  zelda
+# UndefinedSymbolsたいさく
+#
+# Revision 2.180  1999-08-06 15:56:46+09  nisiwaki
+# その他のドア追加
+#
+# Revision 2.179  1999-08-03 14:43:33+09  hayakawa
+# sys_zb削除
+#
+# Revision 2.178  1999-08-02 14:19:50+09  umemiya
+# 水中エイヤー削除、デモ開始追加
+#
+# Revision 2.177  1999-07-29 18:04:50+09  takesita
+# *** empty log message ***
+#
+# Revision 2.176  1999-07-29 17:08:05+09  yoshida
+# 薪追加
+#
+# Revision 2.175  1999-07-29 14:11:36+09  takesita
+# フーセンゲームマロン追加。
+#
+# Revision 2.174  1999-07-28 10:17:41+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.173  1999-07-27 15:50:02+09  nisiwaki
+# エレベータ柱追加
+#
+# Revision 2.172  1999-07-27 13:52:03+09  umemiya
+# 床ビュン削除、中央渓谷・噴水追加
+#
+# Revision 2.171  1999-07-23 17:22:16+09  sakakibara
+# 時計塔の扉
+#
+# Revision 2.170  1999-07-23 14:26:25+09  sakakibara
+# 白銀の砦・壊れる壁
+#
+# Revision 2.169  1999-07-23 13:00:34+09  kuzuhara
+# ガードナッツ作成
+#
+# Revision 2.168  1999-07-23 10:57:27+09  hayakawa
+# z_fbdemo_wipe4.c
+#
+# Revision 2.167  1999-07-22 16:42:22+09  hayakawa
+# z_visfbuf.c追加
+#
+# Revision 2.166  1999-07-21 15:41:18+09  kuzuhara
+# アイゴールブロック作成
+#
+# Revision 2.165  1999-07-21 10:40:00+09  nisiwaki
+# 猿追加
+#
+# Revision 2.164  1999-07-16 17:36:05+09  sumiyosi
+# z_en_goron_game_check.c  追加。
+#
+# Revision 2.163  1999-07-16 11:26:31+09  nisiwaki
+# 時計台 追加
+#
+# Revision 2.162  1999-07-16 10:59:43+09  matutani
+# *** empty log message ***
+#
+# Revision 2.161  1999-07-15 20:37:28+09  sasaki
+# dm_char add
+#
+# Revision 2.160  1999-07-15 11:36:44+09  sasaki
+# スタルキッド（改） 追加
+#
+# Revision 2.159  1999-07-14 11:51:20+09  soejima
+# SHOW_VERSION
+#
+# Revision 2.158  1999-07-13 16:23:38+09  sasaki
+# *** empty log message ***
+#
+# Revision 2.157  1999-07-09 14:40:26+09  umemiya
+# ポウ削除、毒カエルスライム追加
+#
+# Revision 2.156  1999-07-08 18:18:09+09  hayakawa
+# z_common.c独立化
+#
+# Revision 2.155  1999-07-08 17:39:52+09  sakakibara
+# 白銀の砦・氷柱
+#
+# Revision 2.154  1999-07-07 08:59:34+09  umemiya
+# *** empty log message ***
+#
+# Revision 2.153  1999-07-06 16:34:51+09  kuzuhara
+# アイゴール岩石
+# 名前変更
+#
+# Revision 2.152  1999-07-06 15:48:21+09  yoshida
+# あざらし追加
+#
+# Revision 2.151  1999-07-06 11:23:12+09  nisiwaki
+# TEST5 TEST6 追加
+#
+# Revision 2.150  1999-07-06 10:55:41+09  kuzuhara
+# アイゴール岩＆城兵士作成
+#
+# Revision 2.149  1999-07-05 15:59:49+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.148  1999-07-01 16:36:19+09  sakakibara
+# 機雷と浄化
+#
+# Revision 2.147  1999-06-30 15:17:14+09  kuzuhara
+# アイゴール作成
+#
+# Revision 2.146  1999-06-30 11:49:08+09  nisiwaki
+# obj_etcetera 追加
+#
+# Revision 2.145  1999-06-30 11:06:43+09  hayakawa
+# sys_work3.c sys_work4.c 追加
+#
+# Revision 2.144  1999-06-29 10:17:39+09  kuzuhara
+# 暗殺者Ｖｏｌ.２でたー
+#
+# Revision 2.143  1999-06-25 11:13:09+09  umemiya
+# ブロッブ削除して、時計塔内・回転廊下追加
+#
+# Revision 2.142  1999-06-24 16:35:02+09  kuzuhara
+# 子供ピラニア分離
+#
+# Revision 2.141  1999-06-24 15:27:41+09  sasaki
+# z_kankyo_debugを登録
+#
+# Revision 2.140  1999-06-22 16:01:23+09  kuzuhara
+# ピラニア２作成
+#
+# Revision 2.139  1999-06-21 17:17:07+09  hayakawa
+# 条件コンパイル USE_HIRESO をデフォルトにして外した
+#
+# Revision 2.138  1999-06-17 18:03:46+09  hayakawa
+# 手作りコントローラ削除
+#
+# Revision 2.137  1999-06-17 13:18:20+09  umemiya
+# ヒントナッツ削除しミニスライム追加
+#
+# Revision 2.136  1999-06-16 19:38:17+09  soejima
+# カレイド・５面→４面に変更
+#
+# Revision 2.135  1999-06-16 17:44:12+09  hayakawa
+# ハイレゾ
+#
+# Revision 2.134  1999-06-09 14:08:01+09  yoshida
+# デクナッツ執事追加
+#
+# Revision 2.133  1999-06-08 14:27:37+09  umemiya
+# ダイオクタ削除し、ビッグスライム追加
+#
+# Revision 2.132  1999-06-07 16:35:32+09  hayakawa
+# sys_work1.c追加
+#
+# Revision 2.131  1999-06-04 15:15:05+09  yoshida
+# 追跡レース関係追加
+#
+# Revision 2.130  1999-06-04 14:37:09+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.129  1999-06-03 17:43:05+09  hayakawa
+# ６４ＤＤ関連削除
+#
+# Revision 2.128  1999-06-02 20:18:25+09  soejima
+# z_kaleido_mask.c
+#
+# Revision 2.127  1999-06-02 14:39:36+09  hayakawa
+# z_displib.c 削除
+#
+# Revision 2.126  1999-06-01 13:25:43+09  umemiya
+# field40オブジェ追加
+# フィールドポウ、ポウ四姉妹削除
+#
+# Revision 2.125  1999-05-31 18:14:27+09  takesita
+# ストップウォッチマラソンマン追加
+# z_en_mm3.c
+#
+# Revision 2.124  1999-05-27 16:31:13+09  umemiya
+# 砂漠ポウを消して汎用音追加
+#
+# Revision 2.123  1999-05-27 16:01:53+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 2.122  1999-05-27 13:58:23+09  sakakibara
+# 虫２追加
+#
+# Revision 2.121  1999-05-21 13:58:22+09  kuzuhara
+# 見回りナッツ作成
+#
+# Revision 2.120  1999-05-20 11:24:48+09  hayakawa
+# su.c追加
+#
+# Revision 2.119  1999-05-19 15:17:52+09  sakakibara
+# 流氷追加
+#
+# Revision 2.118  1999-05-19 11:21:10+09  yoshida
+# ワープ渦追加
+#
+# Revision 2.117  1999-05-18 12:06:08+09  takesita
+# 銀行屋さん追加
+#
+# Revision 2.116  1999-05-17 16:28:06+09  takesita
+# z_en_bal.cを追加
+#
+# Revision 2.115  1999-05-14 11:55:38+09  hayakawa
+# sys_initial_check.c追加
+#
+# Revision 2.114  1999-05-12 18:48:15+09  hayakawa
+# z_debug_memused.c追加
+#
+# Revision 2.113  1999-05-12 10:56:46+09  nisiwaki
+# z_en_dy_extra 復活
+#
+# Revision 2.112  1999-05-11 15:02:01+09  yoshida
+# 紺碧の砦オブジェクト追加
+#
+# Revision 2.111  1999-05-11 11:02:47+09  ogawa
+# camdemo.c z_mempak.c 削除。
+#
+# Revision 2.110  1999-05-11 10:59:02+09  zelda
+# 整理
+#
+# Revision 2.109  1999-05-10 10:32:52+09  zelda
+# パルバージョンで CFILES_Z に同じファイルを設定しているの発見、修正
+#
+# Revision 2.108  1999-05-07 19:49:40+09  soejima
+# 時間時間
+#
+# Revision 2.107  1999-05-07 17:25:54+09  umemiya
+# 噴き出す炎追加
+#
+# Revision 2.106  1999-05-06 19:28:30+09  sakakibara
+# 草虫 作成
+#
+# Revision 2.105  1999-05-06 18:59:48+09  kuzuhara
+# 水の効果？作成
+#
+# Revision 2.104  1999-04-28 18:21:32+09  umemiya
+# ボムチュウリアル追加
+#
+# Revision 2.103  1999-04-28 15:37:15+09  yoshida
+# *** empty log message ***
+#
+# Revision 2.102  1999-04-28 10:22:53+09  kuzuhara
+# ファイヤーフライカスタム作成
+#
+# Revision 2.101  1999-04-27 18:15:34+09  sakakibara
+# 巨大爆弾岩作成
+#
+# Revision 2.100  1999-04-27 17:12:50+09  kuzuhara
+# 渓谷柵作成
+#
+# Revision 2.99  1999-04-27 15:37:40+09  yoshida
+# z_eff_footmark.c追加
+#
+# Revision 2.98  1999-04-26 17:02:06+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.97  1999-04-22 21:56:21+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.96  1999-04-22 15:05:35+09  soejima
+# z_message常駐へ
+#
+# Revision 2.95  1999-04-22 11:56:37+09  nisiwaki
+# ステンドグラス
+#
+# Revision 2.94  1999-04-22 10:59:32+09  nisiwaki
+# スタルキッドの絵追加
+#
+# Revision 2.93  1999-04-21 13:49:43+09  umemiya
+# はしご、クロスケ追加
+#
+# Revision 2.92  1999-04-21 11:16:47+09  sakakibara
+# 炎シールド作成
+#
+# Revision 2.91  1999-04-20 10:26:14+09  sasaki
+# *** empty log message ***
+#
+# Revision 2.90  1999-04-19 17:35:50+09  nisiwaki
+# 変身用エフェクト
+#
+# Revision 2.89  1999-04-19 14:36:07+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.88  1999-04-16 17:18:23+09  kuzuhara
+# ウィズローブ炎作成
+#
+# Revision 2.87  1999-04-16 11:34:36+09  kuzuhara
+# ウィズローブとブロック作成
+#
+# Revision 2.86  1999-04-15 20:49:22+09  sumiyosi
+# 子供ナッツ追加。
+#
+# Revision 2.85  1999-04-15 20:06:17+09  soejima
+# z_message_nes.c
+#
+# Revision 2.84  1999-04-15 13:21:11+09  nisiwaki
+# 石像の追加
+#
+# Revision 2.83  1999-04-14 17:22:32+09  umemiya
+# コウモリ追加
+#
+# Revision 2.82  1999-04-13 16:57:48+09  umemiya
+# *** empty log message ***
+#
+# Revision 2.81  1999-04-12 14:44:12+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.80  1999-04-12 13:42:04+09  sakakibara
+# 縦トゲロール追加
+#
+# Revision 2.79  1999-04-12 12:05:42+09  kuzuhara
+# 爆夫作成
+#
+# Revision 2.78  1999-04-09 17:26:19+09  sasaki
+# *** empty log message ***
+#
+# Revision 2.77  1999-04-08 11:34:51+09  nisiwaki
+# EN_ELFGRP追加
+#
+# Revision 2.76  1999-04-07 21:24:12+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.75  1999-04-06 18:39:41+09  sasaki
+# add dm_zl
+#
+# Revision 2.74  1999-04-05 21:14:11+09  sumiyosi
+# シャッタ−追加。
+#
+# Revision 2.73  1999-04-05 11:00:12+09  kuzuhara
+# 闘技場案内人作成
+#
+# Revision 2.72  1999-04-02 11:06:44+09  takesita
+# 射的場専用オクタロック追加。
+#
+# Revision 2.71  1999-03-31 21:13:29+09  sumiyosi
+# 灯台、煙突、鐘（いづれもオブジェ）追加。
+#
+# Revision 2.70  1999-03-31 15:31:10+09  hayakawa
+# z_tedukuri_controller3.c導入
+#
+# Revision 2.69  1999-03-31 14:16:56+09  kuzuhara
+# ピラニア作成
+#
+# Revision 2.68  1999-03-29 13:19:27+09  umemiya
+# スライム追加
+#
+# Revision 2.67  1999-03-29 11:05:49+09  matutani
+# z_map_disp_data.[ch]を追加
+#
+# Revision 2.66  1999-03-29 09:35:04+09  hayakawa
+# *** empty log message ***
+#
+# Revision 2.65  1999-03-26 20:49:31+09  sasaki
+# *** empty log message ***
+#
+# Revision 2.64  1999-03-26 18:56:45+09  sasaki
+# *** empty log message ***
+#
+# Revision 2.63  1999-03-25 18:04:47+09  sumiyosi
+# 蛙追加。
+#
+# Revision 2.62  1999-03-25 16:36:18+09  nisiwaki
+# z_elf_msg3.c を 追加
+#
+# Revision 2.61  1999-03-25 15:11:19+09  takesita
+# 射的専用デクナッツ追加
+#
+# Revision 2.60  1999-03-25 13:36:37+09  umemiya
+# 紺碧の砦・回転部屋追加
+#
+# Revision 2.59  1999-03-24 21:42:31+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.58  1999-03-24 20:59:57+09  sakakibara
+# 氷ブロック追加
+#
+# Revision 2.57  1999-03-24 14:43:10+09  soejima
+# キャラクター選択処理
+#
+# Revision 2.56  1999-03-23 16:46:40+09  umemiya
+# 敵氷ブロック発生前エフェクト
+#
+# Revision 2.55  1999-03-18 13:56:13+09  sakakibara
+# 滑るブロック 追加
+#
+# Revision 2.54  1999-03-17 17:18:59+09  takesita
+# z_en_syateki_wf.cを追加。
+#
+# Revision 2.53  1999-03-17 11:23:33+09  matutani
+# z_map_disp.c登録
+#
+# Revision 2.52  1999-03-16 19:24:39+09  ogawa
+# z_eventmgr.c 追加
+#
+# Revision 2.51  1999-03-16 14:41:32+09  sasaki
+# デモ用雛形
+#
+# Revision 2.50  1999-03-11 16:08:04+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.49  1999-03-10 16:10:30+09  kuzuhara
+# 人食い水仙作成
+#
+# Revision 2.48  1999-03-09 21:57:17+09  sumiyosi
+# ゴロンたち復活
+#
+# Revision 2.47  1999-03-09 18:26:32+09  sakaguti
+# *** empty log message ***
+#
+# Revision 2.46  1999-03-09 11:30:35+09  kuzuhara
+# ジャイアントスカル作成
+#
+# Revision 2.45  1999-03-08 21:55:01+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.44  1999-03-08 17:45:13+09  yoshida
+# いるだけさん追加
+#
+# Revision 2.43  1999-03-08 11:40:33+09  kuzuhara
+# 大妖精復活
+#
+# Revision 2.42  1999-03-05 16:36:13+09  kuzuhara
+# ボス領域確保
+#
+# Revision 2.41  1999-03-04 20:13:47+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.40  1999-03-04 11:40:43+09  umemiya
+# クモの巣追加
+#
+# Revision 2.39  1999-03-03 21:18:40+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.38  1999-03-03 16:54:40+09  takesita
+# 実験用にz_en_crow2.cを追加。
+#
+# Revision 2.37  1999-03-03 15:03:48+09  umemiya
+# つらら復帰
+#
+# Revision 2.36  1999-03-03 12:26:52+09  kuzuhara
+# 炎の壁別処理＆ぼむちゅうねーちゃん＆
+# 射的屋親父＆宝箱親父
+#
+# Revision 2.35  1999-03-02 21:03:21+09  sumiyosi
+# ゴザ売り 復活!!
+#
+# Revision 2.34  1999-03-02 20:30:35+09  sumiyosi
+# 犬おばさん、ピエ−ル兄弟復活!!
+#
+# Revision 2.33  1999-03-01 17:29:32+09  hayakawa
+# sys_voice/2追加
+#
+# Revision 2.32  1999-03-01 13:05:15+09  kuzuhara
+# 騎士＆ワープタグ
+#
+# Revision 2.31  1999-02-25 10:57:58+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.30  1999-02-24 18:34:35+09  kuzuhara
+# 暗殺者＆炎の壁用敵独立
+#
+# Revision 2.29  1999-02-24 16:17:57+09  sumiyosi
+# "あれ"登録。
+#
+# Revision 2.28  1999-02-22 18:49:31+09  hayakawa
+# z_tedukuri_controller.c導入
+#
+# Revision 2.27  1999-02-22 17:42:29+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 2.26  1999-02-22 09:37:30+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.25  1999-02-18 14:19:02+09  takesita
+# z_en_gl2.cを追加しました。
+#
+# Revision 2.24  1999/02/17 07:10:18  sakaguti
+# 坂口 敦史 実験キャラ作成
+#
+# Revision 2.23  1999/02/16 09:10:43  ogawa
+#  z_onepointdemo.c 削除
+#
+# Revision 2.22  1999/02/16 07:07:42  ogawa
+# *** empty log message ***
+#
+# Revision 2.21  1999/02/15 07:31:54  sakakibara
+# *** empty log message ***
+#
+# Revision 2.20  1999-02-12 11:20:59+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.19  1999-02-10 21:17:27+09  ogawa
+# LEOFILEOUT demo_camera.c
+#
+# Revision 2.18  1999/02/09 09:33:57  iwawaki
+# *** empty log message ***
+#
+# Revision 2.17  1999-02-08 18:51:03+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.16  1999-02-08 18:48:54+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.15  1999-02-08 18:11:33+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.14  1999-02-08 13:05:12+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.13  1999-02-08 10:48:23+09  sakakibara
+# ダンジョンユニットＯＢＪ追加
+#
+# Revision 2.12  1999-02-03 15:47:05+09  kuzuhara
+# 切り裂きバッタ作成
+#
+# Revision 2.11  1999-02-03 15:06:58+09  kuzuhara
+# ボス復活！！
+#
+# Revision 2.10  1999-02-01 15:05:49+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.9  1999-01-29 11:08:18+09  sakakibara
+# パズルネタ用 Ｏｂｊ．追加
+#
+# Revision 2.8  1999-01-28 11:18:09+09  sakakibara
+# *** empty log message ***
+#
+# Revision 2.7  1999-01-27 17:33:41+09  sakakibara
+# ゼルダ２用に不要ファイル削除
+#
+# Revision 2.6  1999-01-26 12:32:37+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.5  1999-01-12 14:32:28+09  soejima
+# ＰＡＬ版 ＧＡＴＥＷＡＹ仕様
+#
+# Revision 2.4  1999-01-07 10:02:39+09  soejima
+# ＧＡＴＥＷＡＹ仕様
+#
+# Revision 2.3  1998-11-10 15:44:32+09  zelda
+# sys_vimgr.c追加
+#
+# Revision 2.2  1998-10-27 21:23:00+09  soejima
+# ＰＡＬ仕様
+#
+# Revision 2.1  1998-10-22 20:41:56+09  zelda
+# ＲＯＭ出しバージョン(NTSC)
+#
+# Revision 1.541  1998/10/15 02:44:41  hayakawa
+# *** empty log message ***
+#
+# Revision 1.540  1998-10-14 17:44:32+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.539  1998-10-14 14:22:56+09  matutani
+# z_en_skeleton,z_en_warp_boxを消しました。
+#
+# Revision 1.538  1998-10-13 22:51:55+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.537  1998-10-13 22:19:10+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.536  1998-10-10 20:48:52+09  sakakibara
+# z_obj_warp2block 追加
+#
+# Revision 1.535  1998-10-09 18:18:07+09  komatu
+# *** empty log message ***
+#
+# Revision 1.534  1998-10-05 22:58:53+09  soejima
+# *** empty log message ***
+#
+# Revision 1.533  1998-10-03 21:12:11+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.532  1998-10-02 21:09:53+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.531  1998-10-01 22:48:12+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.530  1998-09-30 22:38:40+09  hayakawa
+# ddcacheをディスク側に移動
+#
+# Revision 1.529  1998-09-30 21:27:58+09  takahata
+# *** empty log message ***
+#
+# Revision 1.528  1998-09-30 00:26:45+09  ogawa
+# bezier削除
+#
+# Revision 1.527  1998-09-28 23:15:24+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.526  1998-09-25 23:05:32+09  hayakawa
+# z_lmap_mark.c/z_lmap_mark_data.cカレイドスコープセグメントに戻した
+#
+# Revision 1.525  1998-09-24 17:01:53+09  sakakibara
+# z_bg_jya_block.c 追加
+#
+# Revision 1.524  1998-09-24 15:58:35+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.523  1998-09-23 14:38:33+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.522  1998-09-23 00:44:13+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.521  1998-09-21 10:07:03+09  zelda
+# *** empty log message ***
+#
+# Revision 1.520  1998-09-19 23:14:19+09  hayakawa
+# えーい！ままよ！
+#
+# Revision 1.519  1998-09-19 10:50:11+09  hayakawa
+# z_map_exp.c からデータ部分を z_map_exp_data.c に移動
+#
+# Revision 1.518  1998-09-18 14:26:21+09  sakakibara
+# ハンマで壊す石、 時の歌で現れ消えるブロック追加
+#
+# Revision 1.517  1998-09-17 22:30:31+09  zelda
+# z_vibctl2.c sys_vibctl2.c
+#
+# Revision 1.516  1998-09-16 21:06:53+09  nisiwaki
+# ゲルド３
+#
+# Revision 1.515  1998-09-15 21:52:12+09  hayakawa
+# ６４ＤＤ更新
+#
+# Revision 1.514  1998-09-12 18:37:32+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.513  1998-09-11 17:04:37+09  sakakibara
+# 金のスタルチュラ発生敵
+#
+# Revision 1.512  1998-09-11 15:17:53+09  matutani
+# *** empty log message ***
+#
+# Revision 1.511  1998-09-11 00:57:40+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.510  1998-09-09 13:32:40+09  nisiwaki
+# めんくり用偽壁
+#
+# Revision 1.509  1998-09-08 11:52:14+09  komatu
+# eg追加
+#
+# Revision 1.508  1998-09-08 11:39:49+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.507  1998-09-07 17:57:32+09  kuzuhara
+# 案山子の別バージョン２、３
+# 作成
+#
+# Revision 1.506  1998-09-07 13:17:21+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.505  1998-09-07 11:54:54+09  umemiya
+# 氷の洞窟つらら、シャッター追加
+#
+# Revision 1.504  1998-09-05 14:34:31+09  nisiwaki
+# マロンと牛追加
+#
+# Revision 1.503  1998-09-04 20:08:21+09  umemiya
+# ダルニアシャッター追加
+#
+# Revision 1.502  1998-09-04 16:28:52+09  sakakibara
+# オアシスの水 変化壷の蓋 追加
+#
+# Revision 1.501  1998-09-04 13:27:51+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.500  1998-09-03 20:22:53+09  hayakawa
+# map_markデータをオーバーレイ化
+#
+# Revision 1.499  1998-09-03 20:18:13+09  umemiya
+# 砂漠導きポウ、怪鳥グエー追加
+#
+# Revision 1.498  1998-09-03 10:14:48+09  tarukado
+# *** empty log message ***
+#
+# Revision 1.497  1998-09-02 11:34:07+09  kuzuhara
+# ボーリング壁等作成
+#
+# Revision 1.496  1998-09-01 23:23:56+09  matutani
+# z_eff_spark_flash.c消しました。さようなら
+#
+# Revision 1.495  1998-09-01 00:45:38+09  yoshida
+# *** empty log message ***
+#
+# Revision 1.494  1998-08-29 16:31:58+09  nisiwaki
+# 魔法 魔法の矢 一部削除
+#
+# Revision 1.493  1998-08-29 15:25:18+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.492  1998-08-29 10:29:46+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.491  1998-08-29 00:19:09+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.490  1998-08-28 16:03:51+09  umemiya
+# オクタ岩削除、蜘蛛の巣追加
+#
+# Revision 1.489  1998-08-28 15:07:46+09  ogawa
+# *** empty log message ***
+#
+# Revision 1.488  1998-08-28 11:39:25+09  nisiwaki
+# BG_GND_SOULMEIRO BG_GND_NISEKABE BG_GND_ICEBLOCK 追加
+#
+# Revision 1.487  1998-08-28 10:47:41+09  matutani
+# z_eff_shield_particle.c追加
+#
+# Revision 1.486  1998-08-27 22:46:55+09  hayakawa
+# gfxalloc.c追加
+#
+# Revision 1.485  1998-08-27 11:43:40+09  nisiwaki
+# Bg_Gnd_Firemeiro Bg_Gnd_Darkmeiro 追加
+#
+# Revision 1.484  1998-08-26 14:13:47+09  zelda
+# zurumode追加
+#
+# Revision 1.483  1998-08-26 12:13:08+09  komatu
+# Gj Geffの追加
+#
+# Revision 1.482  1998-08-26 00:29:55+09  sumiyosi
+# 敵(群、カップル、ベビースタル、ワーウルフ)を追加。
+#
+# Revision 1.481  1998-08-22 17:48:47+09  sakakibara
+# 水の神殿スイッチと、監視敵３を追加
+#
+# Revision 1.480  1998-08-22 17:13:58+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.479  1998-08-21 20:03:33+09  hayakawa
+# DD更新
+#
+# Revision 1.478  1998-08-21 13:17:22+09  sakakibara
+# Spot08,Spot17 爆弾壁 追加
+#
+# Revision 1.477  1998-08-20 15:58:24+09  nisiwaki
+# EN_HS2 DEMO_KEKKAI 追加
+#
+# Revision 1.476  1998-08-20 11:41:29+09  kuzuhara
+# ボムチュウ屋見えない壁
+#
+# Revision 1.475  1998-08-20 09:07:25+09  kuzuhara
+# 削除
+#
+# Revision 1.474  1998-08-18 11:41:30+09  kuzuhara
+# デグナッツのお面品評会
+#
+# Revision 1.473  1998-08-17 21:08:30+09  sakakibara
+# 蜂の巣、Spot11爆弾壁、据置の木箱 追加
+#
+# Revision 1.472  1998-08-17 18:34:35+09  yoshida
+# *** empty log message ***
+#
+# Revision 1.471  1998-08-14 22:05:55+09  kuzuhara
+# "黄金の魂"追加。
+#
+# Revision 1.470  1998-08-13 20:12:05+09  hayakawa
+# コメント入れた
+#
+# Revision 1.469  1998-08-12 22:47:00+09  hayakawa
+# sys_assert.c追加
+#
+# Revision 1.468  1998-08-11 12:56:17+09  kuzuhara
+# 犬とか小娘など
+#
+# Revision 1.467  1998-08-10 12:15:55+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.466  1998-08-08 21:44:14+09  kuzuhara
+# ゲルドＢだすえ
+#
+# Revision 1.465  1998-08-08 19:58:15+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.464  1998-08-07 18:49:35+09  umemiya
+# 売りナッツ追加
+#
+# Revision 1.463  1998-08-07 14:35:47+09  umemiya
+# ヒントナッツ、デクナッツの弾、SPOT00・こわれた橋追加
+#
+# Revision 1.462  1998-08-06 17:25:03+09  sakakibara
+# 邪神像 & Ｓｐｏｔ１２ オブジェクト 追加
+#
+# Revision 1.461  1998-08-06 11:45:38+09  umemiya
+# 水中エイヤー、SPOT05オブジェ追加
+#
+# Revision 1.460  1998-08-06 10:44:42+09  nisiwaki
+# Oceff_Storm 追加
+#
+# Revision 1.459  1998-08-05 20:34:56+09  matutani
+# エフェクトオーバーレイ追加
+# OVL_EFFにオーバーレイにするエフェクトのファイルを追加するようにしています。
+#
+# Revision 1.458  1998-08-04 21:54:20+09  umemiya
+# 墓下蜘蛛はずした
+#
+# Revision 1.457  1998-08-03 16:21:14+09  nisiwaki
+# たくさん増やした
+#
+# Revision 1.456  1998-08-03 10:38:23+09  umemiya
+# 部屋管理タイマー追加
+#
+# Revision 1.455  1998-08-01 14:51:38+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.454  1998-07-31 16:56:39+09  kuzuhara
+# 透明メッセージ君作成
+#
+# Revision 1.453  1998-07-31 10:20:19+09  kuzuhara
+# 大妖精効果作成
+#
+# Revision 1.452  1998-07-30 18:00:56+09  nisiwaki
+# shot_sun 追加
+#
+# Revision 1.451  1998-07-29 13:27:22+09  komatu
+# demo_ecの追加
+#
+# Revision 1.450  1998-07-29 11:40:18+09  nisiwaki
+# mother touch 追加
+#
+# Revision 1.449  1998-07-28 11:32:18+09  nisiwaki
+# END_TITLE 追加
+#
+# Revision 1.448  1998-07-28 10:36:42+09  nisiwaki
+# z_oceff_spot 追加
+#
+# Revision 1.447  1998-07-24 22:18:46+09  soejima
+# *** empty log message ***
+#
+# Revision 1.446  1998-07-23 22:53:11+09  sakakibara
+# 押引ブロック監視敵追加、 d_keep f_keep 削除
+#
+# Revision 1.445  1998-07-23 17:21:29+09  kuzuhara
+# 宝箱屋作成
+#
+# Revision 1.444  1998-07-23 13:03:55+09  kuzuhara
+# 案山子
+#
+# Revision 1.443  1998-07-21 16:15:05+09  kuzuhara
+# ガノン２作成
+#
+# Revision 1.442  1998-07-21 14:20:53+09  komatu
+# *** empty log message ***
+#
+# Revision 1.441  1998-07-21 11:03:45+09  kuzuhara
+# 通常メッセージ兵士分離
+#
+# Revision 1.440  1998-07-20 15:04:43+09  komatu
+# ゼルダゲートの追加
+#
+# Revision 1.439  1998-07-18 15:33:09+09  nisiwaki
+# efc_erupc 追加
+#
+# Revision 1.438  1998-07-18 13:56:53+09  zelda
+# hayakawa kun channtodashite kaette !!
+#
+# Revision 1.437  1998-07-17 15:37:08+09  umemiya
+# フィールドポウ追加
+#
+# Revision 1.436  1998-07-17 13:53:42+09  komatu
+# gtの追加
+#
+# Revision 1.435  1998-07-17 10:27:00+09  nisiwaki
+# Elf_Msg2 追加
+#
+# Revision 1.434  1998-07-16 22:00:06+09  soejima
+# *** empty log message ***
+#
+# Revision 1.433  1998-07-16 11:27:03+09  kuzuhara
+# おかりな効果作成
+#
+# Revision 1.432  1998-07-15 13:14:41+09  yoshida
+# *** empty log message ***
+#
+# Revision 1.431  1998-07-14 19:58:00+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.430  1998-07-14 11:26:49+09  sakakibara
+# 邪神像ダンジョン 壊される柱＆椅子 追加
+#
+# Revision 1.429  1998-07-14 10:18:34+09  kuzuhara
+# 多用途アイテム作成
+#
+# Revision 1.428  1998-07-10 10:22:04+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.427  1998-07-09 18:45:43+09  umemiya
+# シェイドストーカー戦の床追加
+#
+# Revision 1.426  1998-07-09 15:33:19+09  kuzuhara
+# お天気透明タグ作成
+#
+# Revision 1.425  1998-07-08 23:17:53+09  sumiyosi
+# 今になって、コキリ族、キングゾーラ追加。
+#
+# Revision 1.424  1998-07-08 17:02:29+09  yoshida
+# 吸い込み渦 潮吹 脱出ゼルダ 追加
+#
+# Revision 1.423  1998-07-08 12:49:37+09  kuzuhara
+# ガノンのオルガン
+#
+# Revision 1.422  1998-07-08 10:36:21+09  matutani
+# ワープ宝箱
+#
+# Revision 1.421  1998-07-07 21:30:16+09  sakakibara
+# 邪神像ダンジョンＯｂｊ、Ｓｐｏｔ１８Ｏｂｊ 追加
+#
+# Revision 1.420  1998-07-07 11:54:23+09  umemiya
+# ツール用にz_tool_dummy.cを追加
+#
+# Revision 1.419  1998-07-07 10:23:54+09  kuzuhara
+# チェンジャー作成
+#
+# Revision 1.418  1998-07-06 10:51:35+09  hayakawa
+# cpuprint.c追加(n64dd専用)
+#
+# Revision 1.417  1998-07-04 11:16:16+09  soejima
+# *** empty log message ***
+#
+# Revision 1.416  1998-07-03 13:08:44+09  takahata
+# *** empty log message ***
+#
+# Revision 1.415  1998-07-02 15:47:32+09  nisiwaki
+# Fu 風車小屋の男
+#
+# Revision 1.414  1998-07-01 22:18:31+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.413  1998-07-01 17:21:12+10  sakakibara
+# 光スイッチ、フィールド常駐Ｏｂｊ 追加
+#
+# Revision 1.412  1998-07-01 11:49:24+09  nisiwaki
+# フクロウ
+#
+# Revision 1.411  1998-07-01 10:03:31+09  kuzuhara
+# ボムチュウ！
+#
+# Revision 1.410  1998-06-30 17:55:08+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.409  1998-06-29 20:39:22+09  umemiya
+# ガノン城・オブジェ追加
+#
+# Revision 1.408  1998-06-29 18:42:20+09  kuzuhara
+# 透明会話タグ作成
+#
+# Revision 1.407  1998-06-29 17:55:00+09  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.406  1998-06-29 14:11:35+10  nisiwaki
+# m_thunder と m_fire1 を オーバーレイに
+#
+# Revision 1.405  1998-06-26 21:33:12+09  hayakawa
+# audio.c追加
+#
+# Revision 1.404  1998-06-26 17:12:06+09  yoshida
+# *** empty log message ***
+#
+# Revision 1.403  1998-06-26 14:45:36+09  kuzuhara
+# 各種鶏プログラム分離
+#
+# Revision 1.402  1998-06-25 21:16:36+09  kuzuhara
+# 城兵士３作成
+#
+# Revision 1.401  1998-06-25 19:18:33+09  kuzuhara
+# 爆破看板作成
+#
+# Revision 1.400  1998-06-22 16:25:46+09  sumiyosi
+# インゴーとめ柵追加。
+#
+# Revision 1.399  1998-06-21 00:19:59+10  tarukado
+# *** empty log message ***
+#
+# Revision 1.398  1998-06-20 16:52:07+09  takahata
+# *** empty log message ***
+#
+# Revision 1.397  1998-06-19 21:19:49+09  hayakawa
+# sys_ddcache.c
+#
+# Revision 1.396  1998-06-19 16:00:02+09  kuzuhara
+# 鶏ねーちゃん作成
+#
+# Revision 1.395  1998-06-18 10:36:13+09  kuzuhara
+# なーんか敵ばっか登録している
+# 気がするが、、、これもシゴトだ。
+# しかたないっす
+#
+# Revision 1.394  1998-06-18 09:15:31+09  hayakawa
+# sys_ucode.c追加
+#
+# Revision 1.393  1998-06-17 11:14:08+09  kuzuhara
+# 実験どーも作成
+#
+# Revision 1.392  1998-06-16 21:53:10+09  kuzuhara
+# すんません
+#
+# Revision 1.391  1998-06-16 18:35:01+09  umemiya
+# 汎用ブロック停止位置追加
+#
+# Revision 1.390  1998-06-16 14:26:33+09  umemiya
+# 敵用 円柱型炎 効果 追加
+#
+# Revision 1.389  1998-06-16 12:05:45+09  nisiwaki
+# たくさん増やした
+#
+# Revision 1.388  1998-06-16 11:12:32+09  kuzuhara
+# 汎用ルピー作成
+#
+# Revision 1.387  1998-06-15 14:14:32+09  sakakibara
+# 汎用 ごろ岩 追加
+#
+# Revision 1.386  1998-06-12 12:43:16+09  kuzuhara
+# オカリナ透明タグ及びヤブサメ透明タグ設定
+#
+# Revision 1.385  1998-06-11 17:12:00+09  sakakibara
+# *** empty log message ***
+#
+# Revision 1.384  1998-06-09 09:32:41+09  soejima
+# *** empty log message ***
+#
+# Revision 1.383  1998-06-08 21:38:15+09  hayakawa
+# デバッグマロック＆ロケール定義
+#
+# Revision 1.382  1998-06-08 20:15:48+09  sakakibara
+# 草と豆を追加
+#
+# Revision 1.381  1998-06-05 14:09:42+09  kuzuhara
+# 素もぐりゲーム作成
+#
+# Revision 1.380  1998-06-04 14:20:12+09  umemiya
+# 墓下リレー関係追加
+#
+# Revision 1.379  1998-06-04 14:04:07+09  takahata
+# *** empty log message ***
+#
+# Revision 1.378  1998-06-04 13:54:38+09  yoshida
+# spot03,spot07滝追加
+#
+# Revision 1.377  1998-06-03 16:02:29+09  umemiya
+# 常駐氷ポリゴン追加
+#
+# Revision 1.376  1998-06-03 11:31:40+09  kuzuhara
+# 特殊効果の設定
+#
+# Revision 1.375  1998-06-01 16:42:42+09  sakakibara
+# Ｓｐｏｔ０８ 専用オブジェクト 流氷追加
+#
+# Revision 1.374  1998-06-01 12:07:50+09  kuzuhara
+# 壷トラップ作成
+#
+# Revision 1.373  1998-05-30 20:00:46+09  sakakibara
+# *** empty log message ***
+#
+# Revision 1.372  1998-05-29 09:54:49+09  nisiwaki
+# Elf_Msg 追加
+#
+# Revision 1.371  1998-05-28 16:14:20+09  takahata
+# *** empty log message ***
+#
+# Revision 1.370  1998-05-27 20:06:23+09  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.369  1998-05-27 18:22:22+09  tarukado
+# *** empty log message ***
+#
+# Revision 1.368  1998-05-27 15:08:30+09  hayakawa
+# 非実行文の削除のみ
+#
+# Revision 1.367  1998-05-27 12:05:22+09  nisiwaki
+# z_demo_shd.c 追加
+#
+# Revision 1.366  1998-05-26 20:57:04+09  hayakawa
+# nulltask追加
+#
+# Revision 1.365  1998-05-26 17:00:21+09  hayakawa
+# バンプマッピングを条件コンパイル
+#
+# Revision 1.364  1998-05-26 11:57:07+09  komatu
+# demo_extの追加
+#
+# Revision 1.363  1998-05-18 20:17:12+09  hayakawa
+# z_kaleido_manager解放
+#
+# Revision 1.362  1998-05-18 13:37:45+09  kuzuhara
+# 便利スイッチ作成
+#
+# Revision 1.361  1998-05-13 18:48:05+09  takahata
+# *** empty log message ***
+#
+# Revision 1.360  1998-05-12 21:54:14+09  okajima
+# *** empty log message ***
+#
+# Revision 1.359  1998/05/12 10:01:06  komatu
+# *** empty log message ***
+#
+# Revision 1.358  1998-05-12 13:12:34+09  kuzuhara
+# 不思議なアイテム作成
+#
+# Revision 1.357  1998-05-08 20:37:27+09  sakakibara
+# *** empty log message ***
+#
+# Revision 1.356  1998/05/08 09:00:56  nisiwaki
+# arrow_dark 等を追加
+#
+# Revision 1.355  1998/05/07 10:40:35  nisiwaki
+# item_etcetera 追加
+#
+# Revision 1.354  1998/05/06 08:40:12  umemiya
+# 馬ジャンプ柵追加
+#
+# Revision 1.353  1998-05-02 22:52:17+09  tarukado
+# *** empty log message ***
+#
+# Revision 1.352  1998/05/01 07:06:58  sakakibara
+# *** empty log message ***
+#
+# Revision 1.351  1998/04/30 14:16:38  yoshida
+# *** empty log message ***
+#
+# Revision 1.350  1998/04/30 12:00:38  hayakawa
+# 動的アドレスＣＦＢ
+# ６４ＤＤ用変更
+#
+# Revision 1.349  1998-04-28 21:28:10+09  hayakawa
+# 64DD条件コンパイル
+#
+# Revision 1.348  1998-04-27 22:49:20+09  umemiya
+# ポウ用燭台追加
+#
+# Revision 1.347  1998-04-27 11:50:20+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.346  1998/04/24 10:25:44  yoshida
+# *** empty log message ***
+#
+# Revision 1.345  1998/04/24 04:27:24  nisiwaki
+# eff_dust を 追加
+#
+# Revision 1.344  1998/04/23 04:11:13  hayakawa
+# suDDAccess.c(64DD)追加
+#
+# Revision 1.343  1998-04-23 13:07:35+09  kuzuhara
+# 門シャッターの作成
+#
+# Revision 1.342  1998-04-22 23:12:20+09  hayakawa
+# z_fbdemo_wipe3.c追加
+#
+# Revision 1.341  1998-04-20 23:19:43+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.340  1998/04/20 13:24:44  sakakibara
+# *** empty log message ***
+#
+# Revision 1.339  1998/04/20 07:18:43  morita
+# z_fishing
+#
+# Revision 1.338  1998/04/17 10:12:04  sakakibara
+# *** empty log message ***
+#
+# Revision 1.337  1998/04/17 07:35:34  umemiya
+# 墓下ダンジョン・水面、門イベント関係追加
+#
+# Revision 1.336  1998-04-17 15:33:58+10  kuzuhara
+# アヌビスタグ追加
+#
+# Revision 1.335  1998-04-17 13:16:18+09  nisiwaki
+# Demo_6Kを追加
+#
+# Revision 1.334  1998/04/15 12:05:42  zelda
+# ROM_ROMの時にis_debug.cがリンクされないようにした
+#
+# Revision 1.333  1998-04-15 12:05:47+09  nisiwaki
+# Magic_Light Magic_Dark Magic_Soul 追加
+#
+# Revision 1.332  1998/04/14 03:01:17  nisiwaki
+# item_ocarina 追加
+#
+# Revision 1.331  1998/04/13 13:35:57  sakakibara
+# *** empty log message ***
+#
+# Revision 1.330  1998/04/10 05:26:30  nisiwaki
+# たくさん 追加
+#
+# Revision 1.329  1998/04/10  02:19:09  zelda
+# z_jpeg.c追加
+#
+# Revision 1.328  1998/04/10  01:07:09  yoshida
+# マロン子供時代
+#
+# Revision 1.327  1998/04/09  11:14:06  sakakibara
+# *** empty log message ***
+#
+# Revision 1.326  1998/04/09  08:40:20  hayakawa
+# z_select_segment化
+#
+# Revision 1.325  1998/04/07  04:30:30  kuzuhara
+# アヌビス＆炎
+#
+# Revision 1.324  1998/04/06  11:24:31  tarukado
+# *** empty log message ***
+#
+# Revision 1.323  1998/04/06  11:23:31  soejima
+# flg_set.c
+#
+# Revision 1.322  1998/04/06  09:48:41  kuzuhara
+# 俺様大妖精削除
+# 穴をほって、また埋める不毛な作業！
+#
+# Revision 1.321  1998/04/06  07:03:16  sumiyosi
+# ライクライク＆妖精の像を追加。
+#
+# Revision 1.320  1998/04/06  03:14:44  morita
+# boss_tw.c
+#
+# Revision 1.319  1998/04/03  10:48:48  komatu
+# 新ゼルダ姫
+#
+# Revision 1.318  1998/04/02  05:18:18  matutani
+# 自走ボム、馬ゲーム用キャラ
+#
+# Revision 1.317  1998/04/01  13:12:58  hayakawa
+# さようなら z_onetri 君のことは忘れない
+#
+# Revision 1.316  1998/03/31  14:51:25  yoshida
+# *** empty log message ***
+#
+# Revision 1.315  1998/03/31  01:56:26  kuzuhara
+# 射的場効果
+#
+# Revision 1.314  1998/03/30  13:08:57  matutani
+# *** empty log message ***
+#
+# Revision 1.313  1998/03/30  08:05:58  sumiyosi
+# ＮＰＣ３追加しました。
+#
+# Revision 1.312  1998/03/26  10:58:34  iwawaki
+# *** empty log message ***
+#
+# Revision 1.311  1998/03/25  13:59:23  umemiya
+# 氷の洞窟、SPOT06オブジェクトなど追加
+#
+# Revision 1.310  1998/03/25  11:45:38  sumiyosi
+# デクの樹Ｊｒ．追加。
+#
+# Revision 1.309  1998/03/25  05:02:11  nisiwaki
+# z_eff_fire_tail.[ch]
+# z_eff_ice_piece.[ch]
+# 	追加
+#
+# Revision 1.308  1998/03/25  03:02:19  komatu
+# *** empty log message ***
+#
+# Revision 1.307  1998/03/23  11:11:48  zelda
+# system.c追加
+#
+# Revision 1.306  1998/03/23  09:28:34  sakakibara
+# *** empty log message ***
+#
+# Revision 1.305  1998/03/21  09:07:49  sumiyosi
+# 村人しぇあーどばーてっくす版追加。
+#
+# Revision 1.304  1998/03/19  10:31:15  sakakibara
+# *** empty log message ***
+#
+# Revision 1.303  1998/03/19  05:33:45  nisiwaki
+# 双子の老婆
+#
+# Revision 1.302  1998/03/18  13:51:13  yoshida
+# *** empty log message ***
+#
+# Revision 1.301  1998/03/17  07:20:17  takahata
+# *** empty log message ***
+#
+# Revision 1.300  1998/03/16  05:47:03  komatu
+# *** empty log message ***
+#
+# Revision 1.299  1998/03/13  04:08:34  umemiya
+# ダイオクタ、カレババ、巨大魚オブジェクト追加
+#
+# Revision 1.298  1998/03/11  12:58:55  soejima
+# *** empty log message ***
+#
+# Revision 1.297  1998/03/11  11:20:28  takahata
+# *** empty log message ***
+#
+# Revision 1.296  1998/03/10  12:55:29  morita
+# boss_mo.c
+#
+# Revision 1.295  1998/03/10  11:02:03  iwawaki
+# *** empty log message ***
+#
+# Revision 1.294  1998/03/10  04:59:34  komatu
+# ナボール追加
+#
+# Revision 1.293  1998/03/09  09:17:48  takahata
+# *** empty log message ***
+#
+# Revision 1.292  1998/03/09  06:40:17  kuzuhara
+# 射的場関連
+#
+# Revision 1.291  1998/03/09  06:15:31  sakakibara
+# ｓｐｏｔ１７  噴煙 追加
+#
+# Revision 1.290  1998/03/09  04:10:19  umemiya
+# 墓下ダンジョン・オブジェクト追加
+#
+# Revision 1.289  1998/03/09  01:01:28  soejima
+# *** empty log message ***
+#
+# Revision 1.288  1998/03/06  06:32:31  tarukado
+# *** empty log message ***
+#
+# Revision 1.287  1998/03/06  04:58:31  hayakawa
+# カレイドスコープ領域入れ替え第二弾の準備
+#
+# Revision 1.286  1998/03/05  06:21:04  soejima
+# *** empty log message ***
+#
+# Revision 1.285  1998/03/04  09:34:47  sakakibara
+# *** empty log message ***
+#
+# Revision 1.284  1998/03/04  07:28:45  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.283  1998/03/03  13:41:26  umemiya
+# ブロッブ追加
+#
+# Revision 1.282  1998/03/03  04:43:16  kuzuhara
+# 兵士２
+# 火山弾発生エンカウント
+# 火山弾
+# 				の作成
+#
+# Revision 1.281  1998/03/02  04:39:50  umemiya
+# 墓下ダンジョン・オブジェクト追加
+#
+# Revision 1.280  1998/02/27  13:54:30  morita
+# *** empty log message ***
+#
+# Revision 1.279  1998/02/27  11:25:09  sakakibara
+# ダンジョン常駐オーバーレイ化
+#
+# Revision 1.278  1998/02/27  09:26:33  morita
+# *** empty log message ***
+#
+# Revision 1.277  1998/02/27  03:33:26  morita
+# z_eff_vb_hinoko.c いらんようになった
+#
+# Revision 1.276  1998/02/26  13:09:03  sumiyosi
+# フレイムウォーカー追加しました。
+#
+# Revision 1.275  1998/02/26  10:30:54  morita
+# *** empty log message ***
+#
+# Revision 1.274  1998/02/25  13:38:15  matutani
+# *** empty log message ***
+#
+# Revision 1.273  1998/02/25  09:18:47  komatu
+# *** empty log message ***
+#
+# Revision 1.272  1998/02/24  07:52:57  kuzuhara
+# 敵エンカウントテストの作成
+#
+# Revision 1.271  1998/02/24  04:24:05  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.270  1998/02/23  07:37:26  tarukado
+# デッドハンド＆デッドアーム追加
+#
+# Revision 1.269  1998/02/21  11:00:36  sumiyosi
+# フレイムダンサーの攻撃用炎追加。
+#
+# Revision 1.268  1998/02/21  07:53:38  morita
+# boss_fd2
+#
+# Revision 1.267  1998/02/21  04:36:56  hayakawa
+# 1.263.1.1を反映
+#
+# Revision 1.266  1998/02/20  10:05:41  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.265  1998/02/20  07:50:55  matutani
+# 魔法（炎、風、氷）
+#
+# Revision 1.264  1998/02/20  04:09:40  umemiya
+# スポット０２オブジェクト、墓追加
+#
+# Revision 1.263  1998/02/20  00:49:22  iwawaki
+# *** empty log message ***
+#
+# Revision 1.1  1998/02/20  00:43:06  iwawaki
+# Initial revision
+#
+# Revision 1.262  1998/02/18  02:43:25  matutani
+# 子馬追加
+#
+# Revision 1.261  1998/02/18  02:41:44  matutani
+# *** empty log message ***
+#
+# Revision 1.260  1998/02/18  02:29:09  matutani
+# *** empty log message ***
+#
+# Revision 1.259  1998/02/17  09:06:04  takahata
+# *** empty log message ***
+#
+# Revision 1.258  1998/02/17  08:23:20  soejima
+# z_kaleido.c追加
+#
+# Revision 1.257  1998/02/16  09:04:54  sumiyosi
+# フレイムダンサーを追加。
+#
+# Revision 1.256  1998/02/13  12:59:51  tarukado
+# *** empty log message ***
+#
+# Revision 1.255  1998/02/13  09:09:42  hayakawa
+#
+# Revision 1.254  1998/02/13  07:33:29  soejima
+# FILECHOOSESEGMENT = z_kaleido_segment.o
+#
+# Revision 1.253  1998/02/13  03:05:22  nisiwaki
+# z_en_du.c を 追加
+#
+# Revision 1.252  1998/02/12  12:58:13  hayakawa
+# ovl_kaleido_scopeのテスト準備
+#
+# Revision 1.251  1998/02/12  02:57:16  matutani
+# ファンクションカーブ処理追加
+#
+# Revision 1.250  1998/02/11  14:04:08  iwawaki
+# *** empty log message ***
+#
+# Revision 1.249  1998/02/11  06:53:48  hayakawa
+# z_malloc.c追加
+#
+# Revision 1.248  1998/02/10  05:44:36  morita
+# z_boss_fd 追加
+#
+# Revision 1.247  1998/02/09  13:55:00  sumiyosi
+# スタルウォール追加。
+#
+# Revision 1.246  1998/02/09  08:33:20  sakakibara
+# *** empty log message ***
+#
+# Revision 1.245  1998/02/06  00:29:56  hayakawa
+# 枝分かれしてしまった内容を追加
+# ポウ姉妹イベント用オブジェ sys_math_atan.c
+#
+# Revision 1.244  1998/02/04  10:43:17  sakakibara
+# パーティクルなかけら追加
+#
+# Revision 1.243  1998/02/03  02:59:47  kuzuhara
+# 城兵士サーチ玉追加
+#
+# Revision 1.242  1998/02/02  13:32:06  morita
+# *** empty log message ***
+#
+# Revision 1.241  1998/01/31  12:21:45  iwawaki
+# *** empty log message ***
+#
+# Revision 1.240  1998/01/30  03:01:39  umemiya
+# ポウ四姉妹追加
+#
+# Revision 1.239  1998/01/29  11:39:40  tarukado
+# *** empty log message ***
+#
+# Revision 1.238  1998/01/29  02:11:07  kuzuhara
+# 城兵士１をつくりました！
+#
+# Revision 1.237  1998/01/23  04:06:45  umemiya
+# フロアマスター、炎の神殿・炎の壁大追加
+#
+# Revision 1.236  1998/01/22  13:43:53  nisiwaki
+# *** empty log message ***
+#
+# Revision 1.235  1998/01/22  02:46:49  sumiyosi
+# 謎関連のファイル追加
+#
+# Revision 1.234  1998/01/20  13:10:45  tarukado
+# *** empty log message ***
+#
+# Revision 1.233  1998/01/20  10:27:45  sakakibara
+# *** empty log message ***
+#
+# Revision 1.232  1998/01/20  07:53:56  sumiyosi
+# 墓守・タロン・シークを追加。
+#
+# Revision 1.231  1998/01/19  09:21:58  sakakibara
+# 炎の神殿オブジェクト【ポンプフライヤ】追加
+#
+# Revision 1.230  1998/01/19  05:33:31  tarukado
+# *** empty log message ***
+#
+# Revision 1.229  1998/01/14  05:45:38  tarukado
+# *** empty log message ***
+#
+# Revision 1.228  1998/01/13  11:53:59  soejima
+# z_eepromをz_sramに変更
+#
+# Revision 1.227  1998/01/12  13:32:14  morita
+# z_eff_fhg_flash.c 追加
+#
+# Revision 1.226  1998/01/12  09:58:28  sakakibara
+# 炎の神殿・ハンマーステップ追加
+#
+# Revision 1.225  1998/01/09  13:37:15  iwawaki
+# *** empty log message ***
+#
+# Revision 1.224  1998/01/08  08:44:23  takahata
+# *** empty log message ***
+#
+# Revision 1.223  1998/01/07  02:21:05  sakakibara
+# 炎の神殿・格子追加
+#
+# Revision 1.222  1998/01/05  12:13:23  iwawaki
+# *** empty log message ***
+#
+# Revision 1.221  1997/12/24  09:21:15  ogawa
+# bezier追加
+#
+# Revision 1.220  1997/12/24  08:58:00  morita
+# z_en_fhg_fire.c
+#
+# Revision 1.219  1997/12/24  05:08:21  umemiya
+# トラップ床ビュン、時の間・マスターソード追加
+#
+# Revision 1.218  1997/12/18  08:25:11  umemiya
+# 時の間・オブジェ追加
+#
+# Revision 1.217  1997/12/17  08:58:37  tarukado
+# *** empty log message ***
+#
+# Revision 1.216  1997/12/17  04:59:07  umemiya
+# 森の神殿・ひねり回廊部屋追加
+#
+# Revision 1.215  1997/12/15  10:14:11  matutani
+# ファントムガノン馬
+#
+# Revision 1.214  1997/12/12  05:33:12  hayakawa
+# pad.c削除
+#
+# Revision 1.213  1997/12/12  01:19:36  hayakawa
+# 		stackcheck.c 削除
+#
+# Revision 1.212  1997/12/11  09:50:00  iwawaki
+# *** empty log message ***
+#
+# Revision 1.211  1997/12/05  05:24:17  umemiya
+# 水の神殿・動く水面追加
+#
+# Revision 1.210  1997/12/04  09:39:59  umemiya
+# 水の神殿・MOVEBGオブジェ追加
+#
+# Revision 1.209  1997/12/02  07:42:40  sasaki
+# z_event.c ADD
+#
+# Revision 1.208  1997/11/26  07:34:51  umemiya
+# バリ追加
+#
+# Revision 1.207  1997/11/20  02:54:30  ogawa
+# z_onepointdemo.c 追加
+#
+# Revision 1.206  1997/11/19  08:54:35  hayakawa
+# irqmgr.c追加
+#
+# Revision 1.205  1997/11/15  11:29:14  hayakawa
+# ログコメント一部削除
+# ソース整理
+#
+# Revision 1.204  1997/11/12  08:27:54  umemiya
+# 面クリダンジョンオブジェクト追加
+#
+# Revision 1.203  1997/11/11  12:46:25  hayakawa
+# z_shrink_window.c
+#
+# Revision 1.202  1997/11/11  05:07:23  hayakawa
+# *** empty log message ***
+#
+# Revision 1.201  1997/11/10  06:40:12  matutani
+# z_collision_btl_tbl.c追加
+# z_bgcheck_bsp.c削除
+#
+# Revision 1.200  1997/11/10  00:43:03  hayakawa
+# z_fbdemo_wipe1.c
+#
+# Revision 1.199  1997/11/08  08:35:14  umemiya
+# デクナッツ追加
+#
+# Revision 1.198  1997/11/06  07:04:11  hayakawa
+# z_vibctl.c追加
+#
+# Revision 1.197  1997/11/06  06:44:28  hayakawa
+# sort
+#
+# Revision 1.196  1997/11/06  00:53:00  ogawa
+# *** empty log message ***
+#
+# Revision 1.195  1997/11/05  14:40:28  iwawaki
+# *** empty log message ***
+#
+# Revision 1.194  1997/11/05  13:07:14  ogawa
+# RAM8M & z_mempak.c ++
+#
+# Revision 1.193  1997/11/04  05:35:12  matutani
+# ヒットマークエフェクト追加
+#
+# Revision 1.192  1997/10/28  08:22:03  ogawa
+# db_objcamchk.cの削除
+#
+# Revision 1.191  1997/10/27  14:50:04  iwawaki
+# *** empty log message ***
+#
+# Revision 1.190  1997/10/27  13:47:09  tarukado
+# *** empty log message ***
+#
+# Revision 1.189  1997/10/25  09:27:59  hayakawa
+# *** empty log message ***
+#
+# Revision 1.188  1997/10/24  12:24:56  morita
+# *** empty log message ***
+#
+# Revision 1.187  1997/10/21  09:15:13  matutani
+# *** empty log message ***
+#
+# Revision 1.186  1997/10/20  14:15:28  hayakawa
+# z_common_data.c追加
+#
+# Revision 1.185  1997/10/19  12:31:23  iwawaki
+# *** empty log message ***
+#
+# Revision 1.184  1997/10/18  16:42:34  iwawaki
+# *** empty log message ***
+#
+# Revision 1.183  1997/10/18  08:19:09  soejima
+# *** empty log message ***
+#
+# Revision 1.182  1997/10/18  06:40:11  soejima
+# ショー用為だけにz_file_choose.cをz_file_choose_show.cに変更。
+#
+# Revision 1.181  1997/10/16  13:49:39  umemiya
+# ドドンゴダンジョン・せりあがり追加
+#
+# Revision 1.180  1997/10/11  11:34:52  tarukado
+# *** empty log message ***
+#
+# Revision 1.179  1997/10/04  14:45:38  iwawaki
+# *** empty log message ***
+#
+# Revision 1.178  1997/10/03  14:20:07  hayakawa
+# z_fbdemo_triforce
+#
+# Revision 1.177  1997/10/02  13:52:37  umemiya
+# デクババ追加
+#
+# Revision 1.176  1997/10/02  10:19:26  tarukado
+# *** empty log message ***
+#
+# Revision 1.175  1997/10/02  07:55:44  sumiyosi
+# ＮＰＣ追加
+#
+# Revision 1.174  1997/09/30  05:53:04  morita
+# *** empty log message ***
+#
+# Revision 1.173  1997/09/29  13:26:29  umemiya
+# 妖精ダンジョンオブジェクト追加
+#
+# Revision 1.172  1997/09/29  10:54:05  sumiyosi
+# コキリ族の女の子追加
+#
+# Revision 1.171  1997/09/27  14:00:01  umemiya
+# 炎の神殿・フックショット付きリフト追加
+#
+# Revision 1.170  1997/09/26  04:28:03  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.169  1997/09/24  13:43:40  umemiya
+# ザコ兵を一つに統一、炎の神殿・宝箱を守る炎を追加
+#
+# Revision 1.168  1997/09/24  02:07:43  hayakawa
+# *** empty log message ***
+#
+# Revision 1.167  1997/09/24  01:13:04  hayakawa
+# fbdemo実験
+#
+# Revision 1.166  1997/09/19  12:58:06  tarukado
+# *** empty log message ***
+#
+# Revision 1.165  1997/09/19  12:39:34  morita
+# ゴーマ用血しぶき z_eff_ss_sibuki2.c 追加
+#
+# Revision 1.164  1997/09/17  13:54:17  umemiya
+# 跳ね橋、炎のカーテン、追加
+#
+# Revision 1.163  1997/09/17  04:36:34  sumiyosi
+# z_en_oA2.c追加。
+#
+# Revision 1.162  1997/09/16  10:11:41  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.161  1997/09/13  08:41:24  hayakawa
+# *** empty log message ***
+#
+# Revision 1.160  1997/09/12  13:31:10  umemiya
+# 火の神殿オブジェを分割
+#
+# Revision 1.159  1997/09/12  12:29:28  matutani
+# ガノン馬追加
+#
+# Revision 1.158  1997/09/11  06:58:43  umemiya
+# 火の神殿オブジェ追加
+#
+# Revision 1.157  1997/09/11  06:56:00  soejima
+# z_kaleido_collect.c
+#
+# Revision 1.156  1997/09/11  04:28:13  hayakawa
+# *** empty log message ***
+#
+# Revision 1.155  1997/09/10  14:37:21  iwawaki
+# *** empty log message ***
+#
+# Revision 1.154  1997/09/09  11:18:27  ogawa
+# z_forward.c削除
+#
+# Revision 1.153  1997/09/06  14:33:49  iwawaki
+# *** empty log message ***
+#
+# Revision 1.152  1997/09/06  14:28:17  iwawaki
+# *** empty log message ***
+#
+# Revision 1.151  1997/09/05  09:15:26  sumiyosi
+# z_en_o05.c を追加
+#
+# Revision 1.150  1997/09/05  07:59:38  matutani
+# 汎用馬
+#
+# Revision 1.149  1997/09/03  00:59:39  ogawa
+# z_quake.c camdemo.c 追加
+#
+# Revision 1.148  1997/09/03  00:43:29  ogawa
+# *** empty log message ***
+#
+# Revision 1.147  1997/09/02  12:02:55  umemiya
+# 川音追加
+#
+# Revision 1.146  1997/09/02  06:06:04  umemiya
+# エイヤー追加
+#
+# Revision 1.145  1997/09/01  12:57:43  sumiyosi
+# z_eff_ss_ddj_dust.c を追加。
+#
+# Revision 1.144  1997/09/01  07:29:10  tarukado
+# 常駐オブジェ追加
+#
+# Revision 1.143  1997/08/30  13:11:09  tarukado
+# *** empty log message ***
+#
+# Revision 1.142  1997/08/29  04:38:50  iwawaki
+# *** empty log message ***
+#
+# Revision 1.141  1997/08/28  00:32:58  sumiyosi
+# z_eff_ss_dust2.c を追加
+#
+# Revision 1.140  1997/08/26  02:36:21  sumiyosi
+# z_en_st.c を追加。
+#
+# Revision 1.139  1997/08/26  02:35:18  hayakawa
+# z_actor_dlftbls.c追加
+#
+# Revision 1.138  1997/08/25  13:56:34  hayakawa
+# En_Skeletonをオーバーレイに
+#
+# Revision 1.137  1997/08/25  06:14:42  sumiyosi
+# z_en_o01.cを追加
+#
+# Revision 1.136  1997/08/23  08:37:18  hayakawa
+# ROM_ROMテスト
+#
+# Revision 1.135  1997/08/22  13:48:16  hayakawa
+# szs対応
+#
+# Revision 1.134  1997/08/22  04:18:19  umemiya
+# z_eff_ss_dt_bubble.c 追加
+#
+# Revision 1.133  1997/08/22  00:47:43  sumiyosi
+# 効果(z_eff_ss_g_fire.c) と 効果(z_eff_ss_g_magma.c) を追加。
+#
+# Revision 1.132  1997/08/21  05:32:47  umemiya
+# z_eff_ss_lightning.c 追加
+#
+# Revision 1.131  1997/08/21  02:59:25  hayakawa
+# IS-VIEWER用
+#
+# Revision 1.130  1997/08/19  10:47:26  tarukado
+# *** empty log message ***
+#
+# Revision 1.129  1997/08/19  07:29:49  umemiya
+# z_en_bili.c 追加
+#
+# Revision 1.128  1997/08/19  06:43:04  hayakawa
+# codesegmentを圧縮するテスト
+#
+# Revision 1.127  1997/08/19  01:58:56  hayakawa
+# Revision 1.126  1997/08/18  07:35:49  iwawaki
+# *** empty log message ***
+#
+# Revision 1.125  1997/08/12  13:59:46  hayakawa
+# *** empty log message ***
+#
+# Revision 1.124  1997/08/11  05:26:02  sumiyosi
+# z_eff_ss_g_splash.c を追加
+#
+# Revision 1.123  1997/08/08  10:25:22  soejima
+# *** empty log message ***
+#
+# Revision 1.122  1997/08/07  09:01:10  sumiyosi
+# z_eff_g_ripple.cを追加
+#
+# Revision 1.121  1997/08/07  06:12:14  sumiyosi
+# z_eff_g_ddg_smoke.c を追加
+#
+# Revision 1.120  1997/08/07  01:32:18  soejima
+# z_vr_business.c追加
+#
+# Revision 1.119  1997/08/06  03:23:01  iwawaki
+# *** empty log message ***
+#
+# Revision 1.118  1997/08/04  01:34:57  iwawaki
+# *** empty log message ***
+#
+# Revision 1.117  1997/08/01  07:18:31  morita
+# z_en_bdfire.c 追加
+#
+# Revision 1.116  1997/07/31  09:56:25  soejima
+# ファイル名変更
+#
+# Revision 1.115  1997/07/31  08:09:07  hayakawa
+# CFILES_EN
+# CFILES_EFF
+# CFILES_Z
+# CFILES_SYS分離
+# playのオーバーレイテスト
+#
+# Revision 1.114  1997/07/31  02:58:50  hayakawa
+# CFILESをソートした
+#
+# Revision 1.113  1997/07/30  01:30:28  tarukado
+# *** empty log message ***
+#
+# Revision 1.112  1997/07/30  01:25:28  tarukado
+# *** empty log message ***
+#
+# Revision 1.111  1997/07/29  09:57:03  matutani
+# ダイナミックポリゴンテスト
+#
+# Revision 1.110  1997/07/28  14:04:47  iwawaki
+# *** empty log message ***
+#
+# Revision 1.109  1997/07/22  11:06:59  hayakawa
+# z_vismono追加
+#
+# Revision 1.108  1997/07/22  05:51:23  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.107  1997/07/22  05:50:30  hayakawa
+# *** empty log message ***
+#
+# Revision 1.106  1997/07/22  00:14:58  iwawaki
+# *** empty log message ***
+#
+# Revision 1.105  1997/07/22  00:06:12  hayakawa
+# zelda_console.c追加
+#
+# Revision 1.104  1997/07/17  06:59:16  hayakawa
+# *** empty log message ***
+#
+# Revision 1.103  1997/07/17  06:57:56  morita
+# *** empty log message ***
+#
+# Revision 1.102  1997/07/17  06:33:30  hayakawa
+# *** empty log message ***
+#
+# Revision 1.101  1997/07/16  05:39:27  hayakawa
+#
+# Revision 1.100  1997/07/09  10:54:54  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.99  1997/07/08  05:59:29  tarukado
+# *** empty log message ***
+#
+# Revision 1.98  1997/07/08  01:00:49  morita
+# z_boss_goma.c 追加
+#
+# Revision 1.97  1997/07/03  01:41:05  sasaki
+# *** empty log message ***
+#
+# Revision 1.96  1997/07/02  01:50:00  sumiyosi
+# *** empty log message ***
+#
+# Revision 1.95  1997/07/01  05:11:45  tarukado
+# *** empty log message ***
+#
+# Revision 1.94  1997/06/30  10:34:40  soejima
+# z_kaleido_scope_data.[ch]削除
+#
+# Revision 1.93  1997/06/27  09:42:34  tarukado
+# *** empty log message ***
+#
+# Revision 1.92  1997/06/25  06:54:39  soejima
+# z_kaleido_debug.c入荷
+#
+# Revision 1.91  1997/06/23  02:47:18  sasaki
+# *** empty log message ***
+#
+# Revision 1.90  1997/06/20  04:59:52  soejima
+# 仮（z_kankyo.o を z_kankyoXXXX.c に、一時的に変更）。
+# z_vr_box_vtxdt.oを外した。
+#
+# Revision 1.89  1997/06/19  00:44:17  matutani
+# 馬データをはずした
+#
+# Revision 1.88  1997/06/18  13:12:36  matutani
+# sys_short_slist.c消し忘れ
+#
+# Revision 1.87  1997/06/18  13:09:10  matutani
+# z_bgcheck_bsp.c を追加
+#
+# Revision 1.86  1997/06/12  00:27:51  iwawaki
+# *** empty log message ***
+#
+# Revision 1.85  1997/06/06  07:00:42  soejima
+# z_vr_box_vtxdt.c
+#
+# Revision 1.84  1997/06/06  00:48:48  iwawaki
+# *** empty log message ***
+#
+# Revision 1.83  1997/06/05  04:26:32  tarukado
+# *** empty log message ***
+#
+# Revision 1.82  1997/06/04  07:23:19  morita
+# 森田はんがファイルを増やしました。
+#
+# Revision 1.81  1997/06/03  09:56:29  iwawaki
+# *** empty log message ***
+#
+# Revision 1.80  1997/06/02  01:16:17  tarukado
+# *** empty log message ***
+#
+# Revision 1.79  1997/06/02  00:40:40  tarukado
+# 岩脇さんの罠を解除 ＢＹ 樽角
+#
+# Revision 1.78  1997/05/31  13:12:21  iwawaki
+# *** empty log message ***
+#
+# Revision 1.77  1997/05/31  04:50:10  tarukado
+# 岩脇が樽角から奪取
+#
+# Revision 1.76  1997/05/30  02:52:23  tarukado
+# *** empty log message ***
+#
+# Revision 1.75  1997/05/30  02:09:25  tarukado
+# *** empty log message ***
+#
+# Revision 1.74  1997/05/29  06:57:48  soejima
+#
+# Revision 1.73  1997/05/28  10:05:01  soejima
+# title変更、opening入荷
+#
+# Revision 1.72  1997/05/28  09:42:22  hayakawa
+#
+# Revision 1.71  1997/05/26  08:58:48  tarukado
+# *** empty log message ***
+#
+# Revision 1.70  1997/05/24  07:17:59  iwawaki
+# *** empty log message ***
+#
+# Revision 1.69  1997/05/20  12:56:11  iwawaki
+# *** empty log message ***
+#
+# Revision 1.68  1997/05/20  12:46:52  hayakawa
+# onetriオーバーレイテスト
+#
+# Revision 1.67  1997/05/16  08:05:27  tarukado
+# *** empty log message ***
+#
+# Revision 1.66  1997/05/15  12:54:20  soejima
+# is_debug.c 外した。
+#
+# Revision 1.65  1997/05/14  11:14:02  soejima
+# z_kaleido_scope_dl と z_title_dl を z_kaleido_scope_data と
+# z_title_data に 変更
+#
+# Revision 1.64  1997/05/14  11:11:41  hayakawa
+#
+# Revision 1.63  1997/05/13  05:41:02  soejima
+# ｅｅｐｒｏｍ入荷
+#
+# Revision 1.62  1997/04/25  11:22:58  soejima
+# *** empty log message ***
+#
+# Revision 1.61  1997/04/23  03:24:51  tarukado
+# *** empty log message ***
+#
+# Revision 1.60  1997/04/19  08:20:01  iwawaki
+# *** empty log message ***
+#
+# Revision 1.59  1997/04/18  07:49:51  soejima
+# *** empty log message ***
+#
+# Revision 1.58  1997/04/16  06:22:44  soejima
+# iwa_test
+#
+# Revision 1.57  1997/04/15  11:19:06  soejima
+# *** empty log message ***
+#
+# Revision 1.56  1997/04/15  10:53:17  soejima
+# 名前登録仮入荷
+#
+# Revision 1.55  1997/04/14  01:21:48  matutani
+# 爆弾２
+#
+# Revision 1.54  1997/04/10  12:05:38  ogawa
+# db_objcamchk.cの追加
+#
+# Revision 1.53  1997/04/10  12:04:17  matutani
+# 爆弾２テスト中
+#
+# Revision 1.52  1997/04/07  09:44:33  hayakawa
+# sample面対応
+#
+# Revision 1.51  1997/04/03  13:06:21  hayakawa
+# listalloc.c追加
+#
+# Revision 1.50  1997/04/01  11:27:33  matutani
+# 爆弾爆発のソフトスプライトエフェクト
+#
+# Revision 1.49  1997/03/28  12:22:01  matutani
+# 煙エフェクト追加
+#
+# Revision 1.48  1997/03/27  02:19:04  matutani
+# ソフトスプライトエフェクト追加
+#
+# Revision 1.47  1997/03/27  01:47:07  iwawaki
+# *** empty log message ***
+#
+# Revision 1.46  1997/03/27  00:52:50  umemiya
+# z_en_dodongo.c追加
+#
+# Revision 1.45  1997/03/26  02:12:53  umemiya
+# z_en_firefly.c追加
+#
+# Revision 1.44  1997/03/25  07:48:27  matutani
+# スキン処理追加
+#
+# Revision 1.43  1997/03/25  05:36:36  soejima
+# z_gameover.c入荷
+#
+# Revision 1.42  1997/03/25  02:44:11  iwawaki
+# *** empty log message ***
+#
+# Revision 1.41  1997/03/20  12:48:32  hayakawa
+# stackcheck.c追加
+#
+# Revision 1.40  1997/03/18  13:27:01  iwawaki
+# *** empty log message ***
+#
+# Revision 1.39  1997/03/17  12:24:52  hayakawa
+# bootstack.c idle.cを追加
+#
+# Revision 1.38  1997/03/17  00:52:55  hayakawa
+# bootセグメントの独立用の変更
+#
+# Revision 1.37  1997/03/10  07:05:16  umemiya
+# z_en_zakohei.c追加
+#
+# Revision 1.36  1997/02/27  05:14:30  umemiya
+# z_en_wallmas.c追加
+#
+# Revision 1.35  1997/02/25  08:03:31  matutani
+# スキン処理テスト用 馬追加
+#
+# Revision 1.34  1997/02/24  07:02:40  umemiya
+# z_en_okuta_rock.c追加
+#
+# Revision 1.33  1997/02/19  01:16:57  iwawaki
+# *** empty log message ***
+#
+# Revision 1.32  1997/02/18  05:01:21  iwawaki
+# z_en_box.c追加
+#
+# Revision 1.31  1997/02/14  07:01:30  soejima
+# z_libliblib.c削除
+#
+# Revision 1.30  1997/02/10  09:20:40  iwawaki
+# *** empty log message ***
+#
+# Revision 1.29  1997/02/10  04:34:11  matutani
+# *** empty log message ***
+#
+# Revision 1.28  1997/02/06  05:14:20  soejima
+# *** empty log message ***
+#
+# Revision 1.27  1997/02/06  04:42:52  soejima
+# z_kscope.cを分割。
+#
+# Revision 1.26  1997/02/05  10:03:55  hayakawa
+# z_prenmi.c追加
+#
+# Revision 1.25  1997/01/13  11:55:42  hayakawa
+# gfxprint.c削除→libu64へ
+# PreRender.c追加
+#
+# Revision 1.24  1997/01/10  00:41:55  iwawaki
+# z_en_door追加
+#
+# Revision 1.23  1996/12/25  05:32:20  iwawaki
+# z_debug_display追加
+#
+# Revision 1.22  1996/12/18  05:08:25  soejima
+# *** empty log message ***
+#
+# Revision 1.21  1996/12/04  05:21:45  hayakawa
+# __osMalloc.c,malloc.cを削除
+# db_camera.cを追加
+#
+# Revision 1.20  1996/11/19  01:08:46  hayakawa
+# __osMalloc.cを追加
+#
+# Revision 1.19  1996/11/18  01:07:48  iwawaki
+# eff_rugget.c追加
+#
+# Revision 1.18  1996/11/13  06:00:47  hayakawa
+# z_viszbuf.c追加
+#
+# Revision 1.17  1996/11/07  10:55:17  soejima
+# z_kanfont.c入荷
+#
+# Revision 1.16  1996/11/04  10:07:24  hayakawa
+# z_viscvg.c z_vimode.c追加
+#
+# Revision 1.15  1996/10/31  03:52:41  iwawaki
+# *** empty log message ***
+#
+# Revision 1.14  1996/10/29  04:27:46  tarukado
+#  z_en_bskel.c追加
+#
+# Revision 1.13  1996/10/28  02:15:51  matutani
+# spark flash add
+#
+# Revision 1.12  1996/10/25  04:53:31  sasaki
+# z_en_girl Add
+#
+# Revision 1.11  1996/10/24  10:06:26  tarukado
+# z_en_part.c追加
+#
+# Revision 1.10  1996/10/24  06:29:20  hayakawa
+# __osMalloc.c追加
+#
+# Revision 1.9  1996/10/23  13:43:49  matutani
+# *** empty log message ***
+#
+# Revision 1.8  1996/10/22  08:40:11  sasaki
+# z_en_iron.c Add
+#
+# Revision 1.7  1996/10/22  07:35:25  hayakawa
+# z_select.c追加
+#
+# Revision 1.6  1996/10/21  10:00:51  matutani
+# *** empty log message ***
+#
+# Revision 1.5  1996/10/19  11:48:02  iwawaki
+# z_en_light.c追加
+#
+# Revision 1.4  1996/10/18  03:00:08  sasaki
+# *** empty log message ***
+#
+# Revision 1.3  1996/10/16  00:23:38  hayakawa
+# gamealloc.c追加
+#
+# Revision 1.2  1996/10/12  08:31:50  hayakawa
+# *** empty log message ***
+#
+# Revision 1.1  1996/10/12  08:31:27  hayakawa
+# Initial revision
+#
+
+##SFILES_BOOT += sys_initreg.s
+CFILES_BOOT = \
+	boot.c \
+	bootstack.c \
+	idle.c \
+	sys_vimgr.c \
+	sys_spdma.c \
+	system.c \
+	z_std_dma.c \
+	z_std_dma_slid.c
+
+#ifdef USE_LOCALE
+CFILES_BOOT += z_locale.c
+#endif
+
+CFILES_EN =	\
+	z_en_a_keep.c \
+	z_en_item00.c 
+
+#非オーバーレイエフェクト
+CFILES_EFF =	\
+	z_eff_blure.c  \
+	z_eff_shield_particle.c \
+	z_eff_spark.c \
+	z_eff_ss_dead.c \
+	z_eff_tire_mark.c \
+	z_effect.c \
+	z_effect_soft_sprite.c \
+	z_effect_soft_sprite_old_init.c \
+	z_effect_soft_sprite_dlftbls.c
+
+#ifdef USE_BUMP
+CFILES_EFF += z_eff_rugget.c
+#endif /* USE_BUMP */
+CFILES_Z =	\
+	flg_set.c \
+	z_DLF.c \
+	z_actor.c \
+	z_actor_dlftbls.c \
+	z_actor_profile.c \
+	z_bgcheck.c \
+	z_bgcheck_collection.c \
+	z_bgcheck_movebg.c \
+	z_camera.c \
+	z_collision_btl_tbl.c \
+	z_collision_check.c \
+	z_common.c \
+	z_common_data.c \
+	z_debug.c \
+	z_debug_display.c \
+	z_debug_memused.c \
+	z_debug_mode.c \
+	z_debug_hayakawa.c \
+	z_demo.c \
+	z_draw.c \
+	z_eff_footmark.c \
+	z_effect_SE.c \
+	z_elf_message.c \
+	z_en_hu_sub.c \
+	z_en_msk.c \
+	z_event.c \
+	z_eventmgr.c \
+	z_fcurve_data.c \
+	z_fcurve_data_skelanime.c \
+	z_fireobj.c \
+	z_game_dlftbls.c \
+	z_horse.c \
+	z_jpeg.c \
+	z_kaleido.c \
+	z_kanfont.c \
+	z_kankyo.c \
+	z_lib.c \
+	z_lifemeter.c \
+	z_lights.c \
+	z_malloc.c \
+	z_map_disp.c \
+	z_map_disp_data.c \
+	z_map_exp.c \
+	z_moji.c \
+	z_msgevent.c \
+	z_nmibuf.c \
+	z_nulltask.c \
+	z_olib.c \
+	z_pad.c \
+	z_parameter.c \
+	z_path.c \
+	z_pause.c \
+	z_player_lib.c \
+	z_prenmi.c \
+	z_quake.c \
+	z_rcp.c \
+	z_room.c \
+	z_save_area.c \
+	z_scene.c \
+	z_scene_bank.c \
+	z_scene_proc.c \
+	z_scene_table.c \
+	z_schedule.c \
+	z_skelanime.c \
+	z_skin.c \
+	z_skin_awb.c \
+	z_skin_matrix.c \
+	z_snap.c \
+	z_soft_anim_tbl.c \
+	z_sub_s.c \
+	z_texture.c \
+	z_vibctl.c \
+	z_vibctl2.c \
+	z_view.c \
+	z_vimode.c \
+	z_viscvg.c \
+	z_visfbuf.c \
+	z_vismono.c \
+	z_viszbuf.c \
+	z_vr_box.c \
+	z_vr_box_draw.c
+#if defined(NES_VERSION) || defined(PAL_VERSION) || defined(SHOW_VERSION)
+CFILES_Z +=	\
+	z_sram_NES.c
+#else
+CFILES_Z +=	\
+	z_sram.c
+#endif	/* NES_VERSION PAL_VERSION SHOW_VERSION */
+#if defined(USE_SRAM) || defined(GATEWAY_VERSION) || defined(PAL_GATEWAY_VERSION)
+CFILES_Z += \
+        ssSRAMrdwt.c
+#endif /* defined(USE_SRAM) || defined(GATEWAY_VERSION) || defined(PAL_GATEWAY_VERSION) */
+
+CFILES_Z +=	\
+	z_message.c \
+	z_message_nes.c\
+	z_message_staff.c
+
+CFILES_SYS =	\
+	PreRender.c \
+	THA_GA.c \
+	TwoHeadArena.c \
+	audio.c \
+	audioMgr.c \
+	first_game.c \
+	game.c \
+	gamealloc.c \
+	graph.c \
+	gfxalloc.c \
+	listalloc.c \
+	main.c \
+	padmgr.c \
+	sched.c \
+	speed_meter.c \
+	su.c \
+	sys_cfb.c \
+	sys_cmpdma.c
+
+#if !defined(GC64EMU_VERSION)
+CFILES_SYS +=	\
+	sys_initial_check.c
+#endif
+
+CFILES_SYS +=	\
+	sys_lib.c \
+	sys_math.c \
+	sys_math3d.c \
+	sys_math_atan.c \
+	sys_matrix.c \
+	sys_ucode.c \
+	sys_vibctl2.c \
+	sys_freeze.c \
+	c_keyframe.c \
+	sys_slowly.c
+
+#ifdef VOICE_TEST
+CFILES_SYS += sys_voice.c sys_voice2.c
+#endif
+#ifdef USE_FLASHROM
+CFILES_SYS += sys_flashrom.c
+#endif
+CFILES_SYS +=	zurumode.c
+
+CFILES_BOOT +=	irqmgr.c
+
+#ifdef USE_DEBUG_MALLOC
+CFILES_SYS +=	debug_malloc.c
+#endif
+
+#ifdef USE_CIC6105
+CFILES_BOOT +=	CIC6105.c
+#endif
+#ifndef FINAL_ROM
+### fault_HungUpMsgに対応したバージョンのassert
+CFILES_BOOT +=	sys_assert.c
+#endif /* FINAL_ROM */
+#ifdef ROM_ROM
+CFILES_BOOT += fakeprintf.c
+#else
+#ifdef ISVIEWER
+CFILES_BOOT += is_debug.c
+#endif /* ISVIEWER */
+#endif /* ROM_ROM */
+
+
+CFILES_Z += z_player_call.c
+CFILES_Z += z_shrink_window.c
+
+CFILES_Z += demo_camera_play.c 
+#ifdef DEBUG_CAMERA
+#### CFILES_Z +=	db_camera.c
+CFILES_Z += demo_camera.c z_kankyo_debug.c
+#endif
+#ifdef LEOFILEOUT
+CFILES_Z += demo_camera_file.c
+#endif
+
+CFILES_Z +=	z_kaleido_manager.c z_kaleido_scope_call.c
+
+#ifdef (SCENE_TOOL || SCENE_TOOL2)
+CFILES_Z += z_tool_dummy.c
+#endif /* (SCENE_TOOL || SCENE_TOOL2) */
+
+
+OVLFILES = \
+	z_title.c \
+	z_opening.c
+
+CFILES_EN_OVL =  \
+	z_arms_hook.c \
+	z_arrow_fire.c \
+	z_arrow_ice.c \
+	z_arrow_light.c \
+	z_bg_astr_bombwall.c \
+	z_bg_botihasira.c \
+	z_bg_breakwall.c \
+	z_bg_crace_movebg.c \
+	z_bg_ctower_gear.c \
+	z_bg_ctower_rot.c \
+	z_bg_danpei_movebg.c \
+	z_bg_dblue_balance.c \
+	z_bg_dblue_elevator.c \
+	z_bg_dblue_movebg.c \
+	z_bg_dblue_waterfall.c \
+	z_bg_dkjail_ivy.c \
+	z_bg_dy_yoseizo.c \
+	z_bg_f40_block.c \
+	z_bg_f40_flift.c \
+	z_bg_f40_switch.c \
+	z_bg_f40_swlift.c \
+	z_bg_fire_wall.c \
+	z_bg_fu_kaiten.c \
+	z_bg_fu_mizu.c \
+	z_bg_goron_oyu.c \
+	z_bg_haka_bombwall.c \
+	z_bg_haka_curtain.c \
+	z_bg_haka_tomb.c \
+	z_bg_hakugin_bombwall.c \
+	z_bg_hakugin_elvpole.c \
+	z_bg_hakugin_post.c \
+	z_bg_hakugin_switch.c \
+	z_bg_icefloe.c \
+	z_bg_icicle.c \
+	z_bg_ikana_block.c \
+	z_bg_ikana_bombwall.c \
+	z_bg_ikana_dharma.c \
+	z_bg_ikana_mirror.c \
+	z_bg_ikana_ray.c \
+	z_bg_ikana_rotaryroom.c \
+	z_bg_ikana_shutter.c \
+	z_bg_iknin_susceil.c \
+	z_bg_ikninside.c \
+	z_bg_iknv_doukutu.c \
+	z_bg_iknv_obj.c \
+	z_bg_ingate.c \
+	z_bg_inibs_movebg.c \
+	z_bg_keikoku_saku.c \
+	z_bg_keikoku_spr.c \
+	z_bg_kin2_bombwall.c \
+	z_bg_kin2_fence.c \
+	z_bg_kin2_picture.c \
+	z_bg_kin2_shelf.c \
+	z_bg_ladder.c \
+	z_bg_last_bwall.c \
+	z_bg_lbfshot.c \
+	z_bg_lotus.c \
+	z_bg_market_step.c \
+	z_bg_mbar_chair.c \
+	z_bg_numa_hana.c \
+	z_bg_open_shutter.c \
+	z_bg_open_spot.c \
+	z_bg_sinkai_kabe.c \
+	z_bg_spdweb.c \
+	z_bg_spout_fire.c \
+	z_bg_tobira01.c \
+	z_bg_umajump.c \
+	z_boss_01.c \
+	z_boss_02.c \
+	z_boss_03.c \
+	z_boss_04.c \
+	z_boss_05.c \
+	z_boss_06.c \
+	z_boss_07.c \
+	z_boss_hakugin.c \
+	z_demo_effect.c \
+	z_demo_getitem.c \
+	z_demo_kankyo.c \
+	z_demo_moonend.c \
+	z_demo_shd.c \
+	z_demo_syoten.c \
+	z_demo_tre_lgt.c \
+	z_dm_al.c \
+	z_dm_ah.c \
+	z_dm_an.c \
+	z_dm_bal.c \
+	z_dm_gm.c \
+	z_dm_nb.c \
+	z_dm_tag.c \
+	z_dm_char00.c \
+	z_dm_char01.c \
+	z_dm_char02.c \
+	z_dm_char03.c \
+	z_dm_char04.c \
+	z_dm_char05.c \
+	z_dm_char06.c \
+	z_dm_char07.c \
+	z_dm_char08.c \
+	z_dm_char09.c \
+	z_dm_hina.c \
+	z_dm_opstage.c \
+	z_dm_ravine.c \
+	z_dm_sa.c \
+	z_dm_statue.c \
+	z_dm_stk.c \
+	z_dm_tsg.c \
+	z_dm_zl.c \
+	z_door_ana.c \
+	z_door_shutter.c \
+	z_door_spiral.c \
+	z_door_warp1.c \
+	z_eff_dust.c \
+	z_eff_change.c \
+	z_eff_kamejima_wave.c \
+	z_eff_lastday.c \
+	z_eff_stk.c \
+	z_eff_zoraband.c \
+	z_elf_msg.c \
+	z_elf_msg2.c \
+	z_elf_msg3.c \
+	z_elf_msg4.c \
+	z_elf_msg5.c \
+	z_elf_msg6.c \
+	z_en_ah.c \
+	z_en_akindonuts.c \
+	z_en_al.c \
+	z_en_an.c \
+	z_en_and.c \
+	z_en_am.c \
+	z_en_az.c \
+	z_en_ani.c \
+	z_en_aob_01.c \
+	z_en_arrow.c \
+	z_en_attack_niw.c \
+	z_en_baba.c \
+	z_en_baguo.c \
+	z_en_baisen.c \
+	z_en_bal.c \
+	z_en_bat.c \
+	z_en_bb.c \
+	z_en_bbfall.c \
+	z_en_bba_01.c \
+	z_en_bee.c \
+	z_en_bh.c \
+	z_en_bigokuta.c \
+	z_en_bigpamet.c \
+	z_en_bigpo.c \
+	z_en_bigslime.c \
+	z_en_bji_01.c \
+	z_en_bjt.c \
+	z_en_boj_01.c \
+	z_en_boj_02.c \
+	z_en_boj_03.c \
+	z_en_boj_04.c \
+	z_en_boj_05.c \
+	z_en_bom.c \
+	z_en_bom_bowl_man.c \
+	z_en_bom_chu.c \
+	z_en_bomjima.c \
+	z_en_bomjimb.c \
+	z_en_bombers.c \
+	z_en_bombers2.c \
+	z_en_bombal.c \
+	z_en_bombf.c \
+	z_en_boom.c \
+	z_en_box.c \
+	z_en_bsb.c \
+	z_en_bu.c \
+	z_en_bubble.c \
+	z_en_cha.c \
+	z_en_choo.c \
+	z_en_clear_tag.c \
+	z_en_cne_01.c \
+	z_en_cow.c \
+	z_en_col_man.c \
+	z_en_crow.c \
+	z_en_dai.c \
+	z_en_daiku.c \
+	z_en_daiku2.c \
+	z_en_death.c \
+	z_en_dekubaba.c \
+	z_en_dekunuts.c \
+	z_en_dg.c \
+	z_en_dinofos.c \
+	z_en_demo_heishi.c \
+	z_en_dnb.c \
+	z_en_dnh.c \
+	z_en_dnk.c \
+	z_en_dno.c \
+	z_en_dnp.c \
+	z_en_dnq.c \
+	z_en_dns.c \
+	z_en_dodongo.c \
+	z_en_door.c \
+	z_en_door_etc.c \
+	z_en_dragon.c \
+	z_en_drs.c \
+	z_en_ds2n.c \
+	z_en_dt.c \
+	z_en_dy_extra.c \
+	z_en_egblock.c \
+	z_en_egol.c \
+	z_en_ending_hero.c \
+	z_en_ending_hero2.c \
+	z_en_ending_hero3.c \
+	z_en_ending_hero4.c \
+	z_en_ending_hero5.c \
+	z_en_ending_hero6.c \
+	z_en_estone.c \
+	z_en_elf.c \
+	z_en_elfbub.c \
+	z_en_elforg.c \
+	z_en_elfgrp.c \
+	z_en_encount1.c \
+	z_en_encount2.c \
+	z_en_encount3.c \
+	z_en_encount4.c \
+	z_en_fall.c \
+	z_en_fall2.c \
+	z_en_famos.c \
+	z_en_fg.c \
+	z_en_fire_rock.c \
+	z_en_firefly.c \
+	z_en_firefly2.c \
+	z_en_fish2.c \
+	z_en_floormas.c \
+	z_en_fr.c \
+	z_en_fsn.c \
+	z_en_fu.c \
+	z_en_fu_kago.c \
+	z_en_fu_mato.c \
+	z_en_fz.c \
+	z_en_gamelupy.c \
+	z_en_gakufu.c \
+	z_en_gb2.c \
+	z_en_ge1.c \
+	z_en_ge2.c \
+	z_en_ge3.c \
+	z_en_geg.c \
+	z_en_gg.c \
+	z_en_gg2.c \
+	z_en_gk.c \
+	z_en_giant.c \
+	z_en_girlA.c \
+	z_en_girlB.c \
+	z_en_gm.c \
+	z_en_ginko_man.c \
+	z_en_go.c \
+	z_en_gr.c \
+	z_en_grasshopper.c \
+	z_en_gs.c \
+	z_en_guard_nuts.c \
+	z_en_guruguru.c \
+	z_en_hakurock.c \
+	z_en_hanabi.c \
+	z_en_hata.c \
+	z_en_heishi.c \
+	z_en_hg.c \
+	z_en_hgo.c \
+	z_en_hidden_nuts.c \
+	z_en_hint_skb.c \
+	z_en_hit_tag.c \
+	z_en_holl.c \
+	z_en_honotrap.c \
+	z_en_horse.c \
+	z_en_horse_game_check.c \
+	z_en_horse_link_child.c \
+	z_en_hs.c \
+	z_en_hs2.c \
+	z_en_ig.c \
+	z_en_ik.c \
+	z_en_in.c \
+	z_en_invadepoh.c \
+	z_en_invadepoh_demo.c \
+	z_en_invisible_ruppe.c \
+	z_en_ishi.c \
+	z_en_ja.c \
+	z_en_jc_mato.c \
+	z_en_jg.c \
+	z_en_jgame_tsn.c \
+	z_en_js.c \
+	z_en_jso.c \
+	z_en_jso2.c \
+	z_en_kakasi.c \
+	z_en_kaizoku.c \
+	z_en_kame.c \
+	z_en_kanban.c \
+	z_en_karebaba.c \
+	z_en_kbt.c \
+	z_en_kendo_js.c \
+	z_en_kitan.c \
+	z_en_kgy.c \
+	z_en_knight.c \
+	z_en_kujiya.c \
+	z_en_kusa.c \
+	z_en_kusa2.c \
+	z_en_lift_nuts.c \
+	z_en_light.c \
+	z_en_look_nuts.c \
+	z_en_m_fire1.c \
+	z_en_m_thunder.c \
+	z_en_ma4.c \
+	z_en_ma_yts.c \
+	z_en_ma_yto.c \
+	z_en_mag.c \
+	z_en_maruta.c \
+	z_en_minideath.c \
+	z_en_minifrog.c \
+	z_en_minislime.c \
+	z_en_mk.c \
+	z_en_mkk.c \
+	z_en_mm.c \
+	z_en_mm2.c \
+	z_en_mm3.c \
+	z_en_mnk.c \
+	z_en_ms.c \
+	z_en_mt_tag.c \
+	z_en_mushi.c \
+	z_en_mushi2.c \
+	z_en_muto.c \
+	z_en_neo_reeba.c \
+	z_en_nimotsu.c \
+	z_en_niw.c \
+	z_en_nnh.c \
+	z_en_nutsball.c \
+	z_en_nwc.c \
+	z_en_oB1.c \
+	z_en_nb.c \
+	z_en_okarina_effect.c \
+	z_en_okarina_tag.c \
+	z_en_okuta.c \
+	z_en_onpuman.c \
+	z_en_osn.c \
+	z_en_osk.c \
+	z_en_ot.c \
+	z_en_owl.c \
+	z_en_pamera.c \
+	z_en_pametfrog.c \
+	z_en_paper.c \
+	z_en_part.c \
+	z_en_peehat.c \
+	z_en_pm.c \
+	z_en_poh.c \
+	z_en_po_composer.c \
+	z_en_po_fusen.c \
+	z_en_po_sisters.c \
+	z_en_pp.c \
+	z_en_pr.c \
+	z_en_prz.c \
+	z_en_pr2.c \
+	z_en_pst.c \
+	z_en_racedog.c \
+	z_en_raf.c \
+	z_en_rail_skb.c \
+	z_en_railgibud.c \
+	z_en_rat.c \
+	z_en_recepgirl.c \
+	z_en_rg.c \
+	z_en_rd.c \
+	z_en_river_sound.c \
+	z_en_rr.c \
+	z_en_rsn.c \
+	z_en_ru.c \
+	z_en_ruppecrow.c \
+	z_en_rz.c \
+	z_en_sakana.c \
+	z_en_sb.c\
+	z_en_scopecoin.c \
+	z_en_scopecrow.c \
+	z_en_scopenuts.c \
+	z_en_sc_ruppe.c \
+	z_en_sda.c \
+	z_en_sekihi.c \
+	z_en_sellnuts.c \
+	z_en_shn.c \
+	z_en_si.c \
+	z_en_skb.c \
+	z_en_slime.c \
+	z_en_snowman.c \
+	z_en_snowwd.c \
+	z_en_soB1.c \
+	z_en_ssh.c \
+	z_en_st.c \
+	z_en_sth.c \
+	z_en_sth2.c \
+	z_en_stop_heishi.c \
+	z_en_stone_heishi.c \
+	z_en_stream.c \
+	z_en_suttari.c \
+	z_en_sw.c \
+	z_en_syateki_crow.c \
+	z_en_syateki_dekunuts.c \
+	z_en_syateki_man.c \
+	z_en_syateki_okuta.c \
+	z_en_syateki_wf.c \
+	z_en_s_goro.c \
+	z_en_tab.c \
+	z_en_tag_obj.c \
+	z_en_takaraya.c \
+	z_en_talk.c \
+	z_en_talk_gibud.c \
+	z_en_tanron1.c \
+	z_en_tanron2.c \
+	z_en_tanron3.c \
+	z_en_tanron4.c \
+	z_en_tanron5.c \
+	z_en_tanron6.c \
+	z_en_test.c \
+	z_en_test2.c \
+	z_en_test3.c \
+	z_en_test4.c \
+	z_en_test5.c \
+	z_en_test6.c \
+	z_en_test7.c \
+	z_en_tg.c \
+	z_en_thiefbird.c \
+	z_en_time_tag.c \
+	z_en_tite.c \
+	z_en_tk.c \
+	z_en_torch.c \
+	z_en_torch2.c \
+	z_en_toto.c \
+	z_en_tru.c \
+	z_en_tru_mt.c \
+	z_en_trt.c \
+	z_en_trt2.c \
+	z_en_tsn.c \
+	z_en_tubo_trap.c \
+	z_en_twig.c \
+	z_en_viewer.c \
+	z_en_vm.c \
+	z_en_wallmas.c \
+	z_en_warp_tag.c \
+	z_en_warp_uzu.c \
+	z_en_water_effect.c \
+	z_en_wdhand.c \
+	z_en_weather_tag.c \
+	z_en_wf.c \
+	z_en_wiz.c \
+	z_en_wiz_brock.c \
+	z_en_wiz_fire.c \
+	z_en_wood02.c\
+	z_en_yb.c \
+	z_en_zl4.c \
+	z_en_zo.c \
+	z_en_zob.c \
+	z_en_zod.c \
+	z_en_zog.c \
+	z_en_zos.c \
+	z_en_zot.c \
+	z_en_zov.c \
+	z_en_zow.c \
+	z_en_zoraegg.c \
+	z_tg_sw.c \
+	z_item_b_heart.c \
+	z_item_etcetera.c \
+	z_item_inbox.c \
+	z_mir_ray.c \
+	z_mir_ray2.c \
+	z_mir_ray3.c \
+	z_obj_aqua.c \
+	z_obj_armos.c \
+	z_obj_bean.c \
+	z_obj_bell.c \
+	z_obj_bigicicle.c \
+	z_obj_blockstop.c \
+	z_obj_bombiwa.c \
+	z_obj_boyo.c \
+	z_obj_chan.c \
+	z_obj_chikuwa.c \
+	z_obj_comb.c \
+	z_obj_danpeilift.c \
+	z_obj_demo.c \
+	z_obj_dhouse.c \
+	z_obj_dinner.c \
+	z_obj_dora.c \
+	z_obj_dowsing.c \
+	z_obj_driftice.c \
+	z_obj_ending.c \
+	z_obj_entotu.c \
+	z_obj_etcetera.c \
+	z_obj_fireshield.c \
+	z_obj_flowerpot.c \
+	z_obj_funen.c \
+	z_obj_ghaka.c \
+	z_obj_grass.c \
+	z_obj_grass_carry.c \
+	z_obj_grass_unit.c \
+	z_obj_hakaisi.c \
+	z_obj_hariko.c \
+	z_obj_hamishi.c \
+	z_obj_hana.c \
+	z_obj_hgdoor.c \
+	z_obj_hsblock.c \
+	z_obj_hsstump.c \
+	z_obj_hugebombiwa.c \
+	z_obj_ice_poly.c \
+	z_obj_iceblock.c \
+	z_obj_jg_gakki.c \
+	z_obj_jgame_light.c \
+	z_obj_kendo_kanban.c \
+	z_obj_kepn_koya.c \
+	z_obj_kibako.c \
+	z_obj_kibako2.c \
+	z_obj_kinoko.c \
+	z_obj_kzsaku.c \
+	z_obj_lift.c \
+	z_obj_lightblock.c \
+	z_obj_lightswitch.c \
+	z_obj_lupygamelift.c \
+	z_obj_makekinsuta.c \
+	z_obj_makeoshihiki.c \
+	z_obj_milk_bin.c \
+	z_obj_mine.c \
+	z_obj_moon_stone.c \
+	z_obj_mu_pict.c \
+	z_obj_mure.c \
+	z_obj_mure2.c \
+	z_obj_mure3.c \
+	z_obj_nozoki.c \
+	z_obj_ocarinalift.c \
+	z_obj_oshihiki.c \
+	z_obj_purify.c \
+	z_obj_pzlblock.c \
+	z_obj_raillift.c \
+	z_obj_roomtimer.c \
+	z_obj_rotlift.c \
+	z_obj_shutter.c \
+	z_obj_skateblock.c \
+	z_obj_smork.c \
+	z_obj_snowball.c \
+	z_obj_snowball2.c \
+	z_obj_sound.c \
+	z_obj_spidertent.c \
+	z_obj_spinyroll.c \
+	z_obj_switch.c \
+	z_obj_swprize.c \
+	z_obj_syokudai.c \
+	z_obj_takaraya_wall.c \
+	z_obj_toge.c \
+	z_obj_tokei_step.c \
+	z_obj_tokei_tobira.c \
+	z_obj_tokei_turret.c \
+	z_obj_tokeidai.c \
+	z_obj_toudai.c \
+	z_obj_tree.c \
+	z_obj_tsubo.c \
+	z_obj_um.c \
+	z_obj_usiyane.c \
+	z_obj_visiblock.c \
+	z_obj_vspinyroll.c \
+	z_obj_warpstone.c \
+	z_obj_wind.c \
+	z_obj_wturn.c \
+	z_obj_Y2lift.c \
+	z_obj_Y2shutter.c \
+	z_obj_yado.c \
+	z_obj_boat.c \
+	z_obj_taru.c \
+	z_obj_hunsui.c \
+	z_obj_yasi.c \
+	z_object_kankyo.c \
+	z_oceff_spot.c \
+	z_oceff_storm.c \
+	z_oceff_wipe.c \
+	z_oceff_wipe2.c \
+	z_oceff_wipe3.c \
+	z_oceff_wipe4.c \
+	z_oceff_wipe5.c \
+	z_oceff_wipe6.c \
+	z_oceff_wipe7.c \
+	z_shot_sun.c
+
+
+# エフェクトオーバーレイ
+OVL_EFF =   z_eff_ss_dust.c \
+	z_eff_en_fire.c \
+	z_eff_en_ice.c \
+	z_eff_en_ice_block.c \
+	z_eff_fhg_flash.c \
+	z_eff_fire_tail.c \
+	z_eff_hahen.c  \
+	z_eff_ice_piece.c \
+	z_eff_k_fire.c  \
+	z_eff_kakera.c \
+	z_eff_ss_blast.c \
+	z_eff_ss_bomb2.c \
+	z_eff_ss_bubble.c \
+	z_eff_ss_d_fire.c \
+	z_eff_ss_dead_db.c \
+	z_eff_ss_dead_dd.c \
+	z_eff_ss_dead_ds.c \
+	z_eff_ss_dt_bubble.c \
+	z_eff_ss_extra.c \
+	z_eff_ss_g_fire.c \
+	z_eff_ss_g_ripple.c \
+	z_eff_ss_g_spk.c \
+	z_eff_ss_g_splash.c \
+	z_eff_ss_hitmark.c \
+	z_eff_ss_ice_smoke.c \
+	z_eff_ss_kirakira.c \
+	z_eff_ss_lightning.c \
+	z_eff_ss_sbn.c \
+	z_eff_ss_sibuki.c \
+	z_eff_ss_solder_srch_ball.c \
+	z_eff_ss_stick.c \
+	z_eff_ss_stone1.c 
+#	z_eff_ss_g_magma2.c
+
+CFILES_EN_OVL += $(OVL_EFF)
+
+CFILES_EN_OVL += z_player.c
+
+CFILES_Z += z_fbdemo_wipe.c
+CFILES_Z += z_fbdemo.c z_fbdemo_fade.c z_fbdemo_circle.c
+OVLFILES += z_fbdemo_triforce.c z_fbdemo_wipe1.c z_fbdemo_wipe3.c z_fbdemo_wipe4.c z_fbdemo_wipe5.c
+
+CFILES_Z += z_overlay.c
+
+#if 01
+CFILES_EN += $(CFILES_EN_OVL)
+#else
+OVLFILES += $(CFILES_EN_OVL)
+#endif
+
+CFILES_Z += z_play.c
+CFILES_Z += z_play_hireso.c
+
+
+
+DAYTELOPSEGMENT = z_daytelop_segment.o
+CFILES_DAYTELOP = \
+	z_daytelop.c
+COBJECTS_DAYTELOP   =   $(CFILES_DAYTELOP:.c=.o)
+$(DAYTELOPSEGMENT) $(DAYTELOPSEGMENT:.o=.map): $(COBJECTS_DAYTELOP)
+	$(LD)  -o $(DAYTELOPSEGMENT) -r $(COBJECTS_DAYTELOP) $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(DAYTELOPSEGMENT:.o=.map)
+
+
+
+
+
+FILECHOOSESEGMENT = z_file_choose_segment.o
+#if defined(NES_VERSION) || defined(PAL_VERSION) || defined(GATEWAY_VERSION)
+CFILES_FILECHOOSE = \
+	z_file_choose_data.c \
+	z_file_copy_del.c \
+	z_file_nameset_NES.c \
+	z_file_choose_NES.c
+#else
+#if defined(SHOW_VERSION)
+CFILES_FILECHOOSE = \
+	z_file_choose_data.c \
+	z_file_copy_del.c \
+	z_file_nameset_NES.c \
+	z_file_choose_NES.c \
+	z_file_chooseE3.c
+#else
+CFILES_FILECHOOSE = \
+	z_file_choose_data.c \
+	z_file_copy_del.c \
+	z_file_nameset.c \
+	z_file_choose.c
+#endif 	/* SHOW_VERSION */
+#endif 	/* NES_VERSION PAL_VERSION GATEWAY_VERSION */
+COBJECTS_FILECHOOSE   =   $(CFILES_FILECHOOSE:.c=.o)
+$(FILECHOOSESEGMENT) $(FILECHOOSESEGMENT:.o=.map): $(COBJECTS_FILECHOOSE)
+	$(LD)  -o $(FILECHOOSESEGMENT) -r $(COBJECTS_FILECHOOSE) $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(FILECHOOSESEGMENT:.o=.map)
+
+
+VRBOXSEGMENT = z_vr_box_segment.o
+CFILES_VRBOX = \
+		z_gameover.c \
+		z_construct.c
+COBJECTS_VRBOX   = 	$(CFILES_VRBOX:.c=.o)
+$(VRBOXSEGMENT) $(VRBOXSEGMENT:.o=.map): $(COBJECTS_VRBOX)
+	$(LD)  -o $(VRBOXSEGMENT) -r $(COBJECTS_VRBOX) $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(VRBOXSEGMENT:.o=.map)
+
+
+KALEIDOSEGMENT = z_kaleido_segment.o
+#if defined(NES_VERSION) || defined(PAL_VERSION) || defined(SHOW_VERSION)
+CFILES_KALEIDO = \
+		z_kaleido_collect.c \
+		z_kaleido_debug.c \
+		z_kaleido_item.c \
+		z_kaleido_map.c \
+		z_kaleido_mask.c \
+		z_kaleido_save.c \
+		z_kaleido_scope_NES.c
+#else
+CFILES_KALEIDO = \
+		z_kaleido_collect.c \
+		z_kaleido_debug.c \
+		z_kaleido_item.c \
+		z_kaleido_map.c \
+		z_kaleido_mask.c \
+		z_kaleido_save.c \
+		z_kaleido_scope.c
+#endif
+
+COBJECTS_KALEIDO   = 	$(CFILES_KALEIDO:.c=.o)
+$(KALEIDOSEGMENT) $(KALEIDOSEGMENT:.o=.map): $(COBJECTS_KALEIDO)
+	$(LD)  -o $(KALEIDOSEGMENT) -r $(COBJECTS_KALEIDO) $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(KALEIDOSEGMENT:.o=.map)
+OVLOBJECTS   = $(OVLFILES:.c=.o) $(KALEIDOSEGMENT) $(VRBOXSEGMENT) $(FILECHOOSESEGMENT) $(DAYTELOPSEGMENT)
+
+
+SELECTSEGMENT = z_select_segment.o
+CFILES_SELECT = \
+		z_select.c 
+COBJECTS_SELECT = $(CFILES_SELECT:S/.c/.o/:S/.s/.o/)
+$(SELECTSEGMENT) $(SELECTSEGMENT:.o=.map): $(COBJECTS_SELECT)
+	$(LD)  -o $(SELECTSEGMENT) -r $(COBJECTS_SELECT) $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(SELECTSEGMENT:.o=.map)
+
+
+OVLOBJECTS   = $(OVLFILES:.c=.o) $(SELECTSEGMENT) $(KALEIDOSEGMENT) $(VRBOXSEGMENT) $(FILECHOOSESEGMENT) $(DAYTELOPSEGMENT)
+
+
+OVLRELFILES  = $(OVLOBJECTS:.o=.rel)
+
+
+
+# KSEG0空間のデータ
+CFILES_DATA = \
+	sys_dram_stack.c \
+	sys_dynamic.c \
+	sys_fifo_buffer.c \
+	sys_heap.c \
+	sys_yield_buffer.c \
+	z_std_dma_data.c
+
+# Segment空間のデータ
+CFILES_DATA += \
+	rcp_dynamic.c \
+	rcp_cfb.c \
+	rcp_zb.c \
+	z_hilite.c
+
+# UndefinedSymbolsたいさく
+CFILES_DATA += \
+	UndefinedSymbols.c
+
+CFILES_DATA += \
+	sys_cfb0l.c \
+	sys_cfb1l.c \
+	sys_work0.c
+#if !defined(GC64EMU_VERSION)
+CFILES_DATA += \
+	sys_work1.c
+#endif
+#CFILES_DATA += \
+	sys_work4.c
+CFILES_DATA += \
+	sys_cfb0h.c \
+	sys_cfb1h.c
+#	sys_zbufl.c
+#	sys_wbufl.c
+#	sys_zbufh.c
+#	sys_work2.c 
+#	sys_work3.c 
+
+CFILES =	\
+		$(CFILES_EN) \
+		$(CFILES_EFF) \
+		$(CFILES_Z) \
+		$(CFILES_SYS)
+
+# USER毎に仮のファイルを入れられるようにしてみる(TEST)
+sinclude Makefile.CFILES.local

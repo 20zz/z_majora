@@ -1,0 +1,55 @@
+head	2.1;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.2;
+locks; strict;
+comment	@# @;
+
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.09.06.06.45.06;	author soejima;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.07.17.09.15.31;	author soejima;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+shape/TEXTURE/nintendo_rogo/nintendo_rogo.o
+@

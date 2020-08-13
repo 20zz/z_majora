@@ -1,0 +1,924 @@
+head	2.14;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.31;
+locks; strict;
+comment	@# @;
+
+
+2.14
+date	2002.05.08.03.39.11;	author zelda;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	2000.02.19.00.44.35;	author hayakawa;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	2000.01.31.07.23.17;	author iwawaki;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	99.12.14.00.23.52;	author soejima;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	99.12.13.11.43.11;	author iwawaki;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	99.12.03.08.25.33;	author hayakawa;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	99.12.03.00.09.45;	author soejima;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	99.09.08.00.30.09;	author hayakawa;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.08.11.05.33.57;	author hayakawa;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.02.08.09.14.48;	author iwawaki;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.02.02.05.44.41;	author iwawaki;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.10.28.07.10.08;	author okajima;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.10.27.12.30.55;	author hayakawa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	98.10.22.12.41.42;	author hayakawa;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	98.09.02.03.06.17;	author soejima;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	98.09.02.03.05.25;	author soejima;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	98.01.20.07.55.15;	author soejima;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	98.01.16.11.19.31;	author soejima;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	98.01.16.01.25.09;	author soejima;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	97.10.13.13.10.45;	author soejima;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	97.10.08.00.36.12;	author soejima;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	97.10.08.00.35.36;	author hayakawa;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	97.10.01.09.59.09;	author soejima;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	97.07.17.09.14.25;	author soejima;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	97.07.17.07.12.16;	author soejima;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	97.07.11.11.11.49;	author soejima;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	97.06.25.09.20.55;	author soejima;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	97.06.25.08.59.45;	author iwawaki;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	97.06.25.08.56.40;	author iwawaki;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	97.05.29.09.20.26;	author soejima;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	97.05.06.10.23.38;	author iwawaki;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	97.04.18.11.19.56;	author iwawaki;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	97.04.09.11.14.04;	author soejima;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	97.03.25.13.20.09;	author hayakawa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.03.19.14.09.05;	author hayakawa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.03.19.08.24.41;	author hayakawa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.03.07.09.03.24;	author iwawaki;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.02.12.08.03.46;	author iwawaki;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.02.05.10.29.32;	author iwawaki;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.01.14.03.01.05;	author iwawaki;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.01.10.07.13.27;	author hayakawa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.12.17.08.54.38;	author iwawaki;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.12.17.08.51.41;	author iwawaki;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.12.17.08.49.21;	author iwawaki;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.14
+log
+@keep_PAL$B$OB8:_$7$J$$$N$G%3%a%s%H2=(B
+@
+text
+@#!/bin/sh
+set -x
+#
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+#
+keep
+#keep_PAL
+scene_txt_make
+obj_make
+#scene_make -f
+scene_make $1
+dma_make
+mes_make
+pal_dma_make
+#dd_dma_make
+@
+
+
+2.13
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d7 1
+a7 1
+keep_PAL
+@
+
+
+2.12
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d15 1
+a15 1
+dd_dma_make
+@
+
+
+2.11
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d8 1
+a8 2
+f_keep
+d_keep
+@
+
+
+2.10
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d14 1
+a14 1
+#mes_make
+@
+
+
+2.9
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d14 1
+a14 1
+mes_make
+@
+
+
+2.8
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 2
+a12 1
+scene_make -f
+@
+
+
+2.7
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d13 1
+@
+
+
+2.6
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 1
+a11 2
+scene_make_bash
+#scene_make2
+@
+
+
+2.5
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 2
+a12 2
+#scene_make_bash
+scene_make2
+@
+
+
+2.4
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 1
+a11 1
+scene_make_bash
+@
+
+
+2.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d12 1
+@
+
+
+2.2
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d7 1
+@
+
+
+2.1
+log
+@£Ò£Ï£Í½Ð¤·¥Ð¡¼¥¸¥ç¥ó(NTSC)
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a5 1
+###parameter
+a8 2
+###title
+###nintendo_rogo
+a9 1
+#scene_make
+d12 1
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d16 1
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d15 1
+a15 1
+#####dma_make
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d15 1
+a15 1
+dma_make
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 1
+a6 1
+parameter
+d10 2
+a11 2
+title
+nintendo_rogo
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d10 1
+a10 1
+####title
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d10 1
+a10 1
+title
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a11 1
+message
+a15 1
+map_make
+@
+
+
+1.23
+log
+@scene_make_bash
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d17 1
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d14 2
+a15 1
+scene_make
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d12 1
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 1
+a11 1
+opening
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d11 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 1
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a5 1
+opening
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 1
+d13 1
+@
+
+
+1.15
+log
+@openingºï½ü
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a8 2
+obj1
+link_anime
+d10 2
+a11 38
+map_000
+map_001
+map_002
+map_003
+map_004
+map_004_1
+map_004_2
+map_004_3
+map_004_4
+map_004_5
+map_004_6
+map_004_7
+map_004_8
+map_004_9
+map_004_10
+map_004_11
+map_005
+map_006
+map_007
+map_007_1
+map_007_2
+map_007_3
+map_007_4
+map_007_5
+map_007_6
+map_007_7
+map_007_8
+map_007_9
+map_007_10
+map_008
+map_009
+map_010
+map_011
+map_012
+map_013
+map_014
+map_015
+map_016
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a11 1
+opening
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d10 1
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 4
+a9 1
+play
+@
+
+
+1.11
+log
+@¥Þ¥Ã¥×ÄÉ²Ã
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d8 1
+@
+
+
+1.10
+log
+@map_014
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d44 2
+@
+
+
+1.9
+log
+@map_011
+map_012
+map_013
+¤ÎÄÉ²Ã
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d43 1
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d40 3
+a42 2
+
+
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d38 1
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 1
+@
+
+
+1.4
+log
+@map_006¤ÎÄÉ²Ã
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d13 11
+a23 1
+map_0042
+d26 11
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d15 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d2 1
+d4 1
+a4 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 9
+a14 26
+echo play
+     play
+
+echo title
+     title
+
+echo map_000
+     map_000
+
+echo map_001
+     map_001
+
+echo map_002
+     map_002
+
+echo map_003
+     map_003
+
+echo map_004
+     map_004
+
+echo map_0042
+     map_0042
+
+echo map_005
+     map_005
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a1 1
+set -x
+d3 1
+a3 1
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d5 27
+a31 1
+ld -r -o map_005.o -objectlist map_005.objs
+@

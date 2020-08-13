@@ -1,0 +1,1 @@
+version.o: ../version.h ../rom_f/version_data.h #:cfe

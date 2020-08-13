@@ -1,0 +1,52 @@
+/********************************************************************************
+	makerel.h: NINTENDO64 Relocation table creator header file
+
+	September 18, 1986
+ ********************************************************************************/
+
+#ifndef MAKEREL_H
+#define	MAKEREL_H
+
+
+/* boolean */
+#define	FALSE	0
+#define	TRUE	1
+
+extern char verbose;
+extern char showhelp;
+
+
+#define	Alignment(addr,align)	(((uint)(addr) + ((align)-1)) & ~((align)-1))
+
+extern int
+CreateRelocationTable(char *filename, ulong *relocTableData, ulong *relocTableSize);
+
+extern int
+WriteELFFile(char *filename, char *data, int nbytes);
+
+#define ELF_BSS		".bss"
+#define ELF_COMMENT	".comment"
+#define ELF_DATA	".data"
+#define ELF_DEBUG	".debug"
+#define ELF_DYNAMIC	".dynamic"
+#define ELF_DYNSTR	".dynstr"
+#define ELF_DYNSYM	".dynsym"
+#define ELF_MSYM	".msym"
+#define ELF_FINI	".fini"
+#define ELF_GOT		".got"
+#define ELF_HASH	".hash"
+#define ELF_INIT	".init"
+#define ELF_REL_DATA	".rel.data"
+#define ELF_REL_FINI	".rel.fini"
+#define ELF_REL_INIT	".rel.init"
+#define ELF_REL_DYN	".rel.dyn"
+#define ELF_REL_RODATA	".rel.rodata"
+#define ELF_REL_TEXT	".rel.text"
+#define ELF_RODATA	".rodata"
+#define ELF_SHSTRTAB	".shstrtab"
+#define ELF_STRTAB	".strtab"
+#define ELF_SYMTAB	".symtab"
+#define ELF_TEXT	".text"
+
+
+#endif

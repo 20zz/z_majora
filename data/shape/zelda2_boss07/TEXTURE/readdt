@@ -1,0 +1,16 @@
+echo rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_5 v2_z2_bn_5.inta
+     rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_5 v2_z2_bn_5.inta
+
+echo rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_6 v2_z2_bn_6.inta
+     rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_6 v2_z2_bn_6.inta
+
+echo rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_7 v2_z2_bn_7.inta
+     rcp hamagut@ot52:~/Desktop/zelda2/nes/bn/v2_z2_bn_nes_7 v2_z2_bn_7.inta
+
+echo u64txt IA 8
+     u64txt IA 8
+
+echo rm *.o *.oo *.map *~
+     rm *.o *.oo *.map *~
+
+

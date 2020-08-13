@@ -1,0 +1,23 @@
+#! /usr/bin/csh -fx
+
+rcp imamura@idg7:SRD/ZELDA/iceb_run.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_kihon.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_down.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_up.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_dm01.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_dm02.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_demo.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_koke.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_kihon_mdl.c .
+rcp imamura@idg7:SRD/ZELDA/iceb_kihon_mdl.h .
+
+rcp imamura@idg7:SRD/ZELDA/iceb_kihon.mdl Nin/iceb_all.mdl
+rcp imamura@idg7:SRD/ZELDA/iceb_kihon.str Nin/iceb_all.str
+
+rcp imamura@idg7:SRD/ZELDA/rock01.mdl Eff/.
+
+cp /auto/ot52/usr/people/hamagut/Desktop/zelda2/bn/v2_z2_bn_4 TEXTURE/.
+
+cd Nin
+
+cnvmdl iceb_all

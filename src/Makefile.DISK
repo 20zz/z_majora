@@ -1,0 +1,135 @@
+#
+# $Id: Makefile.DISK,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+#
+# DISK用Makefile  
+# Makefile から include して使用します
+#
+# マスターデータ書き込み:make master
+# マスターデータ書き込み(アメリカ版):make master FOR_USA
+# エミュレーション用ファイル作成:make isvfile
+#
+# $Log: Makefile.DISK,v $
+# Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+# Majora's Mask tree from Nintendo
+#
+# Revision 2.1  1998-10-22 20:41:56+09  zelda
+# ＲＯＭ出しバージョン(NTSC)
+#
+# Revision 1.16  1998/10/12 02:56:15  hayakawa
+# *** empty log message ***
+#
+# Revision 1.15  1998-10-12 11:55:16+09  zelda
+# *** empty log message ***
+#
+# Revision 1.14  1998-10-10 17:15:09+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.13  1998-10-10 11:04:41+09  zelda
+# *** empty log message ***
+#
+# Revision 1.12  1998-10-10 11:02:13+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.11  1998-10-09 23:17:02+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.10  1998-10-08 22:48:17+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.9  1998-10-07 19:11:07+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.8  1998-10-07 18:46:19+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.7  1998-10-03 23:00:53+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.6  1998-10-02 21:18:28+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.5  1998-09-30 22:39:33+09  hayakawa
+# ddcacheをディスク側に移動
+#
+# Revision 1.4  1998-09-26 22:51:10+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.3  1998-09-25 23:15:29+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.2  1998-09-22 22:06:08+09  hayakawa
+# *** empty log message ***
+#
+# Revision 1.1  1998-09-22 09:52:36+09  hayakawa
+# Initial revision
+#
+
+CFILES_DISK = \
+z_disk_buffers.c \
+z_disk_debug.c \
+z_disk_demo.c \
+z_disk_function.c \
+z_disk_kaleido_scope.c \
+z_disk_lmap_mark.c \
+z_disk_lmap_mark_data.c \
+z_disk_map_exp.c \
+z_disk_map_exp_data.c \
+z_disk_map_mark.c \
+z_disk_map_mark_data.c \
+z_disk_message.c \
+z_disk_omake.c \
+z_disk_scene_table.c
+
+CFILES_DISK += sys_ddcache.c
+
+#ifdef (SCENE_TOOL || SCENE_TOOL2)
+CFILES_DISK += z_tool_dummy.c
+#endif /* (SCENE_TOOL || SCENE_TOOL2) */
+
+
+DISKSEGMENT = disksegment.o
+COBJECTS_DISK = $(CFILES_DISK:.c=.o)
+
+DISKOBJECTS = disk_boot.o disk_info.o
+MAKEROM_DISKOBJECTS = $(DISKOBJECTS) $(DISKSEGMENT) $(ZELDA_DATA)/*.o
+
+
+$(DISKSEGMENT) $(DISKSEGMENT:.o=.map): $(COBJECTS_DISK) parameters.o
+	$(LD)  -o $(DISKSEGMENT) -r $(COBJECTS_DISK) parameters.o $(LDFLAGS_WIDHOUT_LDLIBS) $(LDMAPOPT) > $(DISKSEGMENT:.o=.map)
+parameters.o:/usr/lib/libultra_rom.a
+	ar xv /usr/lib/libultra_rom.a parameters.o
+
+N64DD_ROM_INFO =    zelda_disk_makerom.stdout
+N64DD_DISK_INFO =    zelda_disk_makedisk.stdout
+N64DD_ROM_SPECFILE = n64dd_rom.spec
+N64DD_DISK_SPECFILE = n64dd_disk.spec
+n64dd.rom: $(MAKEROM_DISKOBJECTS) $(N64DD_ROM_SPECFILE)
+	make_version.sh $(MAKEOPTION) > version_data.h
+	$(CC) $(CFLAGS) -c version.c
+	(LANG=C ZELDA_DATA=${ZELDA_DATA} time $(ROOT)/usr/sbin/makerom $(MAKEROMOPT) $(MAKEOPT) -d -r n64dd.rom $(N64DD_ROM_SPECFILE) > $(N64DD_ROM_INFO))
+	-(nm zelda_n64dd_rom | sort | tee zelda_n64dd_rom.nm1 | egrep "^8" > zelda_n64dd_rom.nm)&
+gwrite:disk_boot.o n64dd.rom $(N64DD_DISK_SPECFILE)
+	(LANG=C ZELDA_DATA=${ZELDA_DATA} time $(ROOT)/usr/sbin/makedisk $(MAKEROMOPT) $(MAKEOPT) -d -r n64dd.disk $(N64DD_DISK_SPECFILE) > $(N64DD_DISK_INFO))
+m:
+	$(CC) -E $(LCDEFS) $(N64DD_DISK_SPECFILE) | sed 's/#.*$$//' > $(N64DD_DISK_SPECFILE).m2
+
+# エミュレーション用ファイル作成
+isvfile:gwrite
+	isvwrite.pl gwrite > iwrite
+	. iwrite
+
+# マスターディスク作成
+master:n64mdisk.cfg gwrite
+#if defined(FOR_USA)
+	n64mdisk n64mdisk_usa.cfg
+#else
+	n64mdisk n64mdisk.cfg
+#endif
+	isvwrite.pl mwrite > ddwrite
+	. ddwrite
+	isvid -v mwrite.id
+	calcncc master.d64
+	-/etc/killall nload
+	@date
+	isvwrite -c 0x6105 -V -C
+	@date

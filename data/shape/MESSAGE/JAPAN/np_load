@@ -1,0 +1,3 @@
+rcp zelda@srd44:/tmp_mnt/hosts/srd61/disk4/project/ZELDA2/data/shape/MESSAGE/japan/nes_exl_000.xls .
+rcp zelda@srd44:/tmp_mnt/hosts/srd61/disk4/project/ZELDA2/data/shape/MESSAGE/japan/nes_exl_000.xla .
+rcp zelda@srd44:/tmp_mnt/hosts/srd61/disk4/project/ZELDA2/data/shape/MESSAGE/japan/Message_Input.xla .

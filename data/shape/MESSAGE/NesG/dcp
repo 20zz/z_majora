@@ -1,0 +1,5 @@
+cp /home/soejima/c/Excel_USA/message_define.h .
+cp /home/soejima/c/Excel_NesG/nesG_extern.h .
+cp /home/soejima/c/Excel_NesG/nesG_table.h .
+cp /home/soejima/c/Excel_NesG/nesG_message_data.c .
+u64cc

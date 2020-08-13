@@ -1,0 +1,77 @@
+/* kusa_mdl.c */
+#include"z_skin_gfx.h"
+#include"kusa_mdl.h"
+#include"kusa_gfx_mesh.h"
+
+/* Model Num 10 */
+
+static Rigid_Model_NORMAL chn1_rigid_mdl = {
+53, -56, 0,1, MAX_SKIN_MDL_NUM, 
+NULL, 
+};
+
+static Rigid_Model_NORMAL jnt1_1_rigid_mdl = {
+0, 0, 0,2, MAX_SKIN_MDL_NUM, 
+NULL, 
+};
+
+static Rigid_Model_NORMAL cube2_rigid_mdl = {
+0, 0, 0,MAX_SKIN_MDL_NUM, 3, 
+cube2_model, 
+};
+
+static Rigid_Model_NORMAL cube3_rigid_mdl = {
+4055, 0, 0,4, MAX_SKIN_MDL_NUM, 
+cube3_model, 
+};
+
+static Rigid_Model_NORMAL jnt1_3_rigid_mdl = {
+4161, 0, 0,5, MAX_SKIN_MDL_NUM, 
+NULL, 
+};
+
+static Rigid_Model_NORMAL cube4_rigid_mdl = {
+0, 0, 0,MAX_SKIN_MDL_NUM, 6, 
+cube4_model, 
+};
+
+static Rigid_Model_NORMAL cube5_rigid_mdl = {
+4090, 0, 0,7, MAX_SKIN_MDL_NUM, 
+cube5_model, 
+};
+
+static Rigid_Model_NORMAL jnt1_5_rigid_mdl = {
+4055, 0, 0,8, MAX_SKIN_MDL_NUM, 
+NULL, 
+};
+
+static Rigid_Model_NORMAL cube6_rigid_mdl = {
+0, 0, 0,MAX_SKIN_MDL_NUM, 9, 
+cube6_model, 
+};
+
+static Rigid_Model_NORMAL cube7_rigid_mdl = {
+4125, 0, 0,MAX_SKIN_MDL_NUM, MAX_SKIN_MDL_NUM, 
+cube7_model, 
+};
+
+/* モデルテーブル */
+/* Rigid ModelPointer は void* */
+extern Rigid_ModelPointer kusa_mdl_tbl[] = {
+(Rigid_ModelPointer)(&chn1_rigid_mdl), /* index: 0 */
+(Rigid_ModelPointer)(&jnt1_1_rigid_mdl), /* index: 1 */
+(Rigid_ModelPointer)(&cube2_rigid_mdl), /* index: 2 */
+(Rigid_ModelPointer)(&cube3_rigid_mdl), /* index: 3 */
+(Rigid_ModelPointer)(&jnt1_3_rigid_mdl), /* index: 4 */
+(Rigid_ModelPointer)(&cube4_rigid_mdl), /* index: 5 */
+(Rigid_ModelPointer)(&cube5_rigid_mdl), /* index: 6 */
+(Rigid_ModelPointer)(&jnt1_5_rigid_mdl), /* index: 7 */
+(Rigid_ModelPointer)(&cube6_rigid_mdl), /* index: 8 */
+(Rigid_ModelPointer)(&cube7_rigid_mdl), /* index: 9 */
+};
+
+/* モデルテーブルへのポインターとモデル数とシェイプモデル数 */
+extern Rigid_Mdl_Info_SV kusa_mdl_info = {
+kusa_mdl_tbl, 10, 6
+};
+

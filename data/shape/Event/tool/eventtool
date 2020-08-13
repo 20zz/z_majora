@@ -1,0 +1,11 @@
+#! /usr/bin/tcsh -fvx
+#
+#
+cp week_event_reg_list week_event_reg_list.bak
+cp week_event_reg_h.h  week_event_reg_h.h.bak
+
+setenv HOST `hostname`
+setenv XENVIRONMENT /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/Ppm
+/hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/gradiv3
+
+/hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/gradiv3

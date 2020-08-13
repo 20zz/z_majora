@@ -1,0 +1,3397 @@
+head	2.56;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.84;
+locks; strict;
+comment	@# @;
+
+
+2.56
+date	2000.09.27.08.27.11;	author soejima;	state Exp;
+branches;
+next	2.55;
+
+2.55
+date	2000.09.05.10.13.28;	author soejima;	state Exp;
+branches;
+next	2.54;
+
+2.54
+date	2000.08.30.07.43.26;	author soejima;	state Exp;
+branches;
+next	2.53;
+
+2.53
+date	2000.08.11.06.52.15;	author soejima;	state Exp;
+branches;
+next	2.52;
+
+2.52
+date	2000.07.04.04.37.31;	author soejima;	state Exp;
+branches;
+next	2.51;
+
+2.51
+date	2000.06.27.08.09.14;	author soejima;	state Exp;
+branches;
+next	2.50;
+
+2.50
+date	2000.06.13.04.11.48;	author soejima;	state Exp;
+branches;
+next	2.49;
+
+2.49
+date	2000.05.30.02.14.58;	author soejima;	state Exp;
+branches;
+next	2.48;
+
+2.48
+date	2000.05.23.00.56.41;	author soejima;	state Exp;
+branches;
+next	2.47;
+
+2.47
+date	2000.04.27.08.54.24;	author soejima;	state Exp;
+branches;
+next	2.46;
+
+2.46
+date	2000.04.27.04.19.04;	author soejima;	state Exp;
+branches;
+next	2.45;
+
+2.45
+date	2000.04.26.08.25.04;	author soejima;	state Exp;
+branches;
+next	2.44;
+
+2.44
+date	2000.04.24.08.25.03;	author soejima;	state Exp;
+branches;
+next	2.43;
+
+2.43
+date	2000.04.24.07.21.32;	author hayakawa;	state Exp;
+branches;
+next	2.42;
+
+2.42
+date	2000.04.21.07.35.07;	author soejima;	state Exp;
+branches;
+next	2.41;
+
+2.41
+date	2000.04.21.06.43.04;	author soejima;	state Exp;
+branches;
+next	2.40;
+
+2.40
+date	2000.04.20.04.57.31;	author soejima;	state Exp;
+branches;
+next	2.39;
+
+2.39
+date	2000.04.19.06.22.07;	author soejima;	state Exp;
+branches;
+next	2.38;
+
+2.38
+date	2000.04.14.07.10.22;	author soejima;	state Exp;
+branches;
+next	2.37;
+
+2.37
+date	2000.03.03.10.17.12;	author soejima;	state Exp;
+branches;
+next	2.36;
+
+2.36
+date	2000.03.01.04.15.57;	author soejima;	state Exp;
+branches;
+next	2.35;
+
+2.35
+date	2000.02.21.12.58.17;	author soejima;	state Exp;
+branches;
+next	2.34;
+
+2.34
+date	2000.02.10.09.46.48;	author soejima;	state Exp;
+branches;
+next	2.33;
+
+2.33
+date	2000.02.04.07.12.35;	author hayakawa;	state Exp;
+branches;
+next	2.32;
+
+2.32
+date	2000.02.03.10.29.23;	author hayakawa;	state Exp;
+branches;
+next	2.31;
+
+2.31
+date	2000.02.03.08.06.37;	author hayakawa;	state Exp;
+branches;
+next	2.30;
+
+2.30
+date	2000.02.02.12.40.46;	author hayakawa;	state Exp;
+branches;
+next	2.29;
+
+2.29
+date	2000.02.02.09.29.20;	author hayakawa;	state Exp;
+branches;
+next	2.28;
+
+2.28
+date	99.12.02.06.41.00;	author soejima;	state Exp;
+branches;
+next	2.27;
+
+2.27
+date	99.11.19.06.21.29;	author soejima;	state Exp;
+branches;
+next	2.26;
+
+2.26
+date	99.11.17.07.55.38;	author soejima;	state Exp;
+branches;
+next	2.25;
+
+2.25
+date	99.11.09.05.24.12;	author soejima;	state Exp;
+branches;
+next	2.24;
+
+2.24
+date	99.10.27.00.14.56;	author soejima;	state Exp;
+branches;
+next	2.23;
+
+2.23
+date	99.09.02.07.35.14;	author soejima;	state Exp;
+branches;
+next	2.22;
+
+2.22
+date	99.08.31.06.48.16;	author soejima;	state Exp;
+branches;
+next	2.21;
+
+2.21
+date	99.08.31.04.40.17;	author matutani;	state Exp;
+branches;
+next	2.20;
+
+2.20
+date	99.08.10.00.14.33;	author soejima;	state Exp;
+branches;
+next	2.19;
+
+2.19
+date	99.08.04.06.49.23;	author soejima;	state Exp;
+branches;
+next	2.18;
+
+2.18
+date	99.08.02.09.20.21;	author soejima;	state Exp;
+branches;
+next	2.17;
+
+2.17
+date	99.07.30.08.45.52;	author soejima;	state Exp;
+branches;
+next	2.16;
+
+2.16
+date	99.07.28.10.31.00;	author soejima;	state Exp;
+branches;
+next	2.15;
+
+2.15
+date	99.07.22.04.38.00;	author soejima;	state Exp;
+branches;
+next	2.14;
+
+2.14
+date	99.07.16.05.16.58;	author soejima;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	99.07.15.01.22.23;	author soejima;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	99.07.14.07.55.11;	author soejima;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	99.07.13.08.03.57;	author soejima;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	99.07.07.08.42.52;	author soejima;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	99.05.26.08.13.25;	author soejima;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	99.05.26.05.22.49;	author soejima;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	99.05.13.08.57.54;	author hayakawa;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.05.12.00.11.43;	author soejima;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.03.26.08.25.13;	author matutani;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.03.22.23.58.44;	author soejima;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	99.01.07.08.26.03;	author soejima;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.11.12.04.42.47;	author soejima;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	98.10.10.08.17.07;	author hayakawa;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	98.09.11.13.30.36;	author soejima;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	98.09.02.11.32.05;	author soejima;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	98.09.01.05.43.32;	author soejima;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	98.09.01.04.19.51;	author soejima;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	98.08.29.06.51.19;	author soejima;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	98.08.29.04.41.42;	author soejima;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	98.08.19.14.01.32;	author soejima;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	98.08.18.13.50.22;	author soejima;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	98.08.18.13.40.52;	author soejima;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	98.08.03.13.50.40;	author soejima;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	98.08.03.03.28.35;	author soejima;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	98.07.31.13.11.26;	author soejima;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	98.07.24.12.55.52;	author soejima;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	98.07.24.08.24.01;	author soejima;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	98.07.24.00.17.44;	author soejima;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	98.07.23.10.11.28;	author soejima;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	98.07.23.04.50.01;	author soejima;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	98.07.17.08.14.58;	author soejima;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	98.07.16.13.15.36;	author soejima;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	98.07.16.07.04.55;	author soejima;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	98.07.16.01.19.18;	author soejima;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	98.07.14.04.28.46;	author soejima;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	98.07.04.02.16.21;	author soejima;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	98.07.03.08.55.22;	author soejima;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	98.06.18.11.33.37;	author soejima;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	98.06.18.06.59.45;	author soejima;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	98.05.15.02.47.58;	author soejima;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	98.05.14.12.20.34;	author soejima;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	98.05.11.08.45.39;	author soejima;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	98.05.07.07.21.50;	author hayakawa;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	98.04.28.11.27.53;	author soejima;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	98.04.23.11.00.05;	author soejima;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	98.04.13.01.58.56;	author soejima;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	98.03.19.13.48.46;	author soejima;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	98.03.19.07.22.19;	author soejima;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	98.03.19.01.27.14;	author soejima;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	98.03.16.04.52.43;	author soejima;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	98.03.13.11.01.32;	author soejima;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	98.03.09.03.08.55;	author soejima;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	98.03.09.03.07.28;	author soejima;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	98.03.07.11.10.34;	author soejima;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	98.03.04.11.21.51;	author soejima;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	98.03.02.12.02.55;	author soejima;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	98.02.26.12.19.03;	author soejima;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	98.02.26.03.03.50;	author okajima;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	98.02.24.12.32.45;	author soejima;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	98.02.24.08.18.05;	author soejima;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	98.02.16.06.26.44;	author soejima;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	98.02.06.04.12.43;	author soejima;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	98.02.03.07.11.59;	author soejima;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	98.01.22.06.27.54;	author soejima;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	98.01.21.01.51.29;	author soejima;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	98.01.20.07.55.07;	author soejima;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	98.01.07.02.57.33;	author soejima;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	97.12.25.06.08.19;	author soejima;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	97.12.16.04.45.32;	author soejima;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	97.12.15.01.42.48;	author soejima;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	97.11.10.12.25.50;	author soejima;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	97.11.10.05.09.37;	author soejima;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	97.11.06.13.44.07;	author soejima;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	97.11.06.09.33.58;	author soejima;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	97.11.06.01.46.15;	author soejima;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	97.10.13.13.10.53;	author soejima;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	97.10.01.02.26.29;	author hayakawa;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	97.09.24.02.11.45;	author soejima;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	97.09.08.12.32.18;	author soejima;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	97.09.03.08.27.09;	author soejima;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	97.09.03.06.04.10;	author soejima;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	97.09.01.00.47.00;	author hayakawa;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	97.08.29.11.45.56;	author okajima;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	97.08.29.11.30.46;	author soejima;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	97.08.29.09.37.46;	author soejima;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	97.08.04.09.16.36;	author soejima;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.07.24.06.32.10;	author soejima;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.07.18.06.45.40;	author soejima;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.07.15.04.53.50;	author soejima;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.07.11.11.11.39;	author soejima;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.07.08.05.28.44;	author soejima;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.07.01.05.36.52;	author soejima;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.07.01.05.23.02;	author soejima;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.06.26.13.05.47;	author soejima;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.06.25.09.27.50;	author soejima;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.06.25.08.44.47;	author soejima;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.56
+log
+@PAL_GATEWAY_VERSION
+@
+text
+@#!/usr/local/bin/bash
+#set -x
+#
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+#
+
+cp2() {
+    if [ ! -e $1 ]; then
+	echo "ファイルがありません $1"
+    else
+	if [ ! -e $2 -o $1 -nt $2 ]; then
+	    echo    cp $1 $2
+	    command cp $1 $2
+	fi
+    fi
+}
+cp() {
+    SRC=$1
+    DEST=$2
+    SRCBASE=`basename $SRC`
+    if [ -d $DEST ]; then
+	cp2 $SRC $DEST/$SRCBASE
+    else
+	cp2 $SRC $DEST
+    fi
+}
+
+#####	ＳＨＯＷ
+     cp shape/TEXTURE2/E3/e3_select/e3_select.o space_world.o
+
+#####	任天堂ロゴ
+     cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+#####	ファイル選択面
+#     cp shape/TEXTURE/TITLE/title.o .
+     cp shape/TEXTURE2/JAPAN/FILE_NAME/file_name.o title.o
+#####	ＧＡＴＥＷＡＹ
+     cp shape/TEXTURE2/NINTENDO/NINTENDO.o .
+     cp shape/TEXTURE/TITLE/gate.o .
+     cp shape/TEXTURE/TITLE/pal_gate.o .
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/parameter_show.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/youbi.o week.o
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/daytelop.o .
+     cp shape/TEXTURE2/E3/daytelop/E3daytelop.o .
+     cp shape/TEXTURE2/JAPAN/PARAMETER2/story.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/JAPAN/DO_ACTION2/do_action_idx.o .
+#####	ＭＡＰ
+     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+#     cp shape/TEXTURE/MAP2/map_grand2.o .
+     cp shape/TEXTURE/MAP2/map_grand2_test.raw .
+#     cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
+     cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2_test.raw .
+     cp shape/TEXTURE/MAP/map_i.o .
+     cp shape/TEXTURE/MAP/map_48x85.o .
+#####	ＶＲーＢＯＸ
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+###99/05/11     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_pal.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_div8_idx.o .
+###99/07/28#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_cloud_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine04/d2_fine_pal.o .
+###########################
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_pal.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+######	ＶＲーＢＯＸ（２５６）
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
+#####	ＶＲーＢＯＸ（５１２）
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_1_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_2_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_3_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_4_div8_idx.o .
+##99/08/31#     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_pal.o .
+#####	カレイド・スコープ
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_test.raw .
+
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_24_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_field.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_dungeon.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_jpn.o .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_gameover.o .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/item_name_test.raw .
+#     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name.o .
+     cp shape/TEXTURE2/JAPAN/ITEM_NAME2/map_name_test.raw .
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_vtx.o .
+
+#####	スケジュール
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma.o .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule_dma_test.raw .
+     cp shape/TEXTURE2/JAPAN/SCHEDULE2/schedule.o .
+#
+######
+######
+######
+######
+#######
+################### ＮＥＳ／ＰＡＬ
+#####	ＰＡＲＡＭＥＴＥＲ
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
+###2000/09/05     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/usa_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/ger_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/fra_parameter2.o .
+     cp shape/TEXTURE2/PAL/PARAMETER2/spa_parameter2.o .
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
+     cp shape/TEXTURE2/PAL/YOUBI/pal_youbi.o pal_week.o
+#
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
+     cp shape/TEXTURE2/PAL/GER/PARAMETER2/ger_daytelop.o .
+     cp shape/TEXTURE2/PAL/FRA/PARAMETER2/fra_daytelop.o .
+     cp shape/TEXTURE2/PAL/SPA/PARAMETER2/spa_daytelop.o .
+#####	ファイル選択面
+     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
+#
+     cp shape/TEXTURE2/PAL/FILE_NAME/pal_file_name.o .
+######  アイテム名
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_item_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_item_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/GER/ITEM_NAME2/ger_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/FRA/ITEM_NAME2/fra_map_name_test.raw .
+     cp shape/TEXTURE2/PAL/SPA/ITEM_NAME2/spa_map_name_test.raw .
+#
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
+     cp shape/TEXTURE2/PAL/GER/ICON_ITEM2/ger_icon_item.o .
+     cp shape/TEXTURE2/PAL/FRA/ICON_ITEM2/fra_icon_item.o .
+     cp shape/TEXTURE2/PAL/SPA/ICON_ITEM2/spa_icon_item.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/GER/DO_ACTION2/ger_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/FRA/DO_ACTION2/fra_do_action_idx.o .
+     cp shape/TEXTURE2/PAL/SPA/DO_ACTION2/spa_do_action_idx.o .
+#####	スケジュール
+     cp shape/TEXTURE2/NES/SCHEDULE2/nes_schedule.o .
+#
+######
+######
+######
+######
+#######
+################### ＰＡＬ
+######
+#####	ファイル選択面
+#####	ＰＡＲＡＭＥＴＥＲ
+######
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_item_name_test.raw .
+     cp shape/TEXTURE2/NES/ITEM_NAME2/nes_map_name_test.raw .
+     cp shape/TEXTURE2/NES/ICON_ITEM2/nes_icon_item_nes.o .
+#####	ＤＯ ＡＣＴＩＯＮ
+     cp shape/TEXTURE2/NES/DO_ACTION2/nes_do_action_idx.o .
+
+#####	スケジュール
+     cp shape/TEXTURE2/NES/SCHEDULE2/nes_schedule.o .
+@
+
+
+2.55
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 1
+@
+
+
+2.54
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d183 6
+a188 1
+     cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
+@
+
+
+2.53
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d183 1
+d186 1
+a186 3
+     cp shape/TEXTURE2/PAL/GER/PARAMETER2/ger_youbi.o ger_week.o
+     cp shape/TEXTURE2/PAL/FRA/PARAMETER2/fra_youbi.o fra_week.o
+     cp shape/TEXTURE2/PAL/SPA/PARAMETER2/spa_youbi.o spa_week.o
+@
+
+
+2.52
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 1
+@
+
+
+2.51
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a35 1
+     cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
+a40 1
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_youbi.o nes_week.o
+a43 1
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_daytelop.o .
+a161 1
+     cp shape/TEXTURE2/JAPAN/ICON_ITEM2/icon_item_nes.o .
+d179 46
+a224 1
+################### ＮＥＳ
+d226 1
+a227 1
+     cp shape/TEXTURE2/NES/PARAMETER2/nes_parameter.o .
+@
+
+
+2.50
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d35 1
+a35 1
+     cp shape/TEXTURE2/FILE_NAME/file_name.o title.o
+d40 2
+a41 2
+     cp shape/TEXTURE2/PARAMETER2/parameter.o .
+     cp shape/TEXTURE2/PARAMETER2/parameter_show.o .
+d43 2
+a44 2
+     cp shape/TEXTURE2/PARAMETER2/youbi.o week.o
+     cp shape/TEXTURE2/PARAMETER2/daytelop.o .
+d47 1
+a47 1
+     cp shape/TEXTURE2/PARAMETER2/story.o .
+d49 1
+a49 1
+     cp shape/TEXTURE2/DO_ACTION2/do_action_idx.o .
+d157 2
+a158 2
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_test.raw .
+d160 12
+a171 12
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_24_test.raw .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_field.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_dungeon.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_jpn.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_nes.o .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_gameover.o .
+#     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/item_name_test.raw .
+#     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
+     cp shape/TEXTURE2/ITEM_NAME2/map_name_test.raw .
+     cp shape/TEXTURE2/ICON_ITEM2/icon_item_vtx.o .
+d174 3
+a176 3
+     cp shape/TEXTURE2/SCHEDULE2/schedule_dma.o .
+     cp shape/TEXTURE2/SCHEDULE2/schedule_dma_test.raw .
+     cp shape/TEXTURE2/SCHEDULE2/schedule.o .
+@
+
+
+2.49
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d46 1
+@
+
+
+2.48
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 1
+@
+
+
+2.47
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d36 1
+@
+
+
+2.46
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d179 5
+a183 1
+###### ＮＥＳ
+@
+
+
+2.45
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d176 3
+d186 3
+@
+
+
+2.44
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d156 1
+@
+
+
+2.43
+log
+@icon_item_24_test.raw
+schedule_dma_test.raw
+追加
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d167 1
+@
+
+
+2.42
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d157 1
+d170 1
+@
+
+
+2.41
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d176 1
+a176 1
+     cp shape/TEXTURE2/NES/ICON_ITEM2/icon_item_nes.o .
+@
+
+
+2.40
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a46 1
+     cp shape/TEXTURE2/E3/DO/E3do_action_idx.o .
+d176 3
+@
+
+
+2.39
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d171 6
+@
+
+
+2.38
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d29 1
+a29 1
+     cp shape/TEXTURE2/SPACE_WORLD/space_world.o .
+@
+
+
+2.37
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d43 1
+d47 1
+@
+
+
+2.36
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d33 3
+a35 2
+#####	ＴＩＴＬＥ
+     cp shape/TEXTURE/TITLE/title.o .
+@
+
+
+2.35
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 2
+@
+
+
+2.34
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d164 1
+@
+
+
+2.33
+log
+@kaleido_map_grand2_test.raw
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d162 3
+@
+
+
+2.32
+log
+@map_name_static_test
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d47 2
+a48 1
+     cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
+@
+
+
+2.31
+log
+@データ圧縮テスト
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d159 2
+a160 1
+     cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
+@
+
+
+2.30
+log
+@map_grand2_test.raw
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d45 1
+a45 1
+     cp shape/TEXTURE/MAP2/map_grand2.o .
+d157 2
+a158 1
+     cp shape/TEXTURE2/ITEM_NAME2/item_name.o .
+@
+
+
+2.29
+log
+@icon_item_test.raw
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d46 1
+@
+
+
+2.28
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d149 1
+@
+
+
+2.27
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a27 7
+#####	メモリエラーメッセージ
+     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
+
+#####	イベント制御コード
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
+     cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/tool/week_event_reg.inc .
+
+a42 15
+#####	メッセージ
+     cp shape/MESSAGE/japan/table.h .
+     cp shape/MESSAGE/japan/extern.h .
+     cp shape/MESSAGE/japan/japan.o .
+     cp shape/TEXTURE/MESSAGE/texture/texture.o .
+     cp shape/TEXTURE/MESSAGE/fukidashi/fukidashi.o .
+###
+     cp shape/TEXTURE/MESSAGE/font/font_e.o .
+     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_c.o .
+##### メッセージソースというか
+     cp shape/TEXTURE/MESSAGE/NES/nes_a nes_a
+     cp shape/TEXTURE/MESSAGE/NES/nes_b nes_b
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_a staff_a
+     cp shape/TEXTURE/MESSAGE/STAFF/staff_b staff_b
+@
+
+
+2.26
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d33 1
+@
+
+
+2.25
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d158 4
+a161 4
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP2/vr_SHOP2_pal.o .
+@
+
+
+2.24
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d87 3
+a89 4
+     cp shape/TEXTURE2/VR_BOX2/fine03/d2_fine_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine03/d2_cloud_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine03/d2_rain_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine03/d2_fine_pal.o .
+@
+
+
+2.23
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d30 3
+@
+
+
+2.22
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d44 1
+@
+
+
+2.21
+log
+@kaleido_map_grand_static2追加
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d88 67
+a154 67
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine1_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine2_pal.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+#####	ＶＲーＢＯＸ（２５６）
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_GVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_MDVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_MNVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_RUVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME/vr_KHVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_K3VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_K4VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_K5VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP/vr_SP1a_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/STABLE/vr_MLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_KKRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME3/vr_KR3VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI_SHOP/vr_KSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_GLVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_ZRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_DGVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_ALVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_NSVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_LBVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_TTVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FACE/vr_FCVR_pal.o .
+d160 5
+a164 5
+     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_1_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_2_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_3_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_4_div8_idx.o .
+     cp shape/TEXTURE2/VR_BOX2/MARKET/vr_MARKET_pal.o .
+@
+
+
+2.20
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d63 1
+@
+
+
+2.19
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d46 2
+d51 1
+a55 2
+     cp shape/MESSAGE/japan/table.h .
+     cp shape/MESSAGE/japan/extern.h .
+@
+
+
+2.18
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d82 2
+@
+
+
+2.17
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d81 3
+@
+
+
+2.16
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d44 1
+a44 1
+     cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
+@
+
+
+2.15
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d73 16
+a88 8
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine3_pal.o .
+@
+
+
+2.14
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d158 2
+a159 2
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+@
+
+
+2.13
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d32 1
+a32 1
+     cp shape/TEXTURE/TITLE/e3.o .
+@
+
+
+2.12
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 1
+@
+
+
+2.11
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d30 3
+@
+
+
+2.10
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a55 1
+####################     cp shape/TEXTURE/MAP/map_grand.o .
+a58 5
+##########     cp shape/TEXTURE/MAP/map_YDAN.o .
+##########     cp shape/TEXTURE/MAP/map_DDAN.o .
+##########     cp shape/TEXTURE/MAP/map_BDAN.o .
+##########     cp shape/TEXTURE/MAP/map_BMORI.o .
+##########     cp shape/TEXTURE/MAP/map_HIDAN.o .
+a84 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
+a93 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
+a101 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_pal.o .
+a113 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+a119 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
+a123 2
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
+##########     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
+a135 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET/vr_MARKET_pal.o .
+d140 6
+@
+
+
+2.9
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d38 2
+a39 2
+     cp shape/TEXTURE/PARAMETER/parameter.o .
+     cp shape/TEXTURE/DMA_MAKE/WEEK/week.o .
+d161 7
+a167 7
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_jpn.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_nes.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_gameover.o .
+@
+
+
+2.8
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 1
+@
+
+
+2.7
+log
+@memerrmsgセグメントを追加
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d155 4
+@
+
+
+2.6
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d27 3
+@
+
+
+2.5
+log
+@map_grand2を追加
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d63 16
+a78 8
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+d150 2
+@
+
+
+2.4
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d54 1
+@
+
+
+2.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d38 1
+a40 1
+     cp shape/TEXTURE/MESSAGE/message/message.o .
+d45 2
+a46 2
+     cp shape/TEXTURE/MESSAGE/message/zld64_msg_data.h msg.h
+     cp shape/TEXTURE/MESSAGE/message/zld64_msg_data.tbl msg.tbl
+@
+
+
+2.2
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d32 2
+@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 1
+a39 1
+     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+d43 6
+a48 6
+     cp shape/TEXTURE/MESSAGE/message/msg.h msg.h
+     cp shape/TEXTURE/MESSAGE/message/msg.tbl msg.tbl
+     cp shape/TEXTURE/MESSAGE/message/nes_a nes_a
+     cp shape/TEXTURE/MESSAGE/message/nes_b nes_b
+     cp shape/TEXTURE/MESSAGE/message/staff_a staff_a
+     cp shape/TEXTURE/MESSAGE/message/staff_b staff_b
+@
+
+
+1.84
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+@
+
+
+1.83
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 7
+@
+
+
+1.82
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d41 1
+@
+
+
+1.81
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d138 1
+@
+
+
+1.80
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d111 2
+a112 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_pal.o .
+@
+
+
+1.79
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d79 2
+a80 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_pal.o .
+@
+
+
+1.78
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d68 2
+a69 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
+d103 2
+a104 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+d117 2
+a118 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_TRVR_pal.o .
+@
+
+
+1.77
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d89 2
+a90 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_pal.o .
+@
+
+
+1.76
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 2
+a43 2
+     cp shape/TEXTURE/MAP/map_grand.o .
+####################     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+@
+
+
+1.75
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 2
+a43 2
+####################     cp shape/TEXTURE/MAP/map_grand.o .
+     cp shape/TEXTURE/MAP/map_fm.o map_grand.o
+@
+
+
+1.74
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d42 2
+a43 1
+     cp shape/TEXTURE/MAP/map_grand.o .
+@
+
+
+1.73
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 2
+a40 2
+##########     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+##########     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+@
+
+
+1.72
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d39 2
+a40 2
+     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+     cp shape/TEXTURE/MESSAGE/NES/nes_c.o .
+@
+
+
+1.71
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d43 6
+a48 5
+     cp shape/TEXTURE/MAP/map_YDAN.o .
+     cp shape/TEXTURE/MAP/map_DDAN.o .
+     cp shape/TEXTURE/MAP/map_BDAN.o .
+     cp shape/TEXTURE/MAP/map_BMORI.o .
+     cp shape/TEXTURE/MAP/map_HIDAN.o .
+@
+
+
+1.70
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d130 8
+a137 6
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+@
+
+
+1.69
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d45 2
+a47 1
+     cp shape/TEXTURE/MAP/map_BMORI.o .
+d130 6
+a135 6
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+@
+
+
+1.68
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d129 6
+a134 6
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+#####     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+@
+
+
+1.67
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d129 6
+a134 6
+##     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+##     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+##     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+##     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+##     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o .
+@
+
+
+1.66
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d129 5
+a133 5
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_24.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_field.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_dungeon.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
+@
+
+
+1.65
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d31 1
+a31 1
+####################     cp shape/TEXTURE/TITLE/title.o .
+d69 2
+@
+
+
+1.64
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d31 1
+a31 1
+     cp shape/TEXTURE/TITLE/title.o .
+@
+
+
+1.63
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d65 4
+a68 10
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_pal.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_div8_idx.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_pal.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_div8_idx.o .
+##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_pal.o .
+@
+
+
+1.62
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d65 10
+a74 12
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy0_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy1_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/holy/vr_holy3_pal.o .
+@
+
+
+1.61
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d132 2
+@
+
+
+1.60
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d31 1
+a31 1
+#####     cp shape/TEXTURE/TITLE/title.o .
+@
+
+
+1.59
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d31 1
+a31 1
+     cp shape/TEXTURE/TITLE/title.o .
+@
+
+
+1.58
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a35 1
+     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
+d39 2
+@
+
+
+1.57
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d36 1
+@
+
+
+1.56
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d67 8
+@
+
+
+1.55
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d63 4
+a66 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+@
+
+
+1.54
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d44 1
+@
+
+
+1.53
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d8 8
+a15 4
+  if [ ! -e $2 -o $1 -nt $2 ]; then
+    echo    cp $1 $2
+    command cp $1 $2
+  fi
+d18 8
+a25 8
+  SRC=$1
+  DEST=$2
+  SRCBASE=`basename $SRC`
+  if [ -d $DEST ]; then
+    cp2 $SRC $DEST/$SRCBASE
+  else
+    cp2 $SRC $DEST
+  fi
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d118 2
+@
+
+
+1.51
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a62 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
+a114 4
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_RUINS/vr_CRVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_RUINS/vr_CRVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_NIGHT/vr_CNVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL_NIGHT/vr_CNVR_pal.o .
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 2
+a38 1
+     cp shape/TEXTURE/MAP/map_ddan.o .
+@
+
+
+1.49
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d121 4
+a124 3
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/map_name.o map_name_idx.o
+@
+
+
+1.48
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d90 6
+a111 4
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/IMPA/vr_IPVR_pal.o .
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a83 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_K6VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_K6VR_pal.o .
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d76 10
+a85 10
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_KHVR2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_KHVR2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_KHVR3_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME3/vr_KHVR3_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_KHVR4_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME4/vr_KHVR4_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_KHVR5_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME5/vr_KHVR5_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_KHVR6_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_KHVR6_pal.o .
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d80 6
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d30 1
+a30 1
+     cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d30 1
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d56 2
+d59 2
+a60 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+d65 8
+a72 10
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_market_ruinsVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_RUINS/vr_market_ruinsVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+d81 4
+a84 4
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON/vr_lonronVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON/vr_lonronVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO/vr_kakarikoVR_pal.o .
+d89 20
+a108 20
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_golonVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GOLON/vr_golonVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_zooraVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ZOORA/vr_zooraVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_lonronShopVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LONRON_SHOP/vr_lonronShopVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_shopDragVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_DRAG/vr_shopDragVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_shopAlleyVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_ALLEY/vr_shopAlleyVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_shopNightVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP_NIGHT/vr_shopNightVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_kakarikoHome2VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_kakarikoHome2VR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_IMPA/vr_kakarikoImpaVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_IMPA/vr_kakarikoImpaVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_laboVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/LABO/vr_laboVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_tentVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/TENT/vr_tentVR_pal.o .
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d111 2
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d109 2
+a114 4
+#####	ＤＯ
+     cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
+#####
+     cp shape/TEXTURE/DMA_MAKE/DOKIDOKI/dokidoki_heart_idx.o .
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 1
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d104 4
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d98 2
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d88 14
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a59 2
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
+d84 4
+@
+
+
+1.34
+log
+@map_ddan_static
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d82 4
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d36 1
+a37 1
+     cp shape/TEXTURE/MAP/map_56x73.o .
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d35 3
+a37 1
+     cp shape/TEXTURE/MAP/map_div4_idx.o .
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d53 1
+d74 4
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d24 7
+d34 1
+d36 1
+a36 1
+     cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+d75 1
+d79 1
+d81 1
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d59 2
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d24 1
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d28 2
+d36 2
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d58 2
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a62 1
+     cp shape/TEXTURE/DMA_MAKE/GAMEOVER/GAMEOVER.o .
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d63 1
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d60 1
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+a27 10
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+d40 2
+a41 6
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_pal.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
+d48 8
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d62 2
+@
+
+
+1.20
+log
+@日付比較コピー
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d24 3
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 2
+
+#!/bin/sh
+d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d7 17
+a23 1
+echo cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
+a24 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+a25 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .
+a26 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+a27 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+a28 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+a29 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+a30 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+a31 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+a32 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+a33 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+a34 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_div8_idx.o .
+a35 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine1_pal.o .
+a36 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_div8_idx.o .
+a37 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine2_pal.o .
+a38 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_div8_idx.o .
+a39 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine3_pal.o .
+a40 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+a41 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud1_pal.o .
+a42 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+a43 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud2_pal.o .
+a44 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+a45 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/cloud/vr_cloud3_pal.o .
+a46 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+a47 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_pal.o .
+a48 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+a49 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods2/vr_bg_woods2_pal.o .
+a50 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_div8_idx.o .
+a51 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/ROOM1/vr_room1VR_pal.o .
+a52 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
+a53 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
+a54 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
+a55 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
+a56 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_div8_idx.o .
+a57 1
+echo cp shape/TEXTURE/DMA_MAKE/VR_BOX/LINK/vr_LHVR_pal.o .
+a58 1
+echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
+a59 1
+echo cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o item_name_idx.o
+a60 1
+echo cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
+a61 1
+echo cp shape/TEXTURE/DMA_MAKE/DOKIDOKI/dokidoki_heart_idx.o .
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d70 8
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d70 4
+a73 4
+echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_idx.o .
+echo cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name_idx.o .
+     cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name_idx.o .
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d66 4
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d8 66
+a73 62
+echo cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
+     cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fayVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_gardenVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_DAY/vr_market_dayVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET_NIGHT/vr_market_nightVR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine1_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine1_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine1_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine2_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine2_pal.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine3_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
+     cp shape/TEXTURE/VR_BOX/fine/vr_fine3_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud1_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud2_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloud/vr_cloud3_pal.o .
+echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_pal.o .
+     cp shape/TEXTURE/VR_BOX/woods/vr_bg_woods_pal.o .
+echo cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_pal.o .
+     cp shape/TEXTURE/VR_BOX/woods2/vr_bg_woods2_pal.o .
+echo cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
+     cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
+echo cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
+     cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
+echo cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
+     cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
+echo cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
+     cp shape/TEXTURE/DOKIDOKI/dokidoki_heart_idx.o .
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+set -x
+d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d20 2
+a21 2
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_pal.o .
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d20 2
+a21 2
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/r_i_shopVR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/r_i_shopVR_div8_pal.o .
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d1 1
+d5 1
+a5 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d10 20
+a29 32
+###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+###     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+###echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+###     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+###echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+###     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+###echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+###     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+###echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+###     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
+     cp shape/TEXTURE/VR_BOX/FAY/vr_fay_VR2_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_wood/vr_i_shop_wood_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP_sand/vr_i_shop_sand_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
+     cp shape/TEXTURE/VR_BOX/i_shop23/vr_i_shop23_pal.o .
+a53 12
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_market_VR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_pal.o .
+     cp shape/TEXTURE/VR_BOX/MARKET/vr_marketN_VR_pal.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_pal.o .
+     cp shape/TEXTURE/VR_BOX/GARDEN/vr_garden_VR_pal.o .
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d73 4
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d69 4
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d69 8
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d9 16
+a24 8
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_twilightBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_nightBG_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_div8_pal.o .
+a28 8
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shop22VR_div8_pal.o .
+echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/cloudy/vr_bg_cloudy_div8_pal.o .
+d69 4
+a72 2
+echo cp shape/TEXTURE/KALEIDO_SCOPE/kaleido_scope_idx.o .
+     cp shape/TEXTURE/KALEIDO_SCOPE/kaleido_scope_idx.o .
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d69 2
+a74 4
+echo cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
+     cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
+echo cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
+     cp shape/TEXTURE/ITEM_NAME/item_name_idx.o .
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d17 4
+a20 4
+echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
+     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
+echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
+     cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_pal.o .
+d65 4
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d53 12
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d37 16
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d41 4
+a44 2
+echo cp shape/TEXTURE/ICON_ITEM/ICON_ITEM.o .
+     cp shape/TEXTURE/ICON_ITEM/ICON_ITEM.o .
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d7 2
+@

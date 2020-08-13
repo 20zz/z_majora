@@ -1,0 +1,6 @@
+cp /home/soejima/c/Excel_USA/message_define.h .
+cp /home/soejima/c/Excel_USA/usa_extern.h .
+cp /home/soejima/c/Excel_USA/usa_table.h .
+cp /home/soejima/c/Excel_USA/usa_table.c .
+cp /home/soejima/c/Excel_USA/usa_message_data.c .
+u64cc

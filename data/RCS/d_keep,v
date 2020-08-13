@@ -1,0 +1,84 @@
+head	2.2;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.1;
+locks; strict;
+comment	@# @;
+
+
+2.2
+date	99.04.09.09.08.26;	author hayakawa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.04.18.10.45.48;	author iwawaki;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.2
+log
+@$pathに影響されないようにldをフルパス指定にした
+@
+text
+@#!/bin/sh
+set -x
+#
+# $Id: d_keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+#
+# $Log: d_keep,v,v $
+# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
+# Assets: both cooked and raw from Nintendo.
+#
+# Revision 2.1  1998-10-22 21:42:44+09  hayakawa
+# ＲＯＭ出しバージョン(NTSC)
+#
+# Revision 1.1  1997-04-18 19:45:48+09  iwawaki
+# Initial revision
+#
+#
+/usr/bin/ld -r -o d_keep.o -objectlist d_keep.objs -m > d_keep.map
+@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@d4 1
+a4 1
+# $Id: d_keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d7 3
+d14 1
+a14 1
+ld -r -o d_keep.o -objectlist d_keep.objs -m > d_keep.map
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+a4 1
+# $Id: d_keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+d6 4
+a9 1
+# $Log: d_keep,v,v $
+# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
+# Assets: both cooked and raw from Nintendo.
+#
+@

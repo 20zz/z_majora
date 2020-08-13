@@ -1,0 +1,1386 @@
+/* -*- mode: C; -*- */
+/*
+ *  $Id: spec.segment,v 1.2 2003/12/18 05:59:49 wheeler Exp $
+ *
+ * ゼルダ６４ スペック ファイル（セグメントアドレス空間）
+ *
+ * $Log: spec.segment,v $
+ * Revision 1.2  2003/12/18 05:59:49  wheeler
+ * Add some example chinese localization
+ *
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
+ *
+ * Revision 2.606  2003-05-26 21:23:15+09  zelda
+ * GC64EMU VERSION
+ *
+ * Revision 2.605  2002-05-24 17:24:58+09  zelda
+ * 日本語版にRESUME_VERSIONを組み込み
+ *
+ * Revision 2.604  2000-09-27 17:27:01+09  soejima
+ * PAL_GATEWAY_VERSION
+ *
+ * Revision 2.603  2000-09-26 10:45:13+09  hayakawa
+ * PAL-GATEWAY対応
+ *
+ * Revision 2.602  2000-09-05 19:11:03+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.601  2000-08-31 16:08:49+09  hayakawa
+ * elif使えないのを修正
+ *
+ * Revision 2.600  2000-08-30 16:50:09+09  soejima
+ * pal_parameter  pal_week
+ *
+ * Revision 2.599  2000-08-29 14:21:34+09  hayakawa
+ * PAL対応
+ *
+ * Revision 2.598  2000-08-28 20:47:48+09  soejima
+ * pal_mag.o
+ *
+ * Revision 2.597  2000-08-23 17:38:38+09  iwawaki
+ * *** empty log message ***
+ *
+ * Revision 2.596  2000-08-22 14:09:03+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.595  2000-08-22 11:53:32+09  soejima
+ * コピー対策用
+ *
+ * Revision 2.594  2000-08-21 15:28:26+09  soejima
+ * 本番用
+ *
+ * Revision 2.593  2000-08-21 13:43:42+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.592  2000-08-11 15:52:08+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.591  2000-08-04 13:33:31+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.590  2000-08-02 19:16:05+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.589  2000-07-10 17:06:30+09  iwawaki
+ * *** empty log message ***
+ *
+ * Revision 2.588  2000-07-04 10:15:47+09  soejima
+ * ＰＡＬ
+ *
+ * Revision 2.587  2000-07-03 12:02:40+09  iwawaki
+ * *** empty log message ***
+ *
+ * Revision 2.586  2000-06-27 10:22:55+09  iwawaki
+ * *** empty log message ***
+ *
+ * Revision 2.585  2000-06-22 18:51:18+09  soejima
+ * 英語SHOW_VERSION
+ *
+ * Revision 2.584  2000-06-19 17:11:49+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.583  2000-06-13 13:27:56+09  hayakawa
+ * NES用メモリパックエラーメッセージ追加
+ *
+ * Revision 2.582  2000-06-13 13:25:19+09  hayakawa
+ * 古いログを削除
+ *
+ * Revision 2.581  2000-06-13 12:02:16+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.580  2000-05-30 11:16:19+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.579  2000-05-22 18:56:12+09  soejima
+ * ＮＥＳ変更
+ *
+ * Revision 2.578  2000-04-27 17:54:12+09  soejima
+ * v2_ba_nes_chat_txt
+ *
+ * Revision 2.577  2000-04-24 13:02:40+09  iwawaki
+ * *** empty log message ***
+ *
+ * Revision 2.576  2000-04-20 13:25:58+09  soejima
+ * NES_VERSIONに変更
+ *
+ * Revision 2.575  2000-04-14 16:07:30+09  soejima
+ * Ｅ３用変更
+ *
+ */
+
+#ifdef SPEC_SEG
+
+DefSegX("rcp_dynamic",		DYNAMIC_SEGMENT,			"rcp_dynamic.o")
+DefSegX("rcp_cfb",		CFB_SEGMENT,				"rcp_cfb.o")
+
+DefSegX("gameplay_keep", 	GAMEPLAY_KEEP_SEGMENT,			"$(ZELDA_DATA)/keep.o")
+DefSegX("gameplay_field_keep",  GAMEPLAY_EXCHANGE_KEEP_SEGMENT,		"$(ZELDA_DATA)/Field_keep.o")
+DefSegX("gameplay_dangeon_keep", GAMEPLAY_EXCHANGE_KEEP_SEGMENT,	"$(ZELDA_DATA)/Dangeon_keep.o")
+
+DefSegX("gameplay_object_exchange_static", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/shape/gameplay_object_exchange/gameplay_object_exchange.o")
+DefSegX("object_link_boy",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Link_boy.o")
+DefSegX("object_link_child",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Link_child.o")
+DefSegX("object_link_goron",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Link_goron.o")
+DefSegX("object_link_zora",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Link_zora.o")
+DefSegX("object_link_nuts",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Link_nuts.o")
+DefSegX("object_link_mask_ki_tan",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_ki_tan.o")
+DefSegX("object_link_mask_rabit",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_rabit.o")
+DefSegX("object_link_mask_skj",	ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_skj.o")
+DefSegX("object_link_mask_truth",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_truth.o")
+DefSegX("object_link_mask_gibudo",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_gibudo.o")
+DefSegX("object_link_mask_json",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_json.o")
+DefSegX("object_link_mask_kerfay",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_kerfay.o")
+DefSegX("object_link_mask_bigelf",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_bigelf.o")
+DefSegX("object_link_mask_kyojin",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_kyojin.o")
+DefSegX("object_link_mask_romerny",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_romerny.o")
+DefSegX("object_link_mask_posthat",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_posthat.o")
+DefSegX("object_link_mask_zacho",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_zacho.o")
+DefSegX("object_link_mask_stone",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_stone.o")
+DefSegX("object_link_mask_bree",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_bree.o")
+DefSegX("object_link_mask_gero",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_gero.o")
+DefSegX("object_link_mask_yofukasi",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_yofukasi.o")
+DefSegX("object_link_mask_meoto",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_meoto.o")
+DefSegX("object_link_mask_dancer",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_dancer.o")
+DefSegX("object_link_mask_bakuretu",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_bakuretu.o")
+DefSegX("object_link_mask_bu_san",ANIME_MODEL_3_SEGMENT,		"$(ZELDA_DATA)/Link_mask_bu_san.o")
+DefSegX("object_link_mask_goron",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_goron.o")
+DefSegX("object_link_mask_zora",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_zora.o")
+DefSegX("object_link_mask_nuts",ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_nuts.o")
+DefSegX("object_link_mask_boy",	ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/Link_mask_boy.o")
+DefSegX("object_box",	  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Box.o")
+DefSegX("object_okuta",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Oc.o")
+DefSegX("object_wallmaster",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wm.o")
+DefSegX("object_dy_obj", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/dy_obj.o")
+DefSegX("object_firefly", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ff.o")
+DefSegX("object_dodongo", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dodongo.o")
+DefSegX("object_niw",  		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Niw.o")
+DefSegX("object_tite",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tite.o")
+DefSegX("object_peehat",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Peehat.o")
+DefSegX("object_dinofos", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dinofos.o")
+DefSegX("object_zl1",	 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zl1.o")
+DefSegX("object_bubble", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bubble.o")
+DefSegX("object_torch2", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Torch2.o")
+DefSegX("object_famos",	 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Famos.o")
+DefSegX("object_st",	 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/St.o")
+DefSegX("object_thiefbird",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Thiefbird.o")
+DefSegX("object_bombf",	 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bombf.o")
+DefSegX("object_am",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Am.o")
+DefSegX("object_dekubaba",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dekubaba.o")
+DefSegX("object_warp1",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Warp1.o")
+DefSegX("object_b_heart",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/B_heart.o")
+DefSegX("object_dekunuts",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dekunuts.o")
+DefSegX("object_Bb",  		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bb.o")
+DefSegX("object_death",  	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Death.o")
+DefSegX("object_hata",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hata.o")
+DefSegX("object_wood02",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wood02.o")
+DefSegX("object_trap",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Trap.o")
+DefSegX("object_vm",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Vm.o")
+DefSegX("object_efc_star_field", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/efc_star_field.o")
+DefSegX("object_rd",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rd.o")
+DefSegX("object_yukimura_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Yukimura_Obj.o")
+
+DefSegX("object_horse_link_child", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/hlc.o")
+    
+DefSegX("object_syokudai",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/syokudai.o")
+DefSegX("object_efc_tw",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/efc_tw.o")
+DefSegX("object_gi_key",        GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_key.o")
+DefSegX("object_mir_ray",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mir_ray.o")
+DefSegX("object_ctower_rot",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ctower_Rot.o")
+DefSegX("object_bdoor",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/bdoor.o")
+DefSegX("object_sb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/sb.o")
+DefSegX("object_gi_melody",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_melody.o")
+DefSegX("object_gi_heart",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_heart.o")
+DefSegX("object_gi_compass",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_compass.o")
+DefSegX("object_gi_bosskey",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bosskey.o")
+DefSegX("object_gi_nuts",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_nuts.o")
+DefSegX("object_gi_hearts",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_hearts.o")
+DefSegX("object_gi_arrowcase",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_arrowcase.o")
+DefSegX("object_gi_bombpouch",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bombpouch.o")
+DefSegX("object_in",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/In.o")
+DefSegX("object_os_anime",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/os_anime.o")
+DefSegX("object_gi_bottle",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bottle.o")
+DefSegX("object_gi_stick",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_stick.o")
+DefSegX("object_gi_map",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_map.o")
+DefSegX("object_oF1d_map",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/oF1d_map.o")
+DefSegX("object_ru2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ru2.o")
+DefSegX("object_gi_magicpot",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_magicpot.o")
+DefSegX("object_gi_bomb_1",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bomb_1.o")
+DefSegX("object_ma2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ma2.o")
+DefSegX("object_gi_purse",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_purse.o")
+DefSegX("object_rr",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/rr.o")
+DefSegX("object_gi_arrow",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_arrow.o")
+DefSegX("object_gi_bomb_2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bomb_2.o")
+DefSegX("object_gi_shield_2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_shield_2.o")
+DefSegX("object_gi_hookshot",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_hookshot.o")
+DefSegX("object_gi_ocarina",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_ocarina.o")
+DefSegX("object_gi_milk",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_milk.o")
+DefSegX("object_ma1",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ma1.o")
+DefSegX("object_ny",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ny.o")
+DefSegX("object_fr",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fr.o")
+DefSegX("object_gi_bow",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bow.o")
+DefSegX("object_gi_glasses",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_glasses.o")
+DefSegX("object_gi_liquid",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_liquid.o")
+DefSegX("object_ani",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ani.o")
+DefSegX("object_gi_shield_3",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_shield_3.o")
+DefSegX("object_gi_bean",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bean.o")
+DefSegX("object_gi_fish",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_fish.o")
+DefSegX("object_gi_longsword",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_longsword.o")
+/*    
+DefSegX("object_md", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Md.o")
+*/
+DefSegX("object_zo", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zo.o")
+DefSegX("object_umajump",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Umajump.o")
+DefSegX("object_mastergolon",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mastergolon.o")
+DefSegX("object_masterzoora",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/masterzoora.o")
+DefSegX("object_aob", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Aob.o")
+DefSegX("object_ik", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ik.o")
+DefSegX("object_ahg", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ahg.o")
+DefSegX("object_cne", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Cne.o")
+DefSegX("object_bji",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bji.o")
+DefSegX("object_bba",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bba.o")
+DefSegX("object_an1",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/An1.o")
+DefSegX("object_boj",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boj.o")
+
+DefSegX("object_fz",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fz.o")
+DefSegX("object_bob",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bob.o")
+DefSegX("object_ge1",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ge1.o")
+DefSegX("object_yabusame_point", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/yabusame_point.o")
+DefSegX("object_d_hsblock",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/d_hsblock.o")
+DefSegX("object_d_lift",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/d_lift.o")
+DefSegX("object_mamenoki",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mamenoki.o")
+DefSegX("object_goroiwa",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/goroiwa.o")
+DefSegX("object_toryo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/toryo.o")
+DefSegX("object_daiku",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/daiku.o")
+DefSegX("object_nwc",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/nwc.o")
+DefSegX("object_gm",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gm.o")
+DefSegX("object_ms",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ms.o")
+DefSegX("object_hs",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/hs.o")
+DefSegX("object_lightswitch",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/lightswitch.o")
+DefSegX("object_kusa",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kusa.o")
+DefSegX("object_tsubo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/tsubo.o")
+DefSegX("object_kanban",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kanban.o")
+DefSegX("object_owl",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Owl.o")
+DefSegX("object_mk",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Mk.o")
+DefSegX("object_fu",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fu.o")
+DefSegX("object_gi_ki_tan_mask",GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_ki_tan_mask.o")
+DefSegX("object_gi_skj_mask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_skj_mask.o")
+DefSegX("object_gi_rabit_mask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_rabit_mask.o")
+DefSegX("object_gi_truth_mask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_truth_mask.o")
+DefSegX("object_stream",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/stream.o")
+DefSegX("object_mm",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mm.o")
+DefSegX("object_js",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Js.o")
+DefSegX("object_cs",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/cs.o")
+DefSegX("object_gi_soldout",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_soldout.o")
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+#if 1
+/* 本番用 */
+DefSegX("object_mag",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/nes_mag.o")
+#else
+/* コピー対策用 */
+DefSegX("object_mag",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/nes_mag_2.o")
+#endif
+#else
+#if defined(PAL_VERSION)
+DefSegX("object_mag",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/pal_mag.o")
+#else
+DefSegX("object_mag",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mag.o")
+#endif	/* PAL_VERSION */
+#endif	/* NES_VERSION SHOW_VERSION */
+DefSegX("object_gi_golonmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_golonmask.o")
+DefSegX("object_gi_zoramask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_zoramask.o")
+DefSegX("object_ka",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ka.o")
+DefSegX("object_zg",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zg.o")
+DefSegX("object_gi_m_arrow",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_m_arrow.o")
+DefSegX("object_ds2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ds2.o")
+DefSegX("object_fish",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fish.o")
+DefSegX("object_gi_sutaru",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sutaru.o")
+DefSegX("object_ssh",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ssh.o")
+DefSegX("object_bigslime",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bigslime.o")
+DefSegX("object_bg",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bg.o")
+DefSegX("object_bombiwa",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/bombiwa.o")
+DefSegX("object_hintnuts",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hintnuts.o")
+DefSegX("object_rs",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rs.o")
+DefSegX("object_gla",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Gla.o")
+DefSegX("object_geldb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Gelb.o")
+DefSegX("object_dog",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dog.o")
+DefSegX("object_kibako2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kibako2.o")
+DefSegX("object_dns",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dns.o")
+DefSegX("object_dnk",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dnk.o")
+DefSegX("object_gi_insect",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_insect.o")
+DefSegX("object_gi_ghost",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_ghost.o")
+DefSegX("object_gi_soul",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_soul.o")
+DefSegX("object_f40_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/F40_Obj.o")
+DefSegX("object_gi_rupy",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_rupy.o")
+#if defined(PAL_VERSION)
+DefSegX("object_po_composer",   GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Po_Composer_pal.o")
+#else
+DefSegX("object_po_composer",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Po_Composer.o")
+#endif
+DefSegX("object_mu",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Mu.o")
+DefSegX("object_wf",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wf.o")
+DefSegX("object_skb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Skb.o")
+DefSegX("object_gs",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gs.o")
+DefSegX("object_ps",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ps.o")
+DefSegX("object_bwall",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bwall.o")
+DefSegX("object_crow",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Crow.o")
+DefSegX("object_cow",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Cow.o")
+/*    
+DefSegX("object_cob",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Cob.o")
+*/
+DefSegX("object_gi_sword_1",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sword_1.o")
+DefSegX("object_zl4", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zl4.o")
+DefSegX("object_grasshopper",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kdz.o")
+DefSegX("object_boyo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/boyo.o")
+DefSegX("object_fire_wall",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fwall.o")
+DefSegX("object_jso",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Jso.o")
+DefSegX("object_knight",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Knight.o")
+DefSegX("object_icicle",        GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Icicle.o")
+DefSegX("object_spdweb",        GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Spdweb.o")
+#if defined(PAL_VERSION)
+DefSegX("object_boss01",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss01_pal.o")
+DefSegX("object_boss02",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss02_pal.o")
+DefSegX("object_boss03",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss03_pal.o")
+#else
+DefSegX("object_boss01",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss01.o")
+DefSegX("object_boss02",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss02.o")
+DefSegX("object_boss03",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss03.o")
+#endif    
+DefSegX("object_boss04",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss04.o")
+DefSegX("object_boss05",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss05.o")
+DefSegX("object_boss06",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss06.o")
+#if defined(PAL_VERSION)
+DefSegX("object_boss07",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss07_pal.o")
+#else    
+DefSegX("object_boss07",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss07.o")
+#endif    
+DefSegX("object_raf",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Raf.o")
+DefSegX("object_funen",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/funen.o")
+DefSegX("object_raillift",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/raillift.o")
+DefSegX("object_numa_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/numa_obj.o")
+DefSegX("object_flowerpot",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/flowerpot.o")
+DefSegX("object_spinyroll",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/spinyroll.o")
+DefSegX("object_ice_block",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ice_Block.o")
+DefSegX("object_op_map",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Keikoku_Demo.o")
+DefSegX("object_slime",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Slime.o")
+DefSegX("object_pr",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Pr.o")
+DefSegX("object_f52_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/F52_Obj.o")
+DefSegX("object_f53_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/F53_Obj.o")
+DefSegX("object_kibako",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kibako.o")
+DefSegX("object_tsg",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/tsg.o")
+DefSegX("object_gmo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Gmo.o")
+DefSegX("object_bat",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bat.o")
+DefSegX("object_sekihil",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/sekihiL.o")
+DefSegX("object_sekihig",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/sekihiG.o")
+DefSegX("object_sekihid",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/sekihiD.o")
+DefSegX("object_sekihiz",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/sekihiZ.o")
+/*    
+DefSegX("object_dnc",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dnc.o")
+*/
+DefSegX("object_wiz",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wiz.o")
+DefSegX("object_ladder",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ladder.o")
+DefSegX("object_mkk",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Mkk.o")
+DefSegX("object_keikoku_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Keikoku_Obj.o")
+DefSegX("object_sichitai_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Sichitai_Obj.o")
+DefSegX("object_dekucity_ana_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dekucity_Ana_Obj.o")
+DefSegX("object_rat",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rat.o")
+DefSegX("object_water_effect",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Water_Effect.o")
+DefSegX("object_dblue_object",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dblue_Object.o")
+DefSegX("object_bal",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bal.o") 
+DefSegX("object_warp_uzu",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Warp_Uzu.o")
+DefSegX("object_driftice",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/driftice.o")
+DefSegX("object_fall",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fall.o")
+DefSegX("object_hanareyama_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hanareyama_Obj.o")
+DefSegX("object_crace_object",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Crace_Object.o")
+DefSegX("object_dno",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dno.o")
+DefSegX("object_moguri",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Obj_Moguri.o")
+DefSegX("object_eg",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Eg.o")
+DefSegX("object_tru",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tru.o")
+DefSegX("object_trt",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Trt.o")
+DefSegX("object_hakugin_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/hakugin_obj.o")
+DefSegX("object_horse_game_check", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Horse_Game_Check.o")
+DefSegX("object_stk", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Stk.o")
+DefSegX("object_mnk", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Mnk.o")
+DefSegX("object_gi_bottle_red",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bottle_red.o")
+DefSegX("object_tokei_tobira",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/tokei_tobira.o")
+DefSegX("object_az",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Az.o")
+DefSegX("object_twig",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Twig.o")
+DefSegX("object_dekucity_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/dekucity_obj.o")
+DefSegX("object_po_fusen",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Po_Fusen.o")
+DefSegX("object_racetsubo",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/racetsubo.o")
+DefSegX("object_ha",            GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,      "$(ZELDA_DATA)/ha.o")
+DefSegX("object_bigokuta",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,      "$(ZELDA_DATA)/Bigokuta.o")
+DefSegX("object_open_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/open_obj.o")
+DefSegX("object_fu_kaiten",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fu_Kaiten.o")
+DefSegX("object_fu_mato",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fu_Mato.o")
+DefSegX("object_mtoride",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Mtoride.o")
+DefSegX("object_osn",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Osn.o")
+DefSegX("object_tokei_step",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/tokei_step.o")
+DefSegX("object_lotus",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Lotus.o")
+DefSegX("object_tl",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tl.o")
+DefSegX("object_dkjail_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/dkjail_obj.o")
+DefSegX("object_visiblock",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/visiblock.o")
+DefSegX("object_tsn",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tsn.o")
+DefSegX("object_ds2n",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ds2n.o")
+DefSegX("object_fsn",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fsn.o")
+DefSegX("object_shn",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Shn.o")
+DefSegX("object_bigicicle",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bigicicle.o")
+DefSegX("object_gi_bottle_15",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bottle_15.o")
+DefSegX("object_tk",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tk.o")
+DefSegX("object_market_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/market_obj.o")
+DefSegX("object_gi_moon_stone",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_moon_stone.o")
+DefSegX("object_gi_kenrisyo",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_kenrisyo.o")
+DefSegX("object_lightblock",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/lightblock.o")
+DefSegX("object_takaraya_objects",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Takaraya_objects.o")
+DefSegX("object_wdhand",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdhand.o")
+DefSegX("object_sdn",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Sdn.o")
+DefSegX("object_snowwd",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Snowwd.o")
+DefSegX("object_giant",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Giant.o")
+DefSegX("object_comb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/comb.o")
+DefSegX("object_hana",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/hana.o")
+#if defined(PAL_VERSION)
+DefSegX("object_boss_hakugin",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss_Hakugin_pal.o")
+#else    
+DefSegX("object_boss_hakugin",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Boss_Hakugin.o")
+#endif    
+DefSegX("object_meganeana_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Meganeana_Obj.o")
+DefSegX("object_gi_nutsmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_nutsmask.o")
+DefSegX("object_stk2", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Stk2.o")
+DefSegX("object_spot11_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Spot11_Obj.o")
+DefSegX("object_danpei_object",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Danpei_Object.o")
+DefSegX("object_dhouse",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/dhouse.o")
+DefSegX("object_hakaisi",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hakaisi.o")
+DefSegX("object_poh",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Po.o")
+DefSegX("object_snowman",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Snowman.o")
+DefSegX("object_po_sisters",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Po_Sisters.o")
+DefSegX("object_pp",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Pp.o")
+DefSegX("object_goronswitch",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/goronswitch.o")
+DefSegX("object_delf", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Delf.o")
+DefSegX("object_botihasira",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Botihasira.o")
+DefSegX("object_gi_bigbomb",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bigbomb.o")
+DefSegX("object_pst",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Pst.o")
+DefSegX("object_bsmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bsmask.o")
+DefSegX("object_spidertent",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/spidertent.o")
+DefSegX("object_zoraegg",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/zoraegg.o")
+DefSegX("object_kbt",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kbt.o")
+DefSegX("object_gg",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gg.o")
+DefSegX("object_maruta",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Maruta.o")
+DefSegX("object_ghaka",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ghaka.o")
+DefSegX("object_oyu",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/oyu.o")
+DefSegX("object_dnq",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dnq.o")
+DefSegX("object_dai",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dai.o")
+DefSegX("object_kgy",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kgy.o")
+DefSegX("object_fb",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/fb.o")
+DefSegX("object_taisou",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Taisou.o")
+DefSegX("object_gk",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gk.o")
+DefSegX("object_haka_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/haka_obj.o")
+DefSegX("object_dnt",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dnt.o")
+DefSegX("object_yukiyama",GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Yukiyama.o")
+DefSegX("object_icefloe",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Icefloe.o")
+DefSegX("object_gi_gold_dust",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_gold_dust.o")
+DefSegX("object_gi_bottle_16",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bottle_16.o")
+DefSegX("object_gi_bottle_22",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bottle_22.o")
+DefSegX("object_bee",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bee.o")
+DefSegX("object_ot",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ot.o")
+DefSegX("object_utubo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Utubo.o")
+DefSegX("object_dora",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dora.o")
+DefSegX("object_gi_loach",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_loach.o")
+DefSegX("object_gi_seahorse",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_seahorse.o")
+DefSegX("object_bigpo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bigpo.o")
+DefSegX("object_hariko",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hariko.o")
+DefSegX("object_dnj",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dnj.o")
+DefSegX("object_sinkai_kabe",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Sinkai_Kabe.o")
+DefSegX("object_kin2_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/kin2_obj.o")
+DefSegX("object_ishi",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ishi.o")
+DefSegX("object_hakugin_demo",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hakugin_Demo.o")
+DefSegX("object_jg",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/jg.o")
+DefSegX("object_gi_sword_2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sword_2.o")
+DefSegX("object_gi_sword_3",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sword_3.o")
+DefSegX("object_gi_sword_4",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sword_4.o")
+DefSegX("object_um", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/um.o")
+DefSegX("object_rb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rb.o")
+DefSegX("object_mbar_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/mbar_obj.o")
+DefSegX("object_ikana_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/ikana_obj.o")
+DefSegX("object_kz", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kz.o")
+DefSegX("object_tokei_turret", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/tokei_turret.o")
+DefSegX("object_en_zog", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zog.o")
+DefSegX("object_rotlift", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rotlift.o")
+DefSegX("object_posthouse_obj", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Posthouse_obj.o")
+DefSegX("object_gi_jsonmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_jsonmask.o")
+DefSegX("object_gi_bigelfmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bigelfmask.o")
+DefSegX("object_gi_gibudomask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_gibudomask.o")
+DefSegX("object_inibs_object",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Inibs_Object.o")
+DefSegX("object_tree",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tree.o")
+DefSegX("object_kaizoku_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kaizoku_obj.o")
+DefSegX("object_gi_inn_key",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_inn_key.o")
+DefSegX("object_gi_c_letter",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_c_letter.o")
+DefSegX("object_en_zob", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zob.o")
+DefSegX("object_milkbar", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Milkbar.o")
+DefSegX("object_dmask", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dmask.o")
+DefSegX("object_gi_pendant",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_pendant.o")
+DefSegX("object_en_zod", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zod.o")
+DefSegX("object_kumo30", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kumo30.o")
+DefSegX("object_yasi",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Yasi.o")
+DefSegX("object_tanron1",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tanron1.o")
+DefSegX("object_tanron2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tanron2.o")
+DefSegX("object_tanron3",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tanron3.o")
+DefSegX("object_gi_mushroom2",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_mushroom2.o")
+DefSegX("object_chan",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Chan.o")
+DefSegX("object_gi_romanimask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_romanimask.o")
+DefSegX("object_en_zos", 	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zos.o")
+DefSegX("object_an2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/An2.o")
+DefSegX("object_an3",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/An3.o")
+DefSegX("object_f40_switch",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/f40_switch.o")
+DefSegX("object_lod_moon",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Lod_Moon.o")
+DefSegX("object_tro",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tro.o")
+DefSegX("object_gi_posthat",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_posthat.o")
+DefSegX("object_gi_giantmask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_giantmask.o")
+DefSegX("object_gi_syatoromani",GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_syatoromani.o")
+DefSegX("object_gi_picturebox",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_picturebox.o")
+DefSegX("object_kamejima",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kamejima.o")
+DefSegX("object_nb",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Nb.o")
+DefSegX("object_hg",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hg.o")
+DefSegX("object_en_zov",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zov.o")
+DefSegX("object_ah",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ah.o")
+DefSegX("object_hgdr",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hgdr.o")
+DefSegX("object_dor01",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dor01.o")
+DefSegX("object_dor02",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dor02.o")
+DefSegX("object_dor03",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dor03.o")
+DefSegX("object_dor04",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dor04.o")
+DefSegX("object_last_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Last_Obj.o")
+DefSegX("object_redead_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Redead_Obj.o")
+DefSegX("object_ikninside_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ikninside_Obj.o")
+DefSegX("object_iknv_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Iknv_Obj.o")
+DefSegX("object_pamera",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Pamera.o")
+DefSegX("object_hsstump",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/HsStump.o")
+DefSegX("object_zm",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zm.o")
+DefSegX("object_al",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Al.o")
+DefSegX("object_tab",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tab.o")
+DefSegX("object_secom_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Secom_Obj.o")
+DefSegX("object_dt",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dt.o")
+DefSegX("object_gi_yusyamask",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_yusyamask.o")
+DefSegX("object_cha",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Cha.o")    
+DefSegX("object_dinner",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Dinner.o")
+DefSegX("object_gi_sokutatsu",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sokutatsu.o")
+DefSegX("object_lastday",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Lastday.o")
+DefSegX("object_bai",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bai.o")
+DefSegX("object_ikndemo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ikndemo.o")
+DefSegX("object_gi_fieldmap",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_fieldmap.o")
+DefSegX("object_big_fire_wall",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Big_Fwall.o")
+DefSegX("object_hunsui",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Hunsui.o")
+DefSegX("object_uch",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/uch.o")
+DefSegX("object_tanron4",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tanron4.o")
+DefSegX("object_tanron5",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Tanron5.o")
+DefSegX("object_in2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/In2.o")
+DefSegX("object_yb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Yb.o")
+DefSegX("object_rz",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Rz.o")
+DefSegX("object_bjt",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bjt.o")
+DefSegX("object_taru",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Taru.o")
+DefSegX("object_moonston",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Moonston.o")
+DefSegX("object_gi_techo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_techo.o")
+DefSegX("object_gi_stonemask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_stonemask.o")
+DefSegX("object_zoraband",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Zoraband.o")
+DefSegX("object_kepn_koya",     GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,       "$(ZELDA_DATA)/Kepn_Koya.o")
+DefSegX("object_usiyane",       GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,       "$(ZELDA_DATA)/Obj_Usiyane.o") 
+DefSegX("object_gi_kerfaymask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_kerfaymask.o")
+DefSegX("object_gi_zachomask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_zachomask.o")
+DefSegX("object_gi_breemask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_breemask.o")
+DefSegX("object_nnh",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Nnh.o")
+DefSegX("object_kzsaku",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kzsaku.o")
+DefSegX("object_obj_milk_bin",  GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/Obj_Milk_Bin.o")
+DefSegX("object_random_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/Random_Obj.o")
+DefSegX("object_kujiya",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/Kujiya.o")
+DefSegX("object_kitan",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/Kitan.o")
+DefSegX("object_gi_yofukashimask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_yofukashimask.o")
+DefSegX("object_gi_ge_romask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_ge_romask.o")
+DefSegX("object_astr_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/astr_obj.o")
+DefSegX("object_bsb",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bsb.o")
+DefSegX("object_fall2",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fall2.o")
+DefSegX("object_sth",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Sth.o")
+DefSegX("object_gi_sunmask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_sunmask.o")
+DefSegX("object_smtower",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Smtower.o")
+DefSegX("object_gi_bakuretsumask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_bakuretsumask.o")
+DefSegX("object_yado_obj",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Yado_Obj.o")
+DefSegX("object_syoten",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Syoten.o")
+DefSegX("object_moonend",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Moonend.o")
+DefSegX("object_ob",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ob.o")
+DefSegX("object_gi_fairy",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_fairy.o")
+DefSegX("object_and",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/And.o")
+DefSegX("object_obj_danpeilift", GAMEPLAY_OBJECT_EXCHANGE_SEGMENT, "$(ZELDA_DATA)/Obj_Danpeilift.o")
+DefSegX("object_drs",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Drs.o")
+DefSegX("object_msmo",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Msmo.o")
+DefSegX("object_an4",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/An4.o")
+DefSegX("object_wdor01",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdor01.o")
+DefSegX("object_wdor02",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdor02.o")
+DefSegX("object_wdor03",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdor03.o")
+DefSegX("object_wdor04",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdor04.o")
+DefSegX("object_wdor05",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Wdor05.o")
+DefSegX("object_stk3", 		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Stk3.o")
+DefSegX("object_kinsta1_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kinsta1_obj.o")
+DefSegX("object_kinsta2_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Kinsta2_obj.o")
+DefSegX("object_bh",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Bh.o")
+DefSegX("object_gi_dancermask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_dancermask.o")
+DefSegX("object_gi_buusanmask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_buusanmask.o")
+DefSegX("object_lbfshot",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/lbfshot.o")
+DefSegX("object_fusen",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Fusen.o") 
+DefSegX("object_ending_obj",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Ending_Obj.o")
+DefSegX("object_gi_meotomask",		GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/gi_meotomask.o")
+
+    
+/*** 次の追加はココですよ。NEXT ADD	***/
+
+/* シーンテクスチャーバンク */
+DefSegX("scene_texture_01",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_01.o")
+DefSegX("scene_texture_02",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_02.o")
+DefSegX("scene_texture_03",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_03.o")
+DefSegX("scene_texture_04",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_04.o")
+DefSegX("scene_texture_05",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_05.o")
+DefSegX("scene_texture_06",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_06.o")
+DefSegX("scene_texture_07",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_07.o")
+DefSegX("scene_texture_08",	GAMEPLAY_OBJECT_EXCHANGE_SEGMENT,	"$(ZELDA_DATA)/Scene_Texture_08.o")
+
+
+#if 0
+/*
+ * 
+ */
+/*DefSegX("z_select_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/shape/map/course_mapx1/course_map_s.o")*/
+DefSegX("z_select_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/shape/course_mapx1/course_map_s.o")
+#endif
+
+/*
+ * ＮＩＮＴＥＮＤＯ６４ ロゴ
+ */
+#if defined(GATEWAY_VERSION) || defined(PAL_GATEWAY_VERSION)
+DefSegX("nintendo_rogo_static", STATIC_SEGMENT,				"$(ZELDA_DATA)/NINTENDO.o")
+#else
+DefSegX("nintendo_rogo_static", STATIC_SEGMENT,				"$(ZELDA_DATA)/nintendo_rogo.o")
+#endif	/* GATEWAY_VERSION PAL_GATEWAY_VERSION */
+
+/*
+ * タイトル
+ */
+# if defined(PAL_VERSION)
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/pal_file_name.o")
+# else
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+#ifdef CHINA
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/nes_file_name.zh.o")
+#else
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/nes_file_name.o")
+#endif
+#else
+#if defined(RESUME_VERSION) || defined(GC64EMU_VERSION)
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/resume_file_name.o")
+#else
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/title.o")
+#endif  /* defined(RESUME_VERSION) || defined(GC64EMU_VERSION) */
+#endif	/* NES_VERSION SHOW_VERSION */
+# endif	/* PAL_VERSION */
+
+#if defined(GATEWAY_VERSION)
+DefSegX("gateway_title_static", PARAMETER_SEGMENT,			"$(ZELDA_DATA)/gate.o")
+#endif	/* GATEWAY_VERSION */
+#if defined(PAL_GATEWAY_VERSION)
+DefSegX("gateway_title_static", PARAMETER_SEGMENT,			"$(ZELDA_DATA)/pal_gate.o")
+#endif	/* PAL_GATEWAY_VERSION */
+
+#if !defined(GC64EMU_VERSION)
+/*
+ * 初期チェック用エラーメッセージ
+ */
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+DefSegX("memerrmsg",		STATIC_SEGMENT,				"$(ZELDA_DATA)/memerrmsg_nes.o")
+#else
+#if defined(PAL_VERSION)
+DefSegX("memerrmsg",		STATIC_SEGMENT,				"$(ZELDA_DATA)/memerrmsg_pal.o")
+#else
+DefSegX("memerrmsg",		STATIC_SEGMENT,				"$(ZELDA_DATA)/memerrmsg.o")
+#endif	/* if defined(PAL_VERSION) */
+#endif	/* if defined(NES_VERSION) || defined(SHOW_VERSION) */
+#if defined(PAL_VERSION)
+DefSegX("locerrmsg",		STATIC_SEGMENT,				"$(ZELDA_DATA)/locerrmsg_pal.o")
+#else
+DefSegX("locerrmsg",		STATIC_SEGMENT,				"$(ZELDA_DATA)/locerrmsg.o")
+#endif
+#endif /* !defined(GC64EMU_VERSION) */
+
+/* 
+ * 常駐ＰＡＲＡＭＥＴＥＲ
+ */
+#if defined(PAL_VERSION)
+DefSegX("parameter_static", 	PARAMETER_SEGMENT,			"$(ZELDA_DATA)/pal_parameter2.o")
+DefSegX("usa_parameter_static", SHOW_SEGMENT,				"$(ZELDA_DATA)/usa_parameter2.o")
+DefSegX("ger_parameter_static", SHOW_SEGMENT,				"$(ZELDA_DATA)/ger_parameter2.o")
+DefSegX("fra_parameter_static", SHOW_SEGMENT,				"$(ZELDA_DATA)/fra_parameter2.o")
+DefSegX("spa_parameter_static", SHOW_SEGMENT,				"$(ZELDA_DATA)/spa_parameter2.o")
+#else
+#if defined(NES_VERSION)  || defined(SHOW_VERSION)
+DefSegX("parameter_static", 	PARAMETER_SEGMENT,			"$(ZELDA_DATA)/nes_parameter.o")
+#else
+DefSegX("parameter_static", 	PARAMETER_SEGMENT,			"$(ZELDA_DATA)/parameter.o")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* PAL_VERSION */
+
+
+#ifdef SHOW_VERSION
+DefSegX("space_world_static", 	PARAMETER_SEGMENT,			"$(ZELDA_DATA)/space_world.o")
+DefSegX("parameter_show_static",SHOW_SEGMENT,				"$(ZELDA_DATA)/parameter_show.o")
+#endif	/* SHOW_VERSION */
+
+
+/* 
+ * 曜日テクスチャー
+ */
+#if defined(PAL_VERSION)
+DefSegX("week_static", 		PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/pal_week.o")
+#else
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+DefSegX("week_static", 		PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/nes_week.o")
+#else
+DefSegX("week_static", 		PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/week.o")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* PAL_VERSION */
+
+
+/* 
+ * 日にち切替テクスチャー
+ */
+#if defined(NES_VERSION) || defined(PAL_VERSION) || defined(SHOW_VERSION)
+DefSegX("daytelop_static", 	PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/nes_daytelop.o")
+DefSegX("ger_daytelop_static", 	PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/ger_daytelop.o")
+DefSegX("fra_daytelop_static", 	PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/fra_daytelop.o")
+DefSegX("spa_daytelop_static", 	PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/spa_daytelop.o")
+#else
+DefSegX("daytelop_static", 	PARAMETER0_SEGMENT,			"$(ZELDA_DATA)/daytelop.o")
+#endif	/* NES_VERSION PAL_VERSION SHOW_VERSION */
+
+
+
+/* 
+ * ＶＲ＿ＢＯＸ（１２８x１２８）
+ */
+/* 青空（朝：後半パレット） */
+DefSegX("d2_fine_static", 	VR_BOX0_SEGMENT,			"$(ZELDA_DATA)/d2_fine_div8_idx.o")
+DefSegX("d2_cloud_static", 	VR_BOX0_SEGMENT,			"$(ZELDA_DATA)/d2_cloud_div8_idx.o")
+DefSegX("d2_fine_pal_static", 	VR_BOX_TLUT_SEGMENT,			"$(ZELDA_DATA)/d2_fine_pal.o")
+
+
+#if 0
+/* 
+ * ＶＲ＿ＢＯＸ（２５６x２５６）
+ */
+/* 新・道具屋 */
+DefSegX("vr_SHOP1_static", 	VR_BOX0_SEGMENT,			"$(ZELDA_DATA)/vr_SHOP1_div8_idx.o")
+DefSegX("vr_SHOP1_pal_static", 	VR_BOX_TLUT_SEGMENT,			"$(ZELDA_DATA)/vr_SHOP1_pal.o")
+/* 新・薬屋 */
+DefSegX("vr_SHOP2_static", 	VR_BOX0_SEGMENT,			"$(ZELDA_DATA)/vr_SHOP2_div8_idx.o")
+DefSegX("vr_SHOP2_pal_static", 	VR_BOX_TLUT_SEGMENT,			"$(ZELDA_DATA)/vr_SHOP2_pal.o")
+    
+/* 
+ * ＶＲ＿ＢＯＸ（５１２x５１２）
+ */
+/* 綺麗なテスト */
+DefSegX("vr_MARKET_1_static", 	VR_BOX0_SEGMENT,			"$(ZELDA_DATA)/vr_MARKET_1_div8_idx.o")
+DefSegX("vr_MARKET_2_static", 	VR_BOX1_SEGMENT,			"$(ZELDA_DATA)/vr_MARKET_2_div8_idx.o")
+DefSegX("vr_MARKET_3_static", 	VR_BOX2_SEGMENT,			"$(ZELDA_DATA)/vr_MARKET_3_div8_idx.o")
+DefSegX("vr_MARKET_4_static", 	VR_BOX3_SEGMENT,			"$(ZELDA_DATA)/vr_MARKET_4_div8_idx.o")
+DefSegX("vr_MARKET_pal_static", VR_BOX_TLUT_SEGMENT,			"$(ZELDA_DATA)/vr_MARKET_pal.o")
+#endif
+
+
+
+
+/* シーンデータ（最後） */
+
+#if !SCENE_TOOL
+
+DefSegX("elf_message_field",	GAMEPLAY_ELF_MESSAGE_SEGMENT,		"$(ZELDA_DATA)/EM_field.o")
+DefSegX("elf_message_ydan",	GAMEPLAY_ELF_MESSAGE_SEGMENT,		"$(ZELDA_DATA)/EM_ydan.o")
+
+DefSegX("z2_20sichitai2_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai2_SCENE.o")
+DefSegX("z2_20sichitai2_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai2_ROOM0.o")
+DefSegX("z2_20sichitai2_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai2_ROOM1.o")
+DefSegX("z2_20sichitai2_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai2_ROOM2.o")
+
+    
+DefSegX("z2_witch_shop_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_witch_shop_SCENE.o")
+DefSegX("z2_witch_shop_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_witch_shop_ROOM0.o")
+
+DefSegX("Z2_LAST_bs_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_LAST_bs_SCENE.o")
+DefSegX("Z2_LAST_bs_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_LAST_bs_ROOM0.o")
+
+DefSegX("Z2_hakashita_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_SCENE.o")
+DefSegX("Z2_hakashita_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_ROOM0.o")
+DefSegX("Z2_hakashita_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_ROOM1.o")
+DefSegX("Z2_hakashita_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_ROOM2.o")
+DefSegX("Z2_hakashita_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_ROOM3.o")
+DefSegX("Z2_hakashita_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakashita_ROOM4.o")
+
+DefSegX("z2_ayashiishop_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_ayashiishop_SCENE.o")
+DefSegX("z2_ayashiishop_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ayashiishop_ROOM0.o")
+DefSegX("z2_ayashiishop_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ayashiishop_ROOM1.o")
+
+DefSegX("z2_omoya_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_omoya_SCENE.o")
+DefSegX("z2_omoya_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_omoya_ROOM0.o")
+DefSegX("z2_omoya_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_omoya_ROOM1.o")
+DefSegX("z2_omoya_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_omoya_ROOM2.o")
+
+DefSegX("z2_bowling_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_bowling_SCENE.o")
+DefSegX("z2_bowling_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_bowling_ROOM0.o")
+
+DefSegX("z2_sonchonoie_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_sonchonoie_SCENE.o")
+DefSegX("z2_sonchonoie_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sonchonoie_ROOM0.o")
+DefSegX("z2_sonchonoie_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sonchonoie_ROOM1.o")
+DefSegX("z2_sonchonoie_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sonchonoie_ROOM2.o")
+DefSegX("z2_sonchonoie_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sonchonoie_ROOM3.o")
+
+DefSegX("z2_ikana_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_SCENE.o")
+DefSegX("z2_ikana_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_ROOM0.o")
+DefSegX("z2_ikana_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_ROOM1.o")
+DefSegX("z2_ikana_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_ROOM2.o")
+DefSegX("z2_ikana_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_ROOM3.o")
+DefSegX("z2_ikana_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikana_ROOM4.o")
+
+DefSegX("Z2_kaizoku_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_kaizoku_SCENE.o")
+DefSegX("Z2_kaizoku_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_kaizoku_ROOM0.o")
+
+DefSegX("z2_milk_bar_scene",	GAMEPLAY_SCENE_SEGMENT,		       	"$(ZELDA_DATA)/Z2_milk_bar_SCENE.o")
+DefSegX("z2_milk_bar_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_milk_bar_ROOM0.o")
+
+DefSegX("Z2_INISIE_N_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_SCENE.o")
+DefSegX("Z2_INISIE_N_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM0.o")
+DefSegX("Z2_INISIE_N_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM1.o")
+DefSegX("Z2_INISIE_N_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM2.o")
+DefSegX("Z2_INISIE_N_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM3.o")
+DefSegX("Z2_INISIE_N_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM4.o")
+DefSegX("Z2_INISIE_N_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM5.o")
+DefSegX("Z2_INISIE_N_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM6.o")
+DefSegX("Z2_INISIE_N_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM7.o")
+DefSegX("Z2_INISIE_N_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM8.o")
+DefSegX("Z2_INISIE_N_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM9.o")
+DefSegX("Z2_INISIE_N_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM10.o")
+DefSegX("Z2_INISIE_N_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_N_ROOM11.o")
+
+DefSegX("z2_takaraya_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_takaraya_SCENE.o")
+DefSegX("z2_takaraya_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_takaraya_ROOM0.o")
+
+DefSegX("Z2_INISIE_R_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_SCENE.o")
+DefSegX("Z2_INISIE_R_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM0.o")
+DefSegX("Z2_INISIE_R_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM1.o")
+DefSegX("Z2_INISIE_R_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM2.o")
+DefSegX("Z2_INISIE_R_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM3.o")
+DefSegX("Z2_INISIE_R_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM4.o")
+DefSegX("Z2_INISIE_R_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM5.o")
+DefSegX("Z2_INISIE_R_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM6.o")
+DefSegX("Z2_INISIE_R_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM7.o")
+DefSegX("Z2_INISIE_R_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM8.o")
+DefSegX("Z2_INISIE_R_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM9.o")
+DefSegX("Z2_INISIE_R_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM10.o")
+DefSegX("Z2_INISIE_R_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_R_ROOM11.o")
+
+DefSegX("z2_okujou_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_okujou_SCENE.o")
+DefSegX("z2_okujou_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_okujou_ROOM0.o")
+
+DefSegX("Z2_OPENINGdan_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_OPENINGdan_SCENE.o")
+DefSegX("Z2_OPENINGdan_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_OPENINGdan_ROOM0.o")
+DefSegX("Z2_OPENINGdan_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_OPENINGdan_ROOM1.o")
+
+DefSegX("Z2_MITURIN_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_SCENE.o")
+DefSegX("Z2_MITURIN_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM0.o")
+DefSegX("Z2_MITURIN_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM1.o")
+DefSegX("Z2_MITURIN_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM2.o")
+DefSegX("Z2_MITURIN_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM3.o")
+DefSegX("Z2_MITURIN_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM4.o")
+DefSegX("Z2_MITURIN_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM5.o")
+DefSegX("Z2_MITURIN_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM6.o")
+DefSegX("Z2_MITURIN_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM7.o")
+DefSegX("Z2_MITURIN_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM8.o")
+DefSegX("Z2_MITURIN_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM9.o")
+DefSegX("Z2_MITURIN_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM10.o")
+DefSegX("Z2_MITURIN_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM11.o")
+DefSegX("Z2_MITURIN_room_12",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_ROOM12.o")
+
+DefSegX("z2_13hubukinomiti_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_13hubukinomiti_SCENE.o")
+DefSegX("z2_13hubukinomiti_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_13hubukinomiti_ROOM0.o")
+
+DefSegX("Z2_castle_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_SCENE.o")
+DefSegX("Z2_castle_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM0.o")
+DefSegX("Z2_castle_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM1.o")
+DefSegX("Z2_castle_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM2.o")
+DefSegX("Z2_castle_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM3.o")
+DefSegX("Z2_castle_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM4.o")
+DefSegX("Z2_castle_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM5.o")
+DefSegX("Z2_castle_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM6.o")
+DefSegX("Z2_castle_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM7.o")
+DefSegX("Z2_castle_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM8.o")
+DefSegX("Z2_castle_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_castle_ROOM9.o")
+
+DefSegX("z2_DEKUtes_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_DEKUtes_SCENE.o")
+DefSegX("z2_DEKUtes_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DEKUtes_ROOM0.o")
+
+DefSegX("Z2_MITURIN_bs_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_bs_SCENE.o")
+DefSegX("Z2_MITURIN_bs_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_MITURIN_bs_ROOM0.o")
+
+DefSegX("z2_syateki_mizu_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_syateki_mizu_SCENE.o")
+DefSegX("z2_syateki_mizu_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_syateki_mizu_ROOM0.o")
+
+DefSegX("Z2_hakugin_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_SCENE.o")
+DefSegX("Z2_hakugin_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM0.o")
+DefSegX("Z2_hakugin_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM1.o")
+DefSegX("Z2_hakugin_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM2.o")
+DefSegX("Z2_hakugin_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM3.o")
+DefSegX("Z2_hakugin_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM4.o")
+DefSegX("Z2_hakugin_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM5.o")
+DefSegX("Z2_hakugin_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM6.o")
+DefSegX("Z2_hakugin_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM7.o")
+DefSegX("Z2_hakugin_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM8.o")
+DefSegX("Z2_hakugin_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM9.o")
+DefSegX("Z2_hakugin_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM10.o")
+DefSegX("Z2_hakugin_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM11.o")
+DefSegX("Z2_hakugin_room_12",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM12.o")
+DefSegX("Z2_hakugin_room_13",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_ROOM13.o")
+
+DefSegX("z2_romanymae_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_romanymae_SCENE.o")
+DefSegX("z2_romanymae_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_romanymae_ROOM0.o")
+
+DefSegX("Z2_PIRATE_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_SCENE.o")
+DefSegX("Z2_PIRATE_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM0.o")
+DefSegX("Z2_PIRATE_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM1.o")
+DefSegX("Z2_PIRATE_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM2.o")
+DefSegX("Z2_PIRATE_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM3.o")
+DefSegX("Z2_PIRATE_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM4.o")
+DefSegX("Z2_PIRATE_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM5.o")
+DefSegX("Z2_PIRATE_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM6.o")
+DefSegX("Z2_PIRATE_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM7.o")
+DefSegX("Z2_PIRATE_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM8.o")
+DefSegX("Z2_PIRATE_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM9.o")
+DefSegX("Z2_PIRATE_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM10.o")
+DefSegX("Z2_PIRATE_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM11.o")
+DefSegX("Z2_PIRATE_room_12",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM12.o")
+DefSegX("Z2_PIRATE_room_13",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM13.o")
+DefSegX("Z2_PIRATE_room_14",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_PIRATE_ROOM14.o")
+
+DefSegX("z2_syateki_mori_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_syateki_mori_SCENE.o")
+DefSegX("z2_syateki_mori_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_syateki_mori_ROOM0.o")
+
+DefSegX("z2_sinkai_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_sinkai_SCENE.o")
+DefSegX("z2_sinkai_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sinkai_ROOM0.o")
+
+DefSegX("z2_yousei_izumi_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_SCENE.o")
+DefSegX("z2_yousei_izumi_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_ROOM0.o")
+DefSegX("z2_yousei_izumi_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_ROOM1.o")
+DefSegX("z2_yousei_izumi_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_ROOM2.o")
+DefSegX("z2_yousei_izumi_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_ROOM3.o")
+DefSegX("z2_yousei_izumi_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yousei_izumi_ROOM4.o")
+
+DefSegX("Z2_KinSta1_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_SCENE.o")
+DefSegX("Z2_KinSta1_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM0.o")
+DefSegX("Z2_KinSta1_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM1.o")
+DefSegX("Z2_KinSta1_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM2.o")
+DefSegX("Z2_KinSta1_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM3.o")
+DefSegX("Z2_KinSta1_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM4.o")
+DefSegX("Z2_KinSta1_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KinSta1_ROOM5.o")
+
+DefSegX("Z2_KINdan2_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_SCENE.o")
+DefSegX("Z2_KINdan2_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM0.o")
+DefSegX("Z2_KINdan2_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM1.o")
+DefSegX("Z2_KINdan2_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM2.o")
+DefSegX("Z2_KINdan2_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM3.o")
+DefSegX("Z2_KINdan2_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM4.o")
+DefSegX("Z2_KINdan2_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_KINdan2_ROOM5.o")
+
+DefSegX("z2_tenmon_dai_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_tenmon_dai_SCENE.o")
+DefSegX("z2_tenmon_dai_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_tenmon_dai_ROOM0.o")
+DefSegX("z2_tenmon_dai_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_tenmon_dai_ROOM1.o")
+
+DefSegX("Z2_last_deku_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_last_deku_SCENE.o")
+DefSegX("Z2_last_deku_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_deku_ROOM0.o")
+DefSegX("Z2_last_deku_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_deku_ROOM1.o")
+
+DefSegX("z2_22dekucity_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_22dekucity_SCENE.o")
+DefSegX("z2_22dekucity_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_22dekucity_ROOM0.o")
+DefSegX("z2_22dekucity_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_22dekucity_ROOM1.o")
+DefSegX("z2_22dekucity_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_22dekucity_ROOM2.o")
+
+DefSegX("z2_kajiya_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_kajiya_SCENE.o")
+DefSegX("z2_kajiya_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_kajiya_ROOM0.o")
+
+DefSegX("z2_00keikoku_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_00keikoku_SCENE.o")
+DefSegX("z2_00keikoku_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_00keikoku_ROOM0.o")
+    
+DefSegX("z2_posthouse_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_posthouse_SCENE.o")
+DefSegX("z2_posthouse_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_posthouse_ROOM0.o")
+
+DefSegX("z2_labo_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_labo_SCENE.o")
+DefSegX("z2_labo_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_labo_ROOM0.o")
+
+DefSegX("Z2_DANPEI2test_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI2test_SCENE.o")
+DefSegX("Z2_DANPEI2test_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI2test_ROOM0.o")
+DefSegX("Z2_DANPEI2test_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI2test_ROOM1.o")
+#if 0
+DefSegX("z2_zolashop_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_zolashop_SCENE.o")
+DefSegX("z2_zolashop_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_zolashop_ROOM0.o")
+#endif
+DefSegX("z2_16goron_house_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_16goron_house_SCENE.o")
+DefSegX("z2_16goron_house_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_16goron_house_ROOM0.o")
+DefSegX("z2_16goron_house_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_16goron_house_ROOM1.o")
+
+DefSegX("z2_33zoracity_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_33zoracity_SCENE.o")
+DefSegX("z2_33zoracity_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_33zoracity_ROOM0.o")
+    
+DefSegX("z2_8itemshop_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_8itemshop_SCENE.o")
+DefSegX("z2_8itemshop_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_8itemshop_ROOM0.o")
+
+DefSegX("z2_f01_scene",		GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_f01_SCENE.o")
+DefSegX("z2_f01_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_f01_ROOM0.o")
+    
+DefSegX("Z2_INISIE_bs_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_bs_SCENE.o")
+DefSegX("Z2_INISIE_bs_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_INISIE_bs_ROOM0.o")
+  
+DefSegX("z2_30gyoson_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_30gyoson_SCENE.o")
+DefSegX("z2_30gyoson_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_30gyoson_ROOM0.o")
+
+DefSegX("z2_31misaki_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_31misaki_SCENE.o")
+DefSegX("z2_31misaki_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_31misaki_ROOM0.o")
+
+DefSegX("z2_takarakuji_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_takarakuji_SCENE.o")
+DefSegX("z2_takarakuji_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_takarakuji_ROOM0.o")
+#if 0
+DefSegX("Z2_LAST_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_SCENE.o")
+DefSegX("Z2_LAST_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM0.o")
+DefSegX("Z2_LAST_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM1.o")
+DefSegX("Z2_LAST_room_2",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM2.o")
+DefSegX("Z2_LAST_room_3",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM3.o")
+DefSegX("Z2_LAST_room_4",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM4.o")
+DefSegX("Z2_LAST_room_5",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_LAST_ROOM5.o")
+#endif
+DefSegX("z2_toride_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_toride_SCENE.o")
+DefSegX("z2_toride_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_toride_ROOM0.o")
+
+DefSegX("z2_fisherman_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_fisherman_SCENE.o")
+DefSegX("z2_fisherman_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_fisherman_ROOM0.o")
+
+DefSegX("z2_goronshop_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_goronshop_SCENE.o")
+DefSegX("z2_goronshop_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_goronshop_ROOM0.o")
+
+DefSegX("z2_deku_king_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_deku_king_SCENE.o")
+DefSegX("z2_deku_king_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_deku_king_ROOM0.o")
+
+DefSegX("Z2_last_goron_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_last_goron_SCENE.o")
+DefSegX("Z2_last_goron_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_last_goron_ROOM0.o")
+DefSegX("Z2_last_goron_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_last_goron_ROOM1.o")
+
+DefSegX("z2_24kemonomiti_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_24kemonomiti_SCENE.o")
+DefSegX("z2_24kemonomiti_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_24kemonomiti_ROOM0.o")
+
+DefSegX("z2_f01_b_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_f01_b_SCENE.o")
+DefSegX("z2_f01_b_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_f01_b_ROOM0.o")
+
+DefSegX("z2_f01C_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_f01C_SCENE.o")
+DefSegX("z2_f01C_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_f01C_ROOM0.o")
+
+DefSegX("z2_boti_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_boti_SCENE.o")
+DefSegX("z2_boti_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_boti_ROOM0.o")
+DefSegX("z2_boti_room_1", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_boti_ROOM1.o")
+
+DefSegX("Z2_hakugin_bs_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_bs_SCENE.o")
+DefSegX("Z2_hakugin_bs_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_hakugin_bs_ROOM0.o")
+
+DefSegX("z2_20sichitai_scene",GAMEPLAY_SCENE_SEGMENT,		    	"$(ZELDA_DATA)/Z2_20sichitai_SCENE.o")
+DefSegX("z2_20sichitai_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai_ROOM0.o")
+DefSegX("z2_20sichitai_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai_ROOM1.o")
+DefSegX("z2_20sichitai_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_20sichitai_ROOM2.o")
+
+DefSegX("z2_21miturinmae_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_21miturinmae_SCENE.o")
+DefSegX("z2_21miturinmae_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_21miturinmae_ROOM0.o")
+
+DefSegX("Z2_last_zora_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_last_zora_SCENE.o")
+DefSegX("Z2_last_zora_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_zora_ROOM0.o")
+
+DefSegX("z2_11goronnosato2_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato2_SCENE.o")
+DefSegX("z2_11goronnosato2_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato2_ROOM0.o")
+DefSegX("z2_11goronnosato2_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato2_ROOM1.o")
+
+DefSegX("Z2_SEA_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_SCENE.o")
+DefSegX("Z2_SEA_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM0.o")
+DefSegX("Z2_SEA_room_1",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM1.o")
+DefSegX("Z2_SEA_room_2",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM2.o")
+DefSegX("Z2_SEA_room_3",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM3.o")
+DefSegX("Z2_SEA_room_4",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM4.o")
+DefSegX("Z2_SEA_room_5",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM5.o")
+DefSegX("Z2_SEA_room_6",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM6.o")
+DefSegX("Z2_SEA_room_7",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM7.o")
+DefSegX("Z2_SEA_room_8",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM8.o")
+DefSegX("Z2_SEA_room_9",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM9.o")
+DefSegX("Z2_SEA_room_10",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM10.o")
+DefSegX("Z2_SEA_room_11",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM11.o")
+DefSegX("Z2_SEA_room_12",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM12.o")
+DefSegX("Z2_SEA_room_13",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM13.o")
+DefSegX("Z2_SEA_room_14",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM14.o")
+DefSegX("Z2_SEA_room_15",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_SEA_ROOM15.o")
+
+DefSegX("z2_35taki_scene",GAMEPLAY_SCENE_SEGMENT,		       	"$(ZELDA_DATA)/Z2_35taki_SCENE.o")
+DefSegX("z2_35taki_room_0",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_35taki_ROOM0.o")
+
+DefSegX("Z2_ReDead_scene",GAMEPLAY_SCENE_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_SCENE.o")
+DefSegX("Z2_ReDead_room_0",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM0.o")
+DefSegX("Z2_ReDead_room_1",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM1.o")
+DefSegX("Z2_ReDead_room_2",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM2.o")
+DefSegX("Z2_ReDead_room_3",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM3.o")
+DefSegX("Z2_ReDead_room_4",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM4.o")
+DefSegX("Z2_ReDead_room_5",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM5.o")
+DefSegX("Z2_ReDead_room_6",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM6.o")
+DefSegX("Z2_ReDead_room_7",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM7.o")
+DefSegX("Z2_ReDead_room_8",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM8.o")
+DefSegX("Z2_ReDead_room_9",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM9.o")
+DefSegX("Z2_ReDead_room_10",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM10.o")
+DefSegX("Z2_ReDead_room_11",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM11.o")
+DefSegX("Z2_ReDead_room_12",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM12.o")
+DefSegX("Z2_ReDead_room_13",GAMEPLAY_ROOM_SEGMENT,		       	"$(ZELDA_DATA)/Z2_ReDead_ROOM13.o")
+
+DefSegX("z2_bandroom_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_SCENE.o")
+DefSegX("z2_bandroom_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_ROOM0.o")
+DefSegX("z2_bandroom_room_1",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_ROOM1.o")
+DefSegX("z2_bandroom_room_2",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_ROOM2.o")
+DefSegX("z2_bandroom_room_3",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_ROOM3.o")
+DefSegX("z2_bandroom_room_4",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_bandroom_ROOM4.o")
+
+DefSegX("z2_11goronnosato_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato_SCENE.o")
+DefSegX("z2_11goronnosato_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato_ROOM0.o")
+DefSegX("z2_11goronnosato_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_11goronnosato_ROOM1.o")
+
+DefSegX("z2_goron_haka_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_goron_haka_SCENE.o")
+DefSegX("z2_goron_haka_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_goron_haka_ROOM0.o")
+
+DefSegX("z2_secom_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_secom_SCENE.o")
+DefSegX("z2_secom_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_secom_ROOM0.o")
+DefSegX("z2_secom_room_1",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_secom_ROOM1.o")
+
+DefSegX("z2_10yukiyamanomura_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_10yukiyamanomura_SCENE.o")
+DefSegX("z2_10yukiyamanomura_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_10yukiyamanomura_ROOM0.o")
+
+DefSegX("Z2_TOUGItes_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_TOUGItes_SCENE.o")
+DefSegX("Z2_TOUGItes_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_TOUGItes_ROOM0.o")
+
+DefSegX("Z2_DANPEI_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_SCENE.o")
+DefSegX("Z2_DANPEI_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM0.o")
+DefSegX("Z2_DANPEI_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM1.o")
+DefSegX("Z2_DANPEI_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM2.o")
+DefSegX("Z2_DANPEI_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM3.o")
+DefSegX("Z2_DANPEI_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM4.o")
+DefSegX("Z2_DANPEI_room_5",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM5.o")
+DefSegX("Z2_DANPEI_room_6",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM6.o")
+DefSegX("Z2_DANPEI_room_7",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM7.o")
+DefSegX("Z2_DANPEI_room_8",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_DANPEI_ROOM8.o")
+
+DefSegX("z2_ikanamae_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_ikanamae_SCENE.o")
+DefSegX("z2_ikanamae_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikanamae_ROOM0.o")
+
+DefSegX("z2_doujou_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_doujou_SCENE.o")
+DefSegX("z2_doujou_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_doujou_ROOM0.o")
+
+DefSegX("z2_musichouse_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_musichouse_SCENE.o")
+DefSegX("z2_musichouse_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_musichouse_ROOM0.o")
+
+DefSegX("Z2_ikninside_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_ikninside_SCENE.o")
+DefSegX("Z2_ikninside_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikninside_ROOM0.o")
+DefSegX("Z2_ikninside_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_ikninside_ROOM1.o")
+
+DefSegX("z2_map_shop_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_map_shop_SCENE.o")
+DefSegX("z2_map_shop_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_map_shop_ROOM0.o")
+
+DefSegX("z2_f40_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_f40_SCENE.o")
+DefSegX("z2_f40_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_f40_ROOM0.o")
+
+DefSegX("z2_f41_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_f41_SCENE.o")
+DefSegX("z2_f41_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_f41_ROOM0.o")
+
+DefSegX("z2_10yukiyamanomura2_scene",GAMEPLAY_SCENE_SEGMENT,		"$(ZELDA_DATA)/Z2_10yukiyamanomura2_SCENE.o")
+DefSegX("z2_10yukiyamanomura2_room_0",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_10yukiyamanomura2_ROOM0.o")
+DefSegX("z2_10yukiyamanomura2_room_1",GAMEPLAY_ROOM_SEGMENT,		"$(ZELDA_DATA)/Z2_10yukiyamanomura2_ROOM1.o")
+
+DefSegX("z2_14yukidamanomiti_scene",GAMEPLAY_SCENE_SEGMENT,   	       	"$(ZELDA_DATA)/Z2_14yukidamanomiti_SCENE.o")
+DefSegX("z2_14yukidamanomiti_room_0",GAMEPLAY_ROOM_SEGMENT,	       	"$(ZELDA_DATA)/Z2_14yukidamanomiti_ROOM0.o")
+
+DefSegX("z2_12hakuginmae_scene",GAMEPLAY_SCENE_SEGMENT,   	       	"$(ZELDA_DATA)/Z2_12hakuginmae_SCENE.o")
+DefSegX("z2_12hakuginmae_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_12hakuginmae_ROOM0.o")
+
+DefSegX("z2_17setugen_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_17setugen_SCENE.o")
+DefSegX("z2_17setugen_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_17setugen_ROOM0.o")
+
+DefSegX("z2_17setugen2_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_17setugen2_SCENE.o")
+DefSegX("z2_17setugen2_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_17setugen2_ROOM0.o")
+
+DefSegX("Z2_SEA_bs_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_SEA_bs_SCENE.o")
+DefSegX("Z2_SEA_bs_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_SEA_bs_ROOM0.o")
+
+DefSegX("Z2_Random_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_SCENE.o")
+DefSegX("Z2_Random_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM0.o")
+DefSegX("Z2_Random_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM1.o")
+DefSegX("Z2_Random_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM2.o")
+DefSegX("Z2_Random_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM3.o")
+DefSegX("Z2_Random_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM4.o")
+DefSegX("Z2_Random_room_5",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_Random_ROOM5.o")
+
+DefSegX("z2_yadoya_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_SCENE.o")
+DefSegX("z2_yadoya_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_ROOM0.o")
+DefSegX("z2_yadoya_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_ROOM1.o")
+DefSegX("z2_yadoya_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_ROOM2.o")
+DefSegX("z2_yadoya_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_ROOM3.o")
+DefSegX("z2_yadoya_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_yadoya_ROOM4.o")
+
+DefSegX("z2_konpeki_ent_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_konpeki_ent_SCENE.o")
+DefSegX("z2_konpeki_ent_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_konpeki_ent_ROOM0.o")
+
+DefSegX("z2_insidetower_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_insidetower_SCENE.o")
+DefSegX("z2_insidetower_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_insidetower_ROOM0.o")
+DefSegX("z2_insidetower_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_insidetower_ROOM1.o")
+
+DefSegX("z2_26sarunomori_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_SCENE.o")
+DefSegX("z2_26sarunomori_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM0.o")
+DefSegX("z2_26sarunomori_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM1.o")
+DefSegX("z2_26sarunomori_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM2.o")
+DefSegX("z2_26sarunomori_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM3.o")
+DefSegX("z2_26sarunomori_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM4.o")
+DefSegX("z2_26sarunomori_room_5",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM5.o")
+DefSegX("z2_26sarunomori_room_6",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM6.o")
+DefSegX("z2_26sarunomori_room_7",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM7.o")
+DefSegX("z2_26sarunomori_room_8",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_26sarunomori_ROOM8.o")
+
+DefSegX("z2_lost_woods_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_lost_woods_SCENE.o")
+DefSegX("z2_lost_woods_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_lost_woods_ROOM0.o")
+DefSegX("z2_lost_woods_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_lost_woods_ROOM1.o")
+DefSegX("z2_lost_woods_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_lost_woods_ROOM2.o")
+
+DefSegX("Z2_last_link_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_SCENE.o")
+DefSegX("Z2_last_link_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM0.o")
+DefSegX("Z2_last_link_room_1",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM1.o")
+DefSegX("Z2_last_link_room_2",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM2.o")
+DefSegX("Z2_last_link_room_3",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM3.o")
+DefSegX("Z2_last_link_room_4",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM4.o")
+DefSegX("Z2_last_link_room_5",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM5.o")
+DefSegX("Z2_last_link_room_6",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM6.o")
+DefSegX("Z2_last_link_room_7",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_last_link_ROOM7.o")
+
+DefSegX("z2_sougen_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_sougen_SCENE.o")
+DefSegX("z2_sougen_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_sougen_ROOM0.o")
+
+DefSegX("z2_bomya_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_bomya_SCENE.o")
+DefSegX("z2_bomya_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_bomya_ROOM0.o")
+
+DefSegX("z2_kyojinnoma_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_kyojinnoma_SCENE.o")
+DefSegX("z2_kyojinnoma_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_kyojinnoma_ROOM0.o")
+
+DefSegX("z2_koeponarace_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_koeponarace_SCENE.o")
+DefSegX("z2_koeponarace_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_koeponarace_ROOM0.o")
+
+DefSegX("z2_goronrace_scene",GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Z2_goronrace_SCENE.o")
+DefSegX("z2_goronrace_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Z2_goronrace_ROOM0.o")
+
+DefSegX("z2_town_scene",GAMEPLAY_SCENE_SEGMENT,				"$(ZELDA_DATA)/Z2_town_SCENE.o")
+DefSegX("z2_town_room_0",GAMEPLAY_ROOM_SEGMENT,				"$(ZELDA_DATA)/Z2_town_ROOM0.o")
+
+DefSegX("z2_ichiba_scene",GAMEPLAY_SCENE_SEGMENT,	       		"$(ZELDA_DATA)/Z2_ichiba_SCENE.o")
+DefSegX("z2_ichiba_room_0",GAMEPLAY_ROOM_SEGMENT,	       		"$(ZELDA_DATA)/Z2_ichiba_ROOM0.o")
+
+DefSegX("z2_backtown_scene",GAMEPLAY_SCENE_SEGMENT,	       		"$(ZELDA_DATA)/Z2_backtown_SCENE.o")
+DefSegX("z2_backtown_room_0",GAMEPLAY_ROOM_SEGMENT,	       		"$(ZELDA_DATA)/Z2_backtown_ROOM0.o")
+
+DefSegX("z2_clocktower_scene",GAMEPLAY_SCENE_SEGMENT,	       		"$(ZELDA_DATA)/Z2_clocktower_SCENE.o")
+DefSegX("z2_clocktower_room_0",GAMEPLAY_ROOM_SEGMENT,	       		"$(ZELDA_DATA)/Z2_clocktower_ROOM0.o")
+
+DefSegX("z2_alley_scene",GAMEPLAY_SCENE_SEGMENT,	       		"$(ZELDA_DATA)/Z2_alley_SCENE.o")
+DefSegX("z2_alley_room_0",GAMEPLAY_ROOM_SEGMENT,	       		"$(ZELDA_DATA)/Z2_alley_ROOM0.o")
+
+
+/* NEW LINE */
+DefSegX("spot00_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Spot00_SCENE.o")
+DefSegX("spot00_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Spot00_ROOM0.o")
+#if 0
+DefSegX("market_day_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Market_day_SCENE.o")
+DefSegX("market_day_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Market_day_ROOM0.o")
+
+DefSegX("market_night_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Market_night_SCENE.o")
+DefSegX("market_night_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Market_night_ROOM0.o")
+
+DefSegX("men_scene",		GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Men_SCENE.o")
+DefSegX("men_room_0",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM0.o")
+DefSegX("men_room_1",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM1.o")
+DefSegX("men_room_2",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM2.o")
+DefSegX("men_room_3",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM3.o")
+DefSegX("men_room_4",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM4.o")
+DefSegX("men_room_5",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM5.o")
+DefSegX("men_room_6",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM6.o")
+DefSegX("men_room_7",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM7.o")
+DefSegX("men_room_8",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM8.o")
+DefSegX("men_room_9",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM9.o")
+DefSegX("men_room_10",		GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Men_ROOM10.o")
+
+DefSegX("sasatest_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Sasatest_SCENE.o")
+DefSegX("sasatest_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Sasatest_ROOM0.o")
+
+DefSegX("market_alley_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Market_alley_SCENE.o")
+DefSegX("market_alley_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Market_alley_ROOM0.o")
+
+DefSegX("spot20_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Spot20_SCENE.o")
+DefSegX("spot20_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Spot20_ROOM0.o")
+
+DefSegX("market_ruins_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Market_ruins_SCENE.o")
+DefSegX("market_ruins_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Market_ruins_ROOM0.o")
+
+DefSegX("market_alley_n_scene", GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Market_alley_n_SCENE.o")
+DefSegX("market_alley_n_room_0",GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Market_alley_n_ROOM0.o")
+#endif
+DefSegX("kakusiana_scene",	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_SCENE.o")
+DefSegX("kakusiana_room_0",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM0.o")
+DefSegX("kakusiana_room_1",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM1.o")
+DefSegX("kakusiana_room_2",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM2.o")
+DefSegX("kakusiana_room_3",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM3.o")
+DefSegX("kakusiana_room_4",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM4.o")
+DefSegX("kakusiana_room_5",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM5.o")
+DefSegX("kakusiana_room_6",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM6.o")
+DefSegX("kakusiana_room_7",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM7.o")
+DefSegX("kakusiana_room_8",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM8.o")
+DefSegX("kakusiana_room_9",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM9.o")
+DefSegX("kakusiana_room_10",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM10.o")
+DefSegX("kakusiana_room_11",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM11.o")
+DefSegX("kakusiana_room_12",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM12.o")
+DefSegX("kakusiana_room_13",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM13.o")
+DefSegX("kakusiana_room_14",	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Kakusiana_ROOM14.o")
+
+#endif	/* !SCENE_TOOL */
+
+/* この後に追加禁止 */
+
+
+#if !defined(ROM_F)
+DefSegX("test01_scene", 	GAMEPLAY_SCENE_SEGMENT,			"$(ZELDA_DATA)/Test01_SCENE.o")
+DefSegX("test01_room_0", 	GAMEPLAY_ROOM_SEGMENT,			"$(ZELDA_DATA)/Test01_ROOM0.o")
+#endif /* !defined(ROM_F) */
+
+/* 読まないセグメント */
+DefSegX("bump_texture_static",	BUMP_TEXTURE_SEGMENT,			"$(ZELDA_DATA)/shape/bump_texture/bump_texture.o")
+
+DefSegX("anime_model_1_static", ANIME_MODEL_1_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_1/anime_model_1.o")
+DefSegX("anime_model_2_static", ANIME_MODEL_2_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_2/anime_model_2.o")
+DefSegX("anime_model_3_static", ANIME_MODEL_3_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_3/anime_model_3.o")
+DefSegX("anime_model_4_static", ANIME_MODEL_4_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_4/anime_model_4.o")
+DefSegX("anime_model_5_static", ANIME_MODEL_5_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_5/anime_model_5.o")
+DefSegX("anime_model_6_static", ANIME_MODEL_6_SEGMENT,			"$(ZELDA_DATA)/shape/anime_model_6/anime_model_6.o")
+DefSegX("anime_texture_1_static", ANIME_TEXTURE_1_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_1/anime_texture_1.o")
+DefSegX("anime_texture_2_static", ANIME_TEXTURE_2_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_2/anime_texture_2.o")
+DefSegX("anime_texture_3_static", ANIME_TEXTURE_3_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_3/anime_texture_3.o")
+DefSegX("anime_texture_4_static", ANIME_TEXTURE_4_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_4/anime_texture_4.o")
+DefSegX("anime_texture_5_static", ANIME_TEXTURE_5_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_5/anime_texture_5.o")
+DefSegX("anime_texture_6_static", ANIME_TEXTURE_6_SEGMENT,		"$(ZELDA_DATA)/shape/anime_texture_6/anime_texture_6.o")
+
+DefSegX("softsprite_matrix_static", SOFTSPRITE_MATRIX_SEGMENT,		"$(ZELDA_DATA)/shape/softsprite_matrix/softsprite_matrix.o")
+
+DefSegX("hilite", 		HILITE_SEGMENT,				"z_hilite.o")
+    
+DefSegX("UndefinedSymbols", 1, "UndefinedSymbols.o")
+
+/* この後に追加禁止 */
+
+#endif /* SPEC_SEG */

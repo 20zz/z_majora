@@ -1,0 +1,5 @@
+cp /home/soejima/c/Excel_USA/message_define.h .
+cp /home/soejima/c/Excel_SpaG/spaG_extern.h .
+cp /home/soejima/c/Excel_SpaG/spaG_table.c .
+cp /home/soejima/c/Excel_SpaG/spaG_message_data.c .
+u64cc

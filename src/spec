@@ -1,0 +1,865 @@
+/* -*- mode: C; -*- */
+/*
+ * $Id: spec,v 1.3 2003/12/18 05:59:49 wheeler Exp $
+ *
+ *
+ * ゼルダ６４ スペック ファイル
+ *
+ * その他のセグメントは spec.segment に登録する
+ * オーバーレイは spec_ovl.dat に登録する
+ * (spec_ovl.dat → spec_seg_ovl.inc, spec_inc_ovl.inc)
+ *
+ * $Log: spec,v $
+ * Revision 1.3  2003/12/18 05:59:49  wheeler
+ * Add some example chinese localization
+ *
+ * Revision 1.2  2003/12/12 06:19:59  wheeler
+ * Get Linux build working.
+ *
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
+ *
+ * Revision 2.81  2003-05-26 21:23:15+09  zelda
+ * GC64EMU VERSION
+ *
+ * Revision 2.80  2002-05-24 17:09:35+09  zelda
+ * 日本語版にRESUME_VERSIONを組み込み
+ *
+ * Revision 2.79  2000-09-27 17:26:44+09  soejima
+ * PAL_GATEWAY_VERSION
+ *
+ * Revision 2.78  2000-09-05 19:10:55+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.77  2000-09-01 14:37:21+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.76  2000-08-25 16:09:12+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.75  2000-08-22 15:44:42+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.74  2000-08-07 19:14:16+09  soejima
+ * GATEWAY_VERSION
+ *
+ * Revision 2.73  2000-08-04 17:46:01+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.72  2000-08-02 10:20:03+09  soejima
+ * ZeldaAudioPal_music.o
+ *
+ * Revision 2.71  2000-07-14 11:18:11+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.70  2000-07-13 18:47:55+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.69  2000-07-13 18:18:29+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.68  2000-07-06 13:07:36+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.67  2000-07-04 10:15:35+09  soejima
+ * ＰＡＬ
+ *
+ * Revision 2.66  2000-06-26 18:33:39+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.65  2000-06-22 18:51:03+09  soejima
+ * 英語SHOW_VERSION
+ *
+ * Revision 2.64  2000-05-22 18:56:01+09  soejima
+ * ＮＥＳ変更
+ *
+ * Revision 2.63  2000-04-27 13:18:58+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.62  2000-04-25 10:13:56+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.61  2000-04-25 10:01:45+09  hayakawa
+ * icon_item_24_static_test
+ *
+ * Revision 2.60  2000-04-24 17:25:25+09  soejima
+ * icon_item_vtx_static
+ *
+ * Revision 2.59  2000-04-24 16:20:39+09  hayakawa
+ * schedule_dma_static_test追加
+ *
+ * Revision 2.58  2000-04-21 19:04:31+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.57  2000-04-21 15:43:24+09  soejima
+ * ＮＥＳ用変更
+ *
+ * Revision 2.56  2000-04-20 13:26:21+09  soejima
+ * NES_VERSIONに変更
+ *
+ * Revision 2.55  2000-04-17 10:43:31+09  hayakawa
+ * elifって使えなかったっけ？
+ *
+ * Revision 2.54  2000-04-14 18:02:47+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.53  2000-04-14 16:45:04+09  hayakawa
+ * CIC6105第３版対応
+ *
+ * Revision 2.52  2000-04-14 16:07:16+09  soejima
+ * Ｅ３用変更
+ *
+ * Revision 2.51  2000-04-07 15:35:12+09  hayakawa
+ * aspMain_debugのテスト
+ *
+ * Revision 2.50  2000-03-07 18:46:52+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.49  2000-03-01 18:03:27+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.48  2000-02-21 21:56:32+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.47  2000-02-17 19:21:30+09  hayakawa
+ * RAM300KB減ってた分増加させた
+ *
+ * Revision 2.46  2000-02-12 20:27:57+09  hayakawa
+ * FIFOバッファをmallocで割り当てるようにした
+ *
+ * Revision 2.45  2000-02-10 19:01:49+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.44  2000-02-07 16:46:35+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.43  2000-02-04 16:03:02+09  hayakawa
+ * kaleido_map_grand_static2追加など
+ *
+ * Revision 2.42  2000-02-04 10:10:22+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.41  2000-02-03 22:22:30+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.40  2000-02-03 18:02:48+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.39  2000-02-03 17:56:15+09  hayakawa
+ * データ圧縮テスト
+ *
+ * Revision 2.38  2000-02-03 16:58:51+09  hayakawa
+ * item_name_static,map_grand_static2をはずした
+ *
+ * Revision 2.37  2000-02-02 21:37:32+09  hayakawa
+ * map_grand_static2_test
+ *
+ * Revision 2.36  2000-02-02 18:37:38+09  hayakawa
+ * icon_item_static_test
+ *
+ * Revision 2.35  2000-01-28 15:03:35+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.34  2000-01-27 17:45:35+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.33  2000-01-27 17:36:52+09  hayakawa
+ * icon_item_nes_staticはずした
+ *
+ * Revision 2.32  1999-12-28 17:08:40+09  hayakawa
+ * ovl_map_mark_data削除
+ *
+ * Revision 2.31  1999-11-08 20:20:03+09  hayakawa
+ * メモリマップ変更
+ *
+ * Revision 2.30  1999-10-05 10:16:44+09  soejima
+ * characters_select削除
+ *
+ * Revision 2.29  1999-09-02 20:02:29+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.28  1999-08-31 13:39:36+09  matutani
+ * *** empty log message ***
+ *
+ * Revision 2.27  1999-08-11 09:43:38+09  zelda
+ * *** empty log message ***
+ *
+ * Revision 2.26  1999-08-02 18:19:08+09  soejima
+ * map_grand_static,map_i_static,map_48x85_static 削除
+ *
+ * Revision 2.25  1999-07-16 10:25:08+09  hayakawa
+ * 旧マイクロコードのテスト
+ *
+ * Revision 2.24  1999-07-13 14:07:10+09  hayakawa
+ * sys_zbの廃止
+ *
+ * Revision 2.23  1999-07-13 13:11:20+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.22  1999-07-09 16:06:23+09  hayakawa
+ * *** empty log message ***
+ *
+ * Revision 2.21  1999-07-07 17:37:16+09  hayakawa
+ * マイクロコードバージョンアップ
+ *
+ * Revision 2.20  1999-07-05 18:55:06+09  hayakawa
+ * ポイントライトマイクロコード導入
+ *
+ * Revision 2.19  1999-06-30 18:30:55+09  hayakawa
+ * ハイレゾマップ変更
+ *
+ * Revision 2.18  1999-06-21 17:18:04+09  hayakawa
+ * 条件コンパイル USE_HIRESO をデフォルトにして外した
+ *
+ * Revision 2.17  1999-06-16 17:53:01+09  hayakawa
+ * ハイレゾ
+ *
+ * Revision 2.16  1999-06-14 11:25:14+09  hayakawa
+ * ハイレゾテスト
+ *
+ * Revision 2.15  1999-06-07 16:34:47+09  hayakawa
+ * USE_HIRESO対応
+ *
+ * Revision 2.14  1999-06-02 18:07:12+09  hayakawa
+ * ６４ＤＤ関連の処理を削除
+ *
+ * Revision 2.13  1999-04-14 17:03:26+09  hayakawa
+ * 大量整理
+ *
+ * Revision 2.12  1999-04-14 11:22:49+09  hayakawa
+ * マクロ変更
+ * spec.segmentのSPEC_WAVE部が不要になった
+ *
+ * Revision 2.11  1999-04-07 18:25:44+09  hayakawa
+ * 改造
+ *
+ * Revision 2.10  1999-03-30 17:35:29+09  soejima
+ * *** empty log message ***
+ *
+ * Revision 2.9  1999-03-29 19:52:35+09  matutani
+ * マップ表示テスト
+ *
+ * Revision 2.8  1999-03-24 14:44:36+09  soejima
+ * キャラクター選択処理
+ *
+ * Revision 2.7  1999-03-19 18:19:20+09  soejima
+ * ＮＥＷメッセージ
+ *
+ * Revision 2.6  1999-03-17 14:02:36+09  hayakawa
+ * Emacsでc-modeになるようにした
+ *
+ * Revision 2.5  1998-10-29 09:50:31+09  zelda
+ * *** empty log message ***
+ *
+ * Revision 2.4  1998-10-29 09:49:10+09  zelda
+ * *** empty log message ***
+ *
+ * Revision 2.3  1998-10-28 19:15:23+09  zelda
+ * *** empty log message ***
+ *
+ * Revision 2.2  1998-10-27 21:23:51+09  soejima
+ * ＰＡＬ仕様
+ *
+ * Revision 2.1  1998-10-22 20:41:56+09  zelda
+ * ＲＯＭ出しバージョン(NTSC)
+ *
+ * Revision 1.317  1998/10/15 08:29:19  zelda
+ * *** empty log message ***
+ *
+ */
+
+#include "boot.h" /* BOOT_STACK_SIZE, boot */
+#include "sys_segment.h" /* BOOT_STACK_SIZE, *_SEGMENT */
+#include "sys_buffers.h" /* BOOT_SEGMENT_START */
+
+#define DefSegObj(segname, segafter, segalign, seginclude) \
+beginseg 			\
+	name	segname 	\
+	flags	OBJECT 		\
+	after	segafter	\
+	align	segalign	\
+	include	seginclude 	\
+endseg
+
+#define DefSegObjFix(segname, segaddr, segalign, seginclude) \
+beginseg 			\
+	name	segname 	\
+	flags	OBJECT 		\
+	address	segaddr 	\
+	align	segalign 	\
+	include	seginclude 	\
+endseg
+
+#define DefSegObj8(segname, segafter, seginclude) \
+        DefSegObj(segname, segafter, 16, seginclude)
+
+#define DefSegObj64(segname, segafter, seginclude) \
+        DefSegObj(segname, segafter, 64, seginclude)
+
+#define DefSegData(segname, segnumber, seginclude) \
+beginseg 			\
+	name    segname 	\
+	flags   OBJECT 		\
+	number  segnumber	\
+	include seginclude 	\
+	romalign 0x1000		\
+endseg
+
+#define DefSegRaw(segname, seginclude) \
+beginseg 			\
+	name    segname 	\
+	flags   RAW 		\
+	include seginclude 	\
+	romalign 0x1000		\
+endseg
+
+#define DefSegRaw0(segname, seginclude) \
+beginseg 			\
+	name    segname 	\
+	flags   RAW 		\
+	include seginclude 	\
+endseg
+
+#define DefSegAudio(segname, segnumber, seginclude) \
+beginseg 			\
+	name    segname 	\
+	flags   OBJECT 		\
+	number  segnumber	\
+	include seginclude 	\
+endseg
+
+/*
+ * Ｋ０アドレス空間
+ * number のないセグメント
+ */
+beginseg
+	name "boot"
+	flags BOOT OBJECT
+	entry boot
+	stack bootStack + BOOT_STACK_SIZE
+	address BOOT_SEGMENT_START
+	include "bootsegment.o"
+
+#if defined(USE_CIC6105_CHECK)
+	include "$(ZELDA_ROOT)/lib/CIC6105/981006/CIC6105/rspboot0.o"
+#else
+#if defined(USE_CIC6105_NOCHECK)
+	include "$(ZELDA_ROOT)/lib/CIC6105/981006/CIC6105/rspboot0.nocheck.o"
+#else /* CIC6105は使わない */
+	include "/usr/lib/PR/rspboot.o"
+#endif /* defined(USE_CIC6105_NOCHECK) */
+#endif /* defined(USE_CIC6105_CHECK) */
+
+	/* バージョン情報 */
+	include "version.o"
+endseg
+
+
+DefSegObj8("dmadata",         "boot",            "z_std_dma_data.o")
+
+
+/*
+ * オーディオデータ（位置固定）
+ */
+DefSegAudio("Audiobank",  AUDIO_SEGMENT, "$(ZELDA_ROOT)/lib/audio/ZeldaAudio_banks.o")
+#if defined(PAL_VERSION)
+DefSegAudio("Audioseq",   AUDIO_SEGMENT, "$(ZELDA_ROOT)/lib/audio/ZeldaAudioPal_music.o")
+#else
+DefSegAudio("Audioseq",   AUDIO_SEGMENT, "$(ZELDA_ROOT)/lib/audio/ZeldaAudio_music.o")
+#endif	/* PAL_VERSION */
+DefSegAudio("Audiotable", AUDIO_SEGMENT, "$(ZELDA_ROOT)/lib/audio/ZeldaAudio_table.o")
+
+
+/********************************
+ * 分割ＤＭＡ（オーディオ以外） *
+ ********************************/
+#if !defined(PAL_VERSION)
+DefSegData("kanji", 		KANROM_SEGMENT, 	"kan.o")
+#endif	/* PAL_VERSION */
+
+DefSegData("link_animetion",       READ_ROM_DATA_SEGMENT,"$(ZELDA_DATA)/Link_anime_data.o")
+
+/*
+ * カレイド・スコープ用
+ */
+#if defined(PAL_VERSION)
+#if 0
+DefSegData("icon_item_static", 		ICON_ITEM_SEGMENT, 	 "$(ZELDA_DATA)/pal_icon_item.o")
+DefSegData("icon_item_24_static", 	ICON_ITEM_24_SEGMENT, 	 "$(ZELDA_DATA)/pal_icon_item_24.o")
+DefSegData("icon_item_field_static",	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/pal_icon_item_field.o")
+DefSegData("icon_item_dungeon_static", 	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/pal_icon_item_dungeon.o")
+DefSegData("icon_item_gameover_static", ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/pal_icon_item_gameover.o")
+#else
+DefSegData("icon_item_static", 		ICON_ITEM_SEGMENT, 	 "$(ZELDA_DATA)/icon_item.o")
+DefSegData("icon_item_24_static", 	ICON_ITEM_24_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_24.o")
+DefSegData("icon_item_field_static",	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_field.o")
+DefSegData("icon_item_dungeon_static", 	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_dungeon.o")
+DefSegData("icon_item_gameover_static", ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_gameover.o")
+#endif
+DefSegData("icon_item_nes_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/nes_icon_item_nes.o")
+DefSegData("icon_item_ger_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/ger_icon_item.o")
+DefSegData("icon_item_fra_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/fra_icon_item.o")
+DefSegData("icon_item_spa_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/spa_icon_item.o")
+#else
+#if defined(GC64EMU_VERSION)
+DefSegData("icon_item_static", 		ICON_ITEM_SEGMENT, 	 "$(ZELDA_DATA)/cube_icon_item.o")
+#else
+DefSegData("icon_item_static", 		ICON_ITEM_SEGMENT, 	 "$(ZELDA_DATA)/icon_item.o")
+#endif /* GC64EMU_VERSION */
+DefSegData("icon_item_24_static", 	ICON_ITEM_24_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_24.o")
+DefSegData("icon_item_field_static",	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_field.o")
+DefSegData("icon_item_dungeon_static", 	ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_dungeon.o")
+DefSegData("icon_item_gameover_static", ICON_ITEM_MAP_SEGMENT, 	 "$(ZELDA_DATA)/icon_item_gameover.o")
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+DefSegData("icon_item_jpn_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/nes_icon_item_nes.o")
+#else
+DefSegData("icon_item_jpn_static", 	ICON_ITEM_JPN_NES_SEGMENT, "$(ZELDA_DATA)/icon_item_jpn.o")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* PAL_VERSION */
+
+#if defined(GC64EMU_VERSION)
+DefSegData("icon_item_vtx_static", 	MAP_SEGMENT, 		"$(ZELDA_DATA)/cube_icon_item_vtx.o")
+#else
+DefSegData("icon_item_vtx_static", 	MAP_SEGMENT, 		"$(ZELDA_DATA)/icon_item_vtx.o")
+#endif /* GC64EMU_VERSION */
+
+    /*
+     * 分割圧縮
+     */
+DefSegRaw0("kaleido_map_grand_static2_test",			"$(ZELDA_DATA)/kaleido_map_grand2_test.raw")
+DefSegRaw0("map_grand_static2_test",				 "$(ZELDA_DATA)/map_grand2_test.raw")
+#if defined(PAL_VERSION)
+DefSegRaw0("nes_item_name_static_test",				 "$(ZELDA_DATA)/nes_item_name_test.raw")
+DefSegRaw0("ger_item_name_static_test",				 "$(ZELDA_DATA)/ger_item_name_test.raw")
+DefSegRaw0("fra_item_name_static_test",				 "$(ZELDA_DATA)/fra_item_name_test.raw")
+DefSegRaw0("spa_item_name_static_test",				 "$(ZELDA_DATA)/spa_item_name_test.raw")
+DefSegRaw0("nes_map_name_static_test",				 "$(ZELDA_DATA)/nes_map_name_test.raw")
+DefSegRaw0("ger_map_name_static_test",				 "$(ZELDA_DATA)/ger_map_name_test.raw")
+DefSegRaw0("fra_map_name_static_test",				 "$(ZELDA_DATA)/fra_map_name_test.raw")
+DefSegRaw0("spa_map_name_static_test",				 "$(ZELDA_DATA)/spa_map_name_test.raw")
+#else
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+DefSegRaw0("item_name_static_test",				 "$(ZELDA_DATA)/nes_item_name_test.raw")
+DefSegRaw0("map_name_static_test",				 "$(ZELDA_DATA)/nes_map_name_test.raw")
+#else
+DefSegRaw0("item_name_static_test",				 "$(ZELDA_DATA)/item_name_test.raw")
+DefSegRaw0("map_name_static_test",				 "$(ZELDA_DATA)/map_name_test.raw")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* PAL_VERSION */
+#if defined(GC64EMU_VERSION)
+DefSegRaw0("icon_item_static_test",				 "$(ZELDA_DATA)/cube_icon_item_test.raw")
+#else
+DefSegRaw0("icon_item_static_test",				 "$(ZELDA_DATA)/icon_item_test.raw")
+#endif /* GC64EMU_VERSION */
+DefSegRaw0("icon_item_24_static_test",				 "$(ZELDA_DATA)/icon_item_24_test.raw")
+
+
+/*
+ * スケジュール
+ */
+DefSegData("schedule_dma_static", 	HIREZO_SEGMENT, 	 "$(ZELDA_DATA)/schedule_dma.o")
+DefSegRaw0("schedule_dma_static_test",				 "$(ZELDA_DATA)/schedule_dma_test.raw")
+#if defined(NES_VERSION) || defined(PAL_VERSION) || defined(SHOW_VERSION)
+DefSegData("schedule_static", 		HIREZO2_SEGMENT, 	 "$(ZELDA_DATA)/nes_schedule.o")
+#else
+DefSegData("schedule_static", 		HIREZO2_SEGMENT, 	 "$(ZELDA_DATA)/schedule.o")
+#endif	/* NES_VERSION PAL_VERSION SHOW_VERSION */
+
+
+/*
+ * おばばの寝物語・挿し絵
+ */
+DefSegData("story_static", 		SHOW_SEGMENT, 	 	"$(ZELDA_DATA)/story.o")
+
+
+/*
+ * 書き換えテクスチャ（パラメーター）
+ */
+#if defined(PAL_VERSION)
+DefSegData("nes_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/nes_do_action_idx.o")
+DefSegData("ger_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/ger_do_action_idx.o")
+DefSegData("fra_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/fra_do_action_idx.o")
+DefSegData("spa_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/spa_do_action_idx.o")
+#else
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+#ifdef CHINA
+DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/nes_do_action_idx.zh.o")
+#else
+DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/nes_do_action_idx.o")
+#endif
+#else
+DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/do_action_idx.o")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* PAL_VERSION */
+
+/* 
+ * メッセージ吹き出しテクスチャ
+ */
+DefSegData("message_static", 		MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/fukidashi.o")
+DefSegData("message_texture_static",	MESSAGE2_SEGMENT, 	 "$(ZELDA_DATA)/texture.o")
+DefSegData("nes_font_static",		KANROM_SEGMENT, 	 "$(ZELDA_DATA)/font_e.o")
+#if defined(GC64EMU_VERSION)
+#if defined(NES_VERSION)
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/GC_Nes.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/usa_staff_c.o")
+#else
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/cube_japan2.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/staff_c.o")
+#endif  /* NES_VERSION */
+#else
+#if defined(PAL_GATEWAY_VERSION)
+DefSegData("usa_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/UsaG.o")
+DefSegData("ger_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/GerG.o")
+DefSegData("fra_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/FraG.o")
+DefSegData("spa_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/SpaG.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/pal_staff_c.o")
+
+DefSegData("usa_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/usaG_table.o")
+DefSegData("ger_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/gerG_table.o")
+DefSegData("fra_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/fraG_table.o")
+DefSegData("spa_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/spaG_table.o")
+#else
+#if defined(PAL_VERSION)
+DefSegData("usa_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/USA.o")
+DefSegData("ger_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/GER.o")
+DefSegData("fra_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/FRA.o")
+DefSegData("spa_message_data_static", 	MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/SPA.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/pal_staff_c.o")
+
+DefSegData("usa_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/usa_table.o")
+DefSegData("ger_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/ger_table.o")
+DefSegData("fra_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/fra_table.o")
+DefSegData("spa_message_table_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/spa_table.o")
+#else
+#if defined(GATEWAY_VERSION)
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/NesG.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/usa_staff_c.o")
+#else
+#if defined(NES_VERSION) || defined(SHOW_VERSION)
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/NES.o")
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/usa_staff_c.o")
+#else
+#if defined(RESUME_VERSION)
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/Resume_japan2.o")
+#else
+DefSegData("message_data_static", 	MESSAGE1_SEGMENT, 	 "$(ZELDA_DATA)/japan.o")
+#endif  /* RESUME_VERSION */
+DefSegData("staff_message_data_static", MESSAGE0_SEGMENT, 	 "$(ZELDA_DATA)/staff_c.o")
+#endif	/* NES_VERSION SHOW_VERSION */
+#endif	/* GATEWAY_VERSION */
+#endif	/* PAL_VERSION */
+#endif	/* PAL_GATEWAY_VERSION */
+#endif /* GC64EMU_VERSION */
+
+
+/****************************
+ * 以下は圧縮可能セグメント *
+ ****************************/
+/*
+ * Ｋ０アドレス空間
+ * number のないセグメント
+ * 常駐セグメント
+ */
+beginseg
+	name "code"
+	flags OBJECT
+	after "dmadata"
+
+	include "codesegment.o"
+	include "z_vr_box_segment.o"
+
+	/* オーディオ用データ */
+	include "$(ZELDA_ROOT)/lib/audio/audio_hb.o"
+	include "$(ZELDA_ROOT)/lib/audio/audio_hm.o"
+#if defined(PAL_VERSION)
+	include "$(ZELDA_ROOT)/lib/audio/audio_hs_pal.o"
+#else
+	include "$(ZELDA_ROOT)/lib/audio/audio_hs.o"
+#endif	/* PAL_VERSION */
+	include "$(ZELDA_ROOT)/lib/audio/audio_hw.o"
+
+	/* マイクロコード */
+#if !defined(ROM_F)
+	include "$(ZELDA_ROOT)/lib/audio/aspMain_debug.o"
+#else
+	include "$(ZELDA_ROOT)/lib/audio/aspMain.o"
+#endif
+	include "$(ZELDA_ROOT)/lib/ucode/gspF3DZEX2.NoN_PosLight.fifo.o"
+	include "$(ZELDA_ROOT)/lib/ucode/gspS2DEX2.fifo.o"
+	include "$(ZELDA_ROOT)/lib/ucode/jpgDRGBA16.o" /* RGBA5551 */
+
+endseg
+
+DefSegObj8("yieldbuffer",     "code",		 "sys_yield_buffer.o")
+DefSegObj8("dramstackbuffer", "yieldbuffer",     "sys_dram_stack.o")
+DefSegObj8("SystemDynamic",   "dramstackbuffer", "sys_dynamic.o")
+DefSegObj8("Audioheap",       "SystemDynamic",   "$(ZELDA_ROOT)/lib/audio/audioheap.o")
+DefSegObj8("SystemHeap",      "Audioheap",       "sys_heap.o")
+
+    /*
+     * ローレゾフレームバッファの配置
+     */
+DefSegObjFix("sys_cfb0l",	SYS_CFB0L_SEGMENT_START, 64, "sys_cfb0l.o")
+#if 0
+DefSegObjFix("sys_work4",	SYS_WORK4_SEGMENT_START, 64, "sys_work4.o")
+#endif
+DefSegObjFix("sys_work0",	SYS_WORK0_SEGMENT_START, 64, "sys_work0.o") /* VR-BOX */
+#if !defined(GC64EMU_VERSION)
+DefSegObjFix("sys_work1",	SYS_WORK1_SEGMENT_START, 64, "sys_work1.o") /* VR-BIX */
+#endif /* !defined(GC64EMU_VERSION) */
+DefSegObjFix("sys_cfb1l",	SYS_CFB1L_SEGMENT_START, 64, "sys_cfb1l.o")
+    
+    /*
+     * ハイレゾフレームバッファの配置
+     */
+DefSegObjFix("sys_cfb0h",	SYS_CFB0H_SEGMENT_START, 64, "sys_cfb0h.o")
+DefSegObjFix("sys_cfb1h",	SYS_CFB1H_SEGMENT_START, 64, "sys_cfb1h.o")
+
+/*
+ * オーバーレイセグメント
+ */
+beginseg
+	address 0x80800000 name "ovl_title"
+#define LASTSEGMENT             "ovl_title"
+	flags OBJECT
+	include "z_title.o"
+	include "z_title.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_select"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_select"
+	flags OBJECT
+	include "z_select_segment.o"
+	include "z_select_segment.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_opening"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_opening"
+	flags OBJECT
+	include "z_opening.o"
+	include "z_opening.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_file_choose"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_file_choose"
+	flags OBJECT
+	include "z_file_choose_segment.o"
+	include "z_file_choose_segment.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_daytelop"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_daytelop"
+	flags OBJECT
+	include "z_daytelop_segment.o"
+	include "z_daytelop_segment.rel"
+endseg
+
+
+beginseg
+	after LASTSEGMENT name "ovl_kaleido_scope"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_kaleido_scope"
+	flags OBJECT
+	include "z_kaleido_segment.o"
+	include "z_kaleido_segment.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_player_actor"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_player_actor"
+	flags OBJECT
+	include "z_player.o"
+	include "z_player.rel"
+endseg
+
+beginseg
+	after LASTSEGMENT name "ovl_En_Test"
+#undef        LASTSEGMENT
+#define       LASTSEGMENT      "ovl_En_Test"
+	flags OBJECT
+	include "z_en_test.o"
+	include "z_en_test.rel"
+endseg
+
+#include "spec_seg_ovl.inc" /* 登録は spec_ovl.dat に行ってください */
+
+#define   SPEC_SEG
+#define DefSegX(segname, segnumber, seginclude) \
+	DefSegData(segname, segnumber, seginclude)
+#define DefSegR(segname, seginclude) \
+	DefSegRaw(segname, seginclude)
+#include "spec.segment"
+#undef  DefSegX
+#undef  DefSegR
+#undef    SPEC_SEG
+
+/*
+ * ウェーブの定義
+ */
+beginwave
+	name "zelda"
+	include "boot"
+	include "dmadata"
+
+/* オーディオデータ（位置固定） */
+	include "Audiobank"
+	include "Audioseq"
+	include "Audiotable"
+
+
+/* 分割ＤＭＡ */
+#if !defined(PAL_VERSION)
+	include "kanji"
+#endif
+	include "link_animetion"
+
+
+/* カレイド・スコープ */
+	include	"icon_item_static"
+	include	"icon_item_24_static"
+	include	"icon_item_field_static"
+	include	"icon_item_dungeon_static"
+	include	"icon_item_gameover_static"
+# if defined(PAL_VERSION)
+	include	"icon_item_nes_static"
+	include	"icon_item_ger_static"
+	include	"icon_item_fra_static"
+	include	"icon_item_spa_static"
+# else
+	include	"icon_item_jpn_static"
+#endif	/* PAL_VERSION */
+	include	"icon_item_vtx_static"
+
+/* 分割圧縮 */
+        include "kaleido_map_grand_static2_test"
+        include "map_grand_static2_test"
+#if defined(PAL_VERSION)
+	include	"nes_item_name_static_test"
+	include	"ger_item_name_static_test"
+	include	"fra_item_name_static_test"
+	include	"spa_item_name_static_test"
+	include	"nes_map_name_static_test"
+	include	"ger_map_name_static_test"
+	include	"fra_map_name_static_test"
+	include	"spa_map_name_static_test"
+#else
+	include	"item_name_static_test"
+	include	"map_name_static_test"
+#endif	/* PAL_VERSION */
+	include	"icon_item_static_test"
+	include	"icon_item_24_static_test"
+
+/* スケジュール */
+	include	"schedule_dma_static"
+	include	"schedule_dma_static_test"
+	include	"schedule_static"
+
+/* おばばの寝物語・挿し絵 */
+	include	"story_static"
+
+
+/* 書き換えテクスチャ */
+#if defined(PAL_VERSION)
+	include	"nes_do_action_static"
+	include	"ger_do_action_static"
+	include	"fra_do_action_static"
+	include	"spa_do_action_static"
+#else
+	include	"do_action_static"
+#endif	/* PAL_VERSION */
+
+
+/* メッセージ吹き出しテクスチャ */
+	include	"message_static"
+	include	"message_texture_static"
+#if defined(PAL_VERSION)
+	include	"nes_font_static"
+	include	"usa_message_data_static"
+	include	"ger_message_data_static"
+	include	"fra_message_data_static"
+	include	"spa_message_data_static"
+	include	"staff_message_data_static"
+
+	include	"usa_message_table_static"
+	include	"ger_message_table_static"
+	include	"fra_message_table_static"
+	include	"spa_message_table_static"
+#else
+	include	"nes_font_static"
+	include	"message_data_static"
+#if 0	/*----- 2000/01/28 -----*/
+	include	"nes_message_data_static"
+#endif	/*----- 2000/01/28 -----*/
+	include	"staff_message_data_static"
+#endif
+
+/* 以下は圧縮可能セグメント */
+	include "code"
+	include "yieldbuffer"
+	include "dramstackbuffer"
+	include "SystemDynamic"
+	include "Audioheap"
+	include "SystemHeap"
+
+	include "ovl_title"
+	include "ovl_select"
+	include "ovl_opening"
+	include "ovl_file_choose"
+	include "ovl_daytelop"
+	include "ovl_kaleido_scope"
+	include "ovl_player_actor"
+	include "ovl_En_Test"
+#include "spec_inc_ovl.inc" /* 登録は spec_ovl.dat に行ってください */
+
+/*spec.segment*/
+#define SPEC_SEG
+#define DefSegX(segname, segnumber, seginclude) \
+	include segname
+#define DefSegR(segname, seginclude) \
+	include segname
+#include "spec.segment"
+#undef  DefSegX
+#undef  DefSegR
+#undef  SPEC_SEG
+    /* lowreso wave コピー */
+#if 0
+	include "sys_work4"
+#endif
+	include "sys_cfb0l"
+	include "sys_work0"
+#if !defined(GC64EMU_VERSION)
+	include "sys_work1"
+#endif /* !defined(GC64EMU_VERSION) */
+	include "sys_cfb1l"
+endwave
+
+beginwave
+	name "lowreso"
+#if 0
+	include "sys_work4"
+#endif
+	include "sys_cfb0l"
+	include "sys_work0"
+#if !defined(GC64EMU_VERSION)
+	include "sys_work1"
+#endif /* !defined(GC64EMU_VERSION) */
+	include "sys_cfb1l"
+endwave
+beginwave
+	name "highreso"
+#if 0
+	include "sys_work4"
+#endif
+	include "sys_cfb0h"
+	include "sys_cfb1h"
+endwave
+

@@ -1,0 +1,871 @@
+head	2.15;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.7;
+locks; strict;
+comment	@# @;
+
+
+2.15
+date	2000.07.03.03.06.20;	author iwawaki;	state Exp;
+branches;
+next	2.14;
+
+2.14
+date	2000.07.03.03.05.29;	author iwawaki;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	2000.07.03.02.54.29;	author iwawaki;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	2000.04.24.04.00.43;	author iwawaki;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	2000.02.19.11.33.42;	author hayakawa;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2000.02.01.13.18.21;	author iwawaki;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2000.01.15.10.17.33;	author iwawaki;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2000.01.15.09.52.04;	author iwawaki;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.01.15.09.45.11;	author iwawaki;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.09.01.11.18.11;	author iwawaki;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.09.01.09.42.39;	author iwawaki;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.09.01.09.40.28;	author iwawaki;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	99.09.01.06.04.18;	author iwawaki;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	99.01.27.01.32.17;	author iwawaki;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	98.10.09.07.52.01;	author komatu;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	98.06.18.04.07.56;	author komatu;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	98.06.01.10.12.49;	author hayakawa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	98.01.20.07.58.41;	author soejima;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.10.13.13.21.41;	author soejima;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.10.11.06.59.02;	author soejima;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.09.03.06.03.11;	author soejima;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.15
+log
+@*** empty log message ***
+@
+text
+@#!/bin/sh
+#
+# 削除するファイルの登録
+# 登録は後ろに追加するようにし、
+# １ヶ月をめどに消去する
+#
+# $Log: rmfiles,v,v $
+# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
+# Assets: both cooked and raw from Nintendo.
+#
+# Revision 2.14  2000-07-03 12:05:29+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.13  2000-07-03 11:54:29+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.12  2000-04-24 13:00:43+09  iwawaki
+# *** empty log message ***
+#
+# Revision 2.11  2000-02-19 20:33:42+09  hayakawa
+# *** empty log message ***
+#
+#Revision 2.10  2000-02-01 22:18:21+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.9  2000-01-15 19:17:33+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.8  2000-01-15 18:52:04+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.7  2000-01-15 18:45:11+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.6  1999-09-01 20:18:11+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.5  1999-09-01 18:42:39+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.4  1999-09-01 18:40:28+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.3  1999-09-01 15:04:18+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.2  1999-01-27 10:32:17+09  iwawaki
+#*** empty log message ***
+#
+#Revision 2.1  1998-10-22 21:42:44+09  hayakawa
+#ＲＯＭ出しバージョン(NTSC)
+#
+#Revision 1.7  1998-10-09 16:52:01+09  komatu
+#*** empty log message ***
+#
+#Revision 1.6  1998-06-18 13:07:56+09  komatu
+#OF1をけした
+#
+#Revision 1.5  1998-06-01 19:12:49+09  hayakawa
+#hidan_objects4.o
+#hidan_objects5.o
+#hidan_objects6.o
+#
+#Revision 1.4  1998-01-20 16:58:41+09  soejima
+#*** empty log message ***
+#
+# Revision 1.3  1997/10/13  13:21:41  soejima
+# *** empty log message ***
+#
+# Revision 1.2  1997/10/11  06:59:02  soejima
+# *** empty log message ***
+#
+# Revision 1.1  1997/09/03  06:03:11  soejima
+# Initial revision
+#
+#
+
+#set -x
+
+#
+#ファイルはここに登録
+#
+RMFILES="
+hidan_objects4.o
+hidan_objects5.o
+hidan_objects6.o
+Heavy_object.o
+keep_PAL
+keep_PAL.objs
+keep_PAL.map
+keep_PAL.o
+"
+
+echo "使用しなくなったソースを削除します…"
+
+backup_depend() {
+  if [ -f $1 ]
+  then
+    echo $1 を /tmp/rmfiles_$1.$$ にバックアップします
+    cp $1 /tmp/rmfiles_$1.$$
+  fi
+}
+
+delete_depend() {
+  if [ -f $2 ]
+  then
+    echo "$1 を $2 から抹消します (s! $1 ! !)"
+    sed -e "s! $1 ! !" $2 > /tmp/rmfiles.$$
+    cp /tmp/rmfiles.$$ $2
+    rm -f /tmp/rmfiles.$$
+  fi
+}
+
+delete_depend2() {
+  if [ -f $2 ]
+  then
+    echo "$1 を $2 から抹消します (s! \.\./$1 ! !)"
+    sed -e "s! \.\./$1 ! !" $2 > /tmp/rmfiles.$$
+    cp /tmp/rmfiles.$$ $2
+    rm -f /tmp/rmfiles.$$
+  fi
+}
+
+#リネームによる削除
+delete_mv() {
+    if [ -f $1 ]
+    then
+	echo "$1 を 削除します"
+	mv $1 $1~deleted~
+    fi
+}
+
+find_delete() {
+    find . -name "$1" -print -exec rm -f {} \;
+}
+
+delete_source() {
+    if [ -f $1 ]
+    then
+	src=$1
+	rcs=RCS/$1,v
+	obj=${src%.c}.o
+	rel=${src%.c}.rel
+	delete_depend $1 Makedepend
+	delete_depend2 $1 rom_d/Makedepend
+	delete_depend2 $1 rom_x/Makedepend
+	delete_depend2 $1 rom_f/Makedepend
+	delete_depend2 $1 rom_s/Makedepend
+	delete_depend2 $1 rom_c/Makedepend
+	delete_mv $src
+	delete_mv $rcs
+	find_delete $obj
+	find_delete $rel
+    fi
+}
+
+for file in $RMFILES
+do
+    delete_source $file
+done
+
+
+echo '本当に削除するには、\\rm -f *~deleted~ を実行してください。'
+echo ""
+@
+
+
+2.14
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d85 3
+@
+
+
+2.13
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a81 3
+keep_PAL
+keep_PAL.objs
+keep_PAL.map
+@
+
+
+2.12
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d79 4
+@
+
+
+2.11
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d75 1
+@
+
+
+2.10
+log
+@*** empty log message ***
+@
+text
+@d7 4
+a10 1
+#$Log: rmfiles,v,v $
+#Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
+#Assets: both cooked and raw from Nintendo.
+#
+a71 287
+opening
+opening.map
+opening.objs
+map_pal.o
+message
+message.objs
+map_make
+title
+title.map
+title.objs
+parameter
+parameter.map
+parameter.objs
+parameter.objs~
+parameter~
+nintendo_rogo
+OF1.o
+gjyo_objects.o
+Baby_skel.o
+Ironknack.o
+Soldier.o
+Human.o
+Fire.o
+Reeba.o
+Kdodongo.o
+Kdodongo_PAL.o
+Zf.o
+Go.o
+Go_PAL.o
+Gol.o
+Dodojr.o
+Tp.o
+OAX.o
+Ei.o
+OBX.o
+O_anime.o
+OA2.o
+spot00_objects.o
+Mb.o
+Sk2.o
+OE1.o
+OE_anime.o
+OE2.o
+Gnd.o
+OA3.o
+OA4.o
+OA5.o
+OA6.o
+OA7.o
+OA8.o
+OA9.o
+OB2.o
+OB3.o
+OB4.o
+Horse_Ganon.o
+Horse_Zelda.o
+Opening_Demo1.o
+OE3.o
+OE4.o
+menkuri_objects.o
+OE5.o
+OE6.o
+OE7.o
+OE8.o
+OE9.o
+OE10.o
+OE11.o
+OE12.o
+OA10.o
+OA11.o
+Yukabyun.o
+Mjin.o
+Flash_mjin.o
+Dark_mjin.o
+Flame_mjin.o
+Ice_mjin.o
+Soul_mjin.o
+Wind_mjin.o
+Oka_mjin.o
+Warp2.o
+Bird.o
+Lightbox.o
+Pu_box.o
+Vase.o
+Im.o
+Bv.o
+Bv_PAL.o
+efc_crystal_light.o
+efc_fire_ball.o
+efc_flash.o
+efc_lgt_shower.o
+god_lgt.o
+light_ring.o
+triforce_spot.o
+Gndd.o
+fd.o
+fd_PAL.o
+fw.o
+medal.o
+Haka.o
+ru1.o
+fd2.o
+Rl.o
+demo_tre_lgt.o
+gi_jewel.o
+nb.o
+mo.o
+mo_PAL.o
+gi_medal.o
+Tr.o
+oE1s.o
+oE4s.o
+oF1s.o
+tw.o
+tw_PAL.o
+bxa.o
+Av.o
+gi_gerudo.o
+B_ganon.o
+B_ganon_PAL.o
+Sst.o
+Sst_PAL.o
+Go2.o
+gi_pachinko.o
+gi_grass.o
+Gate.o
+Kw1.o
+gi_ocarina_0.o
+gi_boots_2.o
+gnd_magic.o
+d_elevator.o
+Ingate.o
+gi_gloves.o
+gi_coin.o
+fa.o
+gi_bracelet.o
+efc_erupc.o
+Zl2_Anime2.o
+B_ganon2.o
+B_ganon2_PAL.o
+gi_hoverboots.o
+Ec.o
+spot00_break.o
+gi_butterfly.o
+Ganon_Anime1.o
+Ganon_Anime2.o
+Ganon_Anime3.o
+killer_door.o
+swfl.o
+Skje.o
+Stain.o
+G_pn_19.o
+G_pn_20.o
+G_pn_21.o
+G_pn_24.o
+G_pn_29.o
+G_pn_32.o
+G_pn_43.o
+G_pn_44.o
+G_pn_46.o
+G_pn_54.o
+G_pn_00.o
+G_pn_01.o
+G_pn_02.o
+G_pn_03.o
+G_pn_04.o
+G_pn_05.o
+G_pn_06.o
+G_pn_07.o
+G_pn_08.o
+G_pn_09.o
+G_pn_10.o
+G_pn_11.o
+G_pn_12.o
+G_pn_13.o
+G_pn_14.o
+G_pn_15.o
+G_pn_16.o
+G_pn_17.o
+G_pn_18.o
+G_pn_22.o
+G_pn_23.o
+G_pn_25.o
+G_pn_26.o
+G_pn_27.o
+G_pn_28.o
+G_pn_30.o
+G_pn_31.o
+G_pn_33.o
+G_pn_34.o
+G_pn_35.o
+G_pn_36.o
+G_pn_37.o
+G_pn_38.o
+G_pn_39.o
+G_pn_40.o
+G_pn_41.o
+G_pn_42.o
+G_pn_45.o
+G_pn_47.o
+G_pn_48.o
+G_pn_49.o
+G_pn_50.o
+G_pn_51.o
+G_pn_52.o
+G_pn_53.o
+G_pn_55.o
+G_pn_56.o
+G_pn_57.o
+G_pn_58.o
+G_pn_59.o
+G_pn_60.o
+G_pn_61.o
+G_pn_64.o
+G_pn_65.o
+G_pn_66.o
+G_pn_68.o
+G_pn_69.o
+G_pn_70.o
+G_pn_71.o
+G_pn_73.o
+G_pn_74.o
+G_pn_75.o
+G_pn_78.o
+G_pn_79.o
+G_pn_80.o
+G_pn_81.o
+G_pn_82.o
+G_pn_83.o
+G_pn_84.o
+G_pn_01_PAL.o
+G_pn_02_PAL.o
+G_pn_03_PAL.o
+G_pn_04_PAL.o
+G_pn_05_PAL.o
+G_pn_06_PAL.o
+G_pn_07_PAL.o
+G_pn_08_PAL.o
+G_pn_09_PAL.o
+G_pn_10_PAL.o
+G_pn_11_PAL.o
+G_pn_12_PAL.o
+G_pn_13_PAL.o
+G_pn_14_PAL.o
+G_pn_15_PAL.o
+G_pn_16_PAL.o
+G_pn_17_PAL.o
+G_pn_18_PAL.o
+G_pn_19_PAL.o
+G_pn_20_PAL.o
+G_pn_21_PAL.o
+G_pn_22_PAL.o
+G_pn_23_PAL.o
+G_pn_24_PAL.o
+G_pn_25_PAL.o
+G_pn_26_PAL.o
+G_pn_27_PAL.o
+G_pn_28_PAL.o
+G_pn_29_PAL.o
+G_pn_30_PAL.o
+G_pn_31_PAL.o
+G_pn_32_PAL.o
+G_pn_33_PAL.o
+G_pn_34_PAL.o
+G_pn_35_PAL.o
+G_pn_36_PAL.o
+G_pn_37_PAL.o
+G_pn_38_PAL.o
+G_pn_39_PAL.o
+G_pn_40_PAL.o
+G_pn_41_PAL.o
+G_pn_42_PAL.o
+G_pn_43_PAL.o
+G_pn_44_PAL.o
+G_pn_45_PAL.o
+G_pn_46_PAL.o
+G_pn_47_PAL.o
+G_pn_48_PAL.o
+G_pn_49_PAL.o
+G_pn_50_PAL.o
+G_pn_51_PAL.o
+G_pn_52_PAL.o
+G_pn_53_PAL.o
+G_pn_54_PAL.o
+G_pn_55_PAL.o
+G_pn_56_PAL.o
+G_pn_57_PAL.o
+d87 2
+a88 2
+    echo $1 を $2 から抹消します
+    sed -e "s*\.\./$1**" $2 > /tmp/rmfiles.$$
+d94 2
+a95 2
+delete_source() {
+  if [ -f $1 ]
+d97 4
+a100 5
+    delete_depend $1 Makedepend
+    delete_depend $1 rom_d/Makedepend
+    delete_depend $1 rom_rom/Makedepend
+    echo $1 を 削除します
+    mv $1 $1.deleted
+d102 9
+a110 5
+  if [ -f RCS/$1,v ]
+  then
+    echo RCS/$1,v を 削除します
+    mv RCS/$1,v RCS/$1,v.deleted
+  fi
+d113 3
+d117 19
+a135 5
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+d143 1
+a143 16
+echo '本当に削除するには、\\rm -f *.deleted を実行してください。'
+echo ""
+
+echo "ここで、rmfilesの説明をします"
+echo "ＲＣＳ管理していたファイルが不要になった場合"
+echo "管理ファイルだけを消しても不十分です。"
+echo "他の人がそのファイルをチェックアウトしようとして登録されてしまうのです。"
+echo "つまり、コピーされたファイルも含め、完全に消さないとだめなのです。"
+echo "で、どうするかというとrmfilesに消したいファイル名を登録して、"
+echo "rmfilesをチェックインすれば、他の人がcoallしたときに自動的に削除されます。"
+echo "わかった？（はい／うん）"
+
+echo ""
+echo ""
+echo ""
+echo ""
+@
+
+
+2.9
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d230 126
+@
+
+
+2.8
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a144 1
+Po_Composer.o
+a150 1
+Tk.o
+a192 1
+Ik.o
+a207 1
+ssh.o
+a208 1
+Gla.o
+a216 1
+Dno.o
+@
+
+
+2.7
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a166 1
+Dh.o
+@
+
+
+2.6
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d218 10
+@
+
+
+2.5
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a213 1
+daiku.o
+@
+
+
+2.4
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a73 1
+Slime.o
+@
+
+
+2.3
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a75 1
+Peehat.o
+@
+
+
+2.2
+log
+@*** empty log message ***
+@
+text
+@d8 3
+a56 1
+title.o
+a59 1
+parameter.o
+d70 139
+@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@d8 3
+d65 4
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d8 3
+@
+
+
+1.6
+log
+@OF1をけした
+@
+text
+@d8 3
+d58 1
+@
+
+
+1.5
+log
+@hidan_objects4.o
+hidan_objects5.o
+hidan_objects6.o
+@
+text
+@d8 5
+d54 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d28 3
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d32 11
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d8 3
+d26 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 2
+d11 1
+a18 2
+message
+message.objs
+d22 1
+@

@@ -1,0 +1,19 @@
+
+if [ -r USA.o ]; then
+    echo "念のためデータをバックアップします"
+    mv USA.o USA.o.old
+    mv usa_extern.h usa_extern.h.old
+    mv usa_table.h usa_table.h.old
+    mv usa_message_data.c usa_message_data.c.old
+    cp Nes_pal_exl.xls.old Nes_pal_exl.xls.old.old
+    cp Nes_pal_exl.xls Nes_pal_exl.xls.old
+fi
+
+usa_excel_make > tmp2
+sjistoeuc usa_extern.h > tmp1
+mv tmp1 usa_extern.h
+sjistoeuc usa_table.h > tmp1
+mv tmp1 usa_table.h
+sjistoeuc usa_message_data.c > tmp1
+mv tmp1 usa_message_data.c
+u64cc

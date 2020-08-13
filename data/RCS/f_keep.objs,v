@@ -1,0 +1,39 @@
+head	2.1;
+access;
+symbols
+	ZELDA64A:2.1
+	ZELDA64A_FINAL:1.1;
+locks; strict;
+comment	@# @;
+
+
+2.1
+date	98.10.22.12.42.44;	author hayakawa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.04.18.10.45.37;	author iwawaki;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+2.1
+log
+@ＲＯＭ出しバージョン(NTSC)
+@
+text
+@shape/zelda_field_keep/zelda_field_keep.o
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

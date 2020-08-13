@@ -1,0 +1,10 @@
+echo rcp hamagut@ot52:~/Desktop/zelda2/bn/v2_z2_bn_1 v2_z2_bn_1.inta
+     rcp hamagut@ot52:~/Desktop/zelda2/bn/v2_z2_bn_1 v2_z2_bn_1.inta
+
+echo u64txt IA 8
+     u64txt IA 8
+
+echo rm *.o *.oo *.map *~
+     rm *.o *.oo *.map *~
+
+

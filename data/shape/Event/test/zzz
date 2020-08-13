@@ -1,0 +1,4 @@
+#! /usr/bin/tcsh -fvx
+
+setenv XENVIRONMENT /home/soejima/c/Event/test/Ppm
+/home/soejima/c/Event/test/gradiv3

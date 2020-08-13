@@ -1,0 +1,7 @@
+/*#include "face01.c"*/
+/*#include "face02.c"*/
+/*#include "face02_ani.c"*/
+#include "hair.c"
+#include "last3.c"
+#include "mask_beam.c"
+#include "mask_fire.c"
