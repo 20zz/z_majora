@@ -1,10 +1,10 @@
 /*
- * $Id: faultprint.h,v 1.1 2003/06/09 19:12:06 wheeler Exp $
+ * $Id: faultprint.h,v 1.1.1.1 2003/06/09 19:12:06 wheeler Exp $
  *
  *
  * $Log: faultprint.h,v $
- * Revision 1.1  2003/06/09 19:12:06  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/06/09 19:12:06  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 1.1  1999-10-20 17:38:22+09  hayakawa
  * Initial revision

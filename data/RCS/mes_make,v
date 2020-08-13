@@ -133,7 +133,7 @@ text
 @#!/usr/local/bin/bash
 #set -x
 #
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 
 cp2() {
@@ -311,7 +311,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d36 2
 a37 2
      cp /home/soejima/c/Event/change/save_list_txt.inc .
@@ -330,7 +330,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d74 1
 a74 1
 ## ドイツ語
@@ -354,7 +354,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d57 9
 a67 1
      cp shape/MESSAGE/USA/usa_table.h .
@@ -389,7 +389,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 2
 a33 2
 #     cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg_fra.o .
@@ -404,7 +404,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d112 2
 d118 1
 d123 4
@@ -418,7 +418,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d88 10
 @
 
@@ -430,7 +430,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d109 1
 a109 1
      cp shape/MESSAGE/usa_staff/staff_c.o usa_staff_c
@@ -444,7 +444,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a98 1
      cp  shape/MESSAGE/usa_staff/usa_staff_c.o .
 d106 4
@@ -458,7 +458,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d99 1
 @
 
@@ -470,7 +470,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d44 1
 d56 1
 d64 24
@@ -484,7 +484,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d56 1
 @
 
@@ -496,7 +496,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d29 1
 d31 3
 a33 1
@@ -511,7 +511,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d64 2
 a65 1
      cp shape/TEXTURE/MESSAGE/font/font_e.o .
@@ -525,7 +525,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d52 9
 @
 
@@ -537,7 +537,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d41 8
 a48 4
 if [ -r shape/MESSAGE/japan/japan.o ]; then
@@ -554,7 +554,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d28 1
 a28 1
 #####	メモリエラーメッセージ
@@ -569,7 +569,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 1
 d52 2
 a53 1
@@ -588,7 +588,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d9 1
 a9 1
 	echo "ファイルがありません $1"
@@ -605,7 +605,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 1
 d43 3
 @
@@ -618,7 +618,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 2
 a33 2
      cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/change/save_list_txt.inc .
@@ -636,7 +636,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d36 1
 a36 1
      cp /hosts/172.16.63.45/DISK10/home/soejima/c/Event/mask/mask_event_reg.inc .
@@ -650,6 +650,6 @@ log
 text
 @d4 1
 a4 1
-# $Id: mes_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: mes_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d34 3
 @

@@ -1,2 +1,1 @@
-codesegment.o: /home2/hiratsu/objTreeZELDA2/lib/ucode/libjpg.a #:ld
 version.o: ../version.h ../rom_f/version_data.h #:cfe

@@ -1,9 +1,9 @@
 /*
- * $Id: fault.h,v 1.1 2003/06/09 19:12:06 wheeler Exp $
+ * $Id: fault.h,v 1.1.1.1 2003/06/09 19:12:06 wheeler Exp $
  * ²þÂ¤ÈÇ
  * $Log: fault.h,v $
- * Revision 1.1  2003/06/09 19:12:06  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/06/09 19:12:06  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.7  2000-03-07 22:40:54+09  hayakawa
  * *** empty log message ***

@@ -1,12 +1,15 @@
 /* -*- mode: C; -*- */
 /*
- *  $Id: spec.segment,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+ *  $Id: spec.segment,v 1.2 2003/12/18 05:59:49 wheeler Exp $
  *
  * ゼルダ６４ スペック ファイル（セグメントアドレス空間）
  *
  * $Log: spec.segment,v $
- * Revision 1.1  2003/06/09 19:12:09  wheeler
- * Initial revision
+ * Revision 1.2  2003/12/18 05:59:49  wheeler
+ * Add some example chinese localization
+ *
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.606  2003-05-26 21:23:15+09  zelda
  * GC64EMU VERSION
@@ -661,7 +664,11 @@ DefSegX("nintendo_rogo_static", STATIC_SEGMENT,				"$(ZELDA_DATA)/nintendo_rogo.
 DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/pal_file_name.o")
 # else
 #if defined(NES_VERSION) || defined(SHOW_VERSION)
+#ifdef CHINA
+DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/nes_file_name.zh.o")
+#else
 DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/nes_file_name.o")
+#endif
 #else
 #if defined(RESUME_VERSION) || defined(GC64EMU_VERSION)
 DefSegX("title_static", 	STATIC_SEGMENT,				"$(ZELDA_DATA)/resume_file_name.o")

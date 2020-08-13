@@ -1,5 +1,5 @@
 /*
- * $Id: OLDprocess_profile.h,v 1.1 2003/12/12 21:30:59 wheeler Exp $
+ * $Id: OLDprocess_profile.h,v 1.1.1.1 2003/12/12 21:30:59 wheeler Exp $
  *
  * プロセスプロファイル
  */

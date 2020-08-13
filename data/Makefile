@@ -1,12 +1,12 @@
 #!smake
-# $Id: Makefile,v 1.1 2003/12/06 23:44:27 wheeler Exp $
+# $Id: Makefile,v 1.1.1.1 2003/12/06 23:44:27 wheeler Exp $
 #
 # ６４ゼルダ用メイクファイル
 # マップデータ作成用
 #
 # $Log: Makefile,v $
-# Revision 1.1  2003/12/06 23:44:27  wheeler
-# Initial revision
+# Revision 1.1.1.1  2003/12/06 23:44:27  wheeler
+# Assets: both cooked and raw from Nintendo.
 #
 # Revision 2.1  1998-10-22 21:42:44+09  hayakawa
 # ＲＯＭ出しバージョン(NTSC)

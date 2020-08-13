@@ -245,7 +245,7 @@ text
 @#!/bin/sh
 set -x
 #
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 keep
 #keep_PAL
@@ -267,7 +267,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 1
 a7 1
 keep_PAL
@@ -281,7 +281,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d15 1
 a15 1
 dd_dma_make
@@ -295,7 +295,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 1
 a8 2
 f_keep
@@ -310,7 +310,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d14 1
 a14 1
 #mes_make
@@ -324,7 +324,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d14 1
 a14 1
 mes_make
@@ -338,7 +338,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 2
 a12 1
 scene_make -f
@@ -352,7 +352,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d13 1
 @
 
@@ -364,7 +364,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 1
 a11 2
 scene_make_bash
@@ -379,7 +379,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 2
 a12 2
 #scene_make_bash
@@ -394,7 +394,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 1
 a11 1
 scene_make_bash
@@ -408,7 +408,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d12 1
 @
 
@@ -420,7 +420,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 1
 @
 
@@ -432,7 +432,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a5 1
 ###parameter
 a8 2
@@ -451,7 +451,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 @
 
 
@@ -462,7 +462,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d16 1
 @
 
@@ -474,7 +474,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d15 1
 a15 1
 #####dma_make
@@ -488,7 +488,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d15 1
 a15 1
 dma_make
@@ -502,7 +502,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 1
 a6 1
 parameter
@@ -520,7 +520,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d10 1
 a10 1
 ####title
@@ -534,7 +534,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d10 1
 a10 1
 title
@@ -548,7 +548,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a11 1
 message
 a15 1
@@ -563,7 +563,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d17 1
 @
 
@@ -575,7 +575,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d14 2
 a15 1
 scene_make
@@ -589,7 +589,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d12 1
 @
 
@@ -601,7 +601,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 1
 a11 1
 opening
@@ -615,7 +615,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d11 1
 @
 
@@ -627,7 +627,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 1
 @
 
@@ -639,7 +639,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a5 1
 opening
 @
@@ -652,7 +652,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 1
 d13 1
 @
@@ -665,7 +665,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a8 2
 obj1
 link_anime
@@ -719,7 +719,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 a11 1
 opening
 @
@@ -732,7 +732,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d10 1
 @
 
@@ -744,7 +744,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 4
 a9 1
 play
@@ -758,7 +758,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 1
 @
 
@@ -770,7 +770,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d44 2
 @
 
@@ -785,7 +785,7 @@ map_013
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d43 1
 @
 
@@ -797,7 +797,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d40 3
 a42 2
 
@@ -812,7 +812,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 1
 @
 
@@ -824,7 +824,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d38 1
 @
 
@@ -836,7 +836,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 1
 @
 
@@ -848,7 +848,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d13 11
 a23 1
 map_0042
@@ -863,7 +863,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d15 1
 @
 
@@ -876,7 +876,7 @@ text
 @d2 1
 d4 1
 a4 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 9
 a14 26
 echo play
@@ -917,7 +917,7 @@ text
 set -x
 d3 1
 a3 1
-# $Id: shape_all,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: shape_all,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d5 27
 a31 1
 ld -r -o map_005.o -objectlist map_005.objs

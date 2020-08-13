@@ -1,4 +1,4 @@
-/* $Id: OLDmtxuty.h,v 1.1 2003/12/12 21:30:59 wheeler Exp $ */
+/* $Id: OLDmtxuty.h,v 1.1.1.1 2003/12/12 21:30:59 wheeler Exp $ */
 
 /*
  * 行列演算支援関数 (全組込み用)

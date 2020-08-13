@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.CFILES,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+# $Id: Makefile.CFILES,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
 #
 # 新規登録するソースファイルはチェックインしましたか？
 # 先にやっておきましょう。帰ってしまう前に。
@@ -9,8 +9,8 @@
 # CFILES マクロを定義します
 #  
 # $Log: Makefile.CFILES,v $
-# Revision 1.1  2003/06/09 19:12:09  wheeler
-# Initial revision
+# Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+# Majora's Mask tree from Nintendo
 #
 # Revision 2.456  2003-05-26 21:23:15+09  zelda
 # GC64EMU VERSION

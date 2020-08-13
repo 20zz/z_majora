@@ -1,11 +1,11 @@
 /*
- * $Id: count.h,v 1.1 2003/06/09 19:12:06 wheeler Exp $
+ * $Id: count.h,v 1.1.1.1 2003/06/09 19:12:06 wheeler Exp $
  *
  * シェイプ中のポリゴン数を数える
  *
  * $Log: count.h,v $
- * Revision 1.1  2003/06/09 19:12:06  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/06/09 19:12:06  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.4  2000-03-06 22:12:02+09  hayakawa
  * *** empty log message ***

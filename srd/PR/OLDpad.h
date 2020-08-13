@@ -1,5 +1,5 @@
 /*
- * $Id: OLDpad.h,v 1.1 2003/12/12 21:30:59 wheeler Exp $
+ * $Id: OLDpad.h,v 1.1.1.1 2003/12/12 21:30:59 wheeler Exp $
  *
  * パッドアクセス用関数
  * キーがどう押されているかや、その情報をリセットする関数があります
@@ -12,8 +12,8 @@
  * 値を用いること
  *
  * $Log: OLDpad.h,v $
- * Revision 1.1  2003/12/12 21:30:59  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/12/12 21:30:59  wheeler
+ * try again
  *
  * Revision 1.1  2003/03/14 03:27:04  tong
  * copied SRD dir from old tree to new tree.

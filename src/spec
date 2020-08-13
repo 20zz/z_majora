@@ -1,6 +1,6 @@
 /* -*- mode: C; -*- */
 /*
- * $Id: spec,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+ * $Id: spec,v 1.3 2003/12/18 05:59:49 wheeler Exp $
  *
  *
  * ゼルダ６４ スペック ファイル
@@ -10,8 +10,14 @@
  * (spec_ovl.dat → spec_seg_ovl.inc, spec_inc_ovl.inc)
  *
  * $Log: spec,v $
- * Revision 1.1  2003/06/09 19:12:09  wheeler
- * Initial revision
+ * Revision 1.3  2003/12/18 05:59:49  wheeler
+ * Add some example chinese localization
+ *
+ * Revision 1.2  2003/12/12 06:19:59  wheeler
+ * Get Linux build working.
+ *
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.81  2003-05-26 21:23:15+09  zelda
  * GC64EMU VERSION
@@ -476,7 +482,11 @@ DefSegData("fra_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/fra_do_
 DefSegData("spa_do_action_static", 	PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/spa_do_action_idx.o")
 #else
 #if defined(NES_VERSION) || defined(SHOW_VERSION)
+#ifdef CHINA
+DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/nes_do_action_idx.zh.o")
+#else
 DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/nes_do_action_idx.o")
+#endif
 #else
 DefSegData("do_action_static", 		PARAMETER0_SEGMENT, 	 "$(ZELDA_DATA)/do_action_idx.o")
 #endif	/* NES_VERSION SHOW_VERSION */
@@ -575,7 +585,7 @@ beginseg
 	include "$(ZELDA_ROOT)/lib/audio/aspMain.o"
 #endif
 	include "$(ZELDA_ROOT)/lib/ucode/gspF3DZEX2.NoN_PosLight.fifo.o"
-	include "/usr/lib/PR/gspS2DEX2.fifo.o"
+	include "$(ZELDA_ROOT)/lib/ucode/gspS2DEX2.fifo.o"
 	include "$(ZELDA_ROOT)/lib/ucode/jpgDRGBA16.o" /* RGBA5551 */
 
 endseg

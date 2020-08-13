@@ -23,7 +23,7 @@
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -177,7 +177,7 @@ extern OSPri		osGetThreadPri(OSThread *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -340,7 +340,7 @@ extern void		osSetEventMesg(OSEvent, OSMesgQueue *, OSMesg);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -459,7 +459,7 @@ extern OSIntMask	osSetIntMask(OSIntMask);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -566,7 +566,7 @@ extern void		osSetTLBASID(s32);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -790,7 +790,7 @@ extern s32 osEPiLinkHandle(OSPiHandle *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1088,7 +1088,7 @@ extern void		osCreateViManager(OSPri);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1180,7 +1180,7 @@ extern s32		osAiSetNextBuffer(void *, u32);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1266,7 +1266,7 @@ extern "C" {
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1380,7 +1380,7 @@ extern int		osStopTimer(OSTimer *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1587,7 +1587,7 @@ extern void		osContGetReadData(OSContPad *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1741,7 +1741,7 @@ extern s32 osPfsNumFiles(OSPfs *, s32 *, s32 *);
         Copyright (C) 1998 Nintendo.
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1848,7 +1848,7 @@ extern  s32	osGbpakCheckConnector(OSPfs *, u8 *);
         Copyright (C) 1998 Nintendo.
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -1976,7 +1976,7 @@ extern void osVoiceCountSyllables(u8 *, u32 *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2072,7 +2072,7 @@ extern void		osWritebackDCacheAll(void);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2189,7 +2189,7 @@ extern OSTime           osThreadProfileReadTimeTh(OSThread*);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2275,7 +2275,7 @@ extern "C" {
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2361,7 +2361,7 @@ extern "C" {
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2451,7 +2451,7 @@ extern u32		osGetCount(void);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2569,7 +2569,7 @@ extern s32		osAfterPreNMI(void);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2655,7 +2655,7 @@ extern s32 osEepromLongWrite(OSMesgQueue *, u8, u8 *, int);
         Copyright (C) 1998 Nintendo.
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2747,7 +2747,7 @@ extern s32     osFlashCheckEraseEnd(void);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -2908,7 +2908,7 @@ extern void             osInitRdb(u8 *sendBuf, u32 sendSize);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -3019,7 +3019,7 @@ extern void *		 osPhysicalToVirtual(u32);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -3111,7 +3111,7 @@ extern s32		osDpSetNextBuffer(void *, u64);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -3177,7 +3177,7 @@ extern "C" {
         Copyright (C) 1998 Nintendo.
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -3280,7 +3280,7 @@ extern s32 osMotorStart(OSPfs *);
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 
@@ -3360,7 +3360,7 @@ extern void		osSyncPrintf(const char *fmt, ...);
         Copyright (C) 1998 Nintendo.
         
         $RCSfile: os_others.h,v $
-        $Revision: 1.1 $
+        $Revision: 1.1.1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 

@@ -1,11 +1,11 @@
 /*
- * $Id: ultra64.h,v 1.1 2003/12/12 21:31:01 wheeler Exp $
+ * $Id: ultra64.h,v 1.1.1.1 2003/12/12 21:31:01 wheeler Exp $
  *
  * /usr/include/PR/ultra64.h の代わりにインクルードする
  *
  * $Log: ultra64.h,v $
- * Revision 1.1  2003/12/12 21:31:01  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/12/12 21:31:01  wheeler
+ * try again
  *
  * Revision 1.1  2003/03/14 03:27:05  tong
  * copied SRD dir from old tree to new tree.

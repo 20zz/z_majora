@@ -1,8 +1,8 @@
 /*
- * $Id: version.h,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+ * $Id: version.h,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
  * $Log: version.h,v $
- * Revision 1.1  2003/06/09 19:12:09  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.1  1998-10-22 20:41:56+09  zelda
  * ＲＯＭ出しバージョン(NTSC)

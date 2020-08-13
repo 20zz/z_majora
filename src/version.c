@@ -1,11 +1,11 @@
 /*
- * $Id: version.c,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+ * $Id: version.c,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
  *
  * バージョン文字列
  *
  * $Log: version.c,v $
- * Revision 1.1  2003/06/09 19:12:09  wheeler
- * Initial revision
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 2.4  1999-04-14 11:10:03+09  hayakawa
  * 余分な extern を削除

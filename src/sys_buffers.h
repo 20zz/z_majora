@@ -1,11 +1,14 @@
 /*
- * $Id: sys_buffers.h,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+ * $Id: sys_buffers.h,v 1.2 2003/12/13 01:34:15 wheeler Exp $
  *
  * ¥Ð¥Ã¥Õ¥¡ÎÎ°è
  *
  * $Log: sys_buffers.h,v $
- * Revision 1.1  2003/06/09 19:12:09  wheeler
- * Initial revision
+ * Revision 1.2  2003/12/13 01:34:15  wheeler
+ * Move segments to make room for flash memory emulation
+ *
+ * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+ * Majora's Mask tree from Nintendo
  *
  * Revision 1.9  2003-05-26 21:23:15+09  zelda
  * GC64EMU VERSION
@@ -103,21 +106,21 @@
 #define SYS_WORK4_SEGMENT_END	0x80000500
 #define SYS_CFB0H_SEGMENT_START	0x80000500
 #define SYS_CFB0H_SEGMENT_END	0x80080000
-#define SYS_CFB1H_SEGMENT_START	0x80780000
-#define SYS_CFB1H_SEGMENT_END	0x80800000
+#define SYS_CFB1H_SEGMENT_START	0x80760000
+#define SYS_CFB1H_SEGMENT_END	0x80780000
 
 #define BOOT_SEGMENT_START	0x80080000
-#define SYS_HEAP_BOTTOM		0x80780000
+#define SYS_HEAP_BOTTOM		0x80760000
 
 #define SYS_CFB0L_SEGMENT_START 0x80000500
 #define SYS_CFB0L_SEGMENT_END	0x80025d00
 #define SYS_WORK0_SEGMENT_START 0x80025d00
 #define SYS_WORK0_SEGMENT_END	0x80080000
 
-#define SYS_WORK1_SEGMENT_START 0x80780000
-#define SYS_WORK1_SEGMENT_END	0x807da800
-#define SYS_CFB1L_SEGMENT_START 0x807da800
-#define SYS_CFB1L_SEGMENT_END	0x80800000
+#define SYS_WORK1_SEGMENT_START 0x80760000
+#define SYS_WORK1_SEGMENT_END	0x807ba800
+#define SYS_CFB1L_SEGMENT_START 0x807ba800
+#define SYS_CFB1L_SEGMENT_END	0x80680000
 #endif /* defined(GC64EMU_VERSION) */
 
 

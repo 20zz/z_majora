@@ -3,7 +3,7 @@
 # make clobber のあとや、co spec_ovl のあとに以下の make を実行してください
 # make genfiles
 #
-# $Id: Makefile,v 1.1 2003/06/09 19:12:09 wheeler Exp $
+# $Id: Makefile,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
 #
 #HELP# ６４ゼルダ用メイクファイル
 #HELP#
@@ -38,8 +38,8 @@
 # ( cd rom_d && ls -lt `grep z_actor.o Makedepend | sed -e 's/[^ ]*://' -e 's/#.*//'` )|head
 #
 # $Log: Makefile,v $
-# Revision 1.1  2003/06/09 19:12:09  wheeler
-# Initial revision
+# Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
+# Majora's Mask tree from Nintendo
 #
 # Revision 2.182  2003-05-26 21:22:28+09  zelda
 # GC64EMU VERSION

@@ -30,7 +30,7 @@ text
 @#!/bin/sh
 set -x
 #
-# $Id: newdata.sh,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: newdata.sh,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 if [ -f $1 ]
  then
@@ -57,5 +57,5 @@ log
 text
 @d4 1
 a4 1
-# $Id: newdata.sh,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: newdata.sh,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 @

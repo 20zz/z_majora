@@ -55,7 +55,7 @@ text
 @#!/usr/local/bin/bash
 #set -x
 #
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 
 cp2() {
@@ -102,7 +102,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d35 2
 a36 2
      cp shape/TEXTURE/MESSAGE/message/nes_a dd_nes_a
@@ -121,7 +121,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 1
 a32 1
      cp shape/TEXTURE/MESSAGE/DD/zld64_msg_data.o message.o .
@@ -137,7 +137,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 3
 a34 2
      cp shape/TEXTURE/MESSAGE/message/msg.h dd_msg.h
@@ -152,7 +152,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 @
 
 
@@ -163,7 +163,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 1
 a31 1
 ##### メッセージソースというか
@@ -177,6 +177,6 @@ log
 text
 @d4 1
 a4 1
-# $Id: dd_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dd_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 7
 @
