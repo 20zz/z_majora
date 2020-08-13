@@ -1,5 +1,5 @@
 #
-# $Id: GNUmakefile.CFILES,v 1.2 2003/12/12 07:18:20 wheeler Exp $
+# $Id: GNUmakefile.CFILES,v 1.1 2003/12/12 06:19:59 wheeler Exp $
 #
 # 新規登録するソースファイルはチェックインしましたか？
 # 先にやっておきましょう。帰ってしまう前に。
@@ -9,9 +9,6 @@
 # CFILES マクロを定義します
 #  
 # $Log: GNUmakefile.CFILES,v $
-# Revision 1.2  2003/12/12 07:18:20  wheeler
-# Make linux build work
-#
 # Revision 1.1  2003/12/12 06:19:59  wheeler
 # Get Linux build working.
 #
@@ -3877,11 +3874,11 @@ OVLFILES += z_fbdemo_triforce.c z_fbdemo_wipe1.c z_fbdemo_wipe3.c z_fbdemo_wipe4
 
 CFILES_Z += z_overlay.c
 
-ifneq (01,01)
-CFILES_EN += $(CFILES_EN_OVL)
-else
-OVLFILES += $(CFILES_EN_OVL)
-endif
+#if 01
+#CFILES_EN += $(CFILES_EN_OVL)
+#else
+#OVLFILES += $(CFILES_EN_OVL)
+#endif
 
 CFILES_Z += z_play.c
 CFILES_Z += z_play_hireso.c

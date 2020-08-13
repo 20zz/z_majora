@@ -1,11 +1,11 @@
 /*
- * $Id: math64_gcc.h,v 1.1.1.1 2003/12/12 21:31:00 wheeler Exp $
+ * $Id: math64_gcc.h,v 1.1 2003/12/12 21:31:00 wheeler Exp $
  *
  * gcc¿ÏÕ—math
  *
  * $Log: math64_gcc.h,v $
- * Revision 1.1.1.1  2003/12/12 21:31:00  wheeler
- * try again
+ * Revision 1.1  2003/12/12 21:31:00  wheeler
+ * Initial revision
  *
  * Revision 1.1  2003/03/14 03:27:05  tong
  * copied SRD dir from old tree to new tree.

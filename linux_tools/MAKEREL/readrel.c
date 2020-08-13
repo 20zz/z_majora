@@ -10,8 +10,8 @@
 
 /*
  * $Log: readrel.c,v $
- * Revision 1.1.1.1  2003/12/12 22:57:41  wheeler
- * Linux versions of the rom compression routines
+ * Revision 1.1  2003/12/12 22:57:41  wheeler
+ * Initial revision
  *
  * Revision 1.2  2003/05/24 04:20:34  blythe
  * mips-linux cross port

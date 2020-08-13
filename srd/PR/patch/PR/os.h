@@ -23,7 +23,7 @@
         Copyright (C) 1998 Nintendo. (Originated by SGI)
         
         $RCSfile: os.h,v $
-        $Revision: 1.1.1.1 $
+        $Revision: 1.1 $
         $Date: 2003/12/12 21:31:01 $
  *---------------------------------------------------------------------*/
 

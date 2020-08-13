@@ -40,11 +40,11 @@ text
 @#!/bin/sh
 set -x
 #
-# $Id: keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: keep,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 # $Log: keep,v,v $
-# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:45:38  wheeler
+# Initial revision
 #
 # Revision 2.1  1998-10-22 21:42:44+09  hayakawa
 # ＲＯＭ出しバージョン(NTSC)
@@ -73,7 +73,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: keep,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d23 1
 a23 1
@@ -88,7 +88,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: keep,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -100,12 +100,12 @@ log
 text
 @d4 1
 a4 1
-# $Id: keep,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: keep,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 4
 a9 1
 # $Log: keep,v,v $
-# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:45:38  wheeler
+# Initial revision
 #
 d17 1
 a17 1

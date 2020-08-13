@@ -23,7 +23,7 @@ text
 @#!/usr/local/bin/bash
 #set -x
 #
-# $Id: pal_dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: pal_dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 
 cp2() {

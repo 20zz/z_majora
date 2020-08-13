@@ -11,9 +11,9 @@
  **************************************************************************/
 /**************************************************************************
  *
- *  $Revision: 1.1.1.1 $
+ *  $Revision: 1.1 $
  *  $Date: 2003/12/12 21:31:00 $
- *  $Source: D:/Downloads/bbgames/bbgames/d1/routefree/bbgames/depot//z_majora/srd/PR/patch/PR/OLDgbi__.h,v $
+ *  $Source: D:/Downloads/bbgames/bbgames/d1/routefree/bbgames/depot/z_majora/srd/PR/patch/PR/OLDgbi__.h,v $
  *
  **************************************************************************/
 

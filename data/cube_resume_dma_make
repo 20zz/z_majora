@@ -1,7 +1,7 @@
 #!/usr/local/bin/bash
 #set -x
 #
-# $Id: cube_resume_dma_make,v 1.1.1.1 2003/12/06 23:44:27 wheeler Exp $
+# $Id: cube_resume_dma_make,v 1.1 2003/12/06 23:44:27 wheeler Exp $
 #
 
 cp2() {

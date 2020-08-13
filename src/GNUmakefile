@@ -3,7 +3,7 @@
 # make clobber のあとや、co spec_ovl のあとに以下の make を実行してください
 # make genfiles
 #
-# $Id: GNUmakefile,v 1.5 2003/12/18 05:59:49 wheeler Exp $
+# $Id: GNUmakefile,v 1.1 2003/12/12 06:19:59 wheeler Exp $
 #
 #HELP# ６４ゼルダ用メイクファイル
 #HELP#
@@ -38,18 +38,6 @@
 # ( cd rom_d && ls -lt `grep z_actor.o Makedepend | sed -e 's/[^ ]*://' -e 's/#.*//'` )|head
 #
 # $Log: GNUmakefile,v $
-# Revision 1.5  2003/12/18 05:59:49  wheeler
-# Add some example chinese localization
-#
-# Revision 1.4  2003/12/12 20:11:31  wheeler
-# Add -I option to find header files for spec.i generation
-#
-# Revision 1.3  2003/12/12 18:12:08  wheeler
-# Modify spec file generation code
-#
-# Revision 1.2  2003/12/12 07:18:20  wheeler
-# Make linux build work
-#
 # Revision 1.1  2003/12/12 06:19:59  wheeler
 # Get Linux build working.
 #
@@ -307,12 +295,6 @@
 # *** empty log message ***
 #
 #
-
-ifndef LOCALE
-LOCALE=CHINA
-endif
-
-NES_VERSION=1
 
 .PATH: ..				# rom_?ディレクトリからソースを見るため
 VPATH=..
@@ -940,11 +922,7 @@ SPEC_INCLUDE  = \
 # spec_seg_ovl.inc spec_inc_ovl.inc
 LMAKEROMOPT = -I$(ZELDA_ROOT)
 
-ifeq ($(LOCALE),CHINA)
-MAKEROMOPT = $(GMAKEROMOPT) $(LMAKEROMOPT) $(VMAKEROMOPT) -DCHINA
-else
 MAKEROMOPT = $(GMAKEROMOPT) $(LMAKEROMOPT) $(VMAKEROMOPT)
-endif
 
 MAKEROMOBJECTS = $(OBJECTS) $(ZELDA_DATA)/*.o $(ZELDA_DATA)/*.raw $(OVLOBJECTS) \
 	$(ZELDA_AUDIO)/ZeldaAudio_banks.o \
@@ -1032,9 +1010,7 @@ zelda_s.map:
 	@echo ": Leaving directory \`./rom_s/'"
 
 spec.i:../$(SPECFILE) ../spec.segment ../spec_seg_ovl.inc ../boot.h ../sys_segment.h
-	cp ../$(SPECFILE) ../$(SPECFILE).tmp.c
-	(LANG=C ZELDA_DATA=${ZELDA_DATA} $(CC) -E -I$(ROOT)/usr/include/PR $(MAKEOPT) ../$(SPECFILE).tmp.c > spec.i.tmp)
-	rm -f ../$(SPECFILE).tmp.c
+	(LANG=C ZELDA_DATA=${ZELDA_DATA} $(CC) -E $(MAKEOPT) ../$(SPECFILE) > spec.i.tmp)
 	mv spec.i.tmp spec.i
 
 rom: $(MAKEROMOBJECTS) $(MAKEROMFILES)
@@ -1244,8 +1220,8 @@ $(COBJECT_SYS) $(COBJECT_SYS:.o=.map): $(COBJECTS_SYS)
 ## 第１水準フォント データ
 CC_FLAGS  = -Wab,-r4300_mul -mips2 -O -xansi -signed -fullwarn -prototypes -Xcpluscomm -I/usr/include/PR -non_shared -G 0 -c -Dyj
 ##LASFLAGS = -Wab,-r4300_mul -mips2 -O2 -xansi -signed -prototypes -Xcpluscomm -I/usr/include/PR -non_shared -G 0 -c -Dyj
-#kanread.o	: kanread.s	;cc $(CC_FLAGS) -o $(.TARGET) $(.IMPSRC)
-#kan.o	: kan.s	;cc $(CC_FLAGS) -o $(.TARGET) $(.IMPSRC)
+kanread.o	: kanread.s	;cc $(CC_FLAGS) -o $(.TARGET) $(.IMPSRC)
+kan.o	: kan.s	;cc $(CC_FLAGS) -o $(.TARGET) $(.IMPSRC)
 
 cfb.o:cfb.c
 	$(CC) $(LCOPTS) $(LCINCS) $(MKDEPOPT) $(WOFF) $(LCDEFS) -c cfb.c
@@ -1431,10 +1407,10 @@ install::
 	ln /project/ZELDA/ROM/rom_f /project/ZELDA/ROM/rom_f_`date '+%y-%m-%d_%H:%M:%S'`
 	ln /project/ZELDA/ROM/rom_s /project/ZELDA/ROM/rom_s_`date '+%y-%m-%d_%H:%M:%S'`
 
-#main.o:sys_heap.h
-#z_actor_dlftbls.o:z_actor_dlftbls.decl
-#z_actor_profile.o:z_actor_dlftbls.decl
-#z_scene.o:z_actor_dlftbls.decl
+main.o:sys_heap.h
+z_actor_dlftbls.o:z_actor_dlftbls.decl
+z_actor_profile.o:z_actor_dlftbls.decl
+z_scene.o:z_actor_dlftbls.decl
 
 genfiles:spec_seg_ovl.inc spec_inc_ovl.inc camera_param_data
 # 実体のないセグメントは除外する
@@ -1574,7 +1550,3 @@ no_scenetool_rom:
 		rm -f $(OBJFILES_SCENE_TOOL); \
 		echo "update defined(SCENE_TOOL) files..."; \
 	fi
-
-ifeq ($(LOCALE),CHINA)
-CFLAGS += -DCHINA
-endif

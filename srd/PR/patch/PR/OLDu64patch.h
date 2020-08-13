@@ -1,5 +1,5 @@
 /*
- * $Id: OLDu64patch.h,v 1.1.1.1 2003/12/12 21:31:01 wheeler Exp $
+ * $Id: OLDu64patch.h,v 1.1 2003/12/12 21:31:01 wheeler Exp $
  *
  * ウルトラ６４のＳＧＩのインクルードファイルの不具合に対する修正・追加のパッチ
  * <ultra64.h> のヘッダの不具合（らしきもの）を修正します
@@ -10,8 +10,8 @@
  * の順に組み込んでください
  *
  * $Log: OLDu64patch.h,v $
- * Revision 1.1.1.1  2003/12/12 21:31:01  wheeler
- * try again
+ * Revision 1.1  2003/12/12 21:31:01  wheeler
+ * Initial revision
  *
  * Revision 1.1  2003/03/14 03:27:05  tong
  * copied SRD dir from old tree to new tree.

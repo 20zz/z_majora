@@ -1,6 +1,6 @@
 #!smake
 #
-# $Id: Makefile,v 1.1.1.1 2003/12/06 23:45:36 wheeler Exp $
+# $Id: Makefile,v 1.1 2003/12/06 23:45:36 wheeler Exp $
 .NOTPARALLEL:				#  ¬ŒÛ∆∞∫Ó§Ú∂ÿªﬂ
 LMAKEOPT = 
 MAKEOPTION = 

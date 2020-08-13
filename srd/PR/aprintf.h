@@ -1,5 +1,5 @@
 /*
- * $Id: aprintf.h,v 1.1.1.1 2003/12/12 21:30:59 wheeler Exp $
+ * $Id: aprintf.h,v 1.1 2003/12/12 21:30:59 wheeler Exp $
  *
  * アプリケーションＰＲＩＮＴ
  * ６４用表示関数使用の printf, vprintf
@@ -7,8 +7,8 @@
  * 使い方の例は gfxprint.c を参照
  *
  * $Log: aprintf.h,v $
- * Revision 1.1.1.1  2003/12/12 21:30:59  wheeler
- * try again
+ * Revision 1.1  2003/12/12 21:30:59  wheeler
+ * Initial revision
  *
  * Revision 1.1  2003/03/14 03:27:04  tong
  * copied SRD dir from old tree to new tree.

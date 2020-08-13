@@ -29,6 +29,6 @@ while (glob("$texture_path/*.{ia,i,inta,rgba,rgb}")) {
     printf "$name: bpp=$bpp off=%08x size=%08x\n", $offset, $size ;
     `./replace.pl $data_zh_o $texture_path/$name.bin $offset $size`;
 
-    `rm $texture_path/$name.bin`;
-    `rm $texture_path/$name.h`;
+ #   `rm $texture_path/$name.bin`;
+ #   `rm $texture_path/$name.h`;
 }

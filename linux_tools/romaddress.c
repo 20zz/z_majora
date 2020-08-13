@@ -5,8 +5,8 @@
  ************************************************************************/
 /*
  * $Log: romaddress.c,v $
- * Revision 1.1.1.1  2003/12/12 22:57:41  wheeler
- * Linux versions of the rom compression routines
+ * Revision 1.1  2003/12/12 22:57:41  wheeler
+ * Initial revision
  *
  * Revision 1.2  2003/03/20 00:33:59  wheeler
  * Increase the size of dma_rom_tbl for animal forest

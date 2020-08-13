@@ -720,7 +720,7 @@ text
 @#!/usr/local/bin/bash
 #set -x
 #
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 
 cp2() {
@@ -969,7 +969,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 1
 @
 
@@ -981,7 +981,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d183 6
 a188 1
      cp shape/TEXTURE2/PAL/PARAMETER2/pal_parameter.o .
@@ -995,7 +995,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d183 1
 d186 1
 a186 3
@@ -1012,7 +1012,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 1
 @
 
@@ -1024,7 +1024,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a35 1
      cp shape/TEXTURE2/NES/FILE_NAME/nes_file_name.o .
 a40 1
@@ -1049,7 +1049,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d35 1
 a35 1
      cp shape/TEXTURE2/FILE_NAME/file_name.o title.o
@@ -1100,7 +1100,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d46 1
 @
 
@@ -1112,7 +1112,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 1
 @
 
@@ -1124,7 +1124,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d36 1
 @
 
@@ -1136,7 +1136,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d179 5
 a183 1
 ###### £Î£Å£Ó
@@ -1150,7 +1150,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d176 3
 d186 3
 @
@@ -1163,7 +1163,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d156 1
 @
 
@@ -1177,7 +1177,7 @@ schedule_dma_test.raw
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d167 1
 @
 
@@ -1189,7 +1189,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d157 1
 d170 1
 @
@@ -1202,7 +1202,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d176 1
 a176 1
      cp shape/TEXTURE2/NES/ICON_ITEM2/icon_item_nes.o .
@@ -1216,7 +1216,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a46 1
      cp shape/TEXTURE2/E3/DO/E3do_action_idx.o .
 d176 3
@@ -1230,7 +1230,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d171 6
 @
 
@@ -1242,7 +1242,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d29 1
 a29 1
      cp shape/TEXTURE2/SPACE_WORLD/space_world.o .
@@ -1256,7 +1256,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d43 1
 d47 1
 @
@@ -1269,7 +1269,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d33 3
 a35 2
 #####	£Ô£É£Ô£Ì£Å
@@ -1284,7 +1284,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 2
 @
 
@@ -1296,7 +1296,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d164 1
 @
 
@@ -1308,7 +1308,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d162 3
 @
 
@@ -1320,7 +1320,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d47 2
 a48 1
      cp shape/TEXTURE/KALEIDO_MAP2/kaleido_map_grand2.o .
@@ -1334,7 +1334,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d159 2
 a160 1
      cp shape/TEXTURE2/ITEM_NAME2/map_name.o .
@@ -1348,7 +1348,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d45 1
 a45 1
      cp shape/TEXTURE/MAP2/map_grand2.o .
@@ -1365,7 +1365,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d46 1
 @
 
@@ -1377,7 +1377,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d149 1
 @
 
@@ -1389,7 +1389,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a27 7
 #####	¥á¥â¥ê¥¨¥é¡¼¥á¥Ã¥»¡¼¥¸
      cp shape/TEXTURE/DMA_MAKE/memerrmsg/memerrmsg.o .
@@ -1424,7 +1424,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d33 1
 @
 
@@ -1436,7 +1436,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d158 4
 a161 4
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/SHOP1/vr_SHOP1_div8_idx.o .
@@ -1453,7 +1453,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d87 3
 a89 4
      cp shape/TEXTURE2/VR_BOX2/fine03/d2_fine_div8_idx.o .
@@ -1470,7 +1470,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d30 3
 @
 
@@ -1482,7 +1482,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d44 1
 @
 
@@ -1494,7 +1494,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d88 67
 a154 67
      cp shape/TEXTURE2/VR_BOX2/fine01/vr_fine0_div8_idx.o .
@@ -1581,7 +1581,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d63 1
 @
 
@@ -1593,7 +1593,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d46 2
 d51 1
 a55 2
@@ -1609,7 +1609,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d82 2
 @
 
@@ -1621,7 +1621,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d81 3
 @
 
@@ -1633,7 +1633,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d44 1
 a44 1
      cp shape/TEXTURE/DMA_MAKE/DO_ACTION/do_action_idx.o .
@@ -1647,7 +1647,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d73 16
 a88 8
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/2D/vr_fine0_div8_idx.o .
@@ -1668,7 +1668,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d158 2
 a159 2
      cp shape/TEXTURE/DMA_MAKE/ITEM_NAME/item_name.o .
@@ -1683,7 +1683,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 1
 a32 1
      cp shape/TEXTURE/TITLE/e3.o .
@@ -1697,7 +1697,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 1
 @
 
@@ -1709,7 +1709,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d30 3
 @
 
@@ -1721,7 +1721,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a55 1
 ####################     cp shape/TEXTURE/MAP/map_grand.o .
 a58 5
@@ -1762,7 +1762,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d38 2
 a39 2
      cp shape/TEXTURE/PARAMETER/parameter.o .
@@ -1786,7 +1786,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 1
 @
 
@@ -1798,7 +1798,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d155 4
 @
 
@@ -1810,7 +1810,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d27 3
 @
 
@@ -1822,7 +1822,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d63 16
 a78 8
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/fine/vr_fine0_div8_idx.o .
@@ -1844,7 +1844,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d54 1
 @
 
@@ -1856,7 +1856,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d38 1
 a40 1
      cp shape/TEXTURE/MESSAGE/message/message.o .
@@ -1874,7 +1874,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d32 2
 @
 
@@ -1886,7 +1886,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 1
 a39 1
      cp shape/TEXTURE/MESSAGE/NES/font_e.o .
@@ -1908,7 +1908,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 @
 
 
@@ -1919,7 +1919,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 7
 @
 
@@ -1931,7 +1931,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d41 1
 @
 
@@ -1943,7 +1943,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d138 1
 @
 
@@ -1955,7 +1955,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d111 2
 a112 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_SHOP/vr_KKSVR_div8_idx.o .
@@ -1970,7 +1970,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d79 2
 a80 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/I_SHOP/vr_ISVR_div8_idx.o .
@@ -1985,7 +1985,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d68 2
 a69 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
@@ -2008,7 +2008,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d89 2
 a90 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_K2VR_div8_idx.o .
@@ -2023,7 +2023,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 2
 a43 2
      cp shape/TEXTURE/MAP/map_grand.o .
@@ -2038,7 +2038,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 2
 a43 2
 ####################     cp shape/TEXTURE/MAP/map_grand.o .
@@ -2053,7 +2053,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d42 2
 a43 1
      cp shape/TEXTURE/MAP/map_grand.o .
@@ -2067,7 +2067,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 2
 a40 2
 ##########     cp shape/TEXTURE/MESSAGE/NES/font_e.o .
@@ -2082,7 +2082,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d39 2
 a40 2
      cp shape/TEXTURE/MESSAGE/NES/font_e.o .
@@ -2097,7 +2097,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d43 6
 a48 5
      cp shape/TEXTURE/MAP/map_YDAN.o .
@@ -2115,7 +2115,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d130 8
 a137 6
 #####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
@@ -2134,7 +2134,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d45 2
 a47 1
      cp shape/TEXTURE/MAP/map_BMORI.o .
@@ -2156,7 +2156,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d129 6
 a134 6
 #####     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
@@ -2175,7 +2175,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d129 6
 a134 6
 ##     cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
@@ -2194,7 +2194,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d129 5
 a133 5
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o .
@@ -2212,7 +2212,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 1
 a31 1
 ####################     cp shape/TEXTURE/TITLE/title.o .
@@ -2227,7 +2227,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 1
 a31 1
      cp shape/TEXTURE/TITLE/title.o .
@@ -2241,7 +2241,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d65 4
 a68 10
 ##     cp shape/TEXTURE/DMA_MAKE/VR_BOX/end/vr_end_div8_idx.o .
@@ -2264,7 +2264,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d65 10
 a74 12
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/night/vr_night_div8_idx.o .
@@ -2289,7 +2289,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d132 2
 @
 
@@ -2301,7 +2301,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 1
 a31 1
 #####     cp shape/TEXTURE/TITLE/title.o .
@@ -2315,7 +2315,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d31 1
 a31 1
      cp shape/TEXTURE/TITLE/title.o .
@@ -2329,7 +2329,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a35 1
      cp shape/TEXTURE/MESSAGE/NES/font_e.o .
 d39 2
@@ -2343,7 +2343,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d36 1
 @
 
@@ -2355,7 +2355,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d67 8
 @
 
@@ -2367,7 +2367,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d63 4
 a66 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/woods/vr_bg_woods_div8_idx.o .
@@ -2382,7 +2382,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d44 1
 @
 
@@ -2394,7 +2394,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 8
 a15 4
   if [ ! -e $2 -o $1 -nt $2 ]; then
@@ -2421,7 +2421,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d118 2
 @
 
@@ -2433,7 +2433,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a62 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/CHAPEL/vr_CHVR_pal.o .
@@ -2452,7 +2452,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 2
 a38 1
      cp shape/TEXTURE/MAP/map_ddan.o .
@@ -2466,7 +2466,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d121 4
 a124 3
      cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item.o icon_item_idx.o
@@ -2482,7 +2482,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d90 6
 a111 4
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KAKARIKO_HOME2/vr_KR2VR_div8_idx.o .
@@ -2499,7 +2499,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a83 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_K6VR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME6/vr_K6VR_pal.o .
@@ -2513,7 +2513,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d76 10
 a85 10
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/K_HOME2/vr_KHVR2_div8_idx.o .
@@ -2536,7 +2536,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d80 6
 @
 
@@ -2548,7 +2548,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d30 1
 a30 1
      cp shape/TEXTURE/DO_ACTION/do_action_idx.o .
@@ -2562,7 +2562,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d30 1
 @
 
@@ -2574,7 +2574,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d56 2
 d59 2
 a60 2
@@ -2630,7 +2630,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d111 2
 @
 
@@ -2642,7 +2642,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d109 2
 a114 4
 #####	£Ä£Ï
@@ -2659,7 +2659,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 1
 @
 
@@ -2671,7 +2671,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d104 4
 @
 
@@ -2683,7 +2683,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d98 2
 @
 
@@ -2695,7 +2695,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d88 14
 @
 
@@ -2707,7 +2707,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a59 2
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/KOKIRI/vr_KSVR_pal.o .
@@ -2722,7 +2722,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d82 4
 @
 
@@ -2734,7 +2734,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d36 1
 a37 1
      cp shape/TEXTURE/MAP/map_56x73.o .
@@ -2748,7 +2748,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d35 3
 a37 1
      cp shape/TEXTURE/MAP/map_div4_idx.o .
@@ -2762,7 +2762,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d53 1
 d74 4
 @
@@ -2775,7 +2775,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d24 7
 d34 1
 d36 1
@@ -2794,7 +2794,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d59 2
 @
 
@@ -2806,7 +2806,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d24 1
 @
 
@@ -2818,7 +2818,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d28 2
 d36 2
 @
@@ -2831,7 +2831,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d58 2
 @
 
@@ -2843,7 +2843,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a62 1
      cp shape/TEXTURE/DMA_MAKE/GAMEOVER/GAMEOVER.o .
 @
@@ -2856,7 +2856,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d63 1
 @
 
@@ -2868,7 +2868,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d60 1
 @
 
@@ -2880,7 +2880,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 a27 10
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_div8_idx.o .
      cp shape/TEXTURE/DMA_MAKE/VR_BOX/FAY/vr_fayVR_pal.o .
@@ -2911,7 +2911,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d62 2
 @
 
@@ -2923,7 +2923,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d24 3
 @
 
@@ -2939,7 +2939,7 @@ a1 2
 #!/bin/sh
 d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 17
 a23 1
 echo cp shape/TEXTURE/DMA_MAKE/nintendo_rogo/nintendo_rogo.o .
@@ -3029,7 +3029,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d70 8
 @
 
@@ -3041,7 +3041,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d70 4
 a73 4
 echo cp shape/TEXTURE/DMA_MAKE/ICON_ITEM/icon_item_idx.o .
@@ -3058,7 +3058,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d66 4
 @
 
@@ -3070,7 +3070,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 66
 a73 62
 echo cp shape/TEXTURE/nintendo_rogo/nintendo_rogo.o .
@@ -3148,7 +3148,7 @@ a3 1
 set -x
 d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 @
 
 
@@ -3159,7 +3159,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d20 2
 a21 2
 echo cp shape/TEXTURE/VR_BOX/I_SHOP/vr_i_shopVR_div8_pal.o .
@@ -3174,7 +3174,7 @@ log
 text
 @d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d20 2
 a21 2
 echo cp shape/TEXTURE/VR_BOX/I_SHOP/r_i_shopVR_div8_pal.o .
@@ -3190,7 +3190,7 @@ text
 @d1 1
 d5 1
 a5 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d10 20
 a29 32
 ###echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
@@ -3248,7 +3248,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d73 4
 @
 
@@ -3260,7 +3260,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d69 4
 @
 
@@ -3272,7 +3272,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d69 8
 @
 
@@ -3284,7 +3284,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d9 16
 a24 8
 echo cp shape/TEXTURE/VR_BOX/a_day/vr_a_day_fineBG_div8_idx.o .
@@ -3318,7 +3318,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d69 2
 a74 4
 echo cp shape/TEXTURE/ICON_ITEM/icon_item_idx.o .
@@ -3335,7 +3335,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d17 4
 a20 4
 echo cp shape/TEXTURE/VR_BOX/fairy/vr_fairyVR_div8_idx.o .
@@ -3353,7 +3353,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d53 12
 @
 
@@ -3365,7 +3365,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d37 16
 @
 
@@ -3377,7 +3377,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d41 4
 a44 2
 echo cp shape/TEXTURE/ICON_ITEM/ICON_ITEM.o .
@@ -3392,6 +3392,6 @@ log
 text
 @d4 1
 a4 1
-# $Id: dma_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: dma_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 2
 @

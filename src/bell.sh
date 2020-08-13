@@ -1,5 +1,5 @@
 #!/usr/local/bin/bash
-# $Id: bell.sh,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+# $Id: bell.sh,v 1.1 2003/06/09 19:12:09 wheeler Exp $
 #
 # コンパイル完了音発生
 #

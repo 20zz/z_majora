@@ -1,8 +1,8 @@
 /*
- * $Id: slidec.h,v 1.1.1.1 2003/06/09 19:12:06 wheeler Exp $
+ * $Id: slidec.h,v 1.1 2003/06/09 19:12:06 wheeler Exp $
  * $Log: slidec.h,v $
- * Revision 1.1.1.1  2003/06/09 19:12:06  wheeler
- * Majora's Mask tree from Nintendo
+ * Revision 1.1  2003/06/09 19:12:06  wheeler
+ * Initial revision
  *
  */
 

@@ -4,7 +4,7 @@
 	File		ucode_z.h
 	Coded    by	Yoshitaka Yasumoto.	Mar 30, 1998.
 	
-	$Id: ucode_z.h,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+	$Id: ucode_z.h,v 1.1 2003/06/09 19:12:09 wheeler Exp $
  *---------------------------------------------------------------------*/
 #ifndef _UCODE_Z_H_
 #define	_UCODE_Z_H_

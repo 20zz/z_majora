@@ -1,12 +1,12 @@
 /*
- * $Id: boot.h,v 1.1.1.1 2003/06/09 19:12:10 wheeler Exp $
+ * $Id: boot.h,v 1.1 2003/06/09 19:12:10 wheeler Exp $
  *
  *
  * 注意:このヘッダファイルは spec ファイルからインクルードされます
  *
  * $Log: boot.h,v $
- * Revision 1.1.1.1  2003/06/09 19:12:10  wheeler
- * Majora's Mask tree from Nintendo
+ * Revision 1.1  2003/06/09 19:12:10  wheeler
+ * Initial revision
  *
  * Revision 2.1  1998-10-22 20:41:56+09  zelda
  * ＲＯＭ出しバージョン(NTSC)

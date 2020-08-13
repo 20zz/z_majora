@@ -1,11 +1,11 @@
 /*
- * $Id: sys_segment.h,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+ * $Id: sys_segment.h,v 1.1 2003/06/09 19:12:09 wheeler Exp $
  *
  *	スペック ファイル と 共通 の 宣言
  *
  * $Log: sys_segment.h,v $
- * Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
- * Majora's Mask tree from Nintendo
+ * Revision 1.1  2003/06/09 19:12:09  wheeler
+ * Initial revision
  *
  * Revision 2.10  2000-02-21 21:56:43+09  soejima
  * *** empty log message ***

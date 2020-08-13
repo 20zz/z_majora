@@ -1,11 +1,11 @@
 #
-# $Id: gSRDdefs.mk,v 1.1.1.1 2003/12/12 21:30:59 wheeler Exp $
+# $Id: gSRDdefs.mk,v 1.1 2003/12/12 21:30:59 wheeler Exp $
 # 
 # FORCE_CPPが定義されている場合は .c のファイルのコンパイルを c++で行う
 #
 # $Log: gSRDdefs.mk,v $
-# Revision 1.1.1.1  2003/12/12 21:30:59  wheeler
-# try again
+# Revision 1.1  2003/12/12 21:30:59  wheeler
+# Initial revision
 #
 # Revision 1.2  2003/09/11 22:08:00  wheeler
 # Add makerel_linux tool

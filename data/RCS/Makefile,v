@@ -33,14 +33,14 @@ log
 @
 text
 @#!smake
-# $Id: Makefile,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: Makefile,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 # ６４ゼルダ用メイクファイル
 # マップデータ作成用
 #
 # $Log: Makefile,v,v $
-# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:45:38  wheeler
+# Initial revision
 #
 # Revision 1.2  1997-10-08 09:47:31+09  hayakawa
 # *** empty log message ***
@@ -145,7 +145,7 @@ log
 text
 @d2 1
 a2 1
-# $Id: Makefile,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: Makefile,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 3
 @
 
@@ -157,7 +157,7 @@ log
 text
 @d2 1
 a2 1
-# $Id: Makefile,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: Makefile,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d8 2
 d11 1
 d24 3

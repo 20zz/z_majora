@@ -1,11 +1,11 @@
 #!/bin/sh
 set -x
 #
-# $Id: keep,v 1.1.1.1 2003/12/06 23:43:47 wheeler Exp $
+# $Id: keep,v 1.1 2003/12/06 23:43:47 wheeler Exp $
 #
 # $Log: keep,v $
-# Revision 1.1.1.1  2003/12/06 23:43:47  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:43:47  wheeler
+# Initial revision
 #
 # Revision 2.2  1999-04-09 18:08:38+09  hayakawa
 # $pathに影響されないようにldをフルパス指定にした

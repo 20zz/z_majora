@@ -3580,11 +3580,11 @@ text
 @#!/usr/local/bin/bash
 #set -x
 #
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 #
 # $Log: obj_make,v,v $
-# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:45:38  wheeler
+# Initial revision
 #
 # Revision 2.392  2000-08-23 17:35:31+09  iwawaki
 # *** empty log message ***
@@ -6648,7 +6648,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2651 1
 @
@@ -6661,7 +6661,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2859 1
 @
@@ -6674,7 +6674,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2643 2
 a2644 1
@@ -6689,7 +6689,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2725 1
 d2727 1
@@ -6706,7 +6706,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2636 1
 a2636 1
@@ -6721,7 +6721,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2634 1
 @
@@ -6734,7 +6734,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2551 2
 a2552 1
@@ -6749,7 +6749,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2312 1
 a2312 1
@@ -6764,7 +6764,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2624 1
 @
@@ -6777,7 +6777,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2657 1
 a2657 1
@@ -6792,7 +6792,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d3017 1
 @
@@ -6805,7 +6805,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d3013 1
 @
@@ -6818,7 +6818,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d3009 1
 @
@@ -6831,7 +6831,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d3005 1
 @
@@ -6844,7 +6844,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d3000 2
 @
@@ -6857,7 +6857,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2915 2
 @
@@ -6870,7 +6870,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2991 1
 @
@@ -6883,7 +6883,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2854 2
 a2855 1
@@ -6898,7 +6898,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2350 2
 a2351 1
@@ -6999,7 +6999,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2941 2
 @
@@ -7012,7 +7012,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2937 1
 @
@@ -7025,7 +7025,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2868 3
 @
@@ -7038,7 +7038,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2522 1
 @
@@ -7051,7 +7051,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2922 2
 @
@@ -7064,7 +7064,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2918 1
 @
@@ -7077,7 +7077,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2914 1
 @
@@ -7090,7 +7090,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2910 1
 @
@@ -7103,7 +7103,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2906 1
 @
@@ -7116,7 +7116,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2902 1
 @
@@ -7129,7 +7129,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2898 1
 @
@@ -7142,7 +7142,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2534 2
 a2535 1
@@ -7157,7 +7157,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2890 1
 @
@@ -7170,7 +7170,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2886 1
 @
@@ -7183,7 +7183,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2882 1
 @
@@ -7196,7 +7196,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2535 2
 a2536 1
@@ -7211,7 +7211,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2874 1
 @
@@ -7224,7 +7224,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2870 1
 @
@@ -7237,7 +7237,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2866 1
 @
@@ -7250,7 +7250,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2862 1
 @
@@ -7263,7 +7263,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2858 1
 @
@@ -7276,7 +7276,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2631 1
 a2631 1
@@ -7291,7 +7291,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2851 1
 @
@@ -7304,7 +7304,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2847 1
 @
@@ -7317,7 +7317,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2565 1
 a2565 1
@@ -7332,7 +7332,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2839 2
 @
@@ -7345,7 +7345,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2835 1
 @
@@ -7358,7 +7358,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2831 1
 @
@@ -7371,7 +7371,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2827 1
 @
@@ -7384,7 +7384,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2823 1
 @
@@ -7397,7 +7397,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2819 1
 @
@@ -7410,7 +7410,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2024 1
 a2024 1
@@ -7429,7 +7429,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2806 1
 @
@@ -7442,7 +7442,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2799 4
 a2802 1
@@ -7456,7 +7456,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2795 2
 @
@@ -7469,7 +7469,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2791 1
 @
@@ -7482,7 +7482,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2130 1
 a2130 1
@@ -7497,7 +7497,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2783 2
 @
@@ -7510,7 +7510,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2514 2
 a2515 1
@@ -7525,7 +7525,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2015 1
 @
@@ -7538,7 +7538,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2771 1
 @
@@ -7551,7 +7551,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2767 1
 @
@@ -7564,7 +7564,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2466 1
 a2466 1
@@ -7582,7 +7582,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2760 1
 @
@@ -7595,7 +7595,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1999 1
 @
@@ -7608,7 +7608,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2752 1
 @
@@ -7621,7 +7621,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1992 1
 @
@@ -7634,7 +7634,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2743 2
 @
@@ -7647,7 +7647,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2349 1
 a2349 1
@@ -7675,7 +7675,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2736 1
 @
@@ -7688,7 +7688,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2158 1
 @
@@ -7701,7 +7701,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2728 1
 @
@@ -7714,7 +7714,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2724 1
 a2724 1
@@ -7729,7 +7729,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2721 1
 @
@@ -7742,7 +7742,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2352 2
 a2353 1
@@ -7758,7 +7758,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2712 1
 @
@@ -7771,7 +7771,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2708 1
 @
@@ -7784,7 +7784,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2704 1
 @
@@ -7797,7 +7797,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2700 1
 @
@@ -7810,7 +7810,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2694 3
 @
@@ -7823,7 +7823,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2689 2
 @
@@ -7836,7 +7836,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2685 1
 @
@@ -7849,7 +7849,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2171 126
 a2296 126
@@ -7989,7 +7989,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2062 1
 a2062 1
@@ -8005,7 +8005,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2674 1
 @
@@ -8018,7 +8018,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2670 1
 @
@@ -8031,7 +8031,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a2408 1
      cp shape/zelda_gr/zelda_gr.o Gr.o
@@ -8045,7 +8045,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2664 1
 @
@@ -8058,7 +8058,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2062 1
 a2062 1
@@ -8073,7 +8073,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2011 1
 a2011 1
@@ -8088,7 +8088,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2654 1
 @
@@ -8101,7 +8101,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2293 1
 a2293 1
@@ -8119,7 +8119,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2048 1
 a2048 1
@@ -8137,7 +8137,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2413 2
 a2414 1
@@ -8152,7 +8152,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2640 1
 @
@@ -8165,7 +8165,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1946 1
 a1946 1
@@ -8180,7 +8180,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2269 1
 a2269 1
@@ -8202,7 +8202,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2050 1
 a2050 1
@@ -8217,7 +8217,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a2620 3
      cp shape/zelda2_cs2/zelda2_cs2.o cs2.o
@@ -8233,7 +8233,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2621 7
 @
@@ -8246,7 +8246,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2615 3
 @
@@ -8259,7 +8259,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2080 1
 a2080 1
@@ -8274,7 +8274,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2608 1
 a2608 1
@@ -8289,7 +8289,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2605 1
 @
@@ -8302,7 +8302,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2401 1
 a2401 1
@@ -8317,7 +8317,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2598 1
 @
@@ -8330,7 +8330,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2594 1
 @
@@ -8343,7 +8343,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2590 1
 @
@@ -8356,7 +8356,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2252 1
 a2252 1
@@ -8372,7 +8372,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2582 1
 @
@@ -8385,7 +8385,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2578 1
 @
@@ -8398,7 +8398,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2573 2
 @
@@ -8411,7 +8411,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1988 1
 a1988 1
@@ -8429,7 +8429,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2296 1
 a2296 1
@@ -8444,7 +8444,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2069 1
 a2069 1
@@ -8459,7 +8459,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1881 1
 a1881 1
@@ -8474,7 +8474,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2556 2
 @
@@ -8487,7 +8487,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2552 1
 @
@@ -8500,7 +8500,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2205 1
 a2205 1
@@ -8515,7 +8515,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2545 1
 @
@@ -8528,7 +8528,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2541 1
 @
@@ -8541,7 +8541,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a2321 1
 #     cp shape/zelda_po_composer/zelda_po_composer.o Po_Composer.o
@@ -8555,7 +8555,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2051 1
 d2053 67
@@ -8626,7 +8626,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1820 1
 @
@@ -8639,7 +8639,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2192 3
 a2194 1
@@ -8654,7 +8654,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2511 1
 @
@@ -8667,7 +8667,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2507 1
 @
@@ -8680,7 +8680,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2503 1
 @
@@ -8693,7 +8693,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2499 1
 a2499 1
@@ -8708,7 +8708,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2496 1
 @
@@ -8721,7 +8721,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2252 1
 a2252 1
@@ -8736,7 +8736,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2487 3
 @
@@ -8749,7 +8749,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1792 1
 @
@@ -8762,7 +8762,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2478 2
 @
@@ -8775,7 +8775,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2167 1
 a2167 1
@@ -8790,7 +8790,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2471 1
 @
@@ -8803,7 +8803,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1765 1
 a1765 1
@@ -8818,7 +8818,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2309 2
 a2310 1
@@ -8833,7 +8833,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2460 1
 @
@@ -8846,7 +8846,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1790 1
 a1790 1
@@ -8861,7 +8861,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1787 1
 a1787 1
@@ -8876,7 +8876,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2336 2
 a2337 1
@@ -8891,7 +8891,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1761 1
 @
@@ -8904,7 +8904,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2442 1
 @
@@ -8917,7 +8917,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2438 1
 @
@@ -8930,7 +8930,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2434 1
 @
@@ -8943,7 +8943,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2429 2
 @
@@ -8956,7 +8956,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2271 1
 a2271 1
@@ -8974,7 +8974,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2422 1
 @
@@ -8987,7 +8987,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2418 1
 @
@@ -9000,7 +9000,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2414 1
 @
@@ -9013,7 +9013,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2077 2
 a2078 1
@@ -9029,7 +9029,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2402 2
 @
@@ -9042,7 +9042,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2398 1
 @
@@ -9055,7 +9055,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2394 1
 @
@@ -9068,7 +9068,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1761 1
 a1761 1
@@ -9083,7 +9083,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2178 1
 a2178 1
@@ -9098,7 +9098,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2384 1
 @
@@ -9111,7 +9111,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2379 2
 @
@@ -9124,7 +9124,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2375 1
 @
@@ -9137,7 +9137,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a2236 1
      cp shape/zelda2_yama_object/zelda2_yama_object.o yama_obj.o
@@ -9151,7 +9151,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1700 4
 @
@@ -9164,7 +9164,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2362 1
 @
@@ -9177,7 +9177,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2355 4
 a2358 1
@@ -9191,7 +9191,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1792 1
 a1792 1
@@ -9206,7 +9206,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2349 1
 @
@@ -9219,7 +9219,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1842 1
 a1842 1
@@ -9234,7 +9234,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2342 1
 @
@@ -9247,7 +9247,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2176 1
 a2176 1
@@ -9267,7 +9267,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2333 1
 @
@@ -9280,7 +9280,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2328 1
 @
@@ -9293,7 +9293,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2325 1
 @
@@ -9306,7 +9306,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1875 2
 a1876 1
@@ -9321,7 +9321,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2317 1
 @
@@ -9334,7 +9334,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1747 2
 a1748 2
@@ -9356,7 +9356,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2309 2
 @
@@ -9369,7 +9369,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2305 1
 @
@@ -9382,7 +9382,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2301 1
 @
@@ -9395,7 +9395,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2297 1
 @
@@ -9408,7 +9408,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2293 1
 @
@@ -9421,7 +9421,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2287 3
 @
@@ -9434,7 +9434,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2283 1
 @
@@ -9447,7 +9447,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1778 2
 a1779 2
@@ -9475,7 +9475,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1624 1
 a1624 1
@@ -9490,7 +9490,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2273 1
 @
@@ -9503,7 +9503,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1833 1
 a1833 1
@@ -9549,7 +9549,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1613 2
 a1614 1
@@ -9564,7 +9564,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2080 1
 a2080 1
@@ -9579,7 +9579,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2077 1
 a2077 1
@@ -9594,7 +9594,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1803 1
 a1803 1
@@ -9621,7 +9621,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2253 1
 a2253 1
@@ -9636,7 +9636,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2250 1
 @
@@ -9649,7 +9649,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1606 4
 @
@@ -9662,7 +9662,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2239 1
 @
@@ -9675,7 +9675,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2235 1
 @
@@ -9688,7 +9688,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1999 1
 a1999 1
@@ -9703,7 +9703,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1681 1
 a1681 1
@@ -9731,7 +9731,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2131 1
 a2131 1
@@ -9746,7 +9746,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1582 7
 @
@@ -9759,7 +9759,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2212 1
 @
@@ -9772,7 +9772,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1797 1
 a1797 1
@@ -9787,7 +9787,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2205 1
 a2205 1
@@ -9803,7 +9803,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 4
 d2201 1
 @
@@ -9816,7 +9816,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1598 1
 a1598 1
@@ -9840,7 +9840,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1947 1
 a1947 1
@@ -9855,7 +9855,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2189 2
 @
@@ -9868,7 +9868,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2184 3
 @
@@ -9881,7 +9881,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2180 1
 a2180 1
@@ -9895,7 +9895,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2176 2
 a2177 1
@@ -9910,7 +9910,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2173 1
 @
@@ -9923,7 +9923,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2169 1
 @
@@ -9936,7 +9936,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2165 1
 @
@@ -9949,7 +9949,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2022 1
 a2022 1
@@ -9964,7 +9964,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2158 1
 @
@@ -9977,7 +9977,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2154 1
 @
@@ -9990,7 +9990,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2150 1
 @
@@ -10003,7 +10003,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2146 1
 @
@@ -10016,7 +10016,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2142 1
 @
@@ -10029,7 +10029,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2138 1
 @
@@ -10042,7 +10042,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2134 1
 @
@@ -10055,7 +10055,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2002 2
 a2003 1
@@ -10070,7 +10070,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2126 1
 @
@@ -10083,7 +10083,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2122 1
 @
@@ -10096,7 +10096,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2118 1
 @
@@ -10109,7 +10109,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2114 1
 @
@@ -10122,7 +10122,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2110 1
 @
@@ -10135,7 +10135,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2106 1
 @
@@ -10148,7 +10148,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2102 1
 @
@@ -10161,7 +10161,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2098 1
 @
@@ -10174,7 +10174,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1935 1
 a1935 1
@@ -10189,7 +10189,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2091 1
 @
@@ -10202,7 +10202,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1911 4
 a1914 2
@@ -10219,7 +10219,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2081 1
 @
@@ -10232,7 +10232,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1840 1
 a1840 1
@@ -10250,7 +10250,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2074 1
 @
@@ -10263,7 +10263,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1593 1
 a1593 1
@@ -10278,7 +10278,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2065 3
 a2067 1
@@ -10292,7 +10292,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1642 1
 a1642 1
@@ -10307,7 +10307,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1583 3
 a1585 3
@@ -10329,7 +10329,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2056 1
 @
@@ -10342,7 +10342,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1819 1
 a1819 1
@@ -10360,7 +10360,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1816 1
 a1816 1
@@ -10376,7 +10376,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2045 1
 @
@@ -10389,7 +10389,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2041 1
 @
@@ -10402,7 +10402,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2036 2
 @
@@ -10415,7 +10415,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2032 1
 @
@@ -10428,7 +10428,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2027 2
 a2028 1
@@ -10443,7 +10443,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1986 1
 a1986 1
@@ -10458,7 +10458,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1831 1
 a1831 1
@@ -10473,7 +10473,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1828 1
 a1828 1
@@ -10488,7 +10488,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2014 1
 @
@@ -10501,7 +10501,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2010 2
 @
@@ -10514,7 +10514,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1620 2
 a1621 1
@@ -10530,7 +10530,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d2001 1
 @
@@ -10544,7 +10544,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 4
 d1997 1
 @
@@ -10557,7 +10557,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1989 4
 @
@@ -10570,7 +10570,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1985 1
 @
@@ -10583,7 +10583,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1981 1
 @
@@ -10596,7 +10596,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1977 1
 @
@@ -10609,7 +10609,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1973 1
 a1973 1
@@ -10624,7 +10624,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1812 1
 a1812 1
@@ -10639,7 +10639,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1838 2
 a1839 1
@@ -10654,7 +10654,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1962 1
 @
@@ -10667,7 +10667,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1450 2
 a1451 1
@@ -10682,7 +10682,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1838 1
 a1838 1
@@ -10697,7 +10697,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1936 2
      cp shape/zelda2_hakugin_051/zelda2_hakugin_051.o Hakugin_051.o
@@ -10712,7 +10712,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1950 2
 @
@@ -10725,7 +10725,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1946 1
 @
@@ -10738,7 +10738,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1942 1
 @
@@ -10751,7 +10751,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1938 1
 @
@@ -10764,7 +10764,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1581 1
 a1581 1
@@ -10779,7 +10779,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1931 1
 @
@@ -10792,7 +10792,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1459 1
 a1459 1
@@ -10807,7 +10807,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1738 1
 a1738 1
@@ -10822,7 +10822,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1371 1
 a1371 1
@@ -10843,7 +10843,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1364 1
 a1364 1
@@ -10858,7 +10858,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1355 2
 a1356 2
@@ -11126,7 +11126,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1912 1
 @
@@ -11139,7 +11139,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1908 1
 @
@@ -11152,7 +11152,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1507 2
 a1508 1
@@ -11167,7 +11167,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1785 1
 a1785 1
@@ -11182,7 +11182,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1534 1
 a1534 1
@@ -11197,7 +11197,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1894 1
 @
@@ -11210,7 +11210,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1776 1
 a1776 1
@@ -11225,7 +11225,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1887 1
 @
@@ -11238,7 +11238,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1883 1
 @
@@ -11251,7 +11251,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1527 1
      cp shape/zelda_stk/zelda_stk.o Stk.o
@@ -11265,7 +11265,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1877 1
 @
@@ -11278,7 +11278,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1873 1
 @
@@ -11291,7 +11291,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1372 1
 a1372 1
@@ -11306,7 +11306,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1433 1
 a1433 1
@@ -11321,7 +11321,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1455 1
 a1455 1
@@ -11336,7 +11336,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1748 1
 a1748 1
@@ -11351,7 +11351,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1747 1
 a1747 1
@@ -11366,7 +11366,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1854 1
 @
@@ -11379,7 +11379,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1711 1
 a1711 1
@@ -11396,7 +11396,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1847 1
 @
@@ -11409,7 +11409,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1833 1
 a1833 1
@@ -11424,7 +11424,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1840 1
 @
@@ -11437,7 +11437,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1835 2
 @
@@ -11450,7 +11450,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1746 1
 a1746 1
@@ -11465,7 +11465,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1828 1
 @
@@ -11478,7 +11478,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1824 1
 @
@@ -11491,7 +11491,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1289 1
      cp shape/zelda_po/zelda_po.o Po.o
@@ -11506,7 +11506,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1817 1
 @
@@ -11519,7 +11519,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1594 1
 a1594 1
@@ -11534,7 +11534,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1428 1
 a1428 1
@@ -11550,7 +11550,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1393 2
 a1394 1
@@ -11565,7 +11565,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1801 1
 @
@@ -11578,7 +11578,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1797 1
 @
@@ -11591,7 +11591,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1396 1
 a1396 1
@@ -11606,7 +11606,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1357 1
 a1357 1
@@ -11621,7 +11621,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1787 1
 @
@@ -11634,7 +11634,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1677 1
      cp shape/zelda_ocd/zelda_ocd.o Ocd.o
@@ -11649,7 +11649,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1780 1
 @
@@ -11662,7 +11662,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1776 1
 @
@@ -11675,7 +11675,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1772 1
 @
@@ -11688,7 +11688,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1768 1
 a1768 1
@@ -11702,7 +11702,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1764 2
 a1765 1
@@ -11717,7 +11717,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1597 1
 a1597 1
@@ -11732,7 +11732,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1559 1
 a1559 1
@@ -11747,7 +11747,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1754 1
 @
@@ -11760,7 +11760,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1750 1
 @
@@ -11773,7 +11773,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1746 1
 @
@@ -11786,7 +11786,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1742 1
 @
@@ -11799,7 +11799,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1738 1
 @
@@ -11812,7 +11812,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1682 1
 a1682 1
@@ -11827,7 +11827,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1731 1
 @
@@ -11840,7 +11840,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1726 2
 @
@@ -11853,7 +11853,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1722 1
 @
@@ -11866,7 +11866,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1718 2
 @
@@ -11879,7 +11879,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1639 1
 a1639 1
@@ -11894,7 +11894,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1711 1
 @
@@ -11907,7 +11907,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1707 1
 @
@@ -11920,7 +11920,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1702 2
 @
@@ -11933,7 +11933,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1698 1
 @
@@ -11946,7 +11946,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1694 1
 @
@@ -11959,7 +11959,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1342 1
 a1342 1
@@ -11980,7 +11980,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1684 4
 @
@@ -11993,7 +11993,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1680 1
 @
@@ -12006,7 +12006,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1160 2
 a1161 1
@@ -12021,7 +12021,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1167 1
 a1167 1
@@ -12036,7 +12036,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1507 1
 a1507 1
@@ -12051,7 +12051,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1666 1
 @
@@ -12064,7 +12064,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1662 1
 @
@@ -12077,7 +12077,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1625 1
 a1625 1
@@ -12092,7 +12092,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1301 1
 a1301 1
@@ -12107,7 +12107,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1298 1
 a1298 1
@@ -12122,7 +12122,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1295 1
 a1295 1
@@ -12137,7 +12137,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1646 1
 @
@@ -12150,7 +12150,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1642 1
 @
@@ -12163,7 +12163,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1637 2
 @
@@ -12176,7 +12176,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1633 1
 @
@@ -12189,7 +12189,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1328 1
 a1328 1
@@ -12204,7 +12204,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1626 1
 @
@@ -12217,7 +12217,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1622 1
 @
@@ -12230,7 +12230,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1618 1
 @
@@ -12243,7 +12243,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1573 1
 a1573 1
@@ -12258,7 +12258,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1611 1
 @
@@ -12271,7 +12271,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1123 1
 a1123 1
@@ -12286,7 +12286,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1460 1
 a1460 1
@@ -12301,7 +12301,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1475 1
 a1475 1
@@ -12316,7 +12316,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1468 1
 a1468 1
@@ -12331,7 +12331,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1591 5
 @
@@ -12344,7 +12344,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1587 1
 @
@@ -12357,7 +12357,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1252 1
 a1252 1
@@ -12372,7 +12372,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1574 7
 @
@@ -12385,7 +12385,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1570 1
 @
@@ -12398,7 +12398,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1566 1
 @
@@ -12411,7 +12411,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1562 1
 @
@@ -12424,7 +12424,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1508 1
 a1508 1
@@ -12439,7 +12439,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1468 1
 a1468 1
@@ -12454,7 +12454,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1465 1
 a1465 1
@@ -12469,7 +12469,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1462 1
 a1462 1
@@ -12484,7 +12484,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1430 1
 a1430 1
@@ -12499,7 +12499,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1543 1
 @
@@ -12512,7 +12512,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1539 1
 @
@@ -12525,7 +12525,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1042 1
 a1042 1
@@ -12540,7 +12540,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1039 1
 @
@@ -12553,7 +12553,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1528 1
 @
@@ -12566,7 +12566,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1024 1
 a1024 1
@@ -12581,7 +12581,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1019 1
 a1019 1
@@ -12596,7 +12596,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1076 1
 a1076 1
@@ -12611,7 +12611,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1515 1
 @
@@ -12624,7 +12624,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1059 3
      cp shape/zelda_spo04_objects/zelda_spo04_objects.o spot04_objects.o
@@ -12697,7 +12697,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1544 3
 @
@@ -12710,7 +12710,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1540 1
 @
@@ -12723,7 +12723,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1011 1
 @
@@ -12736,7 +12736,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d999 1
 a999 1
@@ -12782,7 +12782,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1167 1
 @
@@ -12795,7 +12795,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1025 1
 d1027 1
@@ -12818,7 +12818,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1134 1
 a1134 1
@@ -12833,7 +12833,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1131 1
 @
@@ -12846,7 +12846,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -12859,7 +12859,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 4
 d1003 1
 a1003 1
@@ -12874,7 +12874,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1359 1
 a1359 1
@@ -12889,7 +12889,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1453 1
 @
@@ -12902,7 +12902,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1449 1
 @
@@ -12915,7 +12915,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1444 2
 @
@@ -12928,7 +12928,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1440 1
 @
@@ -12941,7 +12941,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1436 1
 @
@@ -12954,7 +12954,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1432 1
 @
@@ -12967,7 +12967,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1428 1
 @
@@ -12980,7 +12980,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1424 1
 @
@@ -12993,7 +12993,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d971 1
 a971 1
@@ -13008,7 +13008,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1417 1
 @
@@ -13021,7 +13021,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1413 1
 @
@@ -13034,7 +13034,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1409 1
 @
@@ -13047,7 +13047,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1405 1
 @
@@ -13060,7 +13060,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1401 1
 @
@@ -13073,7 +13073,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1239 1
 d1395 3
@@ -13087,7 +13087,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1390 1
 @
@@ -13100,7 +13100,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1385 2
 @
@@ -13113,7 +13113,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1229 1
 @
@@ -13126,7 +13126,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1377 1
 @
@@ -13139,7 +13139,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1156 3
 @
@@ -13152,7 +13152,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1367 1
 @
@@ -13165,7 +13165,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1213 1
 @
@@ -13178,7 +13178,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1359 1
 @
@@ -13191,7 +13191,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1355 1
 @
@@ -13204,7 +13204,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a1019 3
 #     cp shape/zelda_hidan_objects4/zelda_hidan_objects4.o hidan_objects4.o
@@ -13221,7 +13221,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1350 1
 @
@@ -13234,7 +13234,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1345 2
 @
@@ -13247,7 +13247,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1339 3
 @
@@ -13260,7 +13260,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1334 2
 @
@@ -13273,7 +13273,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1329 2
 @
@@ -13286,7 +13286,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1325 1
 a1325 1
@@ -13301,7 +13301,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1322 1
 a1322 1
@@ -13316,7 +13316,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1319 1
 @
@@ -13329,7 +13329,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1314 2
 @
@@ -13342,7 +13342,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1309 2
 @
@@ -13355,7 +13355,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1305 1
 @
@@ -13368,7 +13368,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1301 1
 @
@@ -13381,7 +13381,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1297 1
 @
@@ -13394,7 +13394,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1293 1
 @
@@ -13407,7 +13407,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1289 1
 @
@@ -13420,7 +13420,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1285 1
 @
@@ -13433,7 +13433,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1280 2
 @
@@ -13446,7 +13446,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1276 1
 @
@@ -13459,7 +13459,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1272 1
 @
@@ -13472,7 +13472,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1268 1
 @
@@ -13485,7 +13485,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1264 1
 @
@@ -13498,7 +13498,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1140 1
 @
@@ -13511,7 +13511,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1255 2
 @
@@ -13524,7 +13524,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1251 1
 @
@@ -13537,7 +13537,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1247 1
 @
@@ -13550,7 +13550,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1241 3
 @
@@ -13563,7 +13563,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1237 1
 @
@@ -13576,7 +13576,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1233 1
 @
@@ -13589,7 +13589,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1229 1
 @
@@ -13602,7 +13602,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1225 1
 @
@@ -13615,7 +13615,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1143 2
 a1144 1
@@ -13630,7 +13630,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1215 3
 @
@@ -13643,7 +13643,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1072 1
 d1099 8
@@ -13657,7 +13657,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1198 2
 @
@@ -13670,7 +13670,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1194 1
 @
@@ -13683,7 +13683,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1190 1
 @
@@ -13696,7 +13696,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1185 2
 @
@@ -13709,7 +13709,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1178 4
 @
@@ -13722,7 +13722,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1174 1
 @
@@ -13735,7 +13735,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1170 1
 @
@@ -13748,7 +13748,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1166 1
 @
@@ -13761,7 +13761,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1159 4
 @
@@ -13774,7 +13774,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1155 1
 @
@@ -13787,7 +13787,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1151 1
 @
@@ -13800,7 +13800,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1145 3
 @
@@ -13813,7 +13813,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1141 1
 @
@@ -13826,7 +13826,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1137 1
 @
@@ -13839,7 +13839,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1130 4
 @
@@ -13852,7 +13852,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1126 1
 @
@@ -13865,7 +13865,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1121 2
 @
@@ -13878,7 +13878,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1117 1
 @
@@ -13891,7 +13891,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1097 1
 a1097 1
@@ -13906,7 +13906,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1110 1
 @
@@ -13919,7 +13919,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d991 44
 a1034 45
@@ -13978,7 +13978,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1103 2
 @
@@ -13991,7 +13991,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1097 3
 @
@@ -14004,7 +14004,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1093 1
 @
@@ -14017,7 +14017,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1087 3
 @
@@ -14030,7 +14030,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d760 1
 a760 1
@@ -14045,7 +14045,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d778 1
 a778 1
@@ -14060,7 +14060,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d870 1
 a870 1
@@ -14077,7 +14077,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1069 6
 @
@@ -14090,7 +14090,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d719 4
 a722 4
@@ -14108,7 +14108,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1062 1
 @
@@ -14121,7 +14121,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1054 5
 @
@@ -14134,7 +14134,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1050 1
 a1050 1
@@ -14149,7 +14149,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1047 1
 @
@@ -14162,7 +14162,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1042 2
 @
@@ -14175,7 +14175,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1038 1
 @
@@ -14188,7 +14188,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d698 4
 a701 2
@@ -14204,7 +14204,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1029 1
 @
@@ -14217,7 +14217,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1025 1
 @
@@ -14230,7 +14230,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1018 2
 a1019 2
@@ -14246,7 +14246,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1018 1
 @
@@ -14259,7 +14259,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1014 1
 @
@@ -14272,7 +14272,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1009 2
 @
@@ -14285,7 +14285,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d1004 2
 @
@@ -14298,7 +14298,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d999 2
 a1000 2
@@ -14314,7 +14314,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d996 2
 @
@@ -14327,7 +14327,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d778 3
 a780 3
@@ -14344,7 +14344,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d783 1
 a783 1
@@ -14359,7 +14359,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d986 1
 @
@@ -14372,7 +14372,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d982 1
 @
@@ -14385,7 +14385,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d977 2
 @
@@ -14398,7 +14398,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d973 1
 @
@@ -14411,7 +14411,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d968 2
 @
@@ -14424,7 +14424,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d644 2
 a645 2
@@ -14444,7 +14444,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d960 2
 @
@@ -14457,7 +14457,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d689 1
 @
@@ -14470,7 +14470,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a697 1
      cp shape/zelda_oF1/zelda_oF1.o OF1.o
@@ -14485,7 +14485,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d949 1
 @
@@ -14498,7 +14498,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d944 2
 @
@@ -14511,7 +14511,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d939 2
 @
@@ -14524,7 +14524,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d935 1
 @
@@ -14537,7 +14537,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d931 1
 @
@@ -14550,7 +14550,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d924 4
 @
@@ -14563,7 +14563,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d920 1
 @
@@ -14576,7 +14576,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d649 2
 a650 1
@@ -14591,7 +14591,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d912 1
 a912 1
@@ -14606,7 +14606,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d909 1
 a909 1
@@ -14620,7 +14620,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d906 1
 @
@@ -14633,7 +14633,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d901 2
 @
@@ -14646,7 +14646,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d895 3
 @
@@ -14659,7 +14659,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d890 2
 @
@@ -14672,7 +14672,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d885 2
 @
@@ -14685,7 +14685,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d881 1
 @
@@ -14698,7 +14698,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d877 1
 @
@@ -14711,7 +14711,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d873 1
 @
@@ -14724,7 +14724,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d823 45
 a867 1
@@ -14739,7 +14739,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d822 1
 @
@@ -14752,7 +14752,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d740 3
 a742 3
@@ -14769,7 +14769,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d815 1
 @
@@ -14782,7 +14782,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d811 1
 a811 1
@@ -14797,7 +14797,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d808 1
 @
@@ -14810,7 +14810,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d803 2
 a804 1
@@ -14824,7 +14824,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d792 9
 @
@@ -14837,7 +14837,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d788 1
 @
@@ -14850,7 +14850,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d783 2
 @
@@ -14863,7 +14863,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d779 1
 @
@@ -14876,7 +14876,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d545 5
 a549 2
@@ -14892,7 +14892,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d764 6
 @
@@ -14905,7 +14905,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d760 1
 @
@@ -14918,7 +14918,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d756 1
 @
@@ -14931,7 +14931,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a750 1
      cp shape/zelda_yousei_zou/zelda_yousei_zou.o yousei_zou.o
@@ -14945,7 +14945,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d750 1
 @
@@ -14958,7 +14958,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d746 1
 @
@@ -14971,7 +14971,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d742 1
 @
@@ -14984,7 +14984,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d738 1
 @
@@ -14997,7 +14997,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d734 1
 @
@@ -15010,7 +15010,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d730 1
 a730 1
@@ -15025,7 +15025,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d695 1
 a695 1
@@ -15040,7 +15040,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d723 1
 @
@@ -15053,7 +15053,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d718 2
 @
@@ -15066,7 +15066,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d610 2
 a611 2
@@ -15085,7 +15085,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d712 3
 @
@@ -15098,7 +15098,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d708 1
 @
@@ -15111,7 +15111,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d704 1
 @
@@ -15124,7 +15124,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d700 1
 @
@@ -15137,7 +15137,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d696 1
 @
@@ -15150,7 +15150,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d691 2
 @
@@ -15163,7 +15163,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a512 1
      cp shape/zelda_th/zelda_th.o Th.o
@@ -15178,7 +15178,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d684 1
 @
@@ -15191,7 +15191,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d678 3
 @
@@ -15204,7 +15204,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d674 1
 @
@@ -15217,7 +15217,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d670 1
 @
@@ -15230,7 +15230,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d666 1
 a666 2
@@ -15246,7 +15246,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d661 2
 @
@@ -15259,7 +15259,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d657 1
 @
@@ -15272,7 +15272,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d653 1
 @
@@ -15285,7 +15285,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d649 1
 @
@@ -15298,7 +15298,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d645 1
 @
@@ -15311,7 +15311,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d638 4
 @
@@ -15324,7 +15324,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d634 1
 @
@@ -15337,7 +15337,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d626 1
 a626 1
@@ -15353,7 +15353,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d626 1
 @
@@ -15366,7 +15366,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d622 1
 @
@@ -15379,7 +15379,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d618 1
 @
@@ -15392,7 +15392,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d614 1
 @
@@ -15405,7 +15405,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d428 2
 a429 2
@@ -15425,7 +15425,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d606 1
 a606 1
@@ -15440,7 +15440,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d602 3
 @
@@ -15453,7 +15453,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d512 1
 a512 1
@@ -15468,7 +15468,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d509 2
 a510 1
@@ -15483,7 +15483,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d591 1
 @
@@ -15496,7 +15496,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d409 7
 a415 2
@@ -15512,7 +15512,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d579 1
 @
@@ -15525,7 +15525,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d563 1
 a563 1
@@ -15540,7 +15540,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d572 1
 @
@@ -15553,7 +15553,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d568 1
 @
@@ -15566,7 +15566,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a496 1
      cp shape/zelda_hidan_objects1/zelda_hidan_objects1.o hidan_objects1.o
@@ -15583,7 +15583,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d561 1
 @
@@ -15596,7 +15596,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d556 3
 @
@@ -15609,7 +15609,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d552 1
 @
@@ -15622,7 +15622,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d548 1
 @
@@ -15635,7 +15635,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d544 1
 @
@@ -15648,7 +15648,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d538 3
 @
@@ -15661,7 +15661,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d533 2
 @
@@ -15674,7 +15674,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d529 1
 @
@@ -15687,7 +15687,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d525 1
 @
@@ -15700,7 +15700,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d521 2
 @
@@ -15713,7 +15713,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d517 1
 @
@@ -15726,7 +15726,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d454 7
 a460 7
@@ -15747,7 +15747,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d510 1
 @
@@ -15760,7 +15760,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d506 1
 @
@@ -15773,7 +15773,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d502 1
 @
@@ -15786,7 +15786,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d498 1
 @
@@ -15799,7 +15799,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d494 1
 @
@@ -15812,7 +15812,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d490 1
 a490 1
@@ -15827,7 +15827,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d487 1
 @
@@ -15840,7 +15840,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d483 1
 @
@@ -15853,7 +15853,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d478 3
 a480 2
@@ -15869,7 +15869,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d327 3
 a329 3
@@ -15886,7 +15886,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d465 9
 @
@@ -15899,7 +15899,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d461 1
 a461 1
@@ -15913,7 +15913,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d457 1
 @
@@ -15926,7 +15926,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d453 1
 a453 1
@@ -15941,7 +15941,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d450 1
 @
@@ -15954,7 +15954,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d443 4
 @
@@ -15967,7 +15967,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d333 1
 a333 1
@@ -15982,7 +15982,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d429 8
 @
@@ -15995,7 +15995,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d420 4
 a423 4
@@ -16013,7 +16013,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d415 8
 @
@@ -16026,7 +16026,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d411 1
 @
@@ -16039,7 +16039,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d407 2
 @
@@ -16052,7 +16052,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d402 2
 @
@@ -16065,7 +16065,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d389 10
 @
@@ -16078,7 +16078,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d378 8
 @
@@ -16091,7 +16091,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d374 1
 @
@@ -16104,7 +16104,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d370 1
 @
@@ -16117,7 +16117,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d17 1
 a17 1
@@ -16133,7 +16133,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d361 1
 a361 1
@@ -16148,7 +16148,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d358 1
 a358 1
@@ -16163,7 +16163,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d356 1
 @
@@ -16176,7 +16176,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d352 1
 @
@@ -16189,7 +16189,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d348 1
 @
@@ -16202,7 +16202,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d344 1
 a344 1
@@ -16217,7 +16217,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a340 1
      cp shape/zelda_gnf/zelda_gnf.o Gnf.o
@@ -16231,7 +16231,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d338 1
 a338 1
@@ -16246,7 +16246,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d335 1
 @
@@ -16259,7 +16259,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d331 1
 a331 1
@@ -16274,7 +16274,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d326 3
 @
@@ -16287,7 +16287,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d322 1
 @
@@ -16300,7 +16300,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d318 1
 @
@@ -16313,7 +16313,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d308 7
 @
@@ -16326,7 +16326,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d304 1
 a304 2
@@ -16342,7 +16342,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d299 2
 @
@@ -16355,7 +16355,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d295 1
 @
@@ -16368,7 +16368,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d290 2
 @
@@ -16381,7 +16381,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d286 1
 @
@@ -16394,7 +16394,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d282 1
 d284 1
@@ -16408,7 +16408,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d274 6
 @
@@ -16421,7 +16421,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d270 1
 @
@@ -16434,7 +16434,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d263 4
 @
@@ -16447,7 +16447,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d223 1
 a223 1
@@ -16462,7 +16462,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d256 1
 @
@@ -16475,7 +16475,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d252 1
 @
@@ -16488,7 +16488,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d248 1
 a248 1
@@ -16503,7 +16503,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a243 1
      cp shape/zelda_gnd/zelda_gnd.o Gnd.o
@@ -16518,7 +16518,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d241 2
 @
@@ -16531,7 +16531,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d237 1
 @
@@ -16547,7 +16547,7 @@ a1 1
 #!/bin/sh
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d161 17
 a177 1
@@ -16672,7 +16672,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d268 2
 @
@@ -16685,7 +16685,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d263 2
 @
@@ -16701,7 +16701,7 @@ a2 1
 set -x
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -16713,7 +16713,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d253 4
 @
@@ -16726,7 +16726,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d248 2
 @
@@ -16743,7 +16743,7 @@ a2 2
 #set -x
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -16758,7 +16758,7 @@ a1 1
 #!/bin/sh
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d240 2
 @
@@ -16771,7 +16771,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d235 2
 @
@@ -16784,7 +16784,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d230 2
 a231 1
@@ -16799,7 +16799,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d225 2
 @
@@ -16812,7 +16812,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d184 2
 a185 2
@@ -16832,7 +16832,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d217 3
 @
@@ -16845,7 +16845,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d212 2
 a213 1
@@ -16860,7 +16860,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d203 7
 @
@@ -16873,7 +16873,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d197 3
 a199 1
@@ -16887,7 +16887,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d193 2
 @
@@ -16900,7 +16900,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d188 2
 @
@@ -16913,7 +16913,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d183 2
 @
@@ -16926,7 +16926,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d160 2
 a161 2
@@ -16942,7 +16942,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d157 2
 a158 2
@@ -16958,7 +16958,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d130 2
 @
@@ -16971,7 +16971,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d149 2
 a150 2
@@ -16987,7 +16987,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d146 2
 @
@@ -17003,7 +17003,7 @@ a2 1
 set -x
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -17015,7 +17015,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d156 2
 @
@@ -17028,7 +17028,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d151 2
 @
@@ -17041,7 +17041,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a97 2
 echo cp shape/zelda_firefly/zelda_firefly.o Firefly.o
@@ -17067,7 +17067,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d153 2
 @
@@ -17080,7 +17080,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d148 2
 @
@@ -17093,7 +17093,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d95 2
 a96 2
@@ -17126,7 +17126,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a79 2
 echo cp shape/zelda_bee/zelda_bee.o Bee.o
@@ -17141,7 +17141,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d147 2
 @
@@ -17154,7 +17154,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d108 2
 a109 2
@@ -17173,7 +17173,7 @@ a2 1
 #!/bin/shset -x
 d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 @
 
@@ -17189,7 +17189,7 @@ a1 2
 set -x
 d3 1
 a3 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 3
 d129 8
 @
@@ -17202,7 +17202,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d125 2
 a126 2
@@ -17218,7 +17218,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d114 2
 a115 2
@@ -17238,7 +17238,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d109 8
 @
@@ -17251,7 +17251,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d104 2
 @
@@ -17264,7 +17264,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d99 2
 a100 2
@@ -17280,7 +17280,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d96 2
 @
@@ -17293,7 +17293,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d91 2
 @
@@ -17306,7 +17306,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d86 2
 @
@@ -17319,7 +17319,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d81 2
 @
@@ -17332,7 +17332,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d76 2
 @
@@ -17345,7 +17345,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 a22 2
 echo cp shape/zelda_field_keep/zelda_keep.o Keep.o
@@ -17360,7 +17360,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d20 6
 @
@@ -17373,7 +17373,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d61 2
 a62 2
@@ -17389,7 +17389,7 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d7 3
 d58 2
 @
@@ -17402,12 +17402,12 @@ log
 text
 @d4 1
 a4 1
-# $Id: obj_make,v,v 1.1.1.1 2003/12/06 23:45:38 wheeler Exp $
+# $Id: obj_make,v,v 1.1 2003/12/06 23:45:38 wheeler Exp $
 d6 4
 a9 1
 # $Log: obj_make,v,v $
-# Revision 1.1.1.1  2003/12/06 23:45:38  wheeler
-# Assets: both cooked and raw from Nintendo.
+# Revision 1.1  2003/12/06 23:45:38  wheeler
+# Initial revision
 #
 d11 2
 @

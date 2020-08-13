@@ -3,9 +3,6 @@
 # ツールのソースは /project/ZELDA/tool/src/Pressにある
 #
 # $Log: linux_zelda_press,v $
-# Revision 1.2  2003/12/13 01:33:34  wheeler
-# Use same rommap as ocarina
-#
 # Revision 1.1  2003/12/12 06:19:59  wheeler
 # Get Linux build working.
 #
@@ -326,10 +323,11 @@ ZELDA_TOOL_BIN=$ZELDA_ROOT/linux_tools
 #PATH=$ZELDA_TOOL_BIN:$PATH
 #PATH=/usr/bin
 
-ROMADDRESS=$ROOT/usr/sbin/romaddress
+ROMADDRESS=$ZELDA_TOOL_BIN/romaddress
 ROMALIGN=$ZELDA_TOOL_BIN/romalign
 ROMDIVIDE=$ZELDA_TOOL_BIN/romdivide
-ROMMAP=$ROOT/usr/sbin/rommap
+ROMMAP=$ZELDA_TOOL_BIN/rommap
+ROMMAP_NEW=$ZELDA_TOOL_BIN/rommap_new
 SLICNV=$ZELDA_TOOL_BIN/slicnv
 SLIENC=$ZELDA_TOOL_BIN/sliencV11
 SLIDEC=$ZELDA_TOOL_BIN/slidec
@@ -641,7 +639,7 @@ read_check $ZELDA_INFO
 work=$(grep "Creating segment symbol source file in" $ZELDA_INFO)
 work=${work#"Creating segment symbol source file in "}
 read_check $work
-$ROMMAP zelda rom > rom.map
+$ROMMAP_NEW $work > rom.map
 if [ $? != 0 ]; then echo "ERROR!!";exit 1; fi
 
 SEGDCL=z_segment.decl
@@ -680,7 +678,7 @@ echo $(date_HMS) '3 *.d *.szp のサイズを調べ、dmadata.d を作成'
 read_check dmadata.d
 cp dmadata.d dmadata.d.bak
 echo "dmadata のマップ情報は dmadata.map に出力されます"
-$ROMADDRESS rom.map dmadata.d > dmadata.map
+$ROOT/usr/sbin/romaddress rom.map dmadata.d > dmadata.map
 if [ $? != 0 ]; then echo "ERROR!!";exit 1; fi
 #ls -l dmadata.d dmadata.d.bak
 

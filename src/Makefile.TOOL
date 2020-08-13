@@ -1,11 +1,11 @@
 #
-# $Id: Makefile.TOOL,v 1.1.1.1 2003/06/09 19:12:09 wheeler Exp $
+# $Id: Makefile.TOOL,v 1.1 2003/06/09 19:12:09 wheeler Exp $
 #
 # TOOLÍÑÄêµÁ
 #
 # $Log: Makefile.TOOL,v $
-# Revision 1.1.1.1  2003/06/09 19:12:09  wheeler
-# Majora's Mask tree from Nintendo
+# Revision 1.1  2003/06/09 19:12:09  wheeler
+# Initial revision
 #
 # Revision 1.1  2000-01-05 15:07:17+09  hayakawa
 # Initial revision
